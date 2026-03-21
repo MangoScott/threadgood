@@ -703,6 +703,31 @@ def score_brand(brand: dict) -> dict:
     all_highlights = where_highlights + who_highlights + what_highlights + after_highlights
     all_concerns = where_concerns + who_concerns + what_concerns + after_concerns
     
+    # Generate transparent explanation summary
+    summary_parts = []
+    summary_parts.append(f"{brand.get('name', 'This brand')} achieved a {score_to_grade(overall)} ({overall:.1f}/100) due to their explicit performance across our three pillars.")
+    
+    if planet_score >= 80:
+        summary_parts.append(f"In Planet, they excel with a {planet_score:.1f}/100 by maintaining high material verification and complete circularity traceability.")
+    elif planet_score >= 50:
+        summary_parts.append(f"In Planet, they score {planet_score:.1f}/100, showing moderate progress in materials and traceability, though missing advanced circularity metrics.")
+    else:
+        summary_parts.append(f"In Planet, they fall behind with {planet_score:.1f}/100 due to a severe lack of verifiable environmental or material transparency commitments.")
+        
+    if people_score >= 80:
+        summary_parts.append(f"In People, they lead the industry with {people_score:.1f}/100 by proving active living wage progress and strict safety enforcement.")
+    elif people_score >= 50:
+        summary_parts.append(f"In People, they score {people_score:.1f}/100, demonstrating basic code of conduct compliance but lacking sweeping, transparent living wage verifications across their tier borders.")
+    else:
+        summary_parts.append(f"In People, they score a concerning {people_score:.1f}/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations).")
+        
+    if animals_score >= 80:
+        summary_parts.append(f"Finally, in Animals, they achieve a {animals_score:.1f}/100 thanks to rigorous verifiable welfare certifications or zero reliance on non-vegan materials.")
+    else:
+        summary_parts.append(f"Finally, in Animals, they score {animals_score:.1f}/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.")
+        
+    summary_paragraph = " ".join(summary_parts)
+
     return {
         "brand": brand["name"],
         "slug": slug,
@@ -712,6 +737,7 @@ def score_brand(brand: dict) -> dict:
         "overall_score": overall,
         "grade": score_to_grade(overall),
         "grade_label": grade_label(score_to_grade(overall)),
+        "summary": summary_paragraph,
         "confidence": calculate_confidence(total_indicators),
         "dimensions": {
             "planet": {

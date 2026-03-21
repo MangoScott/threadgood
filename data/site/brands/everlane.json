@@ -7,37 +7,27 @@
     "basics",
     "workwear"
   ],
-  "overall_score": 57.6,
+  "overall_score": 61.3,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 23,
+    "level": "low",
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 92.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "planet": {
-      "score": 63.6,
+      "score": 55.7,
       "grade": "C",
       "highlights": [
-        "Sustainable packaging initiatives",
-        "Garment take-back/recycling program",
-        "Durability/longevity commitment",
-        "Publishes full supplier/factory list",
-        "Circularity goals with timeline",
-        "Chemical management policy in place",
-        "Certifications: GOTS, OEKO-TEX",
-        "90% sustainable/certified materials",
         "Verified certifications: Bluesign Partner"
       ],
-      "concerns": [
-        "No resale/repair program"
-      ]
+      "concerns": []
     },
     "people": {
-      "score": 48.0,
-      "grade": "D",
+      "score": 70,
+      "grade": "B",
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
@@ -45,30 +35,21 @@
       "concerns": []
     },
     "animals": {
-      "score": 65,
-      "grade": "B",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
-    "Publishes full supplier/factory list",
     "Clean OSHA safety record",
     "No CBP forced labor flags",
-    "90% sustainable/certified materials",
-    "Certifications: GOTS, OEKO-TEX"
+    "Verified certifications: Bluesign Partner"
   ],
-  "concerns": [
-    "No resale/repair program"
-  ],
+  "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -84,57 +65,6 @@
       "states": [
         "MO"
       ]
-    },
-    "sustainability_report": {
-      "report_file": "everlane_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:34:49.924009",
-      "where": {
-        "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "2",
-        "oar_participation": "no",
-        "sourcing_countries": [
-          "Vietnam",
-          "China",
-          "Peru",
-          "Italy",
-          "Sri Lanka"
-        ]
-      },
-      "who": {
-        "living_wage_status": "aspirational",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "partial",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "90%",
-        "certifications_mentioned": [
-          "GOTS",
-          "OEKO-TEX"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "yes"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 35.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 20.0,
-      "theme_scores": {}
     }
   }
 }

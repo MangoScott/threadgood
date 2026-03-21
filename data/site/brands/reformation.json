@@ -7,68 +7,47 @@
     "womenswear",
     "dresses"
   ],
-  "overall_score": 65.6,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 57.7,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 24,
+    "level": "low",
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 96.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 73.8,
-      "grade": "B",
+      "score": 56.5,
+      "grade": "C",
       "highlights": [
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Garment take-back/recycling program",
-        "Publishes full supplier/factory list",
-        "Verified certifications: GOTS Certified, Climate Neutral Certified",
-        "Circularity goals with timeline",
-        "100% sustainable/certified materials",
-        "Microplastics mitigation program",
-        "Certifications: Bluesign, Oeko-Tex",
-        "Durability/longevity commitment",
-        "Chemical management policy in place"
+        "Verified certifications: GOTS Certified, Climate Neutral Certified"
       ],
       "concerns": []
     },
     "people": {
-      "score": 51.0,
+      "score": 60,
       "grade": "C",
       "highlights": [
-        "Active living wage program",
         "No CBP forced labor flags"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 80,
-      "grade": "A",
-      "highlights": [
-        "Microplastics policy (Marine life protection)"
-      ],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "score": 55,
+      "grade": "C",
+      "highlights": [],
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
-    "Publishes full supplier/factory list",
-    "Active living wage program",
     "No CBP forced labor flags",
-    "100% sustainable/certified materials",
-    "Certifications: Bluesign, Oeko-Tex"
+    "Verified certifications: GOTS Certified, Climate Neutral Certified"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -82,56 +61,6 @@
       "total_penalties": 0.0,
       "most_recent_inspection": null,
       "states": []
-    },
-    "sustainability_report": {
-      "report_file": "reformation_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:34:49.926552",
-      "where": {
-        "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "2",
-        "oar_participation": "no",
-        "sourcing_countries": [
-          "USA",
-          "China",
-          "Turkey",
-          "Mexico"
-        ]
-      },
-      "who": {
-        "living_wage_status": "active_program",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "partial",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "100%",
-        "certifications_mentioned": [
-          "Bluesign",
-          "Oeko-Tex"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "yes",
-        "durability_commitment": "yes"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "yes",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 26.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 30.0,
-      "theme_scores": {}
     }
   }
 }

@@ -8,69 +8,46 @@
     "budget",
     "essentials"
   ],
-  "overall_score": 38.2,
-  "grade": "D",
-  "grade_label": "Needs Work",
+  "overall_score": 61.0,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 18,
+    "level": "low",
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 72.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 28.0,
-      "grade": "F",
-      "highlights": [
-        "Chemical management policy in place",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [
-        "No resale/repair program",
-        "Does not publish supplier list",
-        "No take-back program"
-      ]
+      "score": 55.0,
+      "grade": "C",
+      "highlights": [],
+      "concerns": []
     },
     "people": {
-      "score": 39.5,
-      "grade": "D",
+      "score": 70,
+      "grade": "B",
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [
-        "No living wage commitment mentioned"
-      ]
+      "concerns": []
     },
     "animals": {
-      "score": 65,
-      "grade": "B",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
     "Clean OSHA safety record",
-    "No CBP forced labor flags",
-    "Chemical management policy in place",
-    "Sustainable packaging initiatives",
-    "Circularity goals with timeline"
+    "No CBP forced labor flags"
   ],
-  "concerns": [
-    "Does not publish supplier list",
-    "No living wage commitment mentioned",
-    "No take-back program",
-    "No resale/repair program"
-  ],
+  "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
@@ -88,53 +65,6 @@
         "MO",
         "PA"
       ]
-    },
-    "sustainability_report": {
-      "report_file": "walmart-george_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:37:49.567615",
-      "where": {
-        "factory_list_published": "no",
-        "supply_chain_tiers_disclosed": "1",
-        "oar_participation": "no",
-        "sourcing_countries": [
-          "China",
-          "Bangladesh",
-          "India",
-          "Vietnam"
-        ]
-      },
-      "who": {
-        "living_wage_status": "no_mention",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "partial",
-        "freedom_of_association": "no"
-      },
-      "what": {
-        "sustainable_materials_percentage": "not_disclosed",
-        "certifications_mentioned": [],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "no"
-      },
-      "after": {
-        "takeback_program": "no",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 26.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 25.0,
-      "theme_scores": {}
     }
   }
 }

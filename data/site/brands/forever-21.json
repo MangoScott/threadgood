@@ -7,67 +7,44 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 13.3,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 57.0,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
-    "level": "medium",
-    "indicators_with_data": 14,
+    "level": "low",
+    "indicators_with_data": 1,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 56.0
+    "data_coverage_pct": 4.0
   },
   "dimensions": {
     "planet": {
-      "score": 6.2,
-      "grade": "F",
+      "score": 55.0,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No take-back program",
-        "No resale/repair program",
-        "Does not publish supplier list",
-        "Low FTI transparency score: 10.0%",
-        "No supply chain tier disclosure",
-        "No chemical management policy"
-      ]
+      "concerns": []
     },
     "people": {
-      "score": 5.6,
-      "grade": "F",
+      "score": 60,
+      "grade": "C",
       "highlights": [
         "No CBP forced labor flags"
       ],
-      "concerns": [
-        "No living wage commitment mentioned",
-        "No supplier code of conduct",
-        "Audit results not disclosed",
-        "Low KnowTheChain score: 2.0/100"
-      ]
+      "concerns": []
     },
     "animals": {
       "score": 55,
       "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
     "No CBP forced labor flags"
   ],
-  "concerns": [
-    "Does not publish supplier list",
-    "No supply chain tier disclosure",
-    "Low FTI transparency score: 10.0%",
-    "No living wage commitment mentioned",
-    "No supplier code of conduct"
-  ],
+  "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
@@ -80,52 +57,6 @@
       "total_penalties": 0.0,
       "most_recent_inspection": null,
       "states": []
-    },
-    "sustainability_report": {
-      "report_file": "forever-21_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:34:49.927380",
-      "where": {
-        "factory_list_published": "no",
-        "supply_chain_tiers_disclosed": "0",
-        "oar_participation": "no",
-        "sourcing_countries": [
-          "China",
-          "Vietnam",
-          "India"
-        ]
-      },
-      "who": {
-        "living_wage_status": "no_mention",
-        "supplier_code_of_conduct": "no",
-        "audit_results_disclosed": "no",
-        "freedom_of_association": "no"
-      },
-      "what": {
-        "sustainable_materials_percentage": "not_disclosed",
-        "certifications_mentioned": [],
-        "chemical_management_policy": "no",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "no"
-      },
-      "after": {
-        "takeback_program": "no",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "no",
-        "circularity_goals": "no",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 10.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 2.0,
-      "theme_scores": {}
     }
   }
 }

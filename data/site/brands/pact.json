@@ -8,74 +8,49 @@
     "underwear",
     "organic"
   ],
-  "overall_score": 53.9,
+  "overall_score": 61.8,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 22,
+    "level": "low",
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 88.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "planet": {
-      "score": 42.1,
-      "grade": "D",
-      "highlights": [
-        "Sustainable packaging initiatives",
-        "Certifications: GOTS",
-        "Garment take-back/recycling program",
-        "100% sustainable/certified materials",
-        "Verified certifications: Fair Trade Certified, GOTS Certified",
-        "Chemical management policy in place",
-        "Publishes partial supplier list",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [
-        "No resale/repair program",
-        "Low FTI transparency score: 10.0%"
-      ]
-    },
-    "people": {
-      "score": 63.0,
+      "score": 56.8,
       "grade": "C",
       "highlights": [
-        "Active living wage program",
-        "Audit results publicly disclosed",
+        "Verified certifications: Fair Trade Certified, GOTS Certified"
+      ],
+      "concerns": []
+    },
+    "people": {
+      "score": 70,
+      "grade": "B",
+      "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [
-        "Low KnowTheChain score: 10.0/100"
-      ]
+      "concerns": []
     },
     "animals": {
-      "score": 65,
-      "grade": "B",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
-    "Publishes partial supplier list",
-    "Active living wage program",
-    "Audit results publicly disclosed",
     "Clean OSHA safety record",
-    "No CBP forced labor flags"
+    "No CBP forced labor flags",
+    "Verified certifications: Fair Trade Certified, GOTS Certified"
   ],
-  "concerns": [
-    "Low FTI transparency score: 10.0%",
-    "Low KnowTheChain score: 10.0/100",
-    "No resale/repair program"
-  ],
+  "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -99,53 +74,6 @@
         "WA",
         "WI"
       ]
-    },
-    "sustainability_report": {
-      "report_file": "pact_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:34:49.925728",
-      "where": {
-        "factory_list_published": "partial",
-        "supply_chain_tiers_disclosed": "1",
-        "oar_participation": "no",
-        "sourcing_countries": [
-          "India"
-        ]
-      },
-      "who": {
-        "living_wage_status": "active_program",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "yes",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "100%",
-        "certifications_mentioned": [
-          "Fair Trade",
-          "GOTS"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "yes"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "no",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 10.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 10.0,
-      "theme_scores": {}
     }
   }
 }

@@ -8,67 +8,46 @@
     "basics",
     "luxury"
   ],
-  "overall_score": 54.6,
+  "overall_score": 61.0,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 20,
+    "level": "low",
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 42.1,
-      "grade": "D",
-      "highlights": [
-        "Sustainable packaging initiatives",
-        "Publishes full supplier/factory list",
-        "Circularity goals with timeline",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [
-        "No resale/repair program",
-        "No take-back program"
-      ]
+      "score": 55.0,
+      "grade": "C",
+      "highlights": [],
+      "concerns": []
     },
     "people": {
-      "score": 64.7,
-      "grade": "C",
+      "score": 70,
+      "grade": "B",
       "highlights": [
-        "Audit results publicly disclosed",
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 65,
-      "grade": "B",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
-    "Publishes full supplier/factory list",
-    "Audit results publicly disclosed",
     "Clean OSHA safety record",
-    "No CBP forced labor flags",
-    "Chemical management policy in place"
+    "No CBP forced labor flags"
   ],
-  "concerns": [
-    "No take-back program",
-    "No resale/repair program"
-  ],
+  "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
@@ -94,55 +73,6 @@
         "TX",
         "VA"
       ]
-    },
-    "sustainability_report": {
-      "report_file": "ralph-lauren_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:37:49.566335",
-      "where": {
-        "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "2",
-        "oar_participation": "no",
-        "sourcing_countries": [
-          "China",
-          "Vietnam",
-          "Italy",
-          "India"
-        ]
-      },
-      "who": {
-        "living_wage_status": "aspirational",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "yes",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "not_disclosed",
-        "certifications_mentioned": [
-          "Better Cotton"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "yes"
-      },
-      "after": {
-        "takeback_program": "no",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 47.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 49.0,
-      "theme_scores": {}
     }
   }
 }

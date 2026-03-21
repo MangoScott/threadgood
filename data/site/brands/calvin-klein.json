@@ -7,72 +7,46 @@
     "underwear",
     "basics"
   ],
-  "overall_score": 74.3,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 61.0,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 22,
+    "level": "low",
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 88.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 64.9,
+      "score": 55.0,
       "grade": "C",
-      "highlights": [
-        "Sustainable packaging initiatives",
-        "Garment take-back/recycling program",
-        "Publishes full supplier/factory list",
-        "Circularity goals with timeline",
-        "Certifications: RDS",
-        "60% sustainable/certified materials",
-        "FTI transparency score: 56.0%",
-        "Discloses 3+ supply chain tiers",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [
-        "No resale/repair program"
-      ]
+      "highlights": [],
+      "concerns": []
     },
     "people": {
-      "score": 75.3,
+      "score": 70,
       "grade": "B",
       "highlights": [
-        "Active living wage program",
-        "Audit results publicly disclosed",
-        "KnowTheChain score: 51.0/100",
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 100,
-      "grade": "A",
-      "highlights": [
-        "Animal welfare policies/certs: RDS"
-      ],
+      "score": 55,
+      "grade": "C",
+      "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
-    "Publishes full supplier/factory list",
-    "Discloses 3+ supply chain tiers",
-    "FTI transparency score: 56.0%",
-    "Active living wage program",
-    "Audit results publicly disclosed"
+    "Clean OSHA safety record",
+    "No CBP forced labor flags"
   ],
-  "concerns": [
-    "No resale/repair program"
-  ],
+  "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
@@ -124,57 +98,6 @@
         "WA",
         "WI"
       ]
-    },
-    "sustainability_report": {
-      "report_file": "calvin-klein_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:37:49.563446",
-      "where": {
-        "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "3+",
-        "oar_participation": "yes",
-        "sourcing_countries": [
-          "China",
-          "Vietnam",
-          "Bangladesh",
-          "India",
-          "Sri Lanka"
-        ]
-      },
-      "who": {
-        "living_wage_status": "active_program",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "yes",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "60%",
-        "certifications_mentioned": [
-          "Better Cotton",
-          "RDS"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "yes"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 56.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 51.0,
-      "theme_scores": {}
     }
   }
 }

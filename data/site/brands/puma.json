@@ -7,72 +7,47 @@
     "activewear",
     "shoes"
   ],
-  "overall_score": 67.0,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 57.3,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 22,
+    "level": "low",
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 88.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 67.2,
-      "grade": "B",
+      "score": 55.7,
+      "grade": "C",
       "highlights": [
-        "70% sustainable/certified materials",
-        "Sustainable packaging initiatives",
-        "Certifications: Bluesign",
-        "Garment take-back/recycling program",
-        "Durability/longevity commitment",
-        "Publishes full supplier/factory list",
-        "Circularity goals with timeline",
-        "FTI transparency score: 66.0%",
-        "Discloses 3+ supply chain tiers",
-        "Chemical management policy in place",
         "Verified certifications: Bluesign Partner"
       ],
-      "concerns": [
-        "No resale/repair program"
-      ]
+      "concerns": []
     },
     "people": {
-      "score": 67.4,
-      "grade": "B",
+      "score": 60,
+      "grade": "C",
       "highlights": [
-        "Active living wage program",
-        "Audit results publicly disclosed",
-        "KnowTheChain score: 58.0/100",
         "No CBP forced labor flags"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 65,
-      "grade": "B",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
-    "Publishes full supplier/factory list",
-    "Discloses 3+ supply chain tiers",
-    "FTI transparency score: 66.0%",
-    "Active living wage program",
-    "Audit results publicly disclosed"
+    "No CBP forced labor flags",
+    "Verified certifications: Bluesign Partner"
   ],
-  "concerns": [
-    "No resale/repair program"
-  ],
+  "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -86,55 +61,6 @@
       "total_penalties": 0.0,
       "most_recent_inspection": null,
       "states": []
-    },
-    "sustainability_report": {
-      "report_file": "puma_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:37:49.564796",
-      "where": {
-        "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "3+",
-        "oar_participation": "yes",
-        "sourcing_countries": [
-          "Vietnam",
-          "China",
-          "Cambodia",
-          "Bangladesh"
-        ]
-      },
-      "who": {
-        "living_wage_status": "active_program",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "yes",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "70%",
-        "certifications_mentioned": [
-          "Bluesign"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "yes"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 66.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 58.0,
-      "theme_scores": {}
     }
   }
 }

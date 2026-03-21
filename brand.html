@@ -123,6 +123,11 @@
         </div>
 
         <div class="sc-card">
+            <h2>Detailed Evaluation Summary</h2>
+            <p id="sc-summary" style="color: var(--text-light); line-height: 1.6; font-size: 0.95rem;"></p>
+        </div>
+
+        <div class="sc-card">
             <h2>Data Sources Used</h2>
             <p style="color: var(--text-light); margin-bottom: 1rem;">This brand's rating is based on automated analysis of the following data sources:</p>
             <ul id="sc-sources" style="margin-left: 1.5rem; line-height: 1.8;"></ul>
@@ -199,6 +204,13 @@
                     updateBar('ds-planet', brand.dimensions.planet);
                     updateBar('ds-people', brand.dimensions.people);
                     updateBar('ds-animals', brand.dimensions.animals);
+                }
+                
+                // Summary Text
+                if (brand.summary) {
+                    document.getElementById('sc-summary').innerText = brand.summary;
+                } else {
+                    document.getElementById('sc-summary').innerText = "An automated evaluation summary is not currently available for this brand.";
                 }
                 
                 // Highlights & Concerns

@@ -7,39 +7,29 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 9.4,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 43.0,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
-    "level": "medium",
-    "indicators_with_data": 15,
+    "level": "low",
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 60.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 2.5,
-      "grade": "F",
+      "score": 55.0,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No take-back program",
-        "No resale/repair program",
-        "Does not publish supplier list",
-        "No supply chain tier disclosure",
-        "Low FTI transparency score: 7.0%",
-        "No chemical management policy"
-      ]
+      "concerns": []
     },
     "people": {
-      "score": 0,
+      "score": 25,
       "grade": "F",
       "highlights": [
         "Clean OSHA safety record"
       ],
       "concerns": [
-        "No living wage commitment mentioned",
-        "Audit results not disclosed",
-        "Low KnowTheChain score: 5.0/100",
         "Forced labor concern: UFLPA enforcement - multiple shipments detained"
       ]
     },
@@ -47,9 +37,7 @@
       "score": 55,
       "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [
@@ -65,17 +53,10 @@
     "Clean OSHA safety record"
   ],
   "concerns": [
-    "Does not publish supplier list",
-    "No supply chain tier disclosure",
-    "Low FTI transparency score: 7.0%",
-    "No living wage commitment mentioned",
-    "Audit results not disclosed"
+    "Forced labor concern: UFLPA enforcement - multiple shipments detained"
   ],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
@@ -90,50 +71,6 @@
       "states": [
         "ND"
       ]
-    },
-    "sustainability_report": {
-      "report_file": "shein_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:34:49.922833",
-      "where": {
-        "factory_list_published": "no",
-        "supply_chain_tiers_disclosed": "0",
-        "oar_participation": "no",
-        "sourcing_countries": [
-          "China"
-        ]
-      },
-      "who": {
-        "living_wage_status": "no_mention",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "no",
-        "freedom_of_association": "no"
-      },
-      "what": {
-        "sustainable_materials_percentage": "not_disclosed",
-        "certifications_mentioned": [],
-        "chemical_management_policy": "no",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "no"
-      },
-      "after": {
-        "takeback_program": "no",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "no",
-        "circularity_goals": "no",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 7.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 5.0,
-      "theme_scores": {}
     }
   }
 }

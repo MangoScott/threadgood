@@ -8,68 +8,47 @@
     "fast-fashion",
     "essentials"
   ],
-  "overall_score": 71.0,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 60.0,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 22,
+    "level": "low",
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 88.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "planet": {
-      "score": 73.1,
-      "grade": "B",
+      "score": 57.3,
+      "grade": "C",
       "highlights": [
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Certifications: GOTS",
-        "Garment take-back/recycling program",
-        "Publishes full supplier/factory list",
-        "Circularity goals with timeline",
-        "84% sustainable/certified materials",
-        "Discloses 3+ supply chain tiers",
-        "Chemical management policy in place",
-        "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified",
-        "FTI transparency score: 71.0%"
+        "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
       ],
       "concerns": []
     },
     "people": {
-      "score": 70.9,
+      "score": 65,
       "grade": "B",
       "highlights": [
-        "Active living wage program",
-        "Audit results publicly disclosed",
-        "KnowTheChain score: 53.0/100",
         "Clean OSHA safety record"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 65,
-      "grade": "B",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
-    "Publishes full supplier/factory list",
-    "Discloses 3+ supply chain tiers",
-    "FTI transparency score: 71.0%",
-    "Active living wage program",
-    "Audit results publicly disclosed"
+    "Clean OSHA safety record",
+    "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -88,56 +67,6 @@
         "TX",
         "WV"
       ]
-    },
-    "sustainability_report": {
-      "report_file": "hm_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:34:49.923408",
-      "where": {
-        "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "3+",
-        "oar_participation": "yes",
-        "sourcing_countries": [
-          "Bangladesh",
-          "China",
-          "India",
-          "Cambodia",
-          "Turkey"
-        ]
-      },
-      "who": {
-        "living_wage_status": "active_program",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "yes",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "84%",
-        "certifications_mentioned": [
-          "GOTS"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "no"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "yes",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 71.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 53.0,
-      "theme_scores": {}
     }
   }
 }

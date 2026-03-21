@@ -7,63 +7,44 @@
     "fast-fashion",
     "basics"
   ],
-  "overall_score": 60.3,
+  "overall_score": 59.0,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 21,
+    "level": "low",
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 84.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 58.4,
+      "score": 55.0,
       "grade": "C",
-      "highlights": [
-        "Certifications: OEKO-TEX",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Garment take-back/recycling program",
-        "Circularity goals with timeline",
-        "60% sustainable/certified materials",
-        "Chemical management policy in place",
-        "Publishes partial supplier list"
-      ],
+      "highlights": [],
       "concerns": []
     },
     "people": {
-      "score": 60.8,
-      "grade": "C",
+      "score": 65,
+      "grade": "B",
       "highlights": [
-        "Active living wage program",
         "Clean OSHA safety record"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 65,
-      "grade": "B",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
-    "Publishes partial supplier list",
-    "Active living wage program",
-    "Clean OSHA safety record",
-    "60% sustainable/certified materials",
-    "Certifications: OEKO-TEX"
+    "Clean OSHA safety record"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
-    "sustainability_report",
-    "fti",
-    "ktc",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
@@ -78,57 +59,6 @@
       "states": [
         "CA"
       ]
-    },
-    "sustainability_report": {
-      "report_file": "zara_2023_report.pdf",
-      "parsed_at": "2026-03-21T19:34:49.923745",
-      "where": {
-        "factory_list_published": "partial",
-        "supply_chain_tiers_disclosed": "2",
-        "oar_participation": "no",
-        "sourcing_countries": [
-          "Spain",
-          "Portugal",
-          "Morocco",
-          "Turkey",
-          "Bangladesh",
-          "China"
-        ]
-      },
-      "who": {
-        "living_wage_status": "active_program",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "partial",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "60%",
-        "certifications_mentioned": [
-          "OEKO-TEX"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "no"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "yes",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 43.0,
-      "rank": null,
-      "section_scores": {}
-    },
-    "ktc": {
-      "overall_score": 46.0,
-      "theme_scores": {}
     }
   }
 }
