@@ -9,17 +9,17 @@
         "outdoor",
         "activewear"
       ],
-      "grade": "B",
-      "overall_score": 69.2,
+      "grade": "A",
+      "overall_score": 82.7,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 65.0,
-          "grade": "B"
+          "score": 95.8,
+          "grade": "A"
         },
         "who": {
-          "score": 50.0,
-          "grade": "C"
+          "score": 69.5,
+          "grade": "B"
         },
         "what": {
           "score": 71.6,
@@ -34,13 +34,15 @@
       "highlights": [
         "Publishes full supplier/factory list",
         "Discloses 3+ supply chain tiers",
-        "Active living wage program"
+        "FTI transparency score: 88.0%"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
       "data_sources": [
         "osha",
         "sustainability_report",
+        "fti",
+        "ktc",
         "cbp_forced_labor",
         "certifications"
       ]
@@ -3108,8 +3110,8 @@
     "methodology_version": "1.0",
     "last_build": "2026-03-21",
     "grade_distribution": {
-      "A": 0,
-      "B": 1,
+      "A": 1,
+      "B": 0,
       "C": 69,
       "D": 3,
       "F": 0

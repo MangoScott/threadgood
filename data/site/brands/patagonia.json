@@ -7,36 +7,38 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 69.2,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 82.7,
+  "grade": "A",
+  "grade_label": "Leading",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
     "where": {
-      "score": 65.0,
-      "grade": "B",
+      "score": 95.8,
+      "grade": "A",
       "highlights": [
         "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
-    },
-    "who": {
-      "score": 50.0,
-      "grade": "C",
-      "highlights": [
-        "Active living wage program",
-        "Audit results publicly disclosed",
-        "No CBP forced labor flags"
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 88.0%"
       ],
       "concerns": [],
       "indicators_with_data": 5
+    },
+    "who": {
+      "score": 69.5,
+      "grade": "B",
+      "highlights": [
+        "Active living wage program",
+        "Audit results publicly disclosed",
+        "KnowTheChain score: 65.0/100",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "indicators_with_data": 6
     },
     "what": {
       "score": 71.6,
@@ -70,14 +72,16 @@
   "highlights": [
     "Publishes full supplier/factory list",
     "Discloses 3+ supply chain tiers",
+    "FTI transparency score: 88.0%",
     "Active living wage program",
-    "Audit results publicly disclosed",
-    "No CBP forced labor flags"
+    "Audit results publicly disclosed"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
     "sustainability_report",
+    "fti",
+    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
