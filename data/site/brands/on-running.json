@@ -133,6 +133,11 @@
         "reasoning": "Contains significant numerical data and metrics.",
         "specific_claims_to_verify": []
       }
+    },
+    "fti": {
+      "transparency_score": 52.0,
+      "rank": null,
+      "section_scores": {}
     }
   }
 }
