@@ -7,9 +7,9 @@
     "womenswear",
     "workwear"
   ],
-  "overall_score": 28.3,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 58.6,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "low",
     "indicators_with_data": 2,
@@ -25,8 +25,8 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 5.0,
-      "grade": "F",
+      "score": 60,
+      "grade": "C",
       "highlights": [
         "No CBP forced labor flags"
       ],
@@ -34,8 +34,8 @@
       "indicators_with_data": 1
     },
     "what": {
-      "score": 8.2,
-      "grade": "F",
+      "score": 63.2,
+      "grade": "C",
       "highlights": [
         "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified"
       ],

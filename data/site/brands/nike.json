@@ -8,9 +8,9 @@
     "activewear",
     "basics"
   ],
-  "overall_score": 28.2,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 58.5,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "low",
     "indicators_with_data": 3,
@@ -26,8 +26,8 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [
         "Clean OSHA safety record"
       ],
@@ -35,8 +35,8 @@
       "indicators_with_data": 2
     },
     "what": {
-      "score": 2.0,
-      "grade": "F",
+      "score": 57.0,
+      "grade": "C",
       "highlights": [
         "Verified certifications: Bluesign Partner"
       ],

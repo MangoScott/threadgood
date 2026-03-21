@@ -113,6 +113,8 @@ def score_where(data: dict) -> tuple[float, list[str], list[str], int]:
     analysis = {}
     if report:
         analysis = report.get("analysis", {})
+    if not analysis:
+        score = DEFAULT_SCORES["where"]
     
     oar = data.get("oar", {})
     fti = data.get("fti", {})
@@ -185,9 +187,7 @@ def score_where(data: dict) -> tuple[float, list[str], list[str], int]:
     # Cap at 100
     score = min(score, 100)
     
-    # Apply default if no data
-    if indicators == 0:
-        score = DEFAULT_SCORES["where"]
+
     
     return score, highlights, concerns, indicators
 
@@ -201,6 +201,8 @@ def score_who(data: dict) -> tuple[float, list[str], list[str], int]:
     
     report = data.get("report", {})
     analysis = report.get("analysis", {}) if report else {}
+    if not analysis:
+        score = DEFAULT_SCORES["who"]
     who_data = analysis.get("who", {})
     
     osha = data.get("osha", {})
@@ -303,11 +305,7 @@ def score_who(data: dict) -> tuple[float, list[str], list[str], int]:
         score += 5
         indicators += 1
     
-    score = min(score, 100)
-    
-    if indicators == 0:
-        score = DEFAULT_SCORES["who"]
-    
+
     return score, highlights, concerns, indicators
 
 def score_what(data: dict) -> tuple[float, list[str], list[str], int]:
@@ -319,6 +317,8 @@ def score_what(data: dict) -> tuple[float, list[str], list[str], int]:
     
     report = data.get("report", {})
     analysis = report.get("analysis", {}) if report else {}
+    if not analysis:
+        score = DEFAULT_SCORES["what"]
     what_data = analysis.get("what", {})
     certs_data = data.get("certs", {})
     
@@ -395,10 +395,7 @@ def score_what(data: dict) -> tuple[float, list[str], list[str], int]:
         highlights.append("Durability/longevity commitment")
         indicators += 1
     
-    score = min(score, 100)
-    
-    if indicators == 0:
-        score = DEFAULT_SCORES["what"]
+
     
     return score, highlights, concerns, indicators
 
@@ -411,6 +408,8 @@ def score_after(data: dict) -> tuple[float, list[str], list[str], int]:
     
     report = data.get("report", {})
     analysis = report.get("analysis", {}) if report else {}
+    if not analysis:
+        score = DEFAULT_SCORES["after"]
     after_data = analysis.get("after", {})
     
     # Take-back program: +25
@@ -454,10 +453,7 @@ def score_after(data: dict) -> tuple[float, list[str], list[str], int]:
         highlights.append("Design for disassembly approach")
         indicators += 1
     
-    score = min(score, 100)
-    
-    if indicators == 0:
-        score = DEFAULT_SCORES["after"]
+
     
     return score, highlights, concerns, indicators
 

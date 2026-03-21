@@ -7,9 +7,9 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 25.2,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 55.5,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "low",
     "indicators_with_data": 2,
@@ -25,15 +25,15 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 0.0,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 1
     },
     "what": {
-      "score": 2.0,
-      "grade": "F",
+      "score": 57.0,
+      "grade": "C",
       "highlights": [
         "Verified certifications: Bluesign Partner"
       ],

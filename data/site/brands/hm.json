@@ -8,9 +8,9 @@
     "fast-fashion",
     "essentials"
   ],
-  "overall_score": 29.5,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 59.8,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "low",
     "indicators_with_data": 3,
@@ -26,8 +26,8 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [
         "Clean OSHA safety record"
       ],
@@ -35,8 +35,8 @@
       "indicators_with_data": 2
     },
     "what": {
-      "score": 7.0,
-      "grade": "F",
+      "score": 62.0,
+      "grade": "C",
       "highlights": [
         "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
       ],

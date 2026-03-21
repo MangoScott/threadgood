@@ -8,9 +8,9 @@
     "underwear",
     "organic"
   ],
-  "overall_score": 30.6,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 60.9,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "low",
     "indicators_with_data": 3,
@@ -26,8 +26,8 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 15.0,
-      "grade": "F",
+      "score": 70,
+      "grade": "B",
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
@@ -36,8 +36,8 @@
       "indicators_with_data": 2
     },
     "what": {
-      "score": 5.5,
-      "grade": "F",
+      "score": 60.5,
+      "grade": "C",
       "highlights": [
         "Verified certifications: Fair Trade Certified, GOTS Certified"
       ],

@@ -7,9 +7,9 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 26.8,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 57.0,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "low",
     "indicators_with_data": 2,
@@ -25,8 +25,8 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 5.0,
-      "grade": "F",
+      "score": 60,
+      "grade": "C",
       "highlights": [
         "No CBP forced labor flags"
       ],
@@ -34,8 +34,8 @@
       "indicators_with_data": 1
     },
     "what": {
-      "score": 2.0,
-      "grade": "F",
+      "score": 57.0,
+      "grade": "C",
       "highlights": [
         "Verified certifications: Bluesign Partner"
       ],

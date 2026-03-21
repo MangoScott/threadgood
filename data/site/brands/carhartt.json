@@ -7,9 +7,9 @@
     "workwear",
     "outdoor"
   ],
-  "overall_score": 40.0,
-  "grade": "D",
-  "grade_label": "Needs Work",
+  "overall_score": 56.5,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "low",
     "indicators_with_data": 1,
@@ -25,8 +25,8 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 5.0,
-      "grade": "F",
+      "score": 60,
+      "grade": "C",
       "highlights": [
         "No CBP forced labor flags"
       ],
