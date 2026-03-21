@@ -7,56 +7,80 @@
     "basics",
     "workwear"
   ],
-  "overall_score": 59.5,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 76.6,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 21,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 84.0
   },
   "dimensions": {
     "where": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 84.6,
+      "grade": "A",
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 56.0%"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 5
     },
     "who": {
-      "score": 70,
+      "score": 75.3,
       "grade": "B",
       "highlights": [
+        "Active living wage program",
+        "Audit results publicly disclosed",
+        "KnowTheChain score: 51.0/100",
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 7
     },
     "what": {
-      "score": 55,
+      "score": 51.2,
       "grade": "C",
-      "highlights": [],
+      "highlights": [
+        "65% sustainable/certified materials",
+        "Certifications: RDS",
+        "Chemical management policy in place",
+        "Durability/longevity commitment"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 4
     },
     "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 100.0,
+      "grade": "A",
+      "highlights": [
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline",
+        "Design for disassembly approach"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 5
     }
   },
   "red_flags": [],
   "highlights": [
-    "Clean OSHA safety record",
-    "No CBP forced labor flags"
+    "Publishes full supplier/factory list",
+    "Discloses 3+ supply chain tiers",
+    "FTI transparency score: 56.0%",
+    "Active living wage program",
+    "Audit results publicly disclosed"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
+    "sustainability_report",
+    "fti",
+    "ktc",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
@@ -108,6 +132,57 @@
         "WA",
         "WI"
       ]
+    },
+    "sustainability_report": {
+      "report_file": "tommy-hilfiger_2023_report.pdf",
+      "parsed_at": "2026-03-21T19:37:49.563877",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "3+",
+        "oar_participation": "yes",
+        "sourcing_countries": [
+          "China",
+          "Vietnam",
+          "Bangladesh",
+          "Turkey",
+          "India"
+        ]
+      },
+      "who": {
+        "living_wage_status": "active_program",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "yes",
+        "freedom_of_association": "yes"
+      },
+      "what": {
+        "sustainable_materials_percentage": "65%",
+        "certifications_mentioned": [
+          "Better Cotton",
+          "RDS"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "yes"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {}
+    },
+    "fti": {
+      "transparency_score": 56.0,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 51.0,
+      "theme_scores": {}
     }
   }
 }
