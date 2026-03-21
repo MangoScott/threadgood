@@ -1,0 +1,75 @@
+{
+  "name": "Carhartt",
+  "slug": "carhartt",
+  "parent": "Carhartt Inc.",
+  "price_tier": "$$$",
+  "categories": [
+    "workwear",
+    "outdoor"
+  ],
+  "overall_score": 10.2,
+  "grade": "F",
+  "grade_label": "Failing",
+  "confidence": {
+    "level": "low",
+    "indicators_with_data": 3,
+    "total_possible_indicators": 25,
+    "data_coverage_pct": 12.0
+  },
+  "dimensions": {
+    "where": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "who": {
+      "score": 15.0,
+      "grade": "F",
+      "highlights": [
+        "No CBP forced labor flags",
+        "Good On You people rating: 7.4/5"
+      ],
+      "concerns": [],
+      "indicators_with_data": 2
+    },
+    "what": {
+      "score": 0.0,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 1
+    },
+    "after": {
+      "score": 10,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    }
+  },
+  "red_flags": [],
+  "highlights": [
+    "No CBP forced labor flags",
+    "Good On You people rating: 7.4/5"
+  ],
+  "concerns": [],
+  "data_sources": [
+    "osha",
+    "cbp_forced_labor",
+    "good_on_you"
+  ],
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-21",
+  "source_data": {
+    "osha": {
+      "total_inspections": 0,
+      "serious_violations": 0,
+      "willful_violations": 0,
+      "total_penalties": 0.0,
+      "most_recent_inspection": null,
+      "states": []
+    }
+  }
+}

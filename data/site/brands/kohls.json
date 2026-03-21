@@ -1,0 +1,92 @@
+{
+  "name": "Kohl's",
+  "slug": "kohls",
+  "parent": "Kohl's Corporation",
+  "price_tier": "$$",
+  "categories": [
+    "department-store",
+    "budget"
+  ],
+  "overall_score": 14.0,
+  "grade": "F",
+  "grade_label": "Failing",
+  "confidence": {
+    "level": "low",
+    "indicators_with_data": 2,
+    "total_possible_indicators": 25,
+    "data_coverage_pct": 8.0
+  },
+  "dimensions": {
+    "where": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "who": {
+      "score": 15.0,
+      "grade": "F",
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "indicators_with_data": 2
+    },
+    "what": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "after": {
+      "score": 10,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    }
+  },
+  "red_flags": [],
+  "highlights": [
+    "Clean OSHA safety record",
+    "No CBP forced labor flags"
+  ],
+  "concerns": [],
+  "data_sources": [
+    "osha",
+    "cbp_forced_labor"
+  ],
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-21",
+  "source_data": {
+    "osha": {
+      "total_inspections": 25,
+      "serious_violations": 0,
+      "willful_violations": 0,
+      "total_penalties": 0.0,
+      "most_recent_inspection": "2011-05-25",
+      "states": [
+        "AL",
+        "CA",
+        "CT",
+        "DE",
+        "IL",
+        "IN",
+        "MA",
+        "MD",
+        "MS",
+        "NC",
+        "NY",
+        "OH",
+        "OK",
+        "PR",
+        "RI",
+        "SC",
+        "VA"
+      ]
+    }
+  }
+}

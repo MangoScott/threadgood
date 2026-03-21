@@ -1,0 +1,89 @@
+{
+  "name": "Shein",
+  "slug": "shein",
+  "parent": "Roadget Business Pte.",
+  "price_tier": "$",
+  "categories": [
+    "fast-fashion",
+    "budget"
+  ],
+  "overall_score": 5.8,
+  "grade": "F",
+  "grade_label": "Failing",
+  "confidence": {
+    "level": "low",
+    "indicators_with_data": 4,
+    "total_possible_indicators": 25,
+    "data_coverage_pct": 16.0
+  },
+  "dimensions": {
+    "where": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "who": {
+      "score": 0,
+      "grade": "F",
+      "highlights": [
+        "Clean OSHA safety record"
+      ],
+      "concerns": [
+        "Forced labor concern: UFLPA enforcement - multiple shipments detained",
+        "Low Good On You people rating: 0.3/5"
+      ],
+      "indicators_with_data": 3
+    },
+    "what": {
+      "score": 0.0,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 1
+    },
+    "after": {
+      "score": 10,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    }
+  },
+  "red_flags": [
+    {
+      "type": "forced_labor",
+      "description": "CBP forced labor concern: UFLPA enforcement - multiple shipments detained",
+      "cap_who": 25,
+      "cap_overall": 40,
+      "severity": "critical"
+    }
+  ],
+  "highlights": [
+    "Clean OSHA safety record"
+  ],
+  "concerns": [
+    "Forced labor concern: UFLPA enforcement - multiple shipments detained",
+    "Low Good On You people rating: 0.3/5"
+  ],
+  "data_sources": [
+    "osha",
+    "cbp_forced_labor",
+    "good_on_you"
+  ],
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-21",
+  "source_data": {
+    "osha": {
+      "total_inspections": 1,
+      "serious_violations": 0,
+      "willful_violations": 0,
+      "total_penalties": 0.0,
+      "most_recent_inspection": "1974-03-08",
+      "states": [
+        "ND"
+      ]
+    }
+  }
+}

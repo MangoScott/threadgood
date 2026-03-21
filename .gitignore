@@ -8,7 +8,7 @@ data/reports/*.json
 data/fti/*.json
 data/ktc/*.json
 data/scores/*.json
-data/site/
+# data/site/ is REQUIRED for GitHub Pages! Do not ignore.
 
 # Raw reports
 reports/*.pdf

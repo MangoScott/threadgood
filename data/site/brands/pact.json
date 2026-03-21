@@ -1,0 +1,94 @@
+{
+  "name": "Pact",
+  "slug": "pact",
+  "parent": "Pact Organic",
+  "price_tier": "$$",
+  "categories": [
+    "basics",
+    "underwear",
+    "organic"
+  ],
+  "overall_score": 16.6,
+  "grade": "F",
+  "grade_label": "Failing",
+  "confidence": {
+    "level": "low",
+    "indicators_with_data": 5,
+    "total_possible_indicators": 25,
+    "data_coverage_pct": 20.0
+  },
+  "dimensions": {
+    "where": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "who": {
+      "score": 25.0,
+      "grade": "F",
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags",
+        "Good On You people rating: 16.86/5"
+      ],
+      "concerns": [],
+      "indicators_with_data": 3
+    },
+    "what": {
+      "score": 13.5,
+      "grade": "F",
+      "highlights": [
+        "Verified certifications: Fair Trade Certified, GOTS Certified",
+        "Good On You planet rating: 15.84/5"
+      ],
+      "concerns": [],
+      "indicators_with_data": 2
+    },
+    "after": {
+      "score": 10,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    }
+  },
+  "red_flags": [],
+  "highlights": [
+    "Clean OSHA safety record",
+    "No CBP forced labor flags",
+    "Good On You people rating: 16.86/5",
+    "Verified certifications: Fair Trade Certified, GOTS Certified",
+    "Good On You planet rating: 15.84/5"
+  ],
+  "concerns": [],
+  "data_sources": [
+    "osha",
+    "cbp_forced_labor",
+    "good_on_you",
+    "certifications"
+  ],
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-21",
+  "source_data": {
+    "osha": {
+      "total_inspections": 21,
+      "serious_violations": 0,
+      "willful_violations": 0,
+      "total_penalties": 0.0,
+      "most_recent_inspection": "2010-10-27",
+      "states": [
+        "CA",
+        "IL",
+        "MN",
+        "MO",
+        "OH",
+        "OK",
+        "OR",
+        "WA",
+        "WI"
+      ]
+    }
+  }
+}

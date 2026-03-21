@@ -1,0 +1,82 @@
+{
+  "name": "H&M",
+  "slug": "hm",
+  "parent": "H&M Group",
+  "price_tier": "$$",
+  "categories": [
+    "basics",
+    "fast-fashion",
+    "essentials"
+  ],
+  "overall_score": 10.5,
+  "grade": "F",
+  "grade_label": "Failing",
+  "confidence": {
+    "level": "low",
+    "indicators_with_data": 3,
+    "total_possible_indicators": 25,
+    "data_coverage_pct": 12.0
+  },
+  "dimensions": {
+    "where": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "who": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [
+        "Clean OSHA safety record"
+      ],
+      "concerns": [],
+      "indicators_with_data": 2
+    },
+    "what": {
+      "score": 7.0,
+      "grade": "F",
+      "highlights": [
+        "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
+      ],
+      "concerns": [],
+      "indicators_with_data": 1
+    },
+    "after": {
+      "score": 10,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    }
+  },
+  "red_flags": [],
+  "highlights": [
+    "Clean OSHA safety record",
+    "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
+  ],
+  "concerns": [],
+  "data_sources": [
+    "osha",
+    "cbp_forced_labor",
+    "certifications"
+  ],
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-21",
+  "source_data": {
+    "osha": {
+      "total_inspections": 4,
+      "serious_violations": 0,
+      "willful_violations": 0,
+      "total_penalties": 0.0,
+      "most_recent_inspection": "2006-10-24",
+      "states": [
+        "NV",
+        "PA",
+        "TX",
+        "WV"
+      ]
+    }
+  }
+}

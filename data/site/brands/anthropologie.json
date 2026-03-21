@@ -1,0 +1,81 @@
+{
+  "name": "Anthropologie",
+  "slug": "anthropologie",
+  "parent": "URBN",
+  "price_tier": "$$$$",
+  "categories": [
+    "womenswear",
+    "lifestyle"
+  ],
+  "overall_score": 12.2,
+  "grade": "F",
+  "grade_label": "Failing",
+  "confidence": {
+    "level": "low",
+    "indicators_with_data": 4,
+    "total_possible_indicators": 25,
+    "data_coverage_pct": 16.0
+  },
+  "dimensions": {
+    "where": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "who": {
+      "score": 15.0,
+      "grade": "F",
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "indicators_with_data": 3
+    },
+    "what": {
+      "score": 8.0,
+      "grade": "F",
+      "highlights": [
+        "Good On You planet rating: 7.45/5"
+      ],
+      "concerns": [],
+      "indicators_with_data": 1
+    },
+    "after": {
+      "score": 10,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    }
+  },
+  "red_flags": [],
+  "highlights": [
+    "Clean OSHA safety record",
+    "No CBP forced labor flags",
+    "Good On You planet rating: 7.45/5"
+  ],
+  "concerns": [],
+  "data_sources": [
+    "osha",
+    "cbp_forced_labor",
+    "good_on_you"
+  ],
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-21",
+  "source_data": {
+    "osha": {
+      "total_inspections": 2,
+      "serious_violations": 0,
+      "willful_violations": 0,
+      "total_penalties": 0.0,
+      "most_recent_inspection": "1986-06-04",
+      "states": [
+        "HI",
+        "NJ"
+      ]
+    }
+  }
+}

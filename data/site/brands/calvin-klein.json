@@ -1,0 +1,119 @@
+{
+  "name": "Calvin Klein",
+  "slug": "calvin-klein",
+  "parent": "PVH Corp.",
+  "price_tier": "$$$",
+  "categories": [
+    "underwear",
+    "basics"
+  ],
+  "overall_score": 15.2,
+  "grade": "F",
+  "grade_label": "Failing",
+  "confidence": {
+    "level": "low",
+    "indicators_with_data": 4,
+    "total_possible_indicators": 25,
+    "data_coverage_pct": 16.0
+  },
+  "dimensions": {
+    "where": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "who": {
+      "score": 25.0,
+      "grade": "F",
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags",
+        "Good On You people rating: 11.24/5"
+      ],
+      "concerns": [],
+      "indicators_with_data": 3
+    },
+    "what": {
+      "score": 8.0,
+      "grade": "F",
+      "highlights": [
+        "Good On You planet rating: 12.03/5"
+      ],
+      "concerns": [],
+      "indicators_with_data": 1
+    },
+    "after": {
+      "score": 10,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    }
+  },
+  "red_flags": [],
+  "highlights": [
+    "Clean OSHA safety record",
+    "No CBP forced labor flags",
+    "Good On You people rating: 11.24/5",
+    "Good On You planet rating: 12.03/5"
+  ],
+  "concerns": [],
+  "data_sources": [
+    "osha",
+    "cbp_forced_labor",
+    "good_on_you"
+  ],
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-21",
+  "source_data": {
+    "osha": {
+      "total_inspections": 143,
+      "serious_violations": 0,
+      "willful_violations": 0,
+      "total_penalties": 0.0,
+      "most_recent_inspection": "2015-07-31",
+      "states": [
+        "AL",
+        "AR",
+        "AZ",
+        "CA",
+        "CO",
+        "CT",
+        "FL",
+        "GA",
+        "GU",
+        "IA",
+        "IL",
+        "IN",
+        "LA",
+        "MA",
+        "MD",
+        "ME",
+        "MI",
+        "MN",
+        "MO",
+        "MS",
+        "NC",
+        "NE",
+        "NJ",
+        "NV",
+        "NY",
+        "OH",
+        "OK",
+        "OR",
+        "PA",
+        "PR",
+        "RI",
+        "SC",
+        "TN",
+        "TX",
+        "VA",
+        "VT",
+        "WA",
+        "WI"
+      ]
+    }
+  }
+}

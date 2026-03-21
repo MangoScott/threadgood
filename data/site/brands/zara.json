@@ -1,0 +1,80 @@
+{
+  "name": "Zara",
+  "slug": "zara",
+  "parent": "Inditex",
+  "price_tier": "$$",
+  "categories": [
+    "fast-fashion",
+    "basics"
+  ],
+  "overall_score": 13.8,
+  "grade": "F",
+  "grade_label": "Failing",
+  "confidence": {
+    "level": "low",
+    "indicators_with_data": 4,
+    "total_possible_indicators": 25,
+    "data_coverage_pct": 16.0
+  },
+  "dimensions": {
+    "where": {
+      "score": 15,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
+    "who": {
+      "score": 20.0,
+      "grade": "F",
+      "highlights": [
+        "Clean OSHA safety record",
+        "Good On You people rating: 11.71/5"
+      ],
+      "concerns": [],
+      "indicators_with_data": 3
+    },
+    "what": {
+      "score": 8.0,
+      "grade": "F",
+      "highlights": [
+        "Good On You planet rating: 12.8/5"
+      ],
+      "concerns": [],
+      "indicators_with_data": 1
+    },
+    "after": {
+      "score": 10,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    }
+  },
+  "red_flags": [],
+  "highlights": [
+    "Clean OSHA safety record",
+    "Good On You people rating: 11.71/5",
+    "Good On You planet rating: 12.8/5"
+  ],
+  "concerns": [],
+  "data_sources": [
+    "osha",
+    "cbp_forced_labor",
+    "good_on_you"
+  ],
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-21",
+  "source_data": {
+    "osha": {
+      "total_inspections": 2,
+      "serious_violations": 0,
+      "willful_violations": 0,
+      "total_penalties": 0.0,
+      "most_recent_inspection": "2012-08-30",
+      "states": [
+        "CA"
+      ]
+    }
+  }
+}
