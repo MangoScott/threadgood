@@ -7,7 +7,7 @@
     "activewear",
     "shoes"
   ],
-  "overall_score": 12.8,
+  "overall_score": 10.8,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -29,17 +29,16 @@
       "grade": "F",
       "highlights": [
         "No CBP forced labor flags",
-        "Good On You people rating: 15.99/5"
+        "Good On You people rating: 4.0/5"
       ],
       "concerns": [],
       "indicators_with_data": 2
     },
     "what": {
-      "score": 10.0,
+      "score": 2.0,
       "grade": "F",
       "highlights": [
-        "Verified certifications: Bluesign Partner",
-        "Good On You planet rating: 15.68/5"
+        "Verified certifications: Bluesign Partner"
       ],
       "concerns": [],
       "indicators_with_data": 2
@@ -55,9 +54,8 @@
   "red_flags": [],
   "highlights": [
     "No CBP forced labor flags",
-    "Good On You people rating: 15.99/5",
-    "Verified certifications: Bluesign Partner",
-    "Good On You planet rating: 15.68/5"
+    "Good On You people rating: 4.0/5",
+    "Verified certifications: Bluesign Partner"
   ],
   "concerns": [],
   "data_sources": [

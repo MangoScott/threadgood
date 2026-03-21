@@ -7,7 +7,7 @@
     "activewear",
     "shoes"
   ],
-  "overall_score": 12.2,
+  "overall_score": 7.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,22 +25,21 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 15.0,
+      "score": 5.0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 8.8/5"
+        "No CBP forced labor flags"
       ],
       "concerns": [],
       "indicators_with_data": 2
     },
     "what": {
-      "score": 8.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You planet rating: 5.3/5"
+      "highlights": [],
+      "concerns": [
+        "Low Good On You planet rating: 1.3/5"
       ],
-      "concerns": [],
       "indicators_with_data": 1
     },
     "after": {
@@ -53,11 +52,11 @@
   },
   "red_flags": [],
   "highlights": [
-    "No CBP forced labor flags",
-    "Good On You people rating: 8.8/5",
-    "Good On You planet rating: 5.3/5"
+    "No CBP forced labor flags"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low Good On You planet rating: 1.3/5"
+  ],
   "data_sources": [
     "osha",
     "cbp_forced_labor",

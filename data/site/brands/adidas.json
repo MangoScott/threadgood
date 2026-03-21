@@ -7,7 +7,7 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 11.2,
+  "overall_score": 6.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,20 +25,17 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 10.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You people rating: 8.8/5"
-      ],
+      "highlights": [],
       "concerns": [],
       "indicators_with_data": 2
     },
     "what": {
-      "score": 10.0,
+      "score": 2.0,
       "grade": "F",
       "highlights": [
-        "Verified certifications: Bluesign Partner",
-        "Good On You planet rating: 12.74/5"
+        "Verified certifications: Bluesign Partner"
       ],
       "concerns": [],
       "indicators_with_data": 2
@@ -53,9 +50,7 @@
   },
   "red_flags": [],
   "highlights": [
-    "Good On You people rating: 8.8/5",
-    "Verified certifications: Bluesign Partner",
-    "Good On You planet rating: 12.74/5"
+    "Verified certifications: Bluesign Partner"
   ],
   "concerns": [],
   "data_sources": [

@@ -7,7 +7,7 @@
     "basics",
     "outdoor"
   ],
-  "overall_score": 16.7,
+  "overall_score": 13.7,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,12 +25,11 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 25.0,
+      "score": 15.0,
       "grade": "F",
       "highlights": [
         "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 15.1/5"
+        "No CBP forced labor flags"
       ],
       "concerns": [],
       "indicators_with_data": 3
@@ -40,7 +39,7 @@
       "grade": "F",
       "highlights": [
         "Verified certifications: B Corporation, Bluesign Partner",
-        "Good On You planet rating: 19.02/5"
+        "Good On You planet rating: 4.8/5"
       ],
       "concerns": [],
       "indicators_with_data": 2
@@ -57,9 +56,8 @@
   "highlights": [
     "Clean OSHA safety record",
     "No CBP forced labor flags",
-    "Good On You people rating: 15.1/5",
     "Verified certifications: B Corporation, Bluesign Partner",
-    "Good On You planet rating: 19.02/5"
+    "Good On You planet rating: 4.8/5"
   ],
   "concerns": [],
   "data_sources": [

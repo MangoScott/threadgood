@@ -305,14 +305,15 @@ def score_who(data: dict) -> tuple[float, list[str], list[str], int]:
     
     # Good On You people rating (cross-reference)
     if goy and goy.get("goy_data_available"):
-        people_rating = goy.get("people_rating")
-        if people_rating is not None:
+        base_people_rating = goy.get("people_rating")
+        if base_people_rating is not None:
+            people_rating = round(base_people_rating / 4.0, 1)  # API uses 0-20 scale
             indicators += 1
             # GOY rates 1-5, scale to bonus/penalty
-            if people_rating >= 4:
+            if people_rating >= 4.0:
                 score += 10
                 highlights.append(f"Good On You people rating: {people_rating}/5")
-            elif people_rating <= 2:
+            elif people_rating <= 2.0:
                 score = max(score - 10, 0)
                 concerns.append(f"Low Good On You people rating: {people_rating}/5")
     
@@ -392,13 +393,14 @@ def score_what(data: dict) -> tuple[float, list[str], list[str], int]:
     
     # Good On You planet rating (cross-reference for environmental)
     if goy and goy.get("goy_data_available"):
-        planet_rating = goy.get("planet_rating")
-        if planet_rating is not None:
+        base_planet_rating = goy.get("planet_rating")
+        if base_planet_rating is not None:
+            planet_rating = round(base_planet_rating / 4.0, 1)  # API uses 0-20 scale
             indicators += 1
-            if planet_rating >= 4:
+            if planet_rating >= 4.0:
                 score += 8
                 highlights.append(f"Good On You planet rating: {planet_rating}/5")
-            elif planet_rating <= 2:
+            elif planet_rating <= 2.0:
                 concerns.append(f"Low Good On You planet rating: {planet_rating}/5")
     
     # Chemical management policy: +15

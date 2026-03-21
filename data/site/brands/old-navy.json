@@ -8,7 +8,7 @@
     "essentials",
     "budget"
   ],
-  "overall_score": 15.2,
+  "overall_score": 10.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -26,22 +26,19 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 25.0,
+      "score": 15.0,
       "grade": "F",
       "highlights": [
         "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 10.89/5"
+        "No CBP forced labor flags"
       ],
       "concerns": [],
       "indicators_with_data": 3
     },
     "what": {
-      "score": 8.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You planet rating: 9.57/5"
-      ],
+      "highlights": [],
       "concerns": [],
       "indicators_with_data": 1
     },
@@ -56,9 +53,7 @@
   "red_flags": [],
   "highlights": [
     "Clean OSHA safety record",
-    "No CBP forced labor flags",
-    "Good On You people rating: 10.89/5",
-    "Good On You planet rating: 9.57/5"
+    "No CBP forced labor flags"
   ],
   "concerns": [],
   "data_sources": [

@@ -7,7 +7,7 @@
     "shoes",
     "basics"
   ],
-  "overall_score": 13.2,
+  "overall_score": 6.7,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,21 +25,21 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 15.0,
+      "score": 0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 5.82/5"
+        "No CBP forced labor flags"
       ],
-      "concerns": [],
+      "concerns": [
+        "Low Good On You people rating: 1.5/5"
+      ],
       "indicators_with_data": 2
     },
     "what": {
-      "score": 11.8,
+      "score": 3.8,
       "grade": "F",
       "highlights": [
-        "Verified certifications: B Corporation",
-        "Good On You planet rating: 10.39/5"
+        "Verified certifications: B Corporation"
       ],
       "concerns": [],
       "indicators_with_data": 2
@@ -55,11 +55,11 @@
   "red_flags": [],
   "highlights": [
     "No CBP forced labor flags",
-    "Good On You people rating: 5.82/5",
-    "Verified certifications: B Corporation",
-    "Good On You planet rating: 10.39/5"
+    "Verified certifications: B Corporation"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low Good On You people rating: 1.5/5"
+  ],
   "data_sources": [
     "osha",
     "cbp_forced_labor",

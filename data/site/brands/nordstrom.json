@@ -7,7 +7,7 @@
     "department-store",
     "multi-brand"
   ],
-  "overall_score": 12.2,
+  "overall_score": 5.8,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,22 +25,23 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 15.0,
+      "score": 0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.85/5"
+        "No CBP forced labor flags"
       ],
-      "concerns": [],
+      "concerns": [
+        "Low Good On You people rating: 2.0/5"
+      ],
       "indicators_with_data": 2
     },
     "what": {
-      "score": 8.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You planet rating: 6.86/5"
+      "highlights": [],
+      "concerns": [
+        "Low Good On You planet rating: 1.7/5"
       ],
-      "concerns": [],
       "indicators_with_data": 1
     },
     "after": {
@@ -53,11 +54,12 @@
   },
   "red_flags": [],
   "highlights": [
-    "No CBP forced labor flags",
-    "Good On You people rating: 7.85/5",
-    "Good On You planet rating: 6.86/5"
+    "No CBP forced labor flags"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low Good On You people rating: 2.0/5",
+    "Low Good On You planet rating: 1.7/5"
+  ],
   "data_sources": [
     "osha",
     "cbp_forced_labor",

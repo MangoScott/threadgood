@@ -7,7 +7,7 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 10.8,
+  "overall_score": 5.8,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,24 +25,24 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 10,
+      "score": 0,
       "grade": "F",
       "highlights": [
-        "Clean OSHA safety record",
-        "Good On You people rating: 7.08/5"
+        "Clean OSHA safety record"
       ],
       "concerns": [
-        "Labor risk: Connected to Boohoo Group labor concerns"
+        "Labor risk: Connected to Boohoo Group labor concerns",
+        "Low Good On You people rating: 1.8/5"
       ],
       "indicators_with_data": 3
     },
     "what": {
-      "score": 8.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You planet rating: 7.8/5"
+      "highlights": [],
+      "concerns": [
+        "Low Good On You planet rating: 1.9/5"
       ],
-      "concerns": [],
       "indicators_with_data": 1
     },
     "after": {
@@ -61,12 +61,12 @@
     }
   ],
   "highlights": [
-    "Clean OSHA safety record",
-    "Good On You people rating: 7.08/5",
-    "Good On You planet rating: 7.8/5"
+    "Clean OSHA safety record"
   ],
   "concerns": [
-    "Labor risk: Connected to Boohoo Group labor concerns"
+    "Labor risk: Connected to Boohoo Group labor concerns",
+    "Low Good On You people rating: 1.8/5",
+    "Low Good On You planet rating: 1.9/5"
   ],
   "data_sources": [
     "osha",

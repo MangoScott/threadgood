@@ -7,7 +7,7 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 15.8,
+  "overall_score": 10.8,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,22 +25,20 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 25.0,
+      "score": 15.0,
       "grade": "F",
       "highlights": [
         "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.76/5"
+        "No CBP forced labor flags"
       ],
       "concerns": [],
       "indicators_with_data": 3
     },
     "what": {
-      "score": 10.0,
+      "score": 2.0,
       "grade": "F",
       "highlights": [
-        "Verified certifications: Bluesign Partner",
-        "Good On You planet rating: 14.25/5"
+        "Verified certifications: Bluesign Partner"
       ],
       "concerns": [],
       "indicators_with_data": 2
@@ -57,9 +55,7 @@
   "highlights": [
     "Clean OSHA safety record",
     "No CBP forced labor flags",
-    "Good On You people rating: 11.76/5",
-    "Verified certifications: Bluesign Partner",
-    "Good On You planet rating: 14.25/5"
+    "Verified certifications: Bluesign Partner"
   ],
   "concerns": [],
   "data_sources": [

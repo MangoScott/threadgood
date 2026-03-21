@@ -8,7 +8,7 @@
     "underwear",
     "essentials"
   ],
-  "overall_score": 12.2,
+  "overall_score": 7.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -26,21 +26,18 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 15.0,
+      "score": 5.0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.21/5"
+        "No CBP forced labor flags"
       ],
       "concerns": [],
       "indicators_with_data": 2
     },
     "what": {
-      "score": 8.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You planet rating: 10.64/5"
-      ],
+      "highlights": [],
       "concerns": [],
       "indicators_with_data": 1
     },
@@ -54,9 +51,7 @@
   },
   "red_flags": [],
   "highlights": [
-    "No CBP forced labor flags",
-    "Good On You people rating: 11.21/5",
-    "Good On You planet rating: 10.64/5"
+    "No CBP forced labor flags"
   ],
   "concerns": [],
   "data_sources": [

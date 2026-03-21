@@ -7,7 +7,7 @@
     "basics",
     "essentials"
   ],
-  "overall_score": 13.8,
+  "overall_score": 8.8,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,21 +25,18 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 20.0,
+      "score": 10.0,
       "grade": "F",
       "highlights": [
-        "Clean OSHA safety record",
-        "Good On You people rating: 11.01/5"
+        "Clean OSHA safety record"
       ],
       "concerns": [],
       "indicators_with_data": 3
     },
     "what": {
-      "score": 8.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You planet rating: 9.9/5"
-      ],
+      "highlights": [],
       "concerns": [],
       "indicators_with_data": 1
     },
@@ -53,9 +50,7 @@
   },
   "red_flags": [],
   "highlights": [
-    "Clean OSHA safety record",
-    "Good On You people rating: 11.01/5",
-    "Good On You planet rating: 9.9/5"
+    "Clean OSHA safety record"
   ],
   "concerns": [],
   "data_sources": [

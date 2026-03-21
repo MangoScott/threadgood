@@ -1,51 +1,6 @@
 {
   "brands": [
     {
-      "name": "Tentree",
-      "slug": "tentree",
-      "parent": "Tentree International Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "basics",
-        "outdoor"
-      ],
-      "grade": "F",
-      "overall_score": 16.7,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 13.8,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 15.1/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
       "name": "Pact",
       "slug": "pact",
       "parent": "Pact Organic",
@@ -80,1206 +35,7 @@
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags",
-        "Good On You people rating: 16.86/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "The North Face",
-      "slug": "the-north-face",
-      "parent": "VF Corporation",
-      "price_tier": "$$$",
-      "categories": [
-        "outdoor",
-        "activewear"
-      ],
-      "grade": "F",
-      "overall_score": 15.8,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 10.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.76/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Everlane",
-      "slug": "everlane",
-      "parent": "Everlane Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "basics",
-        "workwear"
-      ],
-      "grade": "F",
-      "overall_score": 15.8,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 10.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 12.6/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Levi's",
-      "slug": "levis",
-      "parent": "Levi Strauss & Co.",
-      "price_tier": "$$$",
-      "categories": [
-        "denim",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 15.6,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 9.5,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 9.52/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Old Navy",
-      "slug": "old-navy",
-      "parent": "Gap Inc.",
-      "price_tier": "$",
-      "categories": [
-        "basics",
-        "essentials",
-        "budget"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 10.89/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Banana Republic",
-      "slug": "banana-republic",
-      "parent": "Gap Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "workwear",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 10.32/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Athleta",
-      "slug": "athleta",
-      "parent": "Gap Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "activewear"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.31/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Timberland",
-      "slug": "timberland",
-      "parent": "VF Corporation",
-      "price_tier": "$$$",
-      "categories": [
-        "shoes",
-        "outdoor"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 12.26/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Wrangler",
-      "slug": "wrangler",
-      "parent": "Kontoor Brands",
-      "price_tier": "$$",
-      "categories": [
-        "denim",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 8.8/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Walmart (George)",
-      "slug": "walmart-george",
-      "parent": "Walmart Inc.",
-      "price_tier": "$",
-      "categories": [
-        "basics",
-        "budget",
-        "essentials"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 4.19/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Walmart (Time and Tru)",
-      "slug": "walmart-time-and-tru",
-      "parent": "Walmart Inc.",
-      "price_tier": "$",
-      "categories": [
-        "womenswear",
-        "budget"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 4.19/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Walmart (Wonder Nation)",
-      "slug": "walmart-wonder-nation",
-      "parent": "Walmart Inc.",
-      "price_tier": "$",
-      "categories": [
-        "kids",
-        "budget"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 4.19/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Primark",
-      "slug": "primark",
-      "parent": "Associated British Foods",
-      "price_tier": "$",
-      "categories": [
-        "fast-fashion",
-        "budget",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 12.8/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "J.Crew",
-      "slug": "jcrew",
-      "parent": "J.Crew Group",
-      "price_tier": "$$$",
-      "categories": [
-        "workwear",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.83/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Ralph Lauren",
-      "slug": "ralph-lauren",
-      "parent": "Ralph Lauren Corporation",
-      "price_tier": "$$$$",
-      "categories": [
-        "workwear",
-        "basics",
-        "luxury"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.54/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Tommy Hilfiger",
-      "slug": "tommy-hilfiger",
-      "parent": "PVH Corp.",
-      "price_tier": "$$$",
-      "categories": [
-        "basics",
-        "workwear"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.24/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Calvin Klein",
-      "slug": "calvin-klein",
-      "parent": "PVH Corp.",
-      "price_tier": "$$$",
-      "categories": [
-        "underwear",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.24/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Aerie",
-      "slug": "aerie",
-      "parent": "American Eagle Outfitters Inc.",
-      "price_tier": "$$",
-      "categories": [
-        "underwear",
-        "activewear"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 4.45/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Hollister",
-      "slug": "hollister",
-      "parent": "Abercrombie & Fitch Co.",
-      "price_tier": "$$",
-      "categories": [
-        "basics",
-        "casual"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.91/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "ASOS",
-      "slug": "asos",
-      "parent": "ASOS Plc",
-      "price_tier": "$$",
-      "categories": [
-        "fast-fashion",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.99/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Macy's",
-      "slug": "macys",
-      "parent": "Macy's Inc.",
-      "price_tier": "$$",
-      "categories": [
-        "department-store",
-        "multi-brand"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 6.73/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Columbia Sportswear",
-      "slug": "columbia",
-      "parent": "Columbia Sportswear Company",
-      "price_tier": "$$$",
-      "categories": [
-        "outdoor",
-        "activewear"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 4.98/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Hanes",
-      "slug": "hanes",
-      "parent": "HanesBrands Inc.",
-      "price_tier": "$",
-      "categories": [
-        "basics",
-        "underwear",
-        "essentials"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.62/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Champion",
-      "slug": "champion",
-      "parent": "HanesBrands Inc.",
-      "price_tier": "$$",
-      "categories": [
-        "activewear",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.62/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Guess",
-      "slug": "guess",
-      "parent": "Guess? Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "denim",
-        "casual"
-      ],
-      "grade": "F",
-      "overall_score": 15.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 4.45/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Patagonia",
-      "slug": "patagonia",
-      "parent": "Patagonia Inc.",
-      "price_tier": "$$$$",
-      "categories": [
-        "outdoor",
-        "activewear"
-      ],
-      "grade": "F",
-      "overall_score": 14.4,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 16.8,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.29/5",
-        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Eileen Fisher",
-      "slug": "eileen-fisher",
-      "parent": "Eileen Fisher Inc.",
-      "price_tier": "$$$$",
-      "categories": [
-        "womenswear",
-        "workwear"
-      ],
-      "grade": "F",
-      "overall_score": 14.3,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 16.2,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.14/5",
-        "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Nike",
-      "slug": "nike",
-      "parent": "Nike Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "shoes",
-        "activewear",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 14.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 20.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 10.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "Good On You people rating: 8.8/5",
-        "Verified certifications: Bluesign Partner"
+        "Good On You people rating: 4.2/5"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
@@ -1670,60 +426,16 @@
       ]
     },
     {
-      "name": "Zara",
-      "slug": "zara",
-      "parent": "Inditex",
-      "price_tier": "$$",
-      "categories": [
-        "fast-fashion",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 13.8,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 20.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "Good On You people rating: 11.71/5",
-        "Good On You planet rating: 12.8/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Gap",
-      "slug": "gap",
-      "parent": "Gap Inc.",
-      "price_tier": "$$",
+      "name": "Tentree",
+      "slug": "tentree",
+      "parent": "Tentree International Inc.",
+      "price_tier": "$$$",
       "categories": [
         "basics",
-        "essentials"
+        "outdoor"
       ],
       "grade": "F",
-      "overall_score": 13.8,
+      "overall_score": 13.7,
       "confidence": "low",
       "dimensions": {
         "where": {
@@ -1731,11 +443,11 @@
           "grade": "F"
         },
         "who": {
-          "score": 20.0,
+          "score": 15.0,
           "grade": "F"
         },
         "what": {
-          "score": 8.0,
+          "score": 13.8,
           "grade": "F"
         },
         "after": {
@@ -1746,27 +458,74 @@
       "red_flags": [],
       "highlights": [
         "Clean OSHA safety record",
-        "Good On You people rating: 11.01/5",
-        "Good On You planet rating: 9.9/5"
+        "No CBP forced labor flags",
+        "Verified certifications: B Corporation, Bluesign Partner"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
       "data_sources": [
         "osha",
         "cbp_forced_labor",
-        "good_on_you"
+        "good_on_you",
+        "certifications"
       ]
     },
     {
-      "name": "Lululemon",
-      "slug": "lululemon",
-      "parent": "Lululemon Athletica Inc.",
+      "name": "Everlane",
+      "slug": "everlane",
+      "parent": "Everlane Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "basics",
+        "workwear"
+      ],
+      "grade": "F",
+      "overall_score": 12.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 15.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 10.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags",
+        "Verified certifications: Bluesign Partner"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you",
+        "certifications"
+      ]
+    },
+    {
+      "name": "Patagonia",
+      "slug": "patagonia",
+      "parent": "Patagonia Inc.",
       "price_tier": "$$$$",
       "categories": [
+        "outdoor",
         "activewear"
       ],
       "grade": "F",
-      "overall_score": 13.5,
+      "overall_score": 11.4,
       "confidence": "low",
       "dimensions": {
         "where": {
@@ -1774,11 +533,11 @@
           "grade": "F"
         },
         "who": {
-          "score": 15.0,
+          "score": 5.0,
           "grade": "F"
         },
         "what": {
-          "score": 13.0,
+          "score": 16.8,
           "grade": "F"
         },
         "after": {
@@ -1789,8 +548,8 @@
       "red_flags": [],
       "highlights": [
         "No CBP forced labor flags",
-        "Good On You people rating: 8.8/5",
-        "Verified certifications: Fair Trade Certified, Bluesign Partner"
+        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
+        "Good On You planet rating: 4.2/5"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
@@ -1802,61 +561,16 @@
       ]
     },
     {
-      "name": "Reformation",
-      "slug": "reformation",
-      "parent": "Reformation Inc.",
-      "price_tier": "$$$$",
-      "categories": [
-        "womenswear",
-        "dresses"
-      ],
-      "grade": "F",
-      "overall_score": 13.4,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 12.5,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 13.29/5",
-        "Verified certifications: GOTS Certified, Climate Neutral Certified"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Allbirds",
-      "slug": "allbirds",
-      "parent": "Allbirds Inc.",
+      "name": "The North Face",
+      "slug": "the-north-face",
+      "parent": "VF Corporation",
       "price_tier": "$$$",
       "categories": [
-        "shoes",
-        "basics"
+        "outdoor",
+        "activewear"
       ],
       "grade": "F",
-      "overall_score": 13.2,
+      "overall_score": 10.8,
       "confidence": "low",
       "dimensions": {
         "where": {
@@ -1868,7 +582,7 @@
           "grade": "F"
         },
         "what": {
-          "score": 11.8,
+          "score": 2.0,
           "grade": "F"
         },
         "after": {
@@ -1878,54 +592,9 @@
       },
       "red_flags": [],
       "highlights": [
+        "Clean OSHA safety record",
         "No CBP forced labor flags",
-        "Good On You people rating: 5.82/5",
-        "Verified certifications: B Corporation"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Madewell",
-      "slug": "madewell",
-      "parent": "J.Crew Group",
-      "price_tier": "$$$",
-      "categories": [
-        "denim",
-        "womenswear"
-      ],
-      "grade": "F",
-      "overall_score": 13.0,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 11.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.79/5",
-        "Verified certifications: Fair Trade Certified"
+        "Verified certifications: Bluesign Partner"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
@@ -1946,7 +615,7 @@
         "shoes"
       ],
       "grade": "F",
-      "overall_score": 12.8,
+      "overall_score": 10.8,
       "confidence": "low",
       "dimensions": {
         "where": {
@@ -1958,7 +627,7 @@
           "grade": "F"
         },
         "what": {
-          "score": 10.0,
+          "score": 2.0,
           "grade": "F"
         },
         "after": {
@@ -1969,7 +638,7 @@
       "red_flags": [],
       "highlights": [
         "No CBP forced labor flags",
-        "Good On You people rating: 15.99/5",
+        "Good On You people rating: 4.0/5",
         "Verified certifications: Bluesign Partner"
       ],
       "concerns": [],
@@ -1982,61 +651,16 @@
       ]
     },
     {
-      "name": "New Balance",
-      "slug": "new-balance",
-      "parent": "New Balance Athletics Inc.",
+      "name": "Levi's",
+      "slug": "levis",
+      "parent": "Levi Strauss & Co.",
       "price_tier": "$$$",
-      "categories": [
-        "shoes",
-        "activewear"
-      ],
-      "grade": "F",
-      "overall_score": 12.8,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 10.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 12.45/5",
-        "Verified certifications: Bluesign Partner"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Lee",
-      "slug": "lee",
-      "parent": "Kontoor Brands",
-      "price_tier": "$$",
       "categories": [
         "denim",
         "basics"
       ],
       "grade": "F",
-      "overall_score": 12.2,
+      "overall_score": 10.6,
       "confidence": "low",
       "dimensions": {
         "where": {
@@ -2048,139 +672,7 @@
           "grade": "F"
         },
         "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 8.8/5",
-        "Good On You planet rating: 11.09/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Under Armour",
-      "slug": "under-armour",
-      "parent": "Under Armour Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "activewear",
-        "shoes"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 8.8/5",
-        "Good On You planet rating: 5.3/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Victoria's Secret",
-      "slug": "victorias-secret",
-      "parent": "Victoria's Secret & Co.",
-      "price_tier": "$$",
-      "categories": [
-        "underwear",
-        "lingerie"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 9.7/5",
-        "Good On You planet rating: 7.72/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Urban Outfitters",
-      "slug": "urban-outfitters",
-      "parent": "URBN",
-      "price_tier": "$$$",
-      "categories": [
-        "casual",
-        "lifestyle"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
+          "score": 1.5,
           "grade": "F"
         },
         "after": {
@@ -2192,317 +684,7 @@
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags",
-        "Good On You planet rating: 7.12/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Anthropologie",
-      "slug": "anthropologie",
-      "parent": "URBN",
-      "price_tier": "$$$$",
-      "categories": [
-        "womenswear",
-        "lifestyle"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You planet rating: 7.45/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Nordstrom",
-      "slug": "nordstrom",
-      "parent": "Nordstrom Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "department-store",
-        "multi-brand"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.85/5",
-        "Good On You planet rating: 6.86/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Costco (Kirkland)",
-      "slug": "costco-kirkland",
-      "parent": "Costco Wholesale Corporation",
-      "price_tier": "$",
-      "categories": [
-        "basics",
-        "budget",
-        "essentials"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You planet rating: 6.59/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Dickies",
-      "slug": "dickies",
-      "parent": "Kontoor Brands",
-      "price_tier": "$$",
-      "categories": [
-        "workwear",
-        "basics"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 13.79/5",
-        "Good On You planet rating: 12.51/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Fruit of the Loom",
-      "slug": "fruit-of-the-loom",
-      "parent": "Berkshire Hathaway",
-      "price_tier": "$",
-      "categories": [
-        "basics",
-        "underwear",
-        "essentials"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 11.21/5",
-        "Good On You planet rating: 10.64/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Gildan",
-      "slug": "gildan",
-      "parent": "Gildan Activewear Inc.",
-      "price_tier": "$",
-      "categories": [
-        "basics",
-        "wholesale"
-      ],
-      "grade": "F",
-      "overall_score": 12.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 15.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 13.32/5",
-        "Good On You planet rating: 11.39/5"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "Adidas",
-      "slug": "adidas",
-      "parent": "Adidas AG",
-      "price_tier": "$$$",
-      "categories": [
-        "shoes",
-        "activewear"
-      ],
-      "grade": "F",
-      "overall_score": 11.2,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 10.0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 10.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Good On You people rating: 8.8/5",
-        "Verified certifications: Bluesign Partner",
-        "Good On You planet rating: 12.74/5"
+        "Verified certifications: OEKO-TEX Certified"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
@@ -2511,101 +693,6 @@
         "cbp_forced_labor",
         "good_on_you",
         "certifications"
-      ]
-    },
-    {
-      "name": "Uniqlo",
-      "slug": "uniqlo",
-      "parent": "Fast Retailing Co.",
-      "price_tier": "$$",
-      "categories": [
-        "basics",
-        "essentials"
-      ],
-      "grade": "F",
-      "overall_score": 10.8,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 10,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [
-        "forced_labor_risk"
-      ],
-      "highlights": [
-        "Good On You people rating: 14.44/5",
-        "Good On You planet rating: 12.86/5"
-      ],
-      "concerns": [
-        "Labor risk: CBP detained Uniqlo shirts under UFLPA"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
-      ]
-    },
-    {
-      "name": "PrettyLittleThing",
-      "slug": "prettylittlething",
-      "parent": "Boohoo Group Plc",
-      "price_tier": "$",
-      "categories": [
-        "fast-fashion",
-        "budget"
-      ],
-      "grade": "F",
-      "overall_score": 10.8,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 15,
-          "grade": "F"
-        },
-        "who": {
-          "score": 10,
-          "grade": "F"
-        },
-        "what": {
-          "score": 8.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 10,
-          "grade": "F"
-        }
-      },
-      "red_flags": [
-        "forced_labor_risk"
-      ],
-      "highlights": [
-        "Clean OSHA safety record",
-        "Good On You people rating: 7.08/5",
-        "Good On You planet rating: 7.8/5"
-      ],
-      "concerns": [
-        "Labor risk: Connected to Boohoo Group labor concerns"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "good_on_you"
       ]
     },
     {
@@ -2653,15 +740,16 @@
       ]
     },
     {
-      "name": "Skechers",
-      "slug": "skechers",
-      "parent": "Skechers U.S.A. Inc.",
-      "price_tier": "$$",
+      "name": "Reformation",
+      "slug": "reformation",
+      "parent": "Reformation Inc.",
+      "price_tier": "$$$$",
       "categories": [
-        "shoes"
+        "womenswear",
+        "dresses"
       ],
       "grade": "F",
-      "overall_score": 10.2,
+      "overall_score": 10.4,
       "confidence": "low",
       "dimensions": {
         "where": {
@@ -2669,11 +757,11 @@
           "grade": "F"
         },
         "who": {
-          "score": 15.0,
+          "score": 5.0,
           "grade": "F"
         },
         "what": {
-          "score": 0.0,
+          "score": 12.5,
           "grade": "F"
         },
         "after": {
@@ -2684,23 +772,26 @@
       "red_flags": [],
       "highlights": [
         "No CBP forced labor flags",
-        "Good On You people rating: 6.81/5"
+        "Verified certifications: GOTS Certified, Climate Neutral Certified",
+        "Good On You planet rating: 4.0/5"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
       "data_sources": [
         "osha",
         "cbp_forced_labor",
-        "good_on_you"
+        "good_on_you",
+        "certifications"
       ]
     },
     {
-      "name": "Burlington",
-      "slug": "burlington",
-      "parent": "Burlington Stores Inc.",
+      "name": "Old Navy",
+      "slug": "old-navy",
+      "parent": "Gap Inc.",
       "price_tier": "$",
       "categories": [
-        "off-price",
+        "basics",
+        "essentials",
         "budget"
       ],
       "grade": "F",
@@ -2738,12 +829,97 @@
       ]
     },
     {
-      "name": "Carhartt",
-      "slug": "carhartt",
-      "parent": "Carhartt Inc.",
+      "name": "Banana Republic",
+      "slug": "banana-republic",
+      "parent": "Gap Inc.",
       "price_tier": "$$$",
       "categories": [
         "workwear",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 10.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 15.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Athleta",
+      "slug": "athleta",
+      "parent": "Gap Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "activewear"
+      ],
+      "grade": "F",
+      "overall_score": 10.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 15.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Timberland",
+      "slug": "timberland",
+      "parent": "VF Corporation",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
         "outdoor"
       ],
       "grade": "F",
@@ -2769,8 +945,8 @@
       },
       "red_flags": [],
       "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.4/5"
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
@@ -2781,16 +957,361 @@
       ]
     },
     {
-      "name": "Free People",
-      "slug": "free-people",
-      "parent": "URBN",
+      "name": "Wrangler",
+      "slug": "wrangler",
+      "parent": "Kontoor Brands",
+      "price_tier": "$$",
+      "categories": [
+        "denim",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 10.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 15.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Primark",
+      "slug": "primark",
+      "parent": "Associated British Foods",
+      "price_tier": "$",
+      "categories": [
+        "fast-fashion",
+        "budget",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 10.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 15.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Ralph Lauren",
+      "slug": "ralph-lauren",
+      "parent": "Ralph Lauren Corporation",
+      "price_tier": "$$$$",
+      "categories": [
+        "workwear",
+        "basics",
+        "luxury"
+      ],
+      "grade": "F",
+      "overall_score": 10.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 15.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Tommy Hilfiger",
+      "slug": "tommy-hilfiger",
+      "parent": "PVH Corp.",
       "price_tier": "$$$",
       "categories": [
-        "womenswear",
-        "bohemian"
+        "basics",
+        "workwear"
+      ],
+      "grade": "F",
+      "overall_score": 10.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 15.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Calvin Klein",
+      "slug": "calvin-klein",
+      "parent": "PVH Corp.",
+      "price_tier": "$$$",
+      "categories": [
+        "underwear",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 10.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 15.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Nike",
+      "slug": "nike",
+      "parent": "Nike Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
+        "activewear",
+        "basics"
       ],
       "grade": "F",
       "overall_score": 9.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 10.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 2.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "Verified certifications: Bluesign Partner"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you",
+        "certifications"
+      ]
+    },
+    {
+      "name": "Zara",
+      "slug": "zara",
+      "parent": "Inditex",
+      "price_tier": "$$",
+      "categories": [
+        "fast-fashion",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 8.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 10.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Gap",
+      "slug": "gap",
+      "parent": "Gap Inc.",
+      "price_tier": "$$",
+      "categories": [
+        "basics",
+        "essentials"
+      ],
+      "grade": "F",
+      "overall_score": 8.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 10.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Lululemon",
+      "slug": "lululemon",
+      "parent": "Lululemon Athletica Inc.",
+      "price_tier": "$$$$",
+      "categories": [
+        "activewear"
+      ],
+      "grade": "F",
+      "overall_score": 8.5,
       "confidence": "low",
       "dimensions": {
         "where": {
@@ -2802,7 +1323,7 @@
           "grade": "F"
         },
         "what": {
-          "score": 8.0,
+          "score": 5.0,
           "grade": "F"
         },
         "after": {
@@ -2812,18 +1333,16 @@
       },
       "red_flags": [],
       "highlights": [
-        "Clean OSHA safety record",
         "No CBP forced labor flags",
-        "Good On You planet rating: 8.05/5"
+        "Verified certifications: Fair Trade Certified, Bluesign Partner"
       ],
-      "concerns": [
-        "Low Good On You people rating: 1.78/5"
-      ],
+      "concerns": [],
       "last_updated": "2026-03-21",
       "data_sources": [
         "osha",
         "cbp_forced_labor",
-        "good_on_you"
+        "good_on_you",
+        "certifications"
       ]
     },
     {
@@ -2870,6 +1389,1088 @@
       ]
     },
     {
+      "name": "Eileen Fisher",
+      "slug": "eileen-fisher",
+      "parent": "Eileen Fisher Inc.",
+      "price_tier": "$$$$",
+      "categories": [
+        "womenswear",
+        "workwear"
+      ],
+      "grade": "F",
+      "overall_score": 7.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 8.2,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags",
+        "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.8/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you",
+        "certifications"
+      ]
+    },
+    {
+      "name": "New Balance",
+      "slug": "new-balance",
+      "parent": "New Balance Athletics Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
+        "activewear"
+      ],
+      "grade": "F",
+      "overall_score": 7.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 2.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags",
+        "Verified certifications: Bluesign Partner"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you",
+        "certifications"
+      ]
+    },
+    {
+      "name": "Lee",
+      "slug": "lee",
+      "parent": "Kontoor Brands",
+      "price_tier": "$$",
+      "categories": [
+        "denim",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Walmart (George)",
+      "slug": "walmart-george",
+      "parent": "Walmart Inc.",
+      "price_tier": "$",
+      "categories": [
+        "basics",
+        "budget",
+        "essentials"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.0/5",
+        "Low Good On You planet rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Walmart (Time and Tru)",
+      "slug": "walmart-time-and-tru",
+      "parent": "Walmart Inc.",
+      "price_tier": "$",
+      "categories": [
+        "womenswear",
+        "budget"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.0/5",
+        "Low Good On You planet rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Walmart (Wonder Nation)",
+      "slug": "walmart-wonder-nation",
+      "parent": "Walmart Inc.",
+      "price_tier": "$",
+      "categories": [
+        "kids",
+        "budget"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.0/5",
+        "Low Good On You planet rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "J.Crew",
+      "slug": "jcrew",
+      "parent": "J.Crew Group",
+      "price_tier": "$$$",
+      "categories": [
+        "workwear",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 2.0/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Under Armour",
+      "slug": "under-armour",
+      "parent": "Under Armour Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "activewear",
+        "shoes"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You planet rating: 1.3/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Victoria's Secret",
+      "slug": "victorias-secret",
+      "parent": "Victoria's Secret & Co.",
+      "price_tier": "$$",
+      "categories": [
+        "underwear",
+        "lingerie"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You planet rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Aerie",
+      "slug": "aerie",
+      "parent": "American Eagle Outfitters Inc.",
+      "price_tier": "$$",
+      "categories": [
+        "underwear",
+        "activewear"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.1/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Hollister",
+      "slug": "hollister",
+      "parent": "Abercrombie & Fitch Co.",
+      "price_tier": "$$",
+      "categories": [
+        "basics",
+        "casual"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 2.0/5",
+        "Low Good On You planet rating: 1.6/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Urban Outfitters",
+      "slug": "urban-outfitters",
+      "parent": "URBN",
+      "price_tier": "$$$",
+      "categories": [
+        "casual",
+        "lifestyle"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 0.5/5",
+        "Low Good On You planet rating: 1.8/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Anthropologie",
+      "slug": "anthropologie",
+      "parent": "URBN",
+      "price_tier": "$$$$",
+      "categories": [
+        "womenswear",
+        "lifestyle"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 0.5/5",
+        "Low Good On You planet rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Free People",
+      "slug": "free-people",
+      "parent": "URBN",
+      "price_tier": "$$$",
+      "categories": [
+        "womenswear",
+        "bohemian"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 0.4/5",
+        "Low Good On You planet rating: 2.0/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "ASOS",
+      "slug": "asos",
+      "parent": "ASOS Plc",
+      "price_tier": "$$",
+      "categories": [
+        "fast-fashion",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 2.0/5",
+        "Low Good On You planet rating: 2.0/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Macy's",
+      "slug": "macys",
+      "parent": "Macy's Inc.",
+      "price_tier": "$$",
+      "categories": [
+        "department-store",
+        "multi-brand"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.7/5",
+        "Low Good On You planet rating: 1.5/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Burlington",
+      "slug": "burlington",
+      "parent": "Burlington Stores Inc.",
+      "price_tier": "$",
+      "categories": [
+        "off-price",
+        "budget"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 0.6/5",
+        "Low Good On You planet rating: 0.7/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Costco (Kirkland)",
+      "slug": "costco-kirkland",
+      "parent": "Costco Wholesale Corporation",
+      "price_tier": "$",
+      "categories": [
+        "basics",
+        "budget",
+        "essentials"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.0/5",
+        "Low Good On You planet rating: 1.6/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Columbia Sportswear",
+      "slug": "columbia",
+      "parent": "Columbia Sportswear Company",
+      "price_tier": "$$$",
+      "categories": [
+        "outdoor",
+        "activewear"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.2/5",
+        "Low Good On You planet rating: 2.0/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Dickies",
+      "slug": "dickies",
+      "parent": "Kontoor Brands",
+      "price_tier": "$$",
+      "categories": [
+        "workwear",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Hanes",
+      "slug": "hanes",
+      "parent": "HanesBrands Inc.",
+      "price_tier": "$",
+      "categories": [
+        "basics",
+        "underwear",
+        "essentials"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Fruit of the Loom",
+      "slug": "fruit-of-the-loom",
+      "parent": "Berkshire Hathaway",
+      "price_tier": "$",
+      "categories": [
+        "basics",
+        "underwear",
+        "essentials"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Gildan",
+      "slug": "gildan",
+      "parent": "Gildan Activewear Inc.",
+      "price_tier": "$",
+      "categories": [
+        "basics",
+        "wholesale"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Champion",
+      "slug": "champion",
+      "parent": "HanesBrands Inc.",
+      "price_tier": "$$",
+      "categories": [
+        "activewear",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
       "name": "Express",
       "slug": "express",
       "parent": "Express Inc.",
@@ -2905,8 +2506,232 @@
         "No CBP forced labor flags"
       ],
       "concerns": [
-        "Low Good On You people rating: 0/5",
-        "Low Good On You planet rating: 0/5"
+        "Low Good On You people rating: 0.0/5",
+        "Low Good On You planet rating: 0.0/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Guess",
+      "slug": "guess",
+      "parent": "Guess? Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "denim",
+        "casual"
+      ],
+      "grade": "F",
+      "overall_score": 7.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 5.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.1/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Allbirds",
+      "slug": "allbirds",
+      "parent": "Allbirds Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
+        "basics"
+      ],
+      "grade": "F",
+      "overall_score": 6.7,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 3.8,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags",
+        "Verified certifications: B Corporation"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.5/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you",
+        "certifications"
+      ]
+    },
+    {
+      "name": "Madewell",
+      "slug": "madewell",
+      "parent": "J.Crew Group",
+      "price_tier": "$$$",
+      "categories": [
+        "denim",
+        "womenswear"
+      ],
+      "grade": "F",
+      "overall_score": 6.5,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 3.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags",
+        "Verified certifications: Fair Trade Certified"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you",
+        "certifications"
+      ]
+    },
+    {
+      "name": "Adidas",
+      "slug": "adidas",
+      "parent": "Adidas AG",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
+        "activewear"
+      ],
+      "grade": "F",
+      "overall_score": 6.2,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 2.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Verified certifications: Bluesign Partner"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you",
+        "certifications"
+      ]
+    },
+    {
+      "name": "Uniqlo",
+      "slug": "uniqlo",
+      "parent": "Fast Retailing Co.",
+      "price_tier": "$$",
+      "categories": [
+        "basics",
+        "essentials"
+      ],
+      "grade": "F",
+      "overall_score": 5.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [
+        "forced_labor_risk"
+      ],
+      "highlights": [],
+      "concerns": [
+        "Labor risk: CBP detained Uniqlo shirts under UFLPA"
       ],
       "last_updated": "2026-03-21",
       "data_sources": [
@@ -2953,7 +2778,8 @@
       ],
       "concerns": [
         "Forced labor concern: UFLPA enforcement - multiple shipments detained",
-        "Low Good On You people rating: 0.3/5"
+        "Low Good On You people rating: 0.1/5",
+        "Low Good On You planet rating: 0.8/5"
       ],
       "last_updated": "2026-03-21",
       "data_sources": [
@@ -3000,8 +2826,8 @@
       ],
       "concerns": [
         "Labor risk: UFLPA enforcement - de minimis shipment scrutiny",
-        "Low Good On You people rating: 0/5",
-        "Low Good On You planet rating: 0/5"
+        "Low Good On You people rating: 0.0/5",
+        "Low Good On You planet rating: 0.0/5"
       ],
       "last_updated": "2026-03-21",
       "data_sources": [
@@ -3045,8 +2871,8 @@
         "No CBP forced labor flags"
       ],
       "concerns": [
-        "Low Good On You people rating: 0/5",
-        "Low Good On You planet rating: 0/5"
+        "Low Good On You people rating: 0.0/5",
+        "Low Good On You planet rating: 0.0/5"
       ],
       "last_updated": "2026-03-21",
       "data_sources": [
@@ -3093,8 +2919,52 @@
       ],
       "concerns": [
         "Forced labor concern: US DOL found LA factories underpaying workers",
-        "Low Good On You people rating: 0/5",
-        "Low Good On You planet rating: 0/5"
+        "Low Good On You people rating: 0.0/5",
+        "Low Good On You planet rating: 0.0/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Skechers",
+      "slug": "skechers",
+      "parent": "Skechers U.S.A. Inc.",
+      "price_tier": "$$",
+      "categories": [
+        "shoes"
+      ],
+      "grade": "F",
+      "overall_score": 5.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.7/5",
+        "Low Good On You planet rating: 0.7/5"
       ],
       "last_updated": "2026-03-21",
       "data_sources": [
@@ -3139,7 +3009,146 @@
       "highlights": [],
       "concerns": [
         "Forced labor concern: Leicester factory labor exploitation investigation",
-        "Low Good On You planet rating: 1.8/5"
+        "Low Good On You people rating: 0.9/5",
+        "Low Good On You planet rating: 0.5/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "PrettyLittleThing",
+      "slug": "prettylittlething",
+      "parent": "Boohoo Group Plc",
+      "price_tier": "$",
+      "categories": [
+        "fast-fashion",
+        "budget"
+      ],
+      "grade": "F",
+      "overall_score": 5.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [
+        "forced_labor_risk"
+      ],
+      "highlights": [
+        "Clean OSHA safety record"
+      ],
+      "concerns": [
+        "Labor risk: Connected to Boohoo Group labor concerns",
+        "Low Good On You people rating: 1.8/5",
+        "Low Good On You planet rating: 1.9/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Nordstrom",
+      "slug": "nordstrom",
+      "parent": "Nordstrom Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "department-store",
+        "multi-brand"
+      ],
+      "grade": "F",
+      "overall_score": 5.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 2.0/5",
+        "Low Good On You planet rating: 1.7/5"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "cbp_forced_labor",
+        "good_on_you"
+      ]
+    },
+    {
+      "name": "Carhartt",
+      "slug": "carhartt",
+      "parent": "Carhartt Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "workwear",
+        "outdoor"
+      ],
+      "grade": "F",
+      "overall_score": 5.8,
+      "confidence": "low",
+      "dimensions": {
+        "where": {
+          "score": 15,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0.0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 10,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "Low Good On You people rating: 1.9/5",
+        "Low Good On You planet rating: 0.6/5"
       ],
       "last_updated": "2026-03-21",
       "data_sources": [
@@ -3183,8 +3192,8 @@
         "No CBP forced labor flags"
       ],
       "concerns": [
-        "Low Good On You people rating: 0.3/5",
-        "Low Good On You planet rating: 1.66/5"
+        "Low Good On You people rating: 0.1/5",
+        "Low Good On You planet rating: 0.4/5"
       ],
       "last_updated": "2026-03-21",
       "data_sources": [
@@ -3206,9 +3215,9 @@
       "F": 72
     },
     "price_tier_counts": {
-      "$$$": 24,
       "$$": 23,
       "$": 18,
+      "$$$": 24,
       "$$$$": 7
     }
   }

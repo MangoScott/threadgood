@@ -32,7 +32,7 @@
       ],
       "concerns": [
         "Forced labor concern: UFLPA enforcement - multiple shipments detained",
-        "Low Good On You people rating: 0.3/5"
+        "Low Good On You people rating: 0.1/5"
       ],
       "indicators_with_data": 3
     },
@@ -40,7 +40,9 @@
       "score": 0.0,
       "grade": "F",
       "highlights": [],
-      "concerns": [],
+      "concerns": [
+        "Low Good On You planet rating: 0.8/5"
+      ],
       "indicators_with_data": 1
     },
     "after": {
@@ -65,7 +67,8 @@
   ],
   "concerns": [
     "Forced labor concern: UFLPA enforcement - multiple shipments detained",
-    "Low Good On You people rating: 0.3/5"
+    "Low Good On You people rating: 0.1/5",
+    "Low Good On You planet rating: 0.8/5"
   ],
   "data_sources": [
     "osha",

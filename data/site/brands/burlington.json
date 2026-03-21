@@ -7,7 +7,7 @@
     "off-price",
     "budget"
   ],
-  "overall_score": 10.2,
+  "overall_score": 7.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,20 +25,24 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 15.0,
+      "score": 5.0,
       "grade": "F",
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
+      "concerns": [
+        "Low Good On You people rating: 0.6/5"
+      ],
       "indicators_with_data": 3
     },
     "what": {
       "score": 0.0,
       "grade": "F",
       "highlights": [],
-      "concerns": [],
+      "concerns": [
+        "Low Good On You planet rating: 0.7/5"
+      ],
       "indicators_with_data": 1
     },
     "after": {
@@ -54,7 +58,10 @@
     "Clean OSHA safety record",
     "No CBP forced labor flags"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low Good On You people rating: 0.6/5",
+    "Low Good On You planet rating: 0.7/5"
+  ],
   "data_sources": [
     "osha",
     "cbp_forced_labor",

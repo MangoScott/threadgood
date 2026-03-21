@@ -7,7 +7,7 @@
     "womenswear",
     "bohemian"
   ],
-  "overall_score": 9.2,
+  "overall_score": 7.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -32,17 +32,17 @@
         "No CBP forced labor flags"
       ],
       "concerns": [
-        "Low Good On You people rating: 1.78/5"
+        "Low Good On You people rating: 0.4/5"
       ],
       "indicators_with_data": 3
     },
     "what": {
-      "score": 8.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You planet rating: 8.05/5"
+      "highlights": [],
+      "concerns": [
+        "Low Good On You planet rating: 2.0/5"
       ],
-      "concerns": [],
       "indicators_with_data": 1
     },
     "after": {
@@ -56,11 +56,11 @@
   "red_flags": [],
   "highlights": [
     "Clean OSHA safety record",
-    "No CBP forced labor flags",
-    "Good On You planet rating: 8.05/5"
+    "No CBP forced labor flags"
   ],
   "concerns": [
-    "Low Good On You people rating: 1.78/5"
+    "Low Good On You people rating: 0.4/5",
+    "Low Good On You planet rating: 2.0/5"
   ],
   "data_sources": [
     "osha",

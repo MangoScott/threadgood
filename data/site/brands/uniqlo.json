@@ -7,7 +7,7 @@
     "basics",
     "essentials"
   ],
-  "overall_score": 10.8,
+  "overall_score": 5.8,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,22 +25,18 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 10,
+      "score": 0,
       "grade": "F",
-      "highlights": [
-        "Good On You people rating: 14.44/5"
-      ],
+      "highlights": [],
       "concerns": [
         "Labor risk: CBP detained Uniqlo shirts under UFLPA"
       ],
       "indicators_with_data": 2
     },
     "what": {
-      "score": 8.0,
+      "score": 0.0,
       "grade": "F",
-      "highlights": [
-        "Good On You planet rating: 12.86/5"
-      ],
+      "highlights": [],
       "concerns": [],
       "indicators_with_data": 1
     },
@@ -59,10 +55,7 @@
       "severity": "high"
     }
   ],
-  "highlights": [
-    "Good On You people rating: 14.44/5",
-    "Good On You planet rating: 12.86/5"
-  ],
+  "highlights": [],
   "concerns": [
     "Labor risk: CBP detained Uniqlo shirts under UFLPA"
   ],

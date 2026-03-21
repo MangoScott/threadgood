@@ -7,7 +7,7 @@
     "womenswear",
     "workwear"
   ],
-  "overall_score": 14.3,
+  "overall_score": 7.8,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,21 +25,21 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 15.0,
+      "score": 0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 7.14/5"
+        "No CBP forced labor flags"
       ],
-      "concerns": [],
+      "concerns": [
+        "Low Good On You people rating: 1.8/5"
+      ],
       "indicators_with_data": 2
     },
     "what": {
-      "score": 16.2,
+      "score": 8.2,
       "grade": "F",
       "highlights": [
-        "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified",
-        "Good On You planet rating: 13.86/5"
+        "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified"
       ],
       "concerns": [],
       "indicators_with_data": 2
@@ -55,11 +55,11 @@
   "red_flags": [],
   "highlights": [
     "No CBP forced labor flags",
-    "Good On You people rating: 7.14/5",
-    "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified",
-    "Good On You planet rating: 13.86/5"
+    "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low Good On You people rating: 1.8/5"
+  ],
   "data_sources": [
     "osha",
     "cbp_forced_labor",

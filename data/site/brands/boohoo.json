@@ -29,7 +29,8 @@
       "grade": "F",
       "highlights": [],
       "concerns": [
-        "Forced labor concern: Leicester factory labor exploitation investigation"
+        "Forced labor concern: Leicester factory labor exploitation investigation",
+        "Low Good On You people rating: 0.9/5"
       ],
       "indicators_with_data": 2
     },
@@ -38,7 +39,7 @@
       "grade": "F",
       "highlights": [],
       "concerns": [
-        "Low Good On You planet rating: 1.8/5"
+        "Low Good On You planet rating: 0.5/5"
       ],
       "indicators_with_data": 1
     },
@@ -62,7 +63,8 @@
   "highlights": [],
   "concerns": [
     "Forced labor concern: Leicester factory labor exploitation investigation",
-    "Low Good On You planet rating: 1.8/5"
+    "Low Good On You people rating: 0.9/5",
+    "Low Good On You planet rating: 0.5/5"
   ],
   "data_sources": [
     "osha",

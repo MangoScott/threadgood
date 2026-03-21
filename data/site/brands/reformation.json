@@ -7,7 +7,7 @@
     "womenswear",
     "dresses"
   ],
-  "overall_score": 13.4,
+  "overall_score": 10.4,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -25,11 +25,10 @@
       "indicators_with_data": 0
     },
     "who": {
-      "score": 15.0,
+      "score": 5.0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags",
-        "Good On You people rating: 13.29/5"
+        "No CBP forced labor flags"
       ],
       "concerns": [],
       "indicators_with_data": 2
@@ -39,7 +38,7 @@
       "grade": "F",
       "highlights": [
         "Verified certifications: GOTS Certified, Climate Neutral Certified",
-        "Good On You planet rating: 15.86/5"
+        "Good On You planet rating: 4.0/5"
       ],
       "concerns": [],
       "indicators_with_data": 2
@@ -55,9 +54,8 @@
   "red_flags": [],
   "highlights": [
     "No CBP forced labor flags",
-    "Good On You people rating: 13.29/5",
     "Verified certifications: GOTS Certified, Climate Neutral Certified",
-    "Good On You planet rating: 15.86/5"
+    "Good On You planet rating: 4.0/5"
   ],
   "concerns": [],
   "data_sources": [

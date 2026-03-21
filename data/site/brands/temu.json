@@ -32,7 +32,7 @@
       ],
       "concerns": [
         "Labor risk: UFLPA enforcement - de minimis shipment scrutiny",
-        "Low Good On You people rating: 0/5"
+        "Low Good On You people rating: 0.0/5"
       ],
       "indicators_with_data": 3
     },
@@ -41,7 +41,7 @@
       "grade": "F",
       "highlights": [],
       "concerns": [
-        "Low Good On You planet rating: 0/5"
+        "Low Good On You planet rating: 0.0/5"
       ],
       "indicators_with_data": 1
     },
@@ -65,8 +65,8 @@
   ],
   "concerns": [
     "Labor risk: UFLPA enforcement - de minimis shipment scrutiny",
-    "Low Good On You people rating: 0/5",
-    "Low Good On You planet rating: 0/5"
+    "Low Good On You people rating: 0.0/5",
+    "Low Good On You planet rating: 0.0/5"
   ],
   "data_sources": [
     "osha",
