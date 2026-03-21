@@ -11,50 +11,69 @@
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 19,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 76.0
   },
   "dimensions": {
     "where": {
-      "score": 55,
+      "score": 55.0,
       "grade": "C",
-      "highlights": [],
+      "highlights": [
+        "Publishes partial supplier list"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 5
     },
     "who": {
-      "score": 65,
-      "grade": "B",
+      "score": 60.8,
+      "grade": "C",
       "highlights": [
+        "Active living wage program",
         "Clean OSHA safety record"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 7
     },
     "what": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 40.0,
+      "grade": "D",
+      "highlights": [
+        "60% sustainable/certified materials",
+        "Certifications: OEKO-TEX",
+        "Chemical management policy in place"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 3
     },
     "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 80.0,
+      "grade": "A",
+      "highlights": [
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 4
     }
   },
   "red_flags": [],
   "highlights": [
-    "Clean OSHA safety record"
+    "Publishes partial supplier list",
+    "Active living wage program",
+    "Clean OSHA safety record",
+    "60% sustainable/certified materials",
+    "Certifications: OEKO-TEX"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
+    "sustainability_report",
+    "fti",
+    "ktc",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
@@ -69,6 +88,57 @@
       "states": [
         "CA"
       ]
+    },
+    "sustainability_report": {
+      "report_file": "zara_2023_report.pdf",
+      "parsed_at": "2026-03-21T19:34:49.923745",
+      "where": {
+        "factory_list_published": "partial",
+        "supply_chain_tiers_disclosed": "2",
+        "oar_participation": "no",
+        "sourcing_countries": [
+          "Spain",
+          "Portugal",
+          "Morocco",
+          "Turkey",
+          "Bangladesh",
+          "China"
+        ]
+      },
+      "who": {
+        "living_wage_status": "active_program",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "partial",
+        "freedom_of_association": "yes"
+      },
+      "what": {
+        "sustainable_materials_percentage": "60%",
+        "certifications_mentioned": [
+          "OEKO-TEX"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "no"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {}
+    },
+    "fti": {
+      "transparency_score": 43.0,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 46.0,
+      "theme_scores": {}
     }
   }
 }

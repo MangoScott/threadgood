@@ -8,57 +8,78 @@
     "fast-fashion",
     "essentials"
   ],
-  "overall_score": 59.8,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 72.1,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 3,
+    "level": "high",
+    "indicators_with_data": 20,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 12.0
+    "data_coverage_pct": 80.0
   },
   "dimensions": {
     "where": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 89.8,
+      "grade": "A",
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 71.0%"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 5
     },
     "who": {
-      "score": 65,
+      "score": 70.9,
       "grade": "B",
       "highlights": [
+        "Active living wage program",
+        "Audit results publicly disclosed",
+        "KnowTheChain score: 53.0/100",
         "Clean OSHA safety record"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 7
     },
     "what": {
-      "score": 62.0,
-      "grade": "C",
+      "score": 49.5,
+      "grade": "D",
       "highlights": [
-        "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
+        "84% sustainable/certified materials",
+        "Certifications: GOTS",
+        "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified",
+        "Chemical management policy in place"
       ],
       "concerns": [],
-      "indicators_with_data": 1
+      "indicators_with_data": 4
     },
     "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 80.0,
+      "grade": "A",
+      "highlights": [
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 4
     }
   },
   "red_flags": [],
   "highlights": [
-    "Clean OSHA safety record",
-    "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
+    "Publishes full supplier/factory list",
+    "Discloses 3+ supply chain tiers",
+    "FTI transparency score: 71.0%",
+    "Active living wage program",
+    "Audit results publicly disclosed"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
+    "sustainability_report",
+    "fti",
+    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -77,6 +98,56 @@
         "TX",
         "WV"
       ]
+    },
+    "sustainability_report": {
+      "report_file": "hm_2023_report.pdf",
+      "parsed_at": "2026-03-21T19:34:49.923408",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "3+",
+        "oar_participation": "yes",
+        "sourcing_countries": [
+          "Bangladesh",
+          "China",
+          "India",
+          "Cambodia",
+          "Turkey"
+        ]
+      },
+      "who": {
+        "living_wage_status": "active_program",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "yes",
+        "freedom_of_association": "yes"
+      },
+      "what": {
+        "sustainable_materials_percentage": "84%",
+        "certifications_mentioned": [
+          "GOTS"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "no"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {}
+    },
+    "fti": {
+      "transparency_score": 71.0,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 53.0,
+      "theme_scores": {}
     }
   }
 }

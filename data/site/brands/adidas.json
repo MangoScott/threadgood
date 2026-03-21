@@ -7,54 +7,80 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 55.5,
+  "overall_score": 63.4,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 20,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 80.0
   },
   "dimensions": {
     "where": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
-    },
-    "who": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 1
-    },
-    "what": {
-      "score": 57.0,
-      "grade": "C",
+      "score": 83.9,
+      "grade": "A",
       "highlights": [
-        "Verified certifications: Bluesign Partner"
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 54.0%"
       ],
       "concerns": [],
-      "indicators_with_data": 1
+      "indicators_with_data": 5
+    },
+    "who": {
+      "score": 51.5,
+      "grade": "C",
+      "highlights": [
+        "Audit results publicly disclosed",
+        "KnowTheChain score: 55.0/100"
+      ],
+      "concerns": [],
+      "indicators_with_data": 6
+    },
+    "what": {
+      "score": 60.0,
+      "grade": "C",
+      "highlights": [
+        "96% sustainable/certified materials",
+        "Certifications: Bluesign",
+        "Verified certifications: Bluesign Partner",
+        "Chemical management policy in place",
+        "Durability/longevity commitment"
+      ],
+      "concerns": [],
+      "indicators_with_data": 5
     },
     "after": {
-      "score": 55,
+      "score": 60.0,
       "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "highlights": [
+        "Garment take-back/recycling program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline"
+      ],
+      "concerns": [
+        "No resale/repair program"
+      ],
+      "indicators_with_data": 4
     }
   },
   "red_flags": [],
   "highlights": [
-    "Verified certifications: Bluesign Partner"
+    "Publishes full supplier/factory list",
+    "Discloses 3+ supply chain tiers",
+    "FTI transparency score: 54.0%",
+    "Audit results publicly disclosed",
+    "KnowTheChain score: 55.0/100"
   ],
-  "concerns": [],
+  "concerns": [
+    "No resale/repair program"
+  ],
   "data_sources": [
     "osha",
+    "sustainability_report",
+    "fti",
+    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -68,6 +94,55 @@
       "total_penalties": 0.0,
       "most_recent_inspection": null,
       "states": []
+    },
+    "sustainability_report": {
+      "report_file": "adidas_2023_report.pdf",
+      "parsed_at": "2026-03-21T19:34:49.922480",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "3+",
+        "oar_participation": "yes",
+        "sourcing_countries": [
+          "Cambodia",
+          "China",
+          "Vietnam",
+          "Indonesia"
+        ]
+      },
+      "who": {
+        "living_wage_status": "aspirational",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "yes",
+        "freedom_of_association": "yes"
+      },
+      "what": {
+        "sustainable_materials_percentage": "96%",
+        "certifications_mentioned": [
+          "Bluesign"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "no",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {}
+    },
+    "fti": {
+      "transparency_score": 54.0,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 55.0,
+      "theme_scores": {}
     }
   }
 }

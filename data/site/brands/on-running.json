@@ -7,24 +7,25 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 56.7,
+  "overall_score": 61.3,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 19,
+    "indicators_with_data": 20,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 76.0
+    "data_coverage_pct": 80.0
   },
   "dimensions": {
     "where": {
-      "score": 60.0,
-      "grade": "C",
+      "score": 78.2,
+      "grade": "B",
       "highlights": [
-        "Publishes full supplier/factory list"
+        "Publishes full supplier/factory list",
+        "FTI transparency score: 52.0%"
       ],
       "concerns": [],
-      "indicators_with_data": 4
+      "indicators_with_data": 5
     },
     "who": {
       "score": 42.0,
@@ -66,10 +67,10 @@
   "red_flags": [],
   "highlights": [
     "Publishes full supplier/factory list",
+    "FTI transparency score: 52.0%",
     "Active living wage program",
     "No CBP forced labor flags",
-    "Certifications: Bluesign",
-    "Chemical management policy in place"
+    "Certifications: Bluesign"
   ],
   "concerns": [
     "No resale/repair program"
@@ -77,6 +78,7 @@
   "data_sources": [
     "osha",
     "sustainability_report",
+    "fti",
     "cbp_forced_labor"
   ],
   "methodology_version": "1.0",

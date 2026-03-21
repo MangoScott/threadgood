@@ -7,57 +7,85 @@
     "womenswear",
     "workwear"
   ],
-  "overall_score": 58.6,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 69.9,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 21,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 84.0
   },
   "dimensions": {
     "where": {
-      "score": 55,
+      "score": 61.3,
       "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers"
+      ],
+      "concerns": [
+        "Low FTI transparency score: 18.0%"
+      ],
+      "indicators_with_data": 5
     },
     "who": {
-      "score": 60,
+      "score": 54.5,
       "grade": "C",
       "highlights": [
+        "Active living wage program",
+        "Audit results publicly disclosed",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 1
+      "concerns": [
+        "Low KnowTheChain score: 15.0/100"
+      ],
+      "indicators_with_data": 6
     },
     "what": {
-      "score": 63.2,
-      "grade": "C",
+      "score": 72.9,
+      "grade": "B",
       "highlights": [
-        "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified"
+        "95% sustainable/certified materials",
+        "Certifications: Bluesign, GOTS",
+        "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified",
+        "Chemical management policy in place",
+        "Durability/longevity commitment"
       ],
       "concerns": [],
-      "indicators_with_data": 1
+      "indicators_with_data": 5
     },
     "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 100.0,
+      "grade": "A",
+      "highlights": [
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline",
+        "Design for disassembly approach"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 5
     }
   },
   "red_flags": [],
   "highlights": [
-    "No CBP forced labor flags",
-    "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified"
+    "Publishes full supplier/factory list",
+    "Discloses 3+ supply chain tiers",
+    "Active living wage program",
+    "Audit results publicly disclosed",
+    "No CBP forced labor flags"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low FTI transparency score: 18.0%",
+    "Low KnowTheChain score: 15.0/100"
+  ],
   "data_sources": [
     "osha",
+    "sustainability_report",
+    "fti",
+    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -71,6 +99,56 @@
       "total_penalties": 0.0,
       "most_recent_inspection": null,
       "states": []
+    },
+    "sustainability_report": {
+      "report_file": "eileen-fisher_2023_report.pdf",
+      "parsed_at": "2026-03-21T19:34:49.927635",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "3+",
+        "oar_participation": "no",
+        "sourcing_countries": [
+          "China",
+          "USA",
+          "Peru",
+          "India"
+        ]
+      },
+      "who": {
+        "living_wage_status": "active_program",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "yes",
+        "freedom_of_association": "yes"
+      },
+      "what": {
+        "sustainable_materials_percentage": "95%",
+        "certifications_mentioned": [
+          "Bluesign",
+          "GOTS"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "yes"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {}
+    },
+    "fti": {
+      "transparency_score": 18.0,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 15.0,
+      "theme_scores": {}
     }
   }
 }

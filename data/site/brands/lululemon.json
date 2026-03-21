@@ -6,57 +6,76 @@
   "categories": [
     "activewear"
   ],
-  "overall_score": 57.8,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 65.9,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 20,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 80.0
   },
   "dimensions": {
     "where": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 78.5,
+      "grade": "B",
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "FTI transparency score: 53.0%"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 5
     },
     "who": {
-      "score": 60,
-      "grade": "C",
+      "score": 48.8,
+      "grade": "D",
       "highlights": [
+        "KnowTheChain score: 56.0/100",
         "No CBP forced labor flags"
       ],
       "concerns": [],
-      "indicators_with_data": 1
+      "indicators_with_data": 6
     },
     "what": {
-      "score": 60.0,
+      "score": 62.5,
       "grade": "C",
       "highlights": [
-        "Verified certifications: Fair Trade Certified, Bluesign Partner"
+        "60% sustainable/certified materials",
+        "Certifications: Bluesign, OEKO-TEX",
+        "Verified certifications: Fair Trade Certified, Bluesign Partner",
+        "Chemical management policy in place",
+        "Durability/longevity commitment"
       ],
       "concerns": [],
-      "indicators_with_data": 1
+      "indicators_with_data": 5
     },
     "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 80.0,
+      "grade": "A",
+      "highlights": [
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 4
     }
   },
   "red_flags": [],
   "highlights": [
+    "Publishes full supplier/factory list",
+    "FTI transparency score: 53.0%",
+    "KnowTheChain score: 56.0/100",
     "No CBP forced labor flags",
-    "Verified certifications: Fair Trade Certified, Bluesign Partner"
+    "60% sustainable/certified materials"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
+    "sustainability_report",
+    "fti",
+    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -70,6 +89,56 @@
       "total_penalties": 0.0,
       "most_recent_inspection": null,
       "states": []
+    },
+    "sustainability_report": {
+      "report_file": "lululemon_2023_report.pdf",
+      "parsed_at": "2026-03-21T19:34:49.924346",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "2",
+        "oar_participation": "yes",
+        "sourcing_countries": [
+          "Vietnam",
+          "Cambodia",
+          "Sri Lanka",
+          "China"
+        ]
+      },
+      "who": {
+        "living_wage_status": "aspirational",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "partial",
+        "freedom_of_association": "yes"
+      },
+      "what": {
+        "sustainable_materials_percentage": "60%",
+        "certifications_mentioned": [
+          "Bluesign",
+          "OEKO-TEX"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {}
+    },
+    "fti": {
+      "transparency_score": 53.0,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 56.0,
+      "theme_scores": {}
     }
   }
 }

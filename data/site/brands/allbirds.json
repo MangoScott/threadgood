@@ -7,57 +7,77 @@
     "shoes",
     "basics"
   ],
-  "overall_score": 57.4,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 49.6,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 18,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 72.0
   },
   "dimensions": {
     "where": {
-      "score": 55,
+      "score": 62.0,
       "grade": "C",
-      "highlights": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 5
     },
     "who": {
-      "score": 60,
-      "grade": "C",
+      "score": 36.5,
+      "grade": "D",
       "highlights": [
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 1
+      "concerns": [
+        "Low KnowTheChain score: 15.0/100"
+      ],
+      "indicators_with_data": 6
     },
     "what": {
-      "score": 58.8,
-      "grade": "C",
+      "score": 28.8,
+      "grade": "F",
       "highlights": [
-        "Verified certifications: B Corporation"
+        "Verified certifications: B Corporation",
+        "Chemical management policy in place",
+        "Durability/longevity commitment"
       ],
       "concerns": [],
-      "indicators_with_data": 1
+      "indicators_with_data": 3
     },
     "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 80.0,
+      "grade": "A",
+      "highlights": [
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline"
+      ],
       "concerns": [],
-      "indicators_with_data": 0
+      "indicators_with_data": 4
     }
   },
   "red_flags": [],
   "highlights": [
+    "Publishes full supplier/factory list",
+    "Discloses 3+ supply chain tiers",
     "No CBP forced labor flags",
-    "Verified certifications: B Corporation"
+    "Verified certifications: B Corporation",
+    "Chemical management policy in place"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low KnowTheChain score: 15.0/100"
+  ],
   "data_sources": [
     "osha",
+    "sustainability_report",
+    "fti",
+    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -71,6 +91,56 @@
       "total_penalties": 0.0,
       "most_recent_inspection": null,
       "states": []
+    },
+    "sustainability_report": {
+      "report_file": "allbirds_2023_report.pdf",
+      "parsed_at": "2026-03-21T19:34:49.924916",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "3+",
+        "oar_participation": "no",
+        "sourcing_countries": [
+          "Vietnam",
+          "China",
+          "South Korea",
+          "USA"
+        ]
+      },
+      "who": {
+        "living_wage_status": "aspirational",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "partial",
+        "freedom_of_association": "yes"
+      },
+      "what": {
+        "sustainable_materials_percentage": "not_disclosed",
+        "certifications_mentioned": [
+          "FSC",
+          "ZQ Merino"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {}
+    },
+    "fti": {
+      "transparency_score": 20.0,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 15.0,
+      "theme_scores": {}
     }
   }
 }
