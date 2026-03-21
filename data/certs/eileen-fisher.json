@@ -1,0 +1,54 @@
+{
+  "brand": "Eileen Fisher",
+  "slug": "eileen-fisher",
+  "certs_data_available": true,
+  "certifications": {
+    "b_corp": {
+      "certified": true,
+      "since": 2015,
+      "score": 93.5
+    },
+    "fair_trade": {
+      "certified": false
+    },
+    "bluesign": {
+      "certified": true
+    },
+    "gots": {
+      "certified": true,
+      "note": "Organic cotton products"
+    }
+  },
+  "active_certs": [
+    {
+      "name": "B Corporation",
+      "key": "b_corp",
+      "points": 15,
+      "details": {
+        "certified": true,
+        "since": 2015,
+        "score": 93.5
+      }
+    },
+    {
+      "name": "Bluesign Partner",
+      "key": "bluesign",
+      "points": 8,
+      "details": {
+        "certified": true
+      }
+    },
+    {
+      "name": "GOTS Certified",
+      "key": "gots",
+      "points": 10,
+      "details": {
+        "certified": true,
+        "note": "Organic cotton products"
+      }
+    }
+  ],
+  "cert_score": 33,
+  "last_updated": "2026-03-21",
+  "data_source": "curated_certification_directories"
+}

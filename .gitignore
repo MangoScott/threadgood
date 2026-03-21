@@ -1,0 +1,24 @@
+# Environment
+.env
+
+# Generated data
+data/osha/*.json
+data/oar/*.json
+data/reports/*.json
+data/fti/*.json
+data/ktc/*.json
+data/scores/*.json
+data/site/
+
+# Raw reports
+reports/*.pdf
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.venv/
+venv/

@@ -1,0 +1,55 @@
+{
+  "brand": "H&M",
+  "slug": "hm",
+  "certs_data_available": true,
+  "certifications": {
+    "b_corp": {
+      "certified": false
+    },
+    "fair_trade": {
+      "certified": true,
+      "program": "Fair Trade cotton collection"
+    },
+    "bluesign": {
+      "certified": false
+    },
+    "gots": {
+      "certified": true,
+      "note": "Conscious Collection"
+    },
+    "oeko_tex": {
+      "certified": true
+    }
+  },
+  "active_certs": [
+    {
+      "name": "Fair Trade Certified",
+      "key": "fair_trade",
+      "points": 12,
+      "details": {
+        "certified": true,
+        "program": "Fair Trade cotton collection"
+      }
+    },
+    {
+      "name": "GOTS Certified",
+      "key": "gots",
+      "points": 10,
+      "details": {
+        "certified": true,
+        "note": "Conscious Collection"
+      }
+    },
+    {
+      "name": "OEKO-TEX Certified",
+      "key": "oeko_tex",
+      "points": 6,
+      "details": {
+        "certified": true
+      }
+    }
+  ],
+  "cert_score": 28,
+  "last_updated": "2026-03-21",
+  "data_source": "curated_certification_directories"
+}

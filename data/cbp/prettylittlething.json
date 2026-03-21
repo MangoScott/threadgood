@@ -1,0 +1,16 @@
+{
+  "brand": "PrettyLittleThing",
+  "slug": "prettylittlething",
+  "cbp_data_available": true,
+  "forced_labor_flags": [
+    {
+      "concern": "Connected to Boohoo Group labor concerns",
+      "severity": "medium",
+      "source": "Public reporting (subsidiary of Boohoo Group)"
+    }
+  ],
+  "wro_exposure": [],
+  "overall_risk": "medium",
+  "data_source": "cbp_wro_public_data",
+  "last_updated": "2026-03-21"
+}

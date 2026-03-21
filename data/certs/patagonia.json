@@ -1,0 +1,56 @@
+{
+  "brand": "Patagonia",
+  "slug": "patagonia",
+  "certs_data_available": true,
+  "certifications": {
+    "b_corp": {
+      "certified": true,
+      "since": 2012,
+      "score": 151.4
+    },
+    "fair_trade": {
+      "certified": true,
+      "program": "Fair Trade Certified sewing"
+    },
+    "bluesign": {
+      "certified": true,
+      "note": "Bluesign system partner"
+    },
+    "gots": {
+      "certified": false
+    }
+  },
+  "active_certs": [
+    {
+      "name": "B Corporation",
+      "key": "b_corp",
+      "points": 15,
+      "details": {
+        "certified": true,
+        "since": 2012,
+        "score": 151.4
+      }
+    },
+    {
+      "name": "Fair Trade Certified",
+      "key": "fair_trade",
+      "points": 12,
+      "details": {
+        "certified": true,
+        "program": "Fair Trade Certified sewing"
+      }
+    },
+    {
+      "name": "Bluesign Partner",
+      "key": "bluesign",
+      "points": 8,
+      "details": {
+        "certified": true,
+        "note": "Bluesign system partner"
+      }
+    }
+  ],
+  "cert_score": 35,
+  "last_updated": "2026-03-21",
+  "data_source": "curated_certification_directories"
+}

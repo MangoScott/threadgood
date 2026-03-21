@@ -1,0 +1,45 @@
+{
+  "brand": "New Balance",
+  "slug": "new-balance",
+  "goy_slug": "new-balance",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:35.253543",
+  "name": "New Balance",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 12.45,
+  "planet_rating": 12.49,
+  "animal_rating": 10.15,
+  "categories": [
+    {
+      "id": "SUBCAT0015",
+      "name": "Skirts"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0025",
+      "name": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": "SUBCAT0019",
+      "name": "Stockings & Tights"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/new-balance"
+}

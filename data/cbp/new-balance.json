@@ -1,0 +1,16 @@
+{
+  "brand": "New Balance",
+  "slug": "new-balance",
+  "cbp_data_available": true,
+  "forced_labor_flags": [],
+  "wro_exposure": [
+    {
+      "wro": "UFLPA / Xinjiang Cotton Ban",
+      "relevance": "Brand category suggests cotton sourcing",
+      "risk_level": "monitor"
+    }
+  ],
+  "overall_risk": "monitor",
+  "data_source": "cbp_wro_public_data",
+  "last_updated": "2026-03-21"
+}

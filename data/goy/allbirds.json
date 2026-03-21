@@ -1,0 +1,29 @@
+{
+  "brand": "Allbirds",
+  "slug": "allbirds",
+  "goy_slug": "allbirds",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:56:42.818222",
+  "name": "Allbirds",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 5.82,
+  "planet_rating": 10.39,
+  "animal_rating": 16.75,
+  "categories": [
+    {
+      "id": "SUBCAT0051",
+      "name": "Sandals"
+    },
+    {
+      "id": "SUBCAT0049",
+      "name": "Sneakers"
+    },
+    {
+      "id": "SUBCAT0047",
+      "name": "Flats"
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/allbirds"
+}

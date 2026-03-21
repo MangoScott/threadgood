@@ -1,0 +1,16 @@
+{
+  "brand": "Temu",
+  "slug": "temu",
+  "cbp_data_available": true,
+  "forced_labor_flags": [
+    {
+      "concern": "UFLPA enforcement - de minimis shipment scrutiny",
+      "severity": "medium",
+      "source": "House Select Committee on CCP report"
+    }
+  ],
+  "wro_exposure": [],
+  "overall_risk": "medium",
+  "data_source": "cbp_wro_public_data",
+  "last_updated": "2026-03-21"
+}

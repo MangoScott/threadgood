@@ -1,0 +1,45 @@
+{
+  "brand": "Free People",
+  "slug": "free-people",
+  "goy_slug": "free-people",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:56.998477",
+  "name": "Free People",
+  "overall_rating": 2,
+  "rating_label": "Not good enough",
+  "people_rating": 1.78,
+  "planet_rating": 8.05,
+  "animal_rating": 3.3,
+  "categories": [
+    {
+      "id": "SUBCAT0015",
+      "name": "Skirts"
+    },
+    {
+      "id": "SUBCAT0004",
+      "name": "Denim"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0001",
+      "name": "Activewear"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    },
+    {
+      "id": "SUBCAT0006",
+      "name": "Jumpsuits & Playsuits"
+    }
+  ],
+  "price_range": 4,
+  "url": "https://directory.goodonyou.eco/brand/free-people"
+}

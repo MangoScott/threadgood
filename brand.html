@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brand Scorecard | ThreadGrade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <!-- Inline styles to copy the base variables and nav from index.html -->
+    <style>
+        :root {
+            --forest: #1a3a2a;
+            --green-dark: #2d5a3d;
+            --green-mid: #3d7a52;
+            --green-bright: #4CAF50;
+            --green-light: #e8f5e9;
+            --green-pale: #f1f8f2;
+            --cream: #faf9f6;
+            --warm-white: #fefdfb;
+            --ink: #1a1a1a;
+            --text: #2d2d2d;
+            --text-light: #5a5a5a;
+            --text-muted: #8a8a8a;
+            --accent: #e85d26;
+            --grade-a: #2d7a3d;
+            --grade-b: #4CAF50;
+            --grade-c: #F9A825;
+            --grade-d: #e85d26;
+            --grade-f: #c62828;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'DM Sans', sans-serif; color: var(--text); background: var(--cream); line-height: 1.6; }
+        .hidden { display: none !important; }
+    </style>
+</head>
+<body>
+    
+    <header class="sc-header">
+        <a href="index.html#directory" class="back-link">&larr; Back to Directory</a>
+        <div id="loader">Loading brand data...</div>
+        
+        <div id="sc-header-content" class="hidden">
+            <div class="sc-meta"><span id="sc-price"></span> &middot; <span id="sc-cats"></span></div>
+            <h1 class="sc-title" id="sc-name">Brand Name</h1>
+            <div class="sc-grade-hero">
+                <div class="badge" id="sc-badge">?</div>
+                <div class="sc-score-text">Overall Score: <span id="sc-score">0</span>/100</div>
+            </div>
+        </div>
+    </header>
+
+    <main class="sc-container hidden" id="sc-main">
+        
+        <div id="sc-red-flags" class="sc-flags"></div>
+
+        <div class="sc-card">
+            <h2>Highlights & Concerns</h2>
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 3rem;">
+                <div>
+                    <h3 style="margin-bottom: 1rem; color: var(--grade-a);">The Good</h3>
+                    <ul class="hc-list highlights" id="sc-highlights"></ul>
+                </div>
+                <div>
+                    <h3 style="margin-bottom: 1rem; color: var(--grade-f);">Needs Work</h3>
+                    <ul class="hc-list concerns" id="sc-concerns"></ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="sc-card">
+            <h2>Dimension Breakdown <span>Weight</span></h2>
+            <div class="dim-scores">
+                <div class="ds-box">
+                    <div class="ds-val" id="ds-who">0</div>
+                    <div class="ds-label">WHO (Labor)</div>
+                </div>
+                <div class="ds-box">
+                    <div class="ds-val" id="ds-what">0</div>
+                    <div class="ds-label">WHAT (Materials)</div>
+                </div>
+                <div class="ds-box">
+                    <div class="ds-val" id="ds-where">0</div>
+                    <div class="ds-label">WHERE (Transparency)</div>
+                </div>
+                <div class="ds-box">
+                    <div class="ds-val" id="ds-after">0</div>
+                    <div class="ds-label">AFTER (Circularity)</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="sc-card">
+            <h2>Data Sources Used</h2>
+            <p style="color: var(--text-light); margin-bottom: 1rem;">This brand's rating is based on automated analysis of the following data sources:</p>
+            <ul id="sc-sources" style="margin-left: 1.5rem; line-height: 1.8;"></ul>
+        </div>
+    </main>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', async () => {
+            const params = new URLSearchParams(window.location.search);
+            const slug = params.get('slug');
+            
+            if (!slug) {
+                document.getElementById('loader').innerText = "Brand not found.";
+                return;
+            }
+
+            try {
+                const response = await fetch(`data/site/brands/${slug}.json`);
+                if (!response.ok) throw new Error('Network response was not ok');
+                const brand = await response.json();
+                
+                // Populate DOM
+                document.getElementById('sc-name').innerText = brand.name;
+                document.getElementById('sc-price').innerText = brand.price_tier || '$$';
+                document.getElementById('sc-cats').innerText = (brand.categories || []).join(' • ');
+                
+                const badge = document.getElementById('sc-badge');
+                badge.innerText = brand.grade;
+                badge.className = `badge ${brand.grade}`;
+                
+                document.getElementById('sc-score').innerText = brand.overall_score.toFixed(1);
+                
+                // Red Flags
+                if (brand.red_flags && brand.red_flags.length > 0) {
+                    const flagsHTML = brand.red_flags.map(f => `
+                        <div class="sc-flag">
+                            <div class="sc-flag-icon">🚩</div>
+                            <div>
+                                <div class="sc-flag-title">${f.dimension} CRITICAL CONCERN</div>
+                                <div class="sc-flag-desc">${f.description}</div>
+                            </div>
+                        </div>
+                    `).join('');
+                    document.getElementById('sc-red-flags').innerHTML = flagsHTML;
+                }
+                
+                // Dimensions
+                if (brand.dimensions) {
+                    if (brand.dimensions.who) document.getElementById('ds-who').innerText = brand.dimensions.who.score.toFixed(1);
+                    if (brand.dimensions.what) document.getElementById('ds-what').innerText = brand.dimensions.what.score.toFixed(1);
+                    if (brand.dimensions.where) document.getElementById('ds-where').innerText = brand.dimensions.where.score.toFixed(1);
+                    if (brand.dimensions.after) document.getElementById('ds-after').innerText = brand.dimensions.after.score.toFixed(1);
+                }
+                
+                // Highlights & Concerns
+                const highlightsHTML = (brand.highlights || []).map(h => `<li>${h}</li>`).join('');
+                document.getElementById('sc-highlights').innerHTML = highlightsHTML || `<li style="color:#888;">No positive highlights found in data.</li>`;
+                
+                const concernsHTML = (brand.concerns || []).map(c => `<li>${c}</li>`).join('');
+                document.getElementById('sc-concerns').innerHTML = concernsHTML || `<li style="color:#888;">No major concerns found.</li>`;
+                
+                // Sources
+                const sourcesStr = (brand.data_sources || []).map(s => `<li><code>${s}</code></li>`).join('');
+                document.getElementById('sc-sources').innerHTML = sourcesStr || `<li>None (Default baseline applied)</li>`;
+
+                // Reveal
+                document.getElementById('loader').classList.add('hidden');
+                document.getElementById('sc-header-content').classList.remove('hidden');
+                document.getElementById('sc-main').classList.remove('hidden');
+
+            } catch (error) {
+                console.error('Error fetching brand data:', error);
+                document.getElementById('loader').innerText = "Sorry, we couldn't load the data for this brand.";
+            }
+        });
+    </script>
+</body>
+</html>

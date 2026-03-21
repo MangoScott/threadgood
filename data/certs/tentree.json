@@ -1,0 +1,46 @@
+{
+  "brand": "Tentree",
+  "slug": "tentree",
+  "certs_data_available": true,
+  "certifications": {
+    "b_corp": {
+      "certified": true,
+      "since": 2020,
+      "score": 83.1
+    },
+    "fair_trade": {
+      "certified": false
+    },
+    "bluesign": {
+      "certified": true,
+      "note": "Select products"
+    },
+    "gots": {
+      "certified": false
+    }
+  },
+  "active_certs": [
+    {
+      "name": "B Corporation",
+      "key": "b_corp",
+      "points": 15,
+      "details": {
+        "certified": true,
+        "since": 2020,
+        "score": 83.1
+      }
+    },
+    {
+      "name": "Bluesign Partner",
+      "key": "bluesign",
+      "points": 8,
+      "details": {
+        "certified": true,
+        "note": "Select products"
+      }
+    }
+  ],
+  "cert_score": 23,
+  "last_updated": "2026-03-21",
+  "data_source": "curated_certification_directories"
+}

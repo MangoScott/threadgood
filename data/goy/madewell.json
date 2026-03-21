@@ -1,0 +1,45 @@
+{
+  "brand": "Madewell",
+  "slug": "madewell",
+  "goy_slug": "madewell",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:19.674585",
+  "name": "Madewell",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 7.79,
+  "planet_rating": 12.67,
+  "animal_rating": 10.15,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0023",
+      "name": "Sweaters"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0027",
+      "name": "Coats"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0010",
+      "name": "Tops & Blouses"
+    }
+  ],
+  "price_range": 4,
+  "url": "https://directory.goodonyou.eco/brand/madewell"
+}

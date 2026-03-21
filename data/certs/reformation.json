@@ -1,0 +1,47 @@
+{
+  "brand": "Reformation",
+  "slug": "reformation",
+  "certs_data_available": true,
+  "certifications": {
+    "b_corp": {
+      "certified": false
+    },
+    "fair_trade": {
+      "certified": false
+    },
+    "bluesign": {
+      "certified": false
+    },
+    "gots": {
+      "certified": true,
+      "note": "Select fabrics"
+    },
+    "climate_neutral": {
+      "certified": true,
+      "since": 2019
+    }
+  },
+  "active_certs": [
+    {
+      "name": "GOTS Certified",
+      "key": "gots",
+      "points": 10,
+      "details": {
+        "certified": true,
+        "note": "Select fabrics"
+      }
+    },
+    {
+      "name": "Climate Neutral Certified",
+      "key": "climate_neutral",
+      "points": 8,
+      "details": {
+        "certified": true,
+        "since": 2019
+      }
+    }
+  ],
+  "cert_score": 18,
+  "last_updated": "2026-03-21",
+  "data_source": "curated_certification_directories"
+}

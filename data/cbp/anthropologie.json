@@ -1,0 +1,10 @@
+{
+  "brand": "Anthropologie",
+  "slug": "anthropologie",
+  "cbp_data_available": true,
+  "forced_labor_flags": [],
+  "wro_exposure": [],
+  "overall_risk": "low",
+  "data_source": "cbp_wro_public_data",
+  "last_updated": "2026-03-21"
+}

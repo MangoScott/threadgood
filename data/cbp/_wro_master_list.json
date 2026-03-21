@@ -1,0 +1,109 @@
+{
+  "withhold_release_orders": [
+    {
+      "wro_number": "WRO-2020-001",
+      "date_issued": "2020-09-14",
+      "status": "Active",
+      "country": "China",
+      "manufacturer": "Lop County Meixin Hair Product Co. Ltd.",
+      "product": "Hair products, accessories",
+      "region": "Xinjiang",
+      "category": "apparel_accessories"
+    },
+    {
+      "wro_number": "WRO-2020-002",
+      "date_issued": "2020-09-14",
+      "status": "Active",
+      "country": "China",
+      "manufacturer": "Hetian Haolin Hair Accessories Co. Ltd.",
+      "product": "Hair products, accessories",
+      "region": "Xinjiang",
+      "category": "apparel_accessories"
+    },
+    {
+      "wro_number": "WRO-2020-003",
+      "date_issued": "2020-09-14",
+      "status": "Active",
+      "country": "China",
+      "manufacturer": "Hero Vast Group Ltd.",
+      "product": "Apparel",
+      "region": "Xinjiang",
+      "category": "apparel"
+    },
+    {
+      "wro_number": "WRO-2020-004",
+      "date_issued": "2020-11-30",
+      "status": "Active",
+      "country": "China",
+      "manufacturer": "Lop County Hair Product Industrial Park",
+      "product": "Hair products",
+      "region": "Xinjiang",
+      "category": "apparel_accessories"
+    },
+    {
+      "wro_number": "WRO-2021-001",
+      "date_issued": "2021-01-13",
+      "status": "Active - Expanded to Finding",
+      "country": "China",
+      "manufacturer": "All cotton and cotton products from Xinjiang",
+      "product": "Cotton, cotton products, apparel, textiles",
+      "region": "Xinjiang",
+      "notes": "Xinjiang region-wide ban on cotton. Affects all brands sourcing cotton from Xinjiang.",
+      "category": "cotton_textiles"
+    },
+    {
+      "wro_number": "WRO-2021-002",
+      "date_issued": "2021-05-28",
+      "status": "Active",
+      "country": "China",
+      "manufacturer": "Natchi Apparel (P) Ltd.",
+      "product": "Garments",
+      "region": "Multiple",
+      "category": "apparel"
+    },
+    {
+      "wro_number": "WRO-2021-003",
+      "date_issued": "2021-06-24",
+      "status": "Active",
+      "country": "China",
+      "manufacturer": "Hoshine Silicon Industry Co. Ltd.",
+      "product": "Silica-based products (polysilicon for textiles)",
+      "region": "Xinjiang",
+      "category": "materials"
+    },
+    {
+      "wro_number": "WRO-2022-001",
+      "date_issued": "2022-06-21",
+      "status": "Active - UFLPA",
+      "country": "China",
+      "manufacturer": "All goods from Xinjiang (UFLPA enforcement)",
+      "product": "All goods including apparel, cotton, textiles",
+      "region": "Xinjiang",
+      "notes": "Uyghur Forced Labor Prevention Act (UFLPA) - rebuttable presumption that all goods from Xinjiang are made with forced labor.",
+      "category": "all_goods"
+    },
+    {
+      "wro_number": "WRO-2023-001",
+      "date_issued": "2023-05-31",
+      "status": "Active",
+      "country": "Malaysia",
+      "manufacturer": "Sime Darby Plantation Berhad",
+      "product": "Palm oil, palm oil products",
+      "region": "Malaysia",
+      "notes": "Palm oil derivatives used in textile finishing and cosmetics",
+      "category": "materials"
+    },
+    {
+      "wro_number": "WRO-2024-001",
+      "date_issued": "2024-03-25",
+      "status": "Active",
+      "country": "China",
+      "manufacturer": "Canaveral International Corporation",
+      "product": "Garments",
+      "region": "Multiple",
+      "category": "apparel"
+    }
+  ],
+  "source": "https://www.cbp.gov/trade/forced-labor/withhold-release-orders-and-findings",
+  "last_updated": "2026-03-21"
+}

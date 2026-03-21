@@ -1,0 +1,89 @@
+{
+  "brand": "Brooks Brothers",
+  "slug": "brooks-brothers",
+  "goy_slug": "brooks-brothers",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:56:40.748058",
+  "name": "Brooks Brothers",
+  "overall_rating": 1,
+  "rating_label": "We avoid",
+  "people_rating": 0.3,
+  "planet_rating": 1.66,
+  "animal_rating": 3.1,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0023",
+      "name": "Sweaters"
+    },
+    {
+      "id": "SUBCAT0041",
+      "name": "Hats"
+    },
+    {
+      "id": "SUBCAT0022",
+      "name": "Swimwear"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0027",
+      "name": "Coats"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0038",
+      "name": "Belts"
+    },
+    {
+      "id": "SUBCAT0002",
+      "name": "Sportswear"
+    },
+    {
+      "id": "SUBCAT0021",
+      "name": "Sleepwear"
+    },
+    {
+      "id": "SUBCAT0010",
+      "name": "Tops & Blouses"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "SUBCAT0017",
+      "name": "Underwear"
+    },
+    {
+      "id": "SUBCAT0043",
+      "name": "Jewellery"
+    },
+    {
+      "id": "SUBCAT0035",
+      "name": "Handbags"
+    },
+    {
+      "id": "SUBCAT0047",
+      "name": "Flats"
+    },
+    {
+      "id": "SUBCAT0032",
+      "name": "Satchels & Totes"
+    },
+    {
+      "id": "SUBCAT0007",
+      "name": "Suits"
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/brooks-brothers"
+}

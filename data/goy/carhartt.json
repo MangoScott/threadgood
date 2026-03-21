@@ -1,0 +1,105 @@
+{
+  "brand": "Carhartt",
+  "slug": "carhartt",
+  "goy_slug": "carhartt",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:56:23.289126",
+  "name": "Carhartt WIP",
+  "overall_rating": 2,
+  "rating_label": "Not good enough",
+  "people_rating": 7.4,
+  "planet_rating": 2.41,
+  "animal_rating": 8.4,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0015",
+      "name": "Skirts"
+    },
+    {
+      "id": "SUBCAT0004",
+      "name": "Denim"
+    },
+    {
+      "id": "SUBCAT0023",
+      "name": "Sweaters"
+    },
+    {
+      "id": "SUBCAT0046",
+      "name": "Slippers & Comfort"
+    },
+    {
+      "id": "SUBCAT0037",
+      "name": "Gloves"
+    },
+    {
+      "id": "SUBCAT0041",
+      "name": "Hats"
+    },
+    {
+      "id": "SUBCAT0039",
+      "name": "Scarves"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0025",
+      "name": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": "SUBCAT0024",
+      "name": "Knitwear"
+    },
+    {
+      "id": "SUBCAT0038",
+      "name": "Belts"
+    },
+    {
+      "id": "SUBCAT0031",
+      "name": "Backpacks"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "SUBCAT0020",
+      "name": "Socks"
+    },
+    {
+      "id": "SUBCAT0017",
+      "name": "Underwear"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    },
+    {
+      "id": "SUBCAT0035",
+      "name": "Handbags"
+    },
+    {
+      "id": "SUBCAT0045",
+      "name": "Casual"
+    },
+    {
+      "id": "SUBCAT0034",
+      "name": "Wallets & Purses"
+    }
+  ],
+  "price_range": 3,
+  "url": "https://directory.goodonyou.eco/brand/carhartt"
+}

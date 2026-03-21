@@ -1,0 +1,16 @@
+{
+  "brand": "Fashion Nova",
+  "slug": "fashion-nova",
+  "cbp_data_available": true,
+  "forced_labor_flags": [
+    {
+      "concern": "US DOL found LA factories underpaying workers",
+      "severity": "high",
+      "source": "US Department of Labor investigation"
+    }
+  ],
+  "wro_exposure": [],
+  "overall_risk": "high",
+  "data_source": "cbp_wro_public_data",
+  "last_updated": "2026-03-21"
+}

@@ -1,0 +1,113 @@
+{
+  "brand": "Eileen Fisher",
+  "slug": "eileen-fisher",
+  "goy_slug": "eileen-fisher",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:17.481138",
+  "name": "Eileen Fisher",
+  "overall_rating": 2,
+  "rating_label": "Not good enough",
+  "people_rating": 7.14,
+  "planet_rating": 13.86,
+  "animal_rating": 4.1,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0015",
+      "name": "Skirts"
+    },
+    {
+      "id": "SUBCAT0004",
+      "name": "Denim"
+    },
+    {
+      "id": "SUBCAT0037",
+      "name": "Gloves"
+    },
+    {
+      "id": "SUBCAT0041",
+      "name": "Hats"
+    },
+    {
+      "id": "SUBCAT0039",
+      "name": "Scarves"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0027",
+      "name": "Coats"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0025",
+      "name": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": "SUBCAT0048",
+      "name": "Heels"
+    },
+    {
+      "id": "SUBCAT0038",
+      "name": "Belts"
+    },
+    {
+      "id": "SUBCAT0021",
+      "name": "Sleepwear"
+    },
+    {
+      "id": "SUBCAT0010",
+      "name": "Tops & Blouses"
+    },
+    {
+      "id": "SUBCAT0020",
+      "name": "Socks"
+    },
+    {
+      "id": "SUBCAT0019",
+      "name": "Stockings & Tights"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    },
+    {
+      "id": "SUBCAT0050",
+      "name": "Boots"
+    },
+    {
+      "id": "SUBCAT0051",
+      "name": "Sandals"
+    },
+    {
+      "id": "SUBCAT0049",
+      "name": "Sneakers"
+    },
+    {
+      "id": "SUBCAT0035",
+      "name": "Handbags"
+    },
+    {
+      "id": "SUBCAT0047",
+      "name": "Flats"
+    },
+    {
+      "id": "SUBCAT0032",
+      "name": "Satchels & Totes"
+    }
+  ],
+  "price_range": 3,
+  "url": "https://directory.goodonyou.eco/brand/eileen-fisher"
+}

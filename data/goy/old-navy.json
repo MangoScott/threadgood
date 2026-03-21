@@ -1,0 +1,93 @@
+{
+  "brand": "Old Navy",
+  "slug": "old-navy",
+  "goy_slug": "old-navy",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:54:33.781858",
+  "name": "Old Navy",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 10.89,
+  "planet_rating": 9.57,
+  "animal_rating": 10.95,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0015",
+      "name": "Skirts"
+    },
+    {
+      "id": "SUBCAT0004",
+      "name": "Denim"
+    },
+    {
+      "id": "SUBCAT0023",
+      "name": "Sweaters"
+    },
+    {
+      "id": "SUBCAT0046",
+      "name": "Slippers & Comfort"
+    },
+    {
+      "id": "SUBCAT0022",
+      "name": "Swimwear"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0048",
+      "name": "Heels"
+    },
+    {
+      "id": "SUBCAT0001",
+      "name": "Activewear"
+    },
+    {
+      "id": "SUBCAT0021",
+      "name": "Sleepwear"
+    },
+    {
+      "id": "SUBCAT0010",
+      "name": "Tops & Blouses"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "SUBCAT0019",
+      "name": "Stockings & Tights"
+    },
+    {
+      "id": "SUBCAT0017",
+      "name": "Underwear"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    },
+    {
+      "id": "SUBCAT0051",
+      "name": "Sandals"
+    },
+    {
+      "id": "SUBCAT0047",
+      "name": "Flats"
+    }
+  ],
+  "price_range": 1,
+  "url": "https://directory.goodonyou.eco/brand/old-navy"
+}

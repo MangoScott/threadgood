@@ -1,0 +1,34 @@
+{
+  "brand": "ThredUp",
+  "slug": "thredup",
+  "certs_data_available": true,
+  "certifications": {
+    "b_corp": {
+      "certified": true,
+      "since": 2021
+    },
+    "fair_trade": {
+      "certified": false
+    },
+    "bluesign": {
+      "certified": false
+    },
+    "gots": {
+      "certified": false
+    }
+  },
+  "active_certs": [
+    {
+      "name": "B Corporation",
+      "key": "b_corp",
+      "points": 15,
+      "details": {
+        "certified": true,
+        "since": 2021
+      }
+    }
+  ],
+  "cert_score": 15,
+  "last_updated": "2026-03-21",
+  "data_source": "curated_certification_directories"
+}

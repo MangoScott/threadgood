@@ -1,0 +1,45 @@
+{
+  "brand": "Levi's",
+  "slug": "levis",
+  "goy_slug": "levis",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:54:40.899332",
+  "name": "Levi's",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 9.52,
+  "planet_rating": 12.23,
+  "animal_rating": 12.9,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0004",
+      "name": "Denim"
+    },
+    {
+      "id": "SUBCAT0023",
+      "name": "Sweaters"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0025",
+      "name": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/levis"
+}

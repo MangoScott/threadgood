@@ -1,0 +1,54 @@
+{
+  "brand": "Walmart (Wonder Nation)",
+  "slug": "walmart-wonder-nation",
+  "goy_slug": "walmart",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:54:57.980166",
+  "name": "Walmart",
+  "overall_rating": 2,
+  "rating_label": "Not good enough",
+  "people_rating": 4.19,
+  "planet_rating": 7.43,
+  "animal_rating": 8.6,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0024",
+      "name": "Knitwear"
+    },
+    {
+      "id": "SUBCAT0001",
+      "name": "Activewear"
+    },
+    {
+      "id": "SUBCAT0029",
+      "name": "Maternity"
+    },
+    {
+      "id": "SUBCAT0010",
+      "name": "Tops & Blouses"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "SUBCAT0030",
+      "name": "Plus Size"
+    }
+  ],
+  "price_range": 1,
+  "url": "https://directory.goodonyou.eco/brand/walmart",
+  "note": "Rating from parent brand (walmart)"
+}

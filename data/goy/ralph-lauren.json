@@ -1,0 +1,45 @@
+{
+  "brand": "Ralph Lauren",
+  "slug": "ralph-lauren",
+  "goy_slug": "ralph-lauren",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:24.083655",
+  "name": "Ralph Lauren",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 11.54,
+  "planet_rating": 10.49,
+  "animal_rating": 6.3,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0023",
+      "name": "Sweaters"
+    },
+    {
+      "id": "SUBCAT0012",
+      "name": "Polos"
+    },
+    {
+      "id": "SUBCAT0027",
+      "name": "Coats"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0025",
+      "name": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/ralph-lauren"
+}

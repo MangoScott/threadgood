@@ -1,0 +1,16 @@
+{
+  "brand": "Boohoo",
+  "slug": "boohoo",
+  "cbp_data_available": true,
+  "forced_labor_flags": [
+    {
+      "concern": "Leicester factory labor exploitation investigation",
+      "severity": "high",
+      "source": "UK government investigation, public reporting"
+    }
+  ],
+  "wro_exposure": [],
+  "overall_risk": "high",
+  "data_source": "cbp_wro_public_data",
+  "last_updated": "2026-03-21"
+}

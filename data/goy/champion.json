@@ -1,0 +1,42 @@
+{
+  "brand": "Champion",
+  "slug": "champion",
+  "goy_slug": "champion",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:56:34.186537",
+  "name": "Champion",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 7.62,
+  "planet_rating": 9.42,
+  "animal_rating": 14.2,
+  "categories": [
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0025",
+      "name": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": "SUBCAT0001",
+      "name": "Activewear"
+    },
+    {
+      "id": "SUBCAT0020",
+      "name": "Socks"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    },
+    {
+      "id": "SUBCAT0030",
+      "name": "Plus Size",
+      "isDominant": null
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/champion"
+}

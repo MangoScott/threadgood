@@ -1,0 +1,34 @@
+{
+  "brand": "Madewell",
+  "slug": "madewell",
+  "certs_data_available": true,
+  "certifications": {
+    "b_corp": {
+      "certified": false
+    },
+    "fair_trade": {
+      "certified": true,
+      "program": "Fair Trade Certified denim"
+    },
+    "bluesign": {
+      "certified": false
+    },
+    "gots": {
+      "certified": false
+    }
+  },
+  "active_certs": [
+    {
+      "name": "Fair Trade Certified",
+      "key": "fair_trade",
+      "points": 12,
+      "details": {
+        "certified": true,
+        "program": "Fair Trade Certified denim"
+      }
+    }
+  ],
+  "cert_score": 12,
+  "last_updated": "2026-03-21",
+  "data_source": "curated_certification_directories"
+}

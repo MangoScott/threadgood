@@ -1,0 +1,45 @@
+{
+  "brand": "Under Armour",
+  "slug": "under-armour",
+  "goy_slug": "under-armour",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:30.974067",
+  "name": "Under Armour",
+  "overall_rating": 2,
+  "rating_label": "Not good enough",
+  "people_rating": 8.8,
+  "planet_rating": 5.3,
+  "animal_rating": 10.2,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0010",
+      "name": "Tops & Blouses"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "SUBCAT0019",
+      "name": "Stockings & Tights"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    }
+  ],
+  "price_range": 3,
+  "url": "https://directory.goodonyou.eco/brand/under-armour"
+}

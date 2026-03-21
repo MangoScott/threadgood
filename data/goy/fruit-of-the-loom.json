@@ -1,0 +1,37 @@
+{
+  "brand": "Fruit of the Loom",
+  "slug": "fruit-of-the-loom",
+  "goy_slug": "fruit-of-the-loom",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:56:29.854166",
+  "name": "Fruit of the Loom",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 11.21,
+  "planet_rating": 10.64,
+  "animal_rating": 16.8,
+  "categories": [
+    {
+      "id": "SUBCAT0046",
+      "name": "Slippers & Comfort"
+    },
+    {
+      "id": "SUBCAT0021",
+      "name": "Sleepwear"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "SUBCAT0020",
+      "name": "Socks"
+    },
+    {
+      "id": "SUBCAT0017",
+      "name": "Underwear"
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/fruit-of-the-loom"
+}

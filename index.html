@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
     <style>
         :root {
             --forest: #1a3a2a;
@@ -963,6 +964,7 @@
     </a>
     <ul class="nav-links">
         <li><a href="#how-it-works">How It Works</a></li>
+        <li><a href="#directory">Directory</a></li>
         <li><a href="#dimensions">Dimensions</a></li>
         <li><a href="#budget">Budget</a></li>
         <li><a href="#data">Data</a></li>
@@ -1128,6 +1130,59 @@
             </div>
         </div>
         <p style="font-size: 0.95rem; color: var(--text-light); max-width: 520px; margin: 0 auto;">No 5-point scales. No confusing indices. The same letter grades you've known since school, backed by data from 8+ federal databases.</p>
+    </div>
+</section>
+
+<!-- DIRECTORY -->
+<section id="directory" class="directory-section">
+    <div class="section-inner" style="max-width: 1200px;">
+        <span class="section-tag">Search & Explore</span>
+        <h2 class="section-title">The Brand Directory</h2>
+        
+        <div class="directory-controls fade-up">
+            <div class="search-wrap">
+                <input type="text" id="brand-search" placeholder="Search brands (e.g., Patagonia, H&M)...">
+            </div>
+            
+            <div class="filters-wrap">
+                <select id="filter-grade" class="filter-select">
+                    <option value="all">All Grades</option>
+                    <option value="A">A - Leading</option>
+                    <option value="B">B - Good</option>
+                    <option value="C">C - Getting Started</option>
+                    <option value="D">D - Needs Work</option>
+                    <option value="F">F - Failing</option>
+                </select>
+                
+                <select id="filter-price" class="filter-select">
+                    <option value="all">All Prices</option>
+                    <option value="$">$ (Under $25)</option>
+                    <option value="$$">$$ ($25-$75)</option>
+                    <option value="$$$">$$$ ($75-$150)</option>
+                    <option value="$$$$">$$$$ ($150+)</option>
+                </select>
+                
+                <select id="filter-sort" class="filter-select">
+                    <option value="default">Default</option>
+                    <option value="score-desc">Highest Score</option>
+                    <option value="score-asc">Lowest Score</option>
+                    <option value="name-asc">Name (A-Z)</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="loading-indicator" class="loading-state">
+            <p>Loading brand data...</p>
+        </div>
+
+        <div id="brands-grid" class="brands-grid">
+            <!-- Brand cards injected here by JS -->
+        </div>
+
+        <div id="empty-state" class="empty-state" style="display: none;">
+            <h3>No brands match your filters.</h3>
+            <button id="clear-filters" class="btn-secondary" style="margin-top: 1rem;">Clear Filters</button>
+        </div>
     </div>
 </section>
 
@@ -1310,6 +1365,7 @@ function handleSubmit(e) {
     document.getElementById('form-success').style.display = 'block';
 }
 </script>
+<script src="js/app.js"></script>
 
 </body>
 </html>

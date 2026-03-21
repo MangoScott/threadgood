@@ -1,0 +1,22 @@
+{
+  "brand": "Uniqlo",
+  "slug": "uniqlo",
+  "cbp_data_available": true,
+  "forced_labor_flags": [
+    {
+      "concern": "CBP detained Uniqlo shirts under UFLPA",
+      "severity": "medium",
+      "source": "CBP enforcement records, public reporting"
+    }
+  ],
+  "wro_exposure": [
+    {
+      "wro": "UFLPA / Xinjiang Cotton Ban",
+      "relevance": "Brand category suggests cotton sourcing",
+      "risk_level": "monitor"
+    }
+  ],
+  "overall_risk": "medium",
+  "data_source": "cbp_wro_public_data",
+  "last_updated": "2026-03-21"
+}

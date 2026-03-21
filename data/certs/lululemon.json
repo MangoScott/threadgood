@@ -1,0 +1,42 @@
+{
+  "brand": "Lululemon",
+  "slug": "lululemon",
+  "certs_data_available": true,
+  "certifications": {
+    "b_corp": {
+      "certified": false
+    },
+    "fair_trade": {
+      "certified": true,
+      "program": "Fair Trade Certified sewing"
+    },
+    "bluesign": {
+      "certified": true
+    },
+    "gots": {
+      "certified": false
+    }
+  },
+  "active_certs": [
+    {
+      "name": "Fair Trade Certified",
+      "key": "fair_trade",
+      "points": 12,
+      "details": {
+        "certified": true,
+        "program": "Fair Trade Certified sewing"
+      }
+    },
+    {
+      "name": "Bluesign Partner",
+      "key": "bluesign",
+      "points": 8,
+      "details": {
+        "certified": true
+      }
+    }
+  ],
+  "cert_score": 20,
+  "last_updated": "2026-03-21",
+  "data_source": "curated_certification_directories"
+}

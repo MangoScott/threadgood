@@ -1,0 +1,137 @@
+{
+  "brand": "Tommy Hilfiger",
+  "slug": "tommy-hilfiger",
+  "goy_slug": "tommy-hilfiger",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:26.242075",
+  "name": "Tommy Hilfiger",
+  "overall_rating": 3,
+  "rating_label": "It's a start",
+  "people_rating": 11.24,
+  "planet_rating": 12.03,
+  "animal_rating": 10.75,
+  "categories": [
+    {
+      "id": "SUBCAT0011",
+      "name": "Shirts"
+    },
+    {
+      "id": "SUBCAT0015",
+      "name": "Skirts"
+    },
+    {
+      "id": "SUBCAT0004",
+      "name": "Denim"
+    },
+    {
+      "id": "SUBCAT0023",
+      "name": "Sweaters"
+    },
+    {
+      "id": "SUBCAT0040",
+      "name": "Eyewear"
+    },
+    {
+      "id": "SUBCAT0041",
+      "name": "Hats"
+    },
+    {
+      "id": "SUBCAT0033",
+      "name": "Luggage"
+    },
+    {
+      "id": "SUBCAT0022",
+      "name": "Swimwear"
+    },
+    {
+      "id": "SUBCAT0012",
+      "name": "Polos"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0027",
+      "name": "Coats"
+    },
+    {
+      "id": "SUBCAT0026",
+      "name": "Jackets & Blazers"
+    },
+    {
+      "id": "SUBCAT0025",
+      "name": "Hoodies & Sweatshirts"
+    },
+    {
+      "id": "SUBCAT0038",
+      "name": "Belts"
+    },
+    {
+      "id": "SUBCAT0021",
+      "name": "Sleepwear"
+    },
+    {
+      "id": "SUBCAT0010",
+      "name": "Tops & Blouses"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "SUBCAT0020",
+      "name": "Socks"
+    },
+    {
+      "id": "SUBCAT0017",
+      "name": "Underwear"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    },
+    {
+      "id": "SUBCAT0051",
+      "name": "Sandals"
+    },
+    {
+      "id": "SUBCAT0049",
+      "name": "Sneakers"
+    },
+    {
+      "id": "SUBCAT0043",
+      "name": "Jewellery"
+    },
+    {
+      "id": "SUBCAT0035",
+      "name": "Handbags"
+    },
+    {
+      "id": "SUBCAT0016",
+      "name": "Bodysuits"
+    },
+    {
+      "id": "SUBCAT0047",
+      "name": "Flats"
+    },
+    {
+      "id": "SUBCAT0036",
+      "name": "Ties"
+    },
+    {
+      "id": "SUBCAT0032",
+      "name": "Satchels & Totes"
+    },
+    {
+      "id": "SUBCAT0034",
+      "name": "Wallets & Purses"
+    }
+  ],
+  "price_range": 4,
+  "url": "https://directory.goodonyou.eco/brand/tommy-hilfiger"
+}

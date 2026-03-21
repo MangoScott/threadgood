@@ -1,0 +1,37 @@
+{
+  "brand": "ASOS",
+  "slug": "asos",
+  "goy_slug": "asos",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:59.191712",
+  "name": "ASOS",
+  "overall_rating": 2,
+  "rating_label": "Not good enough",
+  "people_rating": 7.99,
+  "planet_rating": 7.81,
+  "animal_rating": 6.1,
+  "categories": [
+    {
+      "id": "SUBCAT0042",
+      "name": "Hair Accessories"
+    },
+    {
+      "id": "SUBCAT0001",
+      "name": "Activewear"
+    },
+    {
+      "id": "SUBCAT0009",
+      "name": "T-Shirts"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0010",
+      "name": "Tops & Blouses"
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/asos"
+}

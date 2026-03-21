@@ -1,0 +1,45 @@
+{
+  "brand": "Anthropologie",
+  "slug": "anthropologie",
+  "goy_slug": "anthropologie",
+  "goy_data_available": true,
+  "scraped_at": "2026-03-21T18:55:54.836089",
+  "name": "Anthropologie",
+  "overall_rating": 2,
+  "rating_label": "Not good enough",
+  "people_rating": 2.13,
+  "planet_rating": 7.45,
+  "animal_rating": 6.3,
+  "categories": [
+    {
+      "id": "SUBCAT0015",
+      "name": "Skirts"
+    },
+    {
+      "id": "SUBCAT0005",
+      "name": "Dresses"
+    },
+    {
+      "id": "SUBCAT0013",
+      "name": "Pants"
+    },
+    {
+      "id": "SUBCAT0021",
+      "name": "Sleepwear"
+    },
+    {
+      "id": "SUBCAT0014",
+      "name": "Shorts"
+    },
+    {
+      "id": "SUBCAT0006",
+      "name": "Jumpsuits & Playsuits"
+    },
+    {
+      "id": "SUBCAT0030",
+      "name": "Plus Size"
+    }
+  ],
+  "price_range": 2,
+  "url": "https://directory.goodonyou.eco/brand/anthropologie"
+}
