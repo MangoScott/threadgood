@@ -1759,6 +1759,51 @@
       ]
     },
     {
+      "name": "Rothy's",
+      "slug": "rothys",
+      "parent": "Rothy's Inc.",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
+        "accessories"
+      ],
+      "grade": "C",
+      "overall_score": 58.9,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "FTI transparency score: 65.0%",
+        "Active living wage program"
+      ],
+      "concerns": [
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "sustainability_report",
+        "fti"
+      ]
+    },
+    {
       "name": "Old Navy",
       "slug": "old-navy",
       "parent": "Gap Inc.",
@@ -3291,18 +3336,18 @@
     }
   ],
   "metadata": {
-    "total_brands": 73,
+    "total_brands": 74,
     "methodology_version": "1.0",
     "last_build": "2026-03-21",
     "grade_distribution": {
       "A": 1,
       "B": 7,
-      "C": 56,
+      "C": 57,
       "D": 6,
       "F": 3
     },
     "price_tier_counts": {
-      "$$$": 25,
+      "$$$": 26,
       "$$$$": 7,
       "$$": 23,
       "$": 18

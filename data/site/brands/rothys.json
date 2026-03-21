@@ -1,116 +1,100 @@
 {
-  "name": "On Running",
-  "slug": "on-running",
-  "parent": "On Holding AG",
+  "name": "Rothy's",
+  "slug": "rothys",
+  "parent": "Rothy's Inc.",
   "price_tier": "$$$",
   "categories": [
     "shoes",
-    "activewear"
+    "accessories"
   ],
-  "overall_score": 60.4,
+  "overall_score": 58.9,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 23,
+    "indicators_with_data": 18,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 92.0
+    "data_coverage_pct": 72.0
   },
   "dimensions": {
     "planet": {
-      "score": 70.2,
-      "grade": "B",
+      "score": 57.6,
+      "grade": "C",
       "highlights": [
-        "Design for disassembly approach",
         "Sustainable packaging initiatives",
-        "Certifications: Bluesign",
         "Garment take-back/recycling program",
         "Publishes full supplier/factory list",
         "Circularity goals with timeline",
-        "Microplastics mitigation program",
+        "100% sustainable/certified materials",
         "Chemical management policy in place",
-        "Durability/longevity commitment",
-        "FTI transparency score: 52.0%"
+        "FTI transparency score: 65.0%",
+        "Durability/longevity commitment"
       ],
       "concerns": [
         "No resale/repair program"
       ]
     },
     "people": {
-      "score": 42.0,
+      "score": 45.0,
       "grade": "D",
       "highlights": [
         "Active living wage program",
-        "No CBP forced labor flags"
+        "Audit results publicly disclosed"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 80,
+      "score": 100,
       "grade": "A",
       "highlights": [
-        "Microplastics policy (Marine life protection)"
+        "Animal welfare policies/certs: Vegan"
       ],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "concerns": []
     }
   },
   "red_flags": [],
   "highlights": [
     "Publishes full supplier/factory list",
-    "FTI transparency score: 52.0%",
+    "FTI transparency score: 65.0%",
     "Active living wage program",
-    "No CBP forced labor flags",
-    "Certifications: Bluesign"
+    "Audit results publicly disclosed",
+    "100% sustainable/certified materials"
   ],
   "concerns": [
     "No resale/repair program"
   ],
   "data_sources": [
-    "osha",
     "sustainability_report",
-    "fti",
-    "cbp_forced_labor"
+    "fti"
   ],
   "methodology_version": "1.0",
   "last_updated": "2026-03-21",
   "source_data": {
-    "osha": {
-      "total_inspections": 0,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": null,
-      "states": []
-    },
     "sustainability_report": {
-      "report_file": "on_impact_report_2022.pdf",
-      "parsed_at": "2026-03-21T19:33:00.000000",
+      "report_file": "rothys_sustainability_2023.pdf",
+      "parsed_at": "2026-03-21T19:51:11.575955",
       "where": {
         "factory_list_published": "yes",
         "supply_chain_tiers_disclosed": "2",
-        "oar_participation": "yes",
+        "oar_participation": "no",
         "sourcing_countries": [
-          "Vietnam",
-          "Indonesia",
           "China",
-          "Europe"
+          "USA"
         ]
       },
       "who": {
         "living_wage_status": "active_program",
         "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "partial",
+        "audit_results_disclosed": "yes",
         "freedom_of_association": "yes"
       },
       "what": {
-        "sustainable_materials_percentage": "30%",
+        "sustainable_materials_percentage": "100%",
         "certifications_mentioned": [
-          "Bluesign"
+          "Vegan"
         ],
         "chemical_management_policy": "yes",
-        "microplastics_mitigation": "yes",
+        "microplastics_mitigation": "no",
         "durability_commitment": "yes"
       },
       "after": {
@@ -118,18 +102,14 @@
         "resale_repair_program": "no",
         "packaging_sustainability": "yes",
         "circularity_goals": "yes",
-        "design_for_disassembly": "yes"
+        "design_for_disassembly": "no"
       },
       "targets": [],
       "certifications": [],
-      "greenwashing_score": {
-        "score": 4,
-        "reasoning": "Contains significant numerical data and metrics.",
-        "specific_claims_to_verify": []
-      }
+      "greenwashing_score": {}
     },
     "fti": {
-      "transparency_score": 52.0,
+      "transparency_score": 65.0,
       "rank": null,
       "section_scores": {}
     }

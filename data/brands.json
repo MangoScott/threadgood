@@ -1078,6 +1078,16 @@
         "shoes",
         "activewear"
       ]
+    },
+    {
+      "name": "Rothy's",
+      "slug": "rothys",
+      "price_tier": "$$$",
+      "parent": "Rothy's Inc.",
+      "categories": [
+        "shoes",
+        "accessories"
+      ]
     }
   ],
   "metadata": {
