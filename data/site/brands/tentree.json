@@ -7,19 +7,19 @@
     "basics",
     "outdoor"
   ],
-  "overall_score": 13.7,
+  "overall_score": 30.7,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 5,
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 20.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -32,21 +32,20 @@
         "No CBP forced labor flags"
       ],
       "concerns": [],
-      "indicators_with_data": 3
-    },
-    "what": {
-      "score": 13.8,
-      "grade": "F",
-      "highlights": [
-        "Verified certifications: B Corporation, Bluesign Partner",
-        "Good On You planet rating: 4.8/5"
-      ],
-      "concerns": [],
       "indicators_with_data": 2
     },
-    "after": {
-      "score": 10,
+    "what": {
+      "score": 5.8,
       "grade": "F",
+      "highlights": [
+        "Verified certifications: B Corporation, Bluesign Partner"
+      ],
+      "concerns": [],
+      "indicators_with_data": 1
+    },
+    "after": {
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -56,14 +55,12 @@
   "highlights": [
     "Clean OSHA safety record",
     "No CBP forced labor flags",
-    "Verified certifications: B Corporation, Bluesign Partner",
-    "Good On You planet rating: 4.8/5"
+    "Verified certifications: B Corporation, Bluesign Partner"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
     "cbp_forced_labor",
-    "good_on_you",
     "certifications"
   ],
   "methodology_version": "1.0",

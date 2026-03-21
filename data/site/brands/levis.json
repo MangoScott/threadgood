@@ -7,19 +7,19 @@
     "denim",
     "basics"
   ],
-  "overall_score": 10.6,
+  "overall_score": 29.6,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 5,
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 20.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -32,7 +32,7 @@
         "No CBP forced labor flags"
       ],
       "concerns": [],
-      "indicators_with_data": 3
+      "indicators_with_data": 2
     },
     "what": {
       "score": 1.5,
@@ -41,11 +41,11 @@
         "Verified certifications: OEKO-TEX Certified"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 1
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -61,7 +61,6 @@
   "data_sources": [
     "osha",
     "cbp_forced_labor",
-    "good_on_you",
     "certifications"
   ],
   "methodology_version": "1.0",

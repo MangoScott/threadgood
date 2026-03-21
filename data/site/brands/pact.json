@@ -8,47 +8,45 @@
     "underwear",
     "organic"
   ],
-  "overall_score": 16.6,
+  "overall_score": 30.6,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 5,
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 20.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
     },
     "who": {
-      "score": 25.0,
+      "score": 15.0,
       "grade": "F",
       "highlights": [
         "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Good On You people rating: 4.2/5"
-      ],
-      "concerns": [],
-      "indicators_with_data": 3
-    },
-    "what": {
-      "score": 13.5,
-      "grade": "F",
-      "highlights": [
-        "Verified certifications: Fair Trade Certified, GOTS Certified",
-        "Good On You planet rating: 4.0/5"
+        "No CBP forced labor flags"
       ],
       "concerns": [],
       "indicators_with_data": 2
     },
-    "after": {
-      "score": 10,
+    "what": {
+      "score": 5.5,
       "grade": "F",
+      "highlights": [
+        "Verified certifications: Fair Trade Certified, GOTS Certified"
+      ],
+      "concerns": [],
+      "indicators_with_data": 1
+    },
+    "after": {
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -58,15 +56,12 @@
   "highlights": [
     "Clean OSHA safety record",
     "No CBP forced labor flags",
-    "Good On You people rating: 4.2/5",
-    "Verified certifications: Fair Trade Certified, GOTS Certified",
-    "Good On You planet rating: 4.0/5"
+    "Verified certifications: Fair Trade Certified, GOTS Certified"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
     "cbp_forced_labor",
-    "good_on_you",
     "certifications"
   ],
   "methodology_version": "1.0",

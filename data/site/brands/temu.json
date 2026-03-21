@@ -7,19 +7,19 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 5.8,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 38.5,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 4,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 16.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -31,23 +31,20 @@
         "Clean OSHA safety record"
       ],
       "concerns": [
-        "Labor risk: UFLPA enforcement - de minimis shipment scrutiny",
-        "Low Good On You people rating: 0.0/5"
+        "Labor risk: UFLPA enforcement - de minimis shipment scrutiny"
       ],
-      "indicators_with_data": 3
+      "indicators_with_data": 2
     },
     "what": {
-      "score": 0.0,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
-      "concerns": [
-        "Low Good On You planet rating: 0.0/5"
-      ],
-      "indicators_with_data": 1
+      "concerns": [],
+      "indicators_with_data": 0
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -64,14 +61,11 @@
     "Clean OSHA safety record"
   ],
   "concerns": [
-    "Labor risk: UFLPA enforcement - de minimis shipment scrutiny",
-    "Low Good On You people rating: 0.0/5",
-    "Low Good On You planet rating: 0.0/5"
+    "Labor risk: UFLPA enforcement - de minimis shipment scrutiny"
   ],
   "data_sources": [
     "osha",
-    "cbp_forced_labor",
-    "good_on_you"
+    "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
   "last_updated": "2026-03-21",

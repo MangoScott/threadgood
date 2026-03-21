@@ -7,45 +7,43 @@
     "underwear",
     "activewear"
   ],
-  "overall_score": 7.2,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 43.0,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 4,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 16.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
     },
     "who": {
-      "score": 5.0,
+      "score": 15.0,
       "grade": "F",
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [
-        "Low Good On You people rating: 1.1/5"
-      ],
-      "indicators_with_data": 3
+      "concerns": [],
+      "indicators_with_data": 2
     },
     "what": {
-      "score": 0.0,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
-      "indicators_with_data": 1
+      "indicators_with_data": 0
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -56,13 +54,10 @@
     "Clean OSHA safety record",
     "No CBP forced labor flags"
   ],
-  "concerns": [
-    "Low Good On You people rating: 1.1/5"
-  ],
+  "concerns": [],
   "data_sources": [
     "osha",
-    "cbp_forced_labor",
-    "good_on_you"
+    "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
   "last_updated": "2026-03-21",

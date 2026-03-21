@@ -7,7 +7,7 @@
     "resale",
     "secondhand"
   ],
-  "overall_score": 8.2,
+  "overall_score": 27.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -18,8 +18,8 @@
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -43,8 +43,8 @@
       "indicators_with_data": 1
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0

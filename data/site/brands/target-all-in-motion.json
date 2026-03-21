@@ -7,9 +7,9 @@
     "activewear",
     "budget"
   ],
-  "overall_score": 14.0,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 43.0,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "low",
     "indicators_with_data": 2,
@@ -18,8 +18,8 @@
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -35,15 +35,15 @@
       "indicators_with_data": 2
     },
     "what": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0

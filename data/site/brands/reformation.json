@@ -7,19 +7,19 @@
     "womenswear",
     "dresses"
   ],
-  "overall_score": 10.4,
+  "overall_score": 27.4,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 4,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 16.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -31,21 +31,20 @@
         "No CBP forced labor flags"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 1
     },
     "what": {
-      "score": 12.5,
+      "score": 4.5,
       "grade": "F",
       "highlights": [
-        "Verified certifications: GOTS Certified, Climate Neutral Certified",
-        "Good On You planet rating: 4.0/5"
+        "Verified certifications: GOTS Certified, Climate Neutral Certified"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 1
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -54,14 +53,12 @@
   "red_flags": [],
   "highlights": [
     "No CBP forced labor flags",
-    "Verified certifications: GOTS Certified, Climate Neutral Certified",
-    "Good On You planet rating: 4.0/5"
+    "Verified certifications: GOTS Certified, Climate Neutral Certified"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
     "cbp_forced_labor",
-    "good_on_you",
     "certifications"
   ],
   "methodology_version": "1.0",

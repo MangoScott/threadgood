@@ -8,7 +8,7 @@
     "fast-fashion",
     "essentials"
   ],
-  "overall_score": 10.5,
+  "overall_score": 29.5,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -19,8 +19,8 @@
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -44,8 +44,8 @@
       "indicators_with_data": 1
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0

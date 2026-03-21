@@ -7,19 +7,19 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 6.2,
+  "overall_score": 25.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 4,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 16.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -29,7 +29,7 @@
       "grade": "F",
       "highlights": [],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 1
     },
     "what": {
       "score": 2.0,
@@ -38,11 +38,11 @@
         "Verified certifications: Bluesign Partner"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 1
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -56,7 +56,6 @@
   "data_sources": [
     "osha",
     "cbp_forced_labor",
-    "good_on_you",
     "certifications"
   ],
   "methodology_version": "1.0",

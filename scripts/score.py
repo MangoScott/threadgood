@@ -51,10 +51,10 @@ WEIGHTS = {
 
 # Default scores when no data is available
 DEFAULT_SCORES = {
-    "where": 15,
-    "who": 15,
-    "what": 15,
-    "after": 10,
+    "where": 55,
+    "who": 55,
+    "what": 55,
+    "after": 55,
 }
 
 logging.basicConfig(
@@ -655,8 +655,6 @@ def score_brand(brand: dict) -> dict:
         sources.append("ktc")
     if data["cbp"] and data["cbp"].get("cbp_data_available"):
         sources.append("cbp_forced_labor")
-    if data["goy"] and data["goy"].get("goy_data_available"):
-        sources.append("good_on_you")
     if data["certs"] and data["certs"].get("certs_data_available"):
         sources.append("certifications")
     

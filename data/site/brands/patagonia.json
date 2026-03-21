@@ -7,19 +7,19 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 11.4,
+  "overall_score": 28.4,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 4,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 16.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -31,21 +31,20 @@
         "No CBP forced labor flags"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 1
     },
     "what": {
-      "score": 16.8,
+      "score": 8.8,
       "grade": "F",
       "highlights": [
-        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
-        "Good On You planet rating: 4.2/5"
+        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner"
       ],
       "concerns": [],
-      "indicators_with_data": 2
+      "indicators_with_data": 1
     },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -54,14 +53,12 @@
   "red_flags": [],
   "highlights": [
     "No CBP forced labor flags",
-    "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
-    "Good On You planet rating: 4.2/5"
+    "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner"
   ],
   "concerns": [],
   "data_sources": [
     "osha",
     "cbp_forced_labor",
-    "good_on_you",
     "certifications"
   ],
   "methodology_version": "1.0",

@@ -7,19 +7,19 @@
     "basics",
     "essentials"
   ],
-  "overall_score": 5.8,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 38.5,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 3,
+    "indicators_with_data": 1,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 12.0
+    "data_coverage_pct": 4.0
   },
   "dimensions": {
     "where": {
-      "score": 15,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -31,18 +31,18 @@
       "concerns": [
         "Labor risk: CBP detained Uniqlo shirts under UFLPA"
       ],
-      "indicators_with_data": 2
-    },
-    "what": {
-      "score": 0.0,
-      "grade": "F",
-      "highlights": [],
-      "concerns": [],
       "indicators_with_data": 1
     },
+    "what": {
+      "score": 55,
+      "grade": "C",
+      "highlights": [],
+      "concerns": [],
+      "indicators_with_data": 0
+    },
     "after": {
-      "score": 10,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [],
       "indicators_with_data": 0
@@ -61,8 +61,7 @@
   ],
   "data_sources": [
     "osha",
-    "cbp_forced_labor",
-    "good_on_you"
+    "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
   "last_updated": "2026-03-21",
