@@ -7,7 +7,7 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 71.7,
+  "overall_score": 79.9,
   "grade": "B",
   "grade_label": "Good Progress",
   "confidence": {
@@ -22,19 +22,19 @@
       "grade": "A",
       "highlights": [
         "Discloses 3+ supply chain tiers",
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Resale or repair program",
-        "Certifications: Bluesign",
-        "Microplastics mitigation program",
-        "Sustainable packaging initiatives",
-        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
-        "Design for disassembly approach",
-        "89% sustainable/certified materials",
         "Circularity goals with timeline",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Microplastics mitigation program",
         "FTI transparency score: 88.0%",
-        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner"
+        "89% sustainable/certified materials",
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Design for disassembly approach",
+        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
+        "Chemical management policy in place",
+        "Certifications: Bluesign"
       ],
       "concerns": []
     },
@@ -50,8 +50,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 25.0,
-      "grade": "F",
+      "score": 80,
+      "grade": "A",
       "highlights": [
         "Microplastics policy (Marine life protection)"
       ],

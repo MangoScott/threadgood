@@ -7,7 +7,7 @@
     "underwear",
     "basics"
   ],
-  "overall_score": 66.8,
+  "overall_score": 74.3,
   "grade": "B",
   "grade_label": "Good Progress",
   "confidence": {
@@ -21,16 +21,16 @@
       "score": 64.9,
       "grade": "C",
       "highlights": [
+        "FTI transparency score: 56.0%",
         "Discloses 3+ supply chain tiers",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "60% sustainable/certified materials",
         "Garment take-back/recycling program",
         "Chemical management policy in place",
-        "Sustainable packaging initiatives",
-        "Durability/longevity commitment",
-        "Certifications: RDS",
-        "Publishes full supplier/factory list",
-        "60% sustainable/certified materials",
-        "Circularity goals with timeline",
-        "FTI transparency score: 56.0%"
+        "Certifications: RDS"
       ],
       "concerns": [
         "No resale/repair program"
@@ -49,8 +49,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 50.0,
-      "grade": "C",
+      "score": 100,
+      "grade": "A",
       "highlights": [
         "Animal welfare policies/certs: RDS"
       ],

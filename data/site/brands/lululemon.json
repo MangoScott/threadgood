@@ -6,7 +6,7 @@
   "categories": [
     "activewear"
   ],
-  "overall_score": 54.2,
+  "overall_score": 62.4,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
@@ -20,17 +20,17 @@
       "score": 73.7,
       "grade": "B",
       "highlights": [
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
         "Certifications: Bluesign, OEKO-TEX",
-        "Verified certifications: Fair Trade Certified, Bluesign Partner",
-        "Durability/longevity commitment",
-        "60% sustainable/certified materials",
         "Publishes full supplier/factory list",
         "Circularity goals with timeline",
-        "FTI transparency score: 53.0%"
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "60% sustainable/certified materials",
+        "FTI transparency score: 53.0%",
+        "Resale or repair program",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Verified certifications: Fair Trade Certified, Bluesign Partner"
       ],
       "concerns": []
     },
@@ -44,8 +44,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

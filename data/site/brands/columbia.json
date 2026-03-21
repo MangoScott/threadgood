@@ -7,7 +7,7 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 40.4,
+  "overall_score": 47.9,
   "grade": "D",
   "grade_label": "Needs Work",
   "confidence": {
@@ -21,14 +21,14 @@
       "score": 34.7,
       "grade": "F",
       "highlights": [
-        "Certifications: Bluesign, RDS",
-        "Durability/longevity commitment",
+        "Chemical management policy in place",
         "Publishes full supplier/factory list",
-        "Chemical management policy in place"
+        "Durability/longevity commitment",
+        "Certifications: Bluesign, RDS"
       ],
       "concerns": [
-        "No take-back program",
-        "No resale/repair program"
+        "No resale/repair program",
+        "No take-back program"
       ]
     },
     "people": {
@@ -43,8 +43,8 @@
       ]
     },
     "animals": {
-      "score": 50.0,
-      "grade": "C",
+      "score": 100,
+      "grade": "A",
       "highlights": [
         "Animal welfare policies/certs: RDS"
       ],

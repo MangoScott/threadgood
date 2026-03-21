@@ -7,9 +7,9 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 61.7,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 69.2,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
     "level": "high",
     "indicators_with_data": 23,
@@ -21,17 +21,17 @@
       "score": 69.9,
       "grade": "B",
       "highlights": [
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Verified certifications: Bluesign Partner",
-        "Certifications: Bluesign",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Durability/longevity commitment",
-        "60% sustainable/certified materials",
         "Publishes full supplier/factory list",
         "Circularity goals with timeline",
-        "FTI transparency score: 53.0%"
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "60% sustainable/certified materials",
+        "Verified certifications: Bluesign Partner",
+        "FTI transparency score: 53.0%",
+        "Resale or repair program",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Certifications: Bluesign"
       ],
       "concerns": []
     },
@@ -46,8 +46,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 50.0,
-      "grade": "C",
+      "score": 100,
+      "grade": "A",
       "highlights": [
         "Animal welfare policies/certs: Responsible Down Standard"
       ],

@@ -8,9 +8,9 @@
     "basics",
     "luxury"
   ],
-  "overall_score": 46.3,
-  "grade": "D",
-  "grade_label": "Needs Work",
+  "overall_score": 54.6,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
     "indicators_with_data": 20,
@@ -22,15 +22,15 @@
       "score": 42.1,
       "grade": "D",
       "highlights": [
-        "Chemical management policy in place",
+        "Circularity goals with timeline",
+        "Publishes full supplier/factory list",
         "Sustainable packaging initiatives",
         "Durability/longevity commitment",
-        "Publishes full supplier/factory list",
-        "Circularity goals with timeline"
+        "Chemical management policy in place"
       ],
       "concerns": [
-        "No take-back program",
-        "No resale/repair program"
+        "No resale/repair program",
+        "No take-back program"
       ]
     },
     "people": {
@@ -44,8 +44,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

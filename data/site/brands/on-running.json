@@ -7,7 +7,7 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 52.2,
+  "overall_score": 60.4,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
@@ -21,16 +21,16 @@
       "score": 70.2,
       "grade": "B",
       "highlights": [
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Microplastics mitigation program",
-        "Certifications: Bluesign",
-        "Sustainable packaging initiatives",
-        "FTI transparency score: 52.0%",
-        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Microplastics mitigation program",
+        "FTI transparency score: 52.0%",
+        "Garment take-back/recycling program",
         "Design for disassembly approach",
-        "Circularity goals with timeline"
+        "Chemical management policy in place",
+        "Certifications: Bluesign"
       ],
       "concerns": [
         "No resale/repair program"
@@ -46,8 +46,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 25.0,
-      "grade": "F",
+      "score": 80,
+      "grade": "A",
       "highlights": [
         "Microplastics policy (Marine life protection)"
       ],

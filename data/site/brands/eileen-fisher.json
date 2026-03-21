@@ -7,9 +7,9 @@
     "womenswear",
     "workwear"
   ],
-  "overall_score": 58.4,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 66.7,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
     "level": "high",
     "indicators_with_data": 23,
@@ -21,18 +21,18 @@
       "score": 78.1,
       "grade": "B",
       "highlights": [
-        "Discloses 3+ supply chain tiers",
-        "Garment take-back/recycling program",
-        "Certifications: Bluesign, GOTS",
-        "Chemical management policy in place",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
         "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified",
-        "Durability/longevity commitment",
+        "Discloses 3+ supply chain tiers",
         "Publishes full supplier/factory list",
-        "Design for disassembly approach",
         "Circularity goals with timeline",
-        "95% sustainable/certified materials"
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "95% sustainable/certified materials",
+        "Resale or repair program",
+        "Garment take-back/recycling program",
+        "Design for disassembly approach",
+        "Chemical management policy in place",
+        "Certifications: Bluesign, GOTS"
       ],
       "concerns": [
         "Low FTI transparency score: 18.0%"
@@ -51,8 +51,8 @@
       ]
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

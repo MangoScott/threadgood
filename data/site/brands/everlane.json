@@ -7,9 +7,9 @@
     "basics",
     "workwear"
   ],
-  "overall_score": 49.3,
-  "grade": "D",
-  "grade_label": "Needs Work",
+  "overall_score": 57.6,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
     "indicators_with_data": 23,
@@ -21,15 +21,15 @@
       "score": 63.6,
       "grade": "C",
       "highlights": [
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Verified certifications: Bluesign Partner",
-        "Sustainable packaging initiatives",
-        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
         "Circularity goals with timeline",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Verified certifications: Bluesign Partner",
+        "Certifications: GOTS, OEKO-TEX",
+        "Garment take-back/recycling program",
         "90% sustainable/certified materials",
-        "Certifications: GOTS, OEKO-TEX"
+        "Chemical management policy in place"
       ],
       "concerns": [
         "No resale/repair program"
@@ -45,8 +45,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

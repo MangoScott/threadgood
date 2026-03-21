@@ -598,7 +598,7 @@ def calculate_confidence(total_indicators: int) -> dict:
 
 def score_animals(data: dict) -> tuple[float, list[str], list[str], int]:
     """Score the ANIMALS dimension."""
-    score = 0.0
+    score = DEFAULT_SCORES["animals"]
     highlights = []
     concerns = []
     indicators = 0

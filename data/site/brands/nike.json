@@ -8,9 +8,9 @@
     "activewear",
     "basics"
   ],
-  "overall_score": 47.4,
-  "grade": "D",
-  "grade_label": "Needs Work",
+  "overall_score": 55.6,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
     "indicators_with_data": 22,
@@ -22,13 +22,13 @@
       "score": 58.1,
       "grade": "C",
       "highlights": [
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Verified certifications: Bluesign Partner",
-        "Sustainable packaging initiatives",
-        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
         "Circularity goals with timeline",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Verified certifications: Bluesign Partner",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
         "FTI transparency score: 50.0%"
       ],
       "concerns": [
@@ -44,8 +44,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

@@ -7,9 +7,9 @@
     "basics",
     "workwear"
   ],
-  "overall_score": 73.0,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 80.5,
+  "grade": "A",
+  "grade_label": "Leading",
   "confidence": {
     "level": "high",
     "indicators_with_data": 23,
@@ -21,18 +21,18 @@
       "score": 78.6,
       "grade": "B",
       "highlights": [
+        "FTI transparency score: 56.0%",
         "Discloses 3+ supply chain tiers",
-        "65% sustainable/certified materials",
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Durability/longevity commitment",
-        "Certifications: RDS",
         "Publishes full supplier/factory list",
-        "Design for disassembly approach",
         "Circularity goals with timeline",
-        "FTI transparency score: 56.0%"
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Resale or repair program",
+        "Garment take-back/recycling program",
+        "Design for disassembly approach",
+        "Chemical management policy in place",
+        "Certifications: RDS",
+        "65% sustainable/certified materials"
       ],
       "concerns": []
     },
@@ -49,8 +49,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 50.0,
-      "grade": "C",
+      "score": 100,
+      "grade": "A",
       "highlights": [
         "Animal welfare policies/certs: RDS"
       ],

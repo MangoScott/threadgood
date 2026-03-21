@@ -7,7 +7,7 @@
     "fast-fashion",
     "basics"
   ],
-  "overall_score": 52.1,
+  "overall_score": 60.3,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
@@ -21,14 +21,14 @@
       "score": 58.4,
       "grade": "C",
       "highlights": [
-        "Publishes partial supplier list",
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
         "Certifications: OEKO-TEX",
+        "Circularity goals with timeline",
+        "Sustainable packaging initiatives",
         "60% sustainable/certified materials",
-        "Circularity goals with timeline"
+        "Resale or repair program",
+        "Garment take-back/recycling program",
+        "Publishes partial supplier list",
+        "Chemical management policy in place"
       ],
       "concerns": []
     },
@@ -42,8 +42,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

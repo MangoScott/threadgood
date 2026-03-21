@@ -7,7 +7,7 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 0.8,
+  "overall_score": 9.0,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
@@ -22,12 +22,12 @@
       "grade": "F",
       "highlights": [],
       "concerns": [
-        "Does not publish supplier list",
-        "No chemical management policy",
-        "No supply chain tier disclosure",
         "No resale/repair program",
         "Low FTI transparency score: 0.0%",
-        "No take-back program"
+        "No supply chain tier disclosure",
+        "No take-back program",
+        "Does not publish supplier list",
+        "No chemical management policy"
       ]
     },
     "people": {
@@ -45,8 +45,8 @@
       ]
     },
     "animals": {
-      "score": 0.0,
-      "grade": "F",
+      "score": 55,
+      "grade": "C",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

@@ -8,9 +8,9 @@
     "underwear",
     "organic"
   ],
-  "overall_score": 45.6,
-  "grade": "D",
-  "grade_label": "Needs Work",
+  "overall_score": 53.9,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
     "indicators_with_data": 22,
@@ -22,14 +22,14 @@
       "score": 42.1,
       "grade": "D",
       "highlights": [
-        "Publishes partial supplier list",
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Certifications: GOTS",
-        "Verified certifications: Fair Trade Certified, GOTS Certified",
-        "Sustainable packaging initiatives",
         "100% sustainable/certified materials",
-        "Durability/longevity commitment"
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Certifications: GOTS",
+        "Garment take-back/recycling program",
+        "Publishes partial supplier list",
+        "Chemical management policy in place",
+        "Verified certifications: Fair Trade Certified, GOTS Certified"
       ],
       "concerns": [
         "No resale/repair program",
@@ -50,8 +50,8 @@
       ]
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

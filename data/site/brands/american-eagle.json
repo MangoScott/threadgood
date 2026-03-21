@@ -7,9 +7,9 @@
     "denim",
     "basics"
   ],
-  "overall_score": 49.9,
-  "grade": "D",
-  "grade_label": "Needs Work",
+  "overall_score": 58.1,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
     "indicators_with_data": 20,
@@ -21,13 +21,13 @@
       "score": 60.8,
       "grade": "C",
       "highlights": [
-        "Garment take-back/recycling program",
-        "Chemical management policy in place",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
         "Circularity goals with timeline",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Resale or repair program",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
         "FTI transparency score: 50.0%"
       ],
       "concerns": []
@@ -42,8 +42,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

@@ -7,9 +7,9 @@
     "activewear",
     "shoes"
   ],
-  "overall_score": 58.7,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 67.0,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
     "level": "high",
     "indicators_with_data": 22,
@@ -21,17 +21,17 @@
       "score": 67.2,
       "grade": "B",
       "highlights": [
+        "FTI transparency score: 66.0%",
         "Discloses 3+ supply chain tiers",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Verified certifications: Bluesign Partner",
+        "70% sustainable/certified materials",
         "Garment take-back/recycling program",
         "Chemical management policy in place",
-        "Verified certifications: Bluesign Partner",
-        "FTI transparency score: 66.0%",
-        "Certifications: Bluesign",
-        "Sustainable packaging initiatives",
-        "70% sustainable/certified materials",
-        "Durability/longevity commitment",
-        "Publishes full supplier/factory list",
-        "Circularity goals with timeline"
+        "Certifications: Bluesign"
       ],
       "concerns": [
         "No resale/repair program"
@@ -49,8 +49,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"

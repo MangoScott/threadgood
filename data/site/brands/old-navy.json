@@ -8,7 +8,7 @@
     "essentials",
     "budget"
   ],
-  "overall_score": 50.5,
+  "overall_score": 58.8,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
@@ -22,16 +22,16 @@
       "score": 51.4,
       "grade": "C",
       "highlights": [
-        "Chemical management policy in place",
-        "Sustainable packaging initiatives",
-        "70% sustainable/certified materials",
-        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
-        "Circularity goals with timeline"
+        "Circularity goals with timeline",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "70% sustainable/certified materials",
+        "Chemical management policy in place"
       ],
       "concerns": [
-        "No take-back program",
-        "No resale/repair program"
+        "No resale/repair program",
+        "No take-back program"
       ]
     },
     "people": {
@@ -45,8 +45,8 @@
       "concerns": []
     },
     "animals": {
-      "score": 10.0,
-      "grade": "F",
+      "score": 65,
+      "grade": "B",
       "highlights": [],
       "concerns": [
         "No explicit animal welfare certifications found"
