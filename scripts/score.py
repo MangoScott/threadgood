@@ -38,7 +38,6 @@ REPORTS_DIR = DATA_DIR / "reports"
 FTI_DIR = DATA_DIR / "fti"
 KTC_DIR = DATA_DIR / "ktc"
 CBP_DIR = DATA_DIR / "cbp"
-GOY_DIR = DATA_DIR / "goy"
 CERTS_DIR = DATA_DIR / "certs"
 OUTPUT_DIR = DATA_DIR / "scores"
 
@@ -65,7 +64,6 @@ logging.basicConfig(
 )
 log = logging.getLogger("score")
 
-
 # ---------------------------------------------------------------------------
 # Data Loading
 # ---------------------------------------------------------------------------
@@ -73,7 +71,6 @@ log = logging.getLogger("score")
 def load_brands() -> list[dict]:
     with open(BRANDS_FILE) as f:
         return json.load(f)["brands"]
-
 
 def load_json(filepath: Path) -> dict | None:
     """Load a JSON file, return None if not found."""
@@ -85,7 +82,6 @@ def load_json(filepath: Path) -> dict | None:
             return None
     return None
 
-
 def load_brand_data(slug: str) -> dict:
     """Load all data sources for a brand."""
     return {
@@ -95,10 +91,8 @@ def load_brand_data(slug: str) -> dict:
         "fti": load_json(FTI_DIR / f"{slug}.json"),
         "ktc": load_json(KTC_DIR / f"{slug}.json"),
         "cbp": load_json(CBP_DIR / f"{slug}.json"),
-        "goy": load_json(GOY_DIR / f"{slug}.json"),
         "certs": load_json(CERTS_DIR / f"{slug}.json"),
     }
-
 
 # ---------------------------------------------------------------------------
 # Dimension Scoring
@@ -197,7 +191,6 @@ def score_where(data: dict) -> tuple[float, list[str], list[str], int]:
     
     return score, highlights, concerns, indicators
 
-
 def score_who(data: dict) -> tuple[float, list[str], list[str], int]:
     """Score the WHO dimension (labor practices)."""
     score = 0.0
@@ -213,7 +206,6 @@ def score_who(data: dict) -> tuple[float, list[str], list[str], int]:
     osha = data.get("osha", {})
     ktc = data.get("ktc", {})
     cbp = data.get("cbp", {})
-    goy = data.get("goy", {})
     
     # Living wage: verified +25, active +15, aspirational +5
     living_wage = who_data.get("living_wage_status", "not_disclosed")
@@ -303,19 +295,7 @@ def score_who(data: dict) -> tuple[float, list[str], list[str], int]:
             score += 5
             highlights.append("No CBP forced labor flags")
     
-    # Good On You people rating (cross-reference)
-    if goy and goy.get("goy_data_available"):
-        base_people_rating = goy.get("people_rating")
-        if base_people_rating is not None:
-            people_rating = round(base_people_rating / 4.0, 1)  # API uses 0-20 scale
-            indicators += 1
-            # GOY rates 1-5, scale to bonus/penalty
-            if people_rating >= 4.0:
-                score += 10
-                highlights.append(f"Good On You people rating: {people_rating}/5")
-            elif people_rating <= 2.0:
-                score = max(score - 10, 0)
-                concerns.append(f"Low Good On You people rating: {people_rating}/5")
+
     
     # Freedom of association: +5
     foa = who_data.get("freedom_of_association", "not_disclosed")
@@ -330,7 +310,6 @@ def score_who(data: dict) -> tuple[float, list[str], list[str], int]:
     
     return score, highlights, concerns, indicators
 
-
 def score_what(data: dict) -> tuple[float, list[str], list[str], int]:
     """Score the WHAT dimension (materials and chemicals)."""
     score = 0.0
@@ -342,7 +321,6 @@ def score_what(data: dict) -> tuple[float, list[str], list[str], int]:
     analysis = report.get("analysis", {}) if report else {}
     what_data = analysis.get("what", {})
     certs_data = data.get("certs", {})
-    goy = data.get("goy", {})
     
     # Sustainable materials percentage: scaled 0-25
     materials_pct = what_data.get("sustainable_materials_percentage", "not_disclosed")
@@ -391,17 +369,7 @@ def score_what(data: dict) -> tuple[float, list[str], list[str], int]:
             cert_names = [c["name"] for c in active[:3]]
             highlights.append(f"Verified certifications: {', '.join(cert_names)}")
     
-    # Good On You planet rating (cross-reference for environmental)
-    if goy and goy.get("goy_data_available"):
-        base_planet_rating = goy.get("planet_rating")
-        if base_planet_rating is not None:
-            planet_rating = round(base_planet_rating / 4.0, 1)  # API uses 0-20 scale
-            indicators += 1
-            if planet_rating >= 4.0:
-                score += 8
-                highlights.append(f"Good On You planet rating: {planet_rating}/5")
-            elif planet_rating <= 2.0:
-                concerns.append(f"Low Good On You planet rating: {planet_rating}/5")
+
     
     # Chemical management policy: +15
     chem = what_data.get("chemical_management_policy", "not_disclosed")
@@ -433,7 +401,6 @@ def score_what(data: dict) -> tuple[float, list[str], list[str], int]:
         score = DEFAULT_SCORES["what"]
     
     return score, highlights, concerns, indicators
-
 
 def score_after(data: dict) -> tuple[float, list[str], list[str], int]:
     """Score the AFTER dimension (end-of-life and circularity)."""
@@ -493,7 +460,6 @@ def score_after(data: dict) -> tuple[float, list[str], list[str], int]:
         score = DEFAULT_SCORES["after"]
     
     return score, highlights, concerns, indicators
-
 
 # ---------------------------------------------------------------------------
 # Red Flags
@@ -566,7 +532,6 @@ def check_red_flags(data: dict) -> list[dict]:
     
     return flags
 
-
 def apply_red_flags(overall: float, who_score: float, flags: list[dict]) -> tuple[float, float]:
     """Apply red flag caps to scores."""
     adjusted_who = who_score
@@ -579,7 +544,6 @@ def apply_red_flags(overall: float, who_score: float, flags: list[dict]) -> tupl
             adjusted_overall = min(adjusted_overall, flag["cap_overall"])
     
     return adjusted_overall, adjusted_who
-
 
 # ---------------------------------------------------------------------------
 # Grade Mapping
@@ -597,7 +561,6 @@ def score_to_grade(score: float) -> str:
     else:
         return "F"
 
-
 def grade_label(grade: str) -> str:
     labels = {
         "A": "Leading",
@@ -607,7 +570,6 @@ def grade_label(grade: str) -> str:
         "F": "Failing",
     }
     return labels.get(grade, "Unknown")
-
 
 # ---------------------------------------------------------------------------
 # Confidence
@@ -633,7 +595,6 @@ def calculate_confidence(total_indicators: int) -> dict:
         "total_possible_indicators": max_indicators,
         "data_coverage_pct": round(pct, 1),
     }
-
 
 # ---------------------------------------------------------------------------
 # Main
@@ -751,7 +712,6 @@ def score_brand(brand: dict) -> dict:
         "methodology_version": "1.0",
     }
 
-
 def main():
     parser = argparse.ArgumentParser(description="ThreadGrade scoring engine")
     parser.add_argument("--force", action="store_true")
@@ -806,7 +766,6 @@ def main():
         bar = "█" * grade_counts[grade]
         print(f"    {grade}: {grade_counts[grade]:3d} {bar}")
     print("=" * 60)
-
 
 if __name__ == "__main__":
     main()

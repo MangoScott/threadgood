@@ -43,7 +43,7 @@ build:
 	$(PYTHON) scripts/build_site_data.py
 
 # Run everything in order (skipping paid APIs)
-all: osha fti ktc cbp goy certs score build
+all: osha fti ktc cbp certs score build
 
 # Run with all sources (including report parsing and OAR)
 all-full: osha oar reports fti ktc cbp goy certs score build
