@@ -1,52 +1,6 @@
 {
   "brands": [
     {
-      "name": "Tommy Hilfiger",
-      "slug": "tommy-hilfiger",
-      "parent": "PVH Corp.",
-      "price_tier": "$$$",
-      "categories": [
-        "basics",
-        "workwear"
-      ],
-      "grade": "A",
-      "overall_score": 80.5,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 0,
-          "grade": "F"
-        },
-        "who": {
-          "score": 0,
-          "grade": "F"
-        },
-        "what": {
-          "score": 0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 0,
-          "grade": "F"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 56.0%"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor"
-      ]
-    },
-    {
       "name": "Patagonia",
       "slug": "patagonia",
       "parent": "Patagonia Inc.",
@@ -2898,6 +2852,55 @@
       ]
     },
     {
+      "name": "Tommy Hilfiger",
+      "slug": "tommy-hilfiger",
+      "parent": "PVH Corp.",
+      "price_tier": "$$$",
+      "categories": [
+        "basics",
+        "workwear"
+      ],
+      "grade": "C",
+      "overall_score": 50.3,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "FTI transparency score: 55.0%",
+        "KnowTheChain score: 51.0/100"
+      ],
+      "concerns": [
+        "Audit results not disclosed",
+        "No take-back program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
       "name": "Columbia Sportswear",
       "slug": "columbia",
       "parent": "Columbia Sportswear Company",
@@ -3340,15 +3343,15 @@
     "methodology_version": "1.0",
     "last_build": "2026-03-21",
     "grade_distribution": {
-      "A": 1,
+      "A": 0,
       "B": 8,
-      "C": 56,
+      "C": 57,
       "D": 6,
       "F": 3
     },
     "price_tier_counts": {
-      "$$$": 26,
       "$$$$": 7,
+      "$$$": 26,
       "$$": 23,
       "$": 18
     }
