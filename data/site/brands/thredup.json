@@ -7,7 +7,7 @@
     "resale",
     "secondhand"
   ],
-  "overall_score": 57.4,
+  "overall_score": 57.6,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
@@ -17,37 +17,27 @@
     "data_coverage_pct": 8.0
   },
   "dimensions": {
-    "where": {
-      "score": 55,
+    "planet": {
+      "score": 56.2,
       "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "highlights": [
+        "Verified certifications: B Corporation"
+      ],
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 60,
       "grade": "C",
       "highlights": [
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 1
+      "concerns": []
     },
-    "what": {
-      "score": 58.8,
-      "grade": "C",
-      "highlights": [
-        "Verified certifications: B Corporation"
-      ],
-      "concerns": [],
-      "indicators_with_data": 1
-    },
-    "after": {
+    "animals": {
       "score": 55,
       "grade": "C",
       "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "concerns": []
     }
   },
   "red_flags": [],

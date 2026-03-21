@@ -7,57 +7,48 @@
     "basics",
     "essentials"
   ],
-  "overall_score": 52.7,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 49.3,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 23,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 92.0
   },
   "dimensions": {
-    "where": {
-      "score": 66.5,
+    "planet": {
+      "score": 65.5,
       "grade": "B",
       "highlights": [
-        "Publishes full supplier/factory list"
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Microplastics mitigation program",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Certifications: RDS",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 25.2,
       "grade": "F",
       "highlights": [],
       "concerns": [
         "Labor risk: CBP detained Uniqlo shirts under UFLPA"
-      ],
-      "indicators_with_data": 6
+      ]
     },
-    "what": {
-      "score": 50.0,
-      "grade": "C",
+    "animals": {
+      "score": 65.0,
+      "grade": "B",
       "highlights": [
-        "Certifications: RDS",
-        "Chemical management policy in place",
-        "Microplastics mitigation program",
-        "Durability/longevity commitment"
+        "Animal welfare policies/certs: RDS",
+        "Microplastics policy (Marine life protection)"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
+      "concerns": []
     }
   },
   "red_flags": [

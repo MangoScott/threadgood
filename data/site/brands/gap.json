@@ -7,58 +7,48 @@
     "basics",
     "essentials"
   ],
-  "overall_score": 55.4,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 48.9,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 19,
+    "indicators_with_data": 21,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 76.0
+    "data_coverage_pct": 84.0
   },
   "dimensions": {
-    "where": {
-      "score": 76.8,
-      "grade": "B",
+    "planet": {
+      "score": 52.3,
+      "grade": "C",
       "highlights": [
-        "Publishes full supplier/factory list"
+        "Chemical management policy in place",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "80% sustainable/certified materials",
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 59.7,
       "grade": "C",
       "highlights": [
         "Audit results publicly disclosed",
         "Clean OSHA safety record"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 45.0,
-      "grade": "D",
-      "highlights": [
-        "80% sustainable/certified materials",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 3
-    },
-    "after": {
-      "score": 35.0,
-      "grade": "D",
-      "highlights": [
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
       "concerns": [
-        "No take-back program",
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 4
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

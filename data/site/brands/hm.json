@@ -8,28 +8,35 @@
     "fast-fashion",
     "essentials"
   ],
-  "overall_score": 72.1,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 62.8,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
-    "where": {
-      "score": 89.8,
-      "grade": "A",
+    "planet": {
+      "score": 73.1,
+      "grade": "B",
       "highlights": [
-        "Publishes full supplier/factory list",
         "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 71.0%"
+        "Garment take-back/recycling program",
+        "FTI transparency score: 71.0%",
+        "Chemical management policy in place",
+        "Certifications: GOTS",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
+        "84% sustainable/certified materials"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 70.9,
       "grade": "B",
       "highlights": [
@@ -38,32 +45,15 @@
         "KnowTheChain score: 53.0/100",
         "Clean OSHA safety record"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 49.5,
-      "grade": "D",
-      "highlights": [
-        "84% sustainable/certified materials",
-        "Certifications: GOTS",
-        "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified",
-        "Chemical management policy in place"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

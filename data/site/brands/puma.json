@@ -7,28 +7,37 @@
     "activewear",
     "shoes"
   ],
-  "overall_score": 67.6,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 58.7,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
-    "where": {
-      "score": 88.1,
-      "grade": "A",
+    "planet": {
+      "score": 67.2,
+      "grade": "B",
       "highlights": [
-        "Publishes full supplier/factory list",
         "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 66.0%"
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Verified certifications: Bluesign Partner",
+        "FTI transparency score: 66.0%",
+        "Certifications: Bluesign",
+        "Sustainable packaging initiatives",
+        "70% sustainable/certified materials",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 67.4,
       "grade": "B",
       "highlights": [
@@ -37,34 +46,15 @@
         "KnowTheChain score: 58.0/100",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 6
+      "concerns": []
     },
-    "what": {
-      "score": 53.5,
-      "grade": "C",
-      "highlights": [
-        "70% sustainable/certified materials",
-        "Certifications: Bluesign",
-        "Verified certifications: Bluesign Partner",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 60.0,
-      "grade": "C",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
       "concerns": [
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 4
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

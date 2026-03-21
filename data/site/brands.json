@@ -1,6 +1,52 @@
 {
   "brands": [
     {
+      "name": "Tommy Hilfiger",
+      "slug": "tommy-hilfiger",
+      "parent": "PVH Corp.",
+      "price_tier": "$$$",
+      "categories": [
+        "basics",
+        "workwear"
+      ],
+      "grade": "B",
+      "overall_score": 73.0,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 56.0%"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
       "name": "Patagonia",
       "slug": "patagonia",
       "parent": "Patagonia Inc.",
@@ -9,25 +55,25 @@
         "outdoor",
         "activewear"
       ],
-      "grade": "A",
-      "overall_score": 82.7,
+      "grade": "B",
+      "overall_score": 71.7,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 95.8,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 69.5,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 71.6,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 100.0,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -48,33 +94,33 @@
       ]
     },
     {
-      "name": "Tommy Hilfiger",
-      "slug": "tommy-hilfiger",
+      "name": "Calvin Klein",
+      "slug": "calvin-klein",
       "parent": "PVH Corp.",
       "price_tier": "$$$",
       "categories": [
-        "basics",
-        "workwear"
+        "underwear",
+        "basics"
       ],
       "grade": "B",
-      "overall_score": 76.6,
+      "overall_score": 66.8,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 84.6,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 75.3,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 51.2,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 100.0,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -83,7 +129,9 @@
         "Discloses 3+ supply chain tiers",
         "FTI transparency score: 56.0%"
       ],
-      "concerns": [],
+      "concerns": [
+        "No resale/repair program"
+      ],
       "last_updated": "2026-03-21",
       "data_sources": [
         "osha",
@@ -103,25 +151,25 @@
         "fast-fashion",
         "essentials"
       ],
-      "grade": "B",
-      "overall_score": 72.1,
+      "grade": "C",
+      "overall_score": 62.8,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 89.8,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70.9,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 49.5,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 80.0,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -142,241 +190,45 @@
       ]
     },
     {
-      "name": "Eileen Fisher",
-      "slug": "eileen-fisher",
-      "parent": "Eileen Fisher Inc.",
-      "price_tier": "$$$$",
-      "categories": [
-        "womenswear",
-        "workwear"
-      ],
-      "grade": "B",
-      "overall_score": 69.9,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 61.3,
-          "grade": "C"
-        },
-        "who": {
-          "score": 54.5,
-          "grade": "C"
-        },
-        "what": {
-          "score": 72.9,
-          "grade": "B"
-        },
-        "after": {
-          "score": 100.0,
-          "grade": "A"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers",
-        "Active living wage program"
-      ],
-      "concerns": [
-        "Low FTI transparency score: 18.0%",
-        "Low KnowTheChain score: 15.0/100"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Calvin Klein",
-      "slug": "calvin-klein",
-      "parent": "PVH Corp.",
+      "name": "Tentree",
+      "slug": "tentree",
+      "parent": "Tentree International Inc.",
       "price_tier": "$$$",
       "categories": [
-        "underwear",
-        "basics"
+        "basics",
+        "outdoor"
       ],
-      "grade": "B",
-      "overall_score": 68.2,
-      "confidence": "high",
+      "grade": "C",
+      "overall_score": 61.9,
+      "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 84.6,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 75.3,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 50.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 60.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
       "highlights": [
-        "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 56.0%"
-      ],
-      "concerns": [
-        "No resale/repair program"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor"
-      ]
-    },
-    {
-      "name": "Puma",
-      "slug": "puma",
-      "parent": "Puma SE",
-      "price_tier": "$$$",
-      "categories": [
-        "activewear",
-        "shoes"
-      ],
-      "grade": "B",
-      "overall_score": 67.6,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 88.1,
-          "grade": "A"
-        },
-        "who": {
-          "score": 67.4,
-          "grade": "B"
-        },
-        "what": {
-          "score": 53.5,
-          "grade": "C"
-        },
-        "after": {
-          "score": 60.0,
-          "grade": "C"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 66.0%"
-      ],
-      "concerns": [
-        "No resale/repair program"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Reformation",
-      "slug": "reformation",
-      "parent": "Reformation Inc.",
-      "price_tier": "$$$$",
-      "categories": [
-        "womenswear",
-        "dresses"
-      ],
-      "grade": "B",
-      "overall_score": 66.6,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 59.1,
-          "grade": "C"
-        },
-        "who": {
-          "score": 51.0,
-          "grade": "C"
-        },
-        "what": {
-          "score": 82.2,
-          "grade": "A"
-        },
-        "after": {
-          "score": 80.0,
-          "grade": "A"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "Active living wage program",
-        "No CBP forced labor flags"
+        "Clean OSHA safety record",
+        "No CBP forced labor flags",
+        "Verified certifications: B Corporation, Bluesign Partner"
       ],
       "concerns": [],
       "last_updated": "2026-03-21",
       "data_sources": [
         "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Lululemon",
-      "slug": "lululemon",
-      "parent": "Lululemon Athletica Inc.",
-      "price_tier": "$$$$",
-      "categories": [
-        "activewear"
-      ],
-      "grade": "B",
-      "overall_score": 65.9,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 78.5,
-          "grade": "B"
-        },
-        "who": {
-          "score": 48.8,
-          "grade": "D"
-        },
-        "what": {
-          "score": 62.5,
-          "grade": "C"
-        },
-        "after": {
-          "score": 80.0,
-          "grade": "A"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "FTI transparency score: 53.0%",
-        "KnowTheChain score: 56.0/100"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
         "cbp_forced_labor",
         "certifications"
       ]
@@ -390,25 +242,25 @@
         "outdoor",
         "activewear"
       ],
-      "grade": "B",
-      "overall_score": 65.5,
+      "grade": "C",
+      "overall_score": 61.7,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 78.5,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 57.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 51.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 80.0,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -429,195 +281,6 @@
       ]
     },
     {
-      "name": "Adidas",
-      "slug": "adidas",
-      "parent": "Adidas AG",
-      "price_tier": "$$$",
-      "categories": [
-        "shoes",
-        "activewear"
-      ],
-      "grade": "C",
-      "overall_score": 63.4,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 83.9,
-          "grade": "A"
-        },
-        "who": {
-          "score": 51.5,
-          "grade": "C"
-        },
-        "what": {
-          "score": 60.0,
-          "grade": "C"
-        },
-        "after": {
-          "score": 60.0,
-          "grade": "C"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 54.0%"
-      ],
-      "concerns": [
-        "No resale/repair program"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor",
-        "certifications"
-      ]
-    },
-    {
-      "name": "Levi's",
-      "slug": "levis",
-      "parent": "Levi Strauss & Co.",
-      "price_tier": "$$$",
-      "categories": [
-        "denim",
-        "basics"
-      ],
-      "grade": "C",
-      "overall_score": 62.3,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 76.5,
-          "grade": "B"
-        },
-        "who": {
-          "score": 71.7,
-          "grade": "B"
-        },
-        "what": {
-          "score": 42.8,
-          "grade": "D"
-        },
-        "after": {
-          "score": 55.0,
-          "grade": "C"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "Active living wage program",
-        "Audit results publicly disclosed"
-      ],
-      "concerns": [
-        "No take-back program"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor",
-        "certifications"
-      ]
-    },
-    {
-      "name": "On Running",
-      "slug": "on-running",
-      "parent": "On Holding AG",
-      "price_tier": "$$$",
-      "categories": [
-        "shoes",
-        "activewear"
-      ],
-      "grade": "C",
-      "overall_score": 61.3,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 78.2,
-          "grade": "B"
-        },
-        "who": {
-          "score": 42.0,
-          "grade": "D"
-        },
-        "what": {
-          "score": 52.5,
-          "grade": "C"
-        },
-        "after": {
-          "score": 80.0,
-          "grade": "A"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "FTI transparency score: 52.0%",
-        "Active living wage program"
-      ],
-      "concerns": [
-        "No resale/repair program"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "cbp_forced_labor"
-      ]
-    },
-    {
-      "name": "Tentree",
-      "slug": "tentree",
-      "parent": "Tentree International Inc.",
-      "price_tier": "$$$",
-      "categories": [
-        "basics",
-        "outdoor"
-      ],
-      "grade": "C",
-      "overall_score": 60.9,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 55,
-          "grade": "C"
-        },
-        "who": {
-          "score": 70,
-          "grade": "B"
-        },
-        "what": {
-          "score": 60.8,
-          "grade": "C"
-        },
-        "after": {
-          "score": 55,
-          "grade": "C"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Clean OSHA safety record",
-        "No CBP forced labor flags",
-        "Verified certifications: B Corporation, Bluesign Partner"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "certifications"
-      ]
-    },
-    {
       "name": "Banana Republic",
       "slug": "banana-republic",
       "parent": "Gap Inc.",
@@ -627,24 +290,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -668,24 +331,24 @@
         "activewear"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -710,24 +373,24 @@
         "outdoor"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -752,24 +415,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -794,24 +457,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -836,24 +499,24 @@
         "budget"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -878,24 +541,24 @@
         "budget"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -921,24 +584,24 @@
         "essentials"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -964,24 +627,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1006,24 +669,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1048,24 +711,24 @@
         "activewear"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1090,24 +753,24 @@
         "casual"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1132,24 +795,24 @@
         "lifestyle"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1174,24 +837,24 @@
         "lifestyle"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1216,24 +879,24 @@
         "bohemian"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1258,24 +921,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1300,24 +963,24 @@
         "multi-brand"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1342,24 +1005,24 @@
         "budget"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1384,24 +1047,24 @@
         "multi-brand"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1426,24 +1089,24 @@
         "budget"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1468,24 +1131,24 @@
         "budget"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1511,24 +1174,24 @@
         "essentials"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1554,24 +1217,24 @@
         "essentials"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1596,24 +1259,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1638,24 +1301,24 @@
         "casual"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1680,24 +1343,24 @@
         "casual"
       ],
       "grade": "C",
-      "overall_score": 59.5,
+      "overall_score": 61.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 70,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1713,40 +1376,40 @@
       ]
     },
     {
-      "name": "Everlane",
-      "slug": "everlane",
-      "parent": "Everlane Inc.",
+      "name": "Puma",
+      "slug": "puma",
+      "parent": "Puma SE",
       "price_tier": "$$$",
       "categories": [
-        "basics",
-        "workwear"
+        "activewear",
+        "shoes"
       ],
       "grade": "C",
-      "overall_score": 59.1,
+      "overall_score": 58.7,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 62.2,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 48.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 68.5,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 60.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
       "highlights": [
         "Publishes full supplier/factory list",
-        "Clean OSHA safety record",
-        "No CBP forced labor flags"
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 66.0%"
       ],
       "concerns": [
         "No resale/repair program"
@@ -1762,95 +1425,53 @@
       ]
     },
     {
-      "name": "Zara",
-      "slug": "zara",
-      "parent": "Inditex",
-      "price_tier": "$$",
+      "name": "Eileen Fisher",
+      "slug": "eileen-fisher",
+      "parent": "Eileen Fisher Inc.",
+      "price_tier": "$$$$",
       "categories": [
-        "fast-fashion",
-        "basics"
+        "womenswear",
+        "workwear"
       ],
       "grade": "C",
-      "overall_score": 58.0,
+      "overall_score": 58.4,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 55.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60.8,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 40.0,
-          "grade": "D"
-        },
-        "after": {
-          "score": 80.0,
-          "grade": "A"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes partial supplier list",
-        "Active living wage program",
-        "Clean OSHA safety record"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor"
-      ]
-    },
-    {
-      "name": "American Eagle",
-      "slug": "american-eagle",
-      "parent": "American Eagle Outfitters Inc.",
-      "price_tier": "$$",
-      "categories": [
-        "denim",
-        "basics"
-      ],
-      "grade": "C",
-      "overall_score": 57.4,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 77.5,
-          "grade": "B"
-        },
-        "who": {
-          "score": 52.5,
-          "grade": "C"
-        },
-        "what": {
-          "score": 25.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 80.0,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
       "highlights": [
         "Publishes full supplier/factory list",
-        "FTI transparency score: 50.0%",
-        "Clean OSHA safety record"
+        "Discloses 3+ supply chain tiers",
+        "Active living wage program"
       ],
-      "concerns": [],
+      "concerns": [
+        "Low FTI transparency score: 18.0%",
+        "Low KnowTheChain score: 15.0/100"
+      ],
       "last_updated": "2026-03-21",
       "data_sources": [
         "osha",
         "sustainability_report",
         "fti",
         "ktc",
-        "cbp_forced_labor"
+        "cbp_forced_labor",
+        "certifications"
       ]
     },
     {
@@ -1863,24 +1484,24 @@
         "secondhand"
       ],
       "grade": "C",
-      "overall_score": 57.4,
+      "overall_score": 57.6,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 58.8,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1906,24 +1527,24 @@
         "womenswear"
       ],
       "grade": "C",
-      "overall_score": 57.2,
+      "overall_score": 57.5,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 58.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1940,6 +1561,53 @@
       ]
     },
     {
+      "name": "Reformation",
+      "slug": "reformation",
+      "parent": "Reformation Inc.",
+      "price_tier": "$$$$",
+      "categories": [
+        "womenswear",
+        "dresses"
+      ],
+      "grade": "C",
+      "overall_score": 57.4,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Active living wage program",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor",
+        "certifications"
+      ]
+    },
+    {
       "name": "New Balance",
       "slug": "new-balance",
       "parent": "New Balance Athletics Inc.",
@@ -1949,24 +1617,24 @@
         "activewear"
       ],
       "grade": "C",
-      "overall_score": 57.0,
+      "overall_score": 57.3,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 57.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -1992,24 +1660,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 56.5,
+      "overall_score": 57.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2032,24 +1700,24 @@
         "shoes"
       ],
       "grade": "C",
-      "overall_score": 56.5,
+      "overall_score": 57.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2073,24 +1741,24 @@
         "multi-brand"
       ],
       "grade": "C",
-      "overall_score": 56.5,
+      "overall_score": 57.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2114,24 +1782,24 @@
         "outdoor"
       ],
       "grade": "C",
-      "overall_score": 56.5,
+      "overall_score": 57.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2155,24 +1823,24 @@
         "basics"
       ],
       "grade": "C",
-      "overall_score": 56.5,
+      "overall_score": 57.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2197,24 +1865,24 @@
         "essentials"
       ],
       "grade": "C",
-      "overall_score": 56.5,
+      "overall_score": 57.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2238,24 +1906,24 @@
         "wholesale"
       ],
       "grade": "C",
-      "overall_score": 56.5,
+      "overall_score": 57.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2279,24 +1947,24 @@
         "formal"
       ],
       "grade": "C",
-      "overall_score": 56.5,
+      "overall_score": 57.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 60,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2311,94 +1979,43 @@
       ]
     },
     {
-      "name": "Old Navy",
-      "slug": "old-navy",
-      "parent": "Gap Inc.",
-      "price_tier": "$",
-      "categories": [
-        "basics",
-        "essentials",
-        "budget"
-      ],
-      "grade": "C",
-      "overall_score": 56.2,
-      "confidence": "high",
-      "dimensions": {
-        "where": {
-          "score": 76.8,
-          "grade": "B"
-        },
-        "who": {
-          "score": 64.7,
-          "grade": "C"
-        },
-        "what": {
-          "score": 42.5,
-          "grade": "D"
-        },
-        "after": {
-          "score": 35.0,
-          "grade": "D"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "Audit results publicly disclosed",
-        "Clean OSHA safety record"
-      ],
-      "concerns": [
-        "No take-back program",
-        "No resale/repair program"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor"
-      ]
-    },
-    {
-      "name": "Nike",
-      "slug": "nike",
-      "parent": "Nike Inc.",
+      "name": "Levi's",
+      "slug": "levis",
+      "parent": "Levi Strauss & Co.",
       "price_tier": "$$$",
       "categories": [
-        "shoes",
-        "activewear",
+        "denim",
         "basics"
       ],
       "grade": "C",
-      "overall_score": 55.4,
+      "overall_score": 56.3,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 77.5,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 49.3,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 36.8,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 60.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
       "highlights": [
         "Publishes full supplier/factory list",
-        "FTI transparency score: 50.0%",
-        "Clean OSHA safety record"
+        "Active living wage program",
+        "Audit results publicly disclosed"
       ],
       "concerns": [
-        "No resale/repair program"
+        "No take-back program"
       ],
       "last_updated": "2026-03-21",
       "data_sources": [
@@ -2411,52 +2028,49 @@
       ]
     },
     {
-      "name": "Gap",
-      "slug": "gap",
-      "parent": "Gap Inc.",
-      "price_tier": "$$",
+      "name": "Lululemon",
+      "slug": "lululemon",
+      "parent": "Lululemon Athletica Inc.",
+      "price_tier": "$$$$",
       "categories": [
-        "basics",
-        "essentials"
+        "activewear"
       ],
       "grade": "C",
-      "overall_score": 55.4,
+      "overall_score": 54.2,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 76.8,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 59.7,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 45.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 35.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
       "highlights": [
         "Publishes full supplier/factory list",
-        "Audit results publicly disclosed",
-        "Clean OSHA safety record"
+        "FTI transparency score: 53.0%",
+        "KnowTheChain score: 56.0/100"
       ],
-      "concerns": [
-        "No take-back program",
-        "No resale/repair program"
-      ],
+      "concerns": [],
       "last_updated": "2026-03-21",
       "data_sources": [
         "osha",
         "sustainability_report",
         "fti",
         "ktc",
-        "cbp_forced_labor"
+        "cbp_forced_labor",
+        "certifications"
       ]
     },
     {
@@ -2469,24 +2083,24 @@
         "budget"
       ],
       "grade": "C",
-      "overall_score": 53.5,
+      "overall_score": 53.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 50,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [
@@ -2505,6 +2119,244 @@
       ]
     },
     {
+      "name": "Adidas",
+      "slug": "adidas",
+      "parent": "Adidas AG",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
+        "activewear"
+      ],
+      "grade": "C",
+      "overall_score": 52.7,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 54.0%"
+      ],
+      "concerns": [
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor",
+        "certifications"
+      ]
+    },
+    {
+      "name": "On Running",
+      "slug": "on-running",
+      "parent": "On Holding AG",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
+        "activewear"
+      ],
+      "grade": "C",
+      "overall_score": 52.2,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "FTI transparency score: 52.0%",
+        "Active living wage program"
+      ],
+      "concerns": [
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "cbp_forced_labor"
+      ]
+    },
+    {
+      "name": "Zara",
+      "slug": "zara",
+      "parent": "Inditex",
+      "price_tier": "$$",
+      "categories": [
+        "fast-fashion",
+        "basics"
+      ],
+      "grade": "C",
+      "overall_score": 52.1,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes partial supplier list",
+        "Active living wage program",
+        "Clean OSHA safety record"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
+      "name": "Old Navy",
+      "slug": "old-navy",
+      "parent": "Gap Inc.",
+      "price_tier": "$",
+      "categories": [
+        "basics",
+        "essentials",
+        "budget"
+      ],
+      "grade": "C",
+      "overall_score": 50.5,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Audit results publicly disclosed",
+        "Clean OSHA safety record"
+      ],
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
+      "name": "American Eagle",
+      "slug": "american-eagle",
+      "parent": "American Eagle Outfitters Inc.",
+      "price_tier": "$$",
+      "categories": [
+        "denim",
+        "basics"
+      ],
+      "grade": "D",
+      "overall_score": 49.9,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "FTI transparency score: 50.0%",
+        "Clean OSHA safety record"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
       "name": "Uniqlo",
       "slug": "uniqlo",
       "parent": "Fast Retailing Co.",
@@ -2513,25 +2365,25 @@
         "basics",
         "essentials"
       ],
-      "grade": "C",
-      "overall_score": 52.7,
+      "grade": "D",
+      "overall_score": 49.3,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 66.5,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 25.2,
+          "score": 0,
           "grade": "F"
         },
         "what": {
-          "score": 50.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 80.0,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [
@@ -2555,43 +2407,42 @@
       ]
     },
     {
-      "name": "Target (All in Motion)",
-      "slug": "target-all-in-motion",
-      "parent": "Target Corporation",
-      "price_tier": "$$",
+      "name": "Everlane",
+      "slug": "everlane",
+      "parent": "Everlane Inc.",
+      "price_tier": "$$$",
       "categories": [
-        "activewear",
-        "budget"
+        "basics",
+        "workwear"
       ],
-      "grade": "C",
-      "overall_score": 51.0,
+      "grade": "D",
+      "overall_score": 49.3,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 84.2,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 55.5,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 25.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 35.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
       "highlights": [
         "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 55.0%"
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
       ],
       "concerns": [
-        "No take-back program",
         "No resale/repair program"
       ],
       "last_updated": "2026-03-21",
@@ -2600,44 +2451,45 @@
         "sustainability_report",
         "fti",
         "ktc",
-        "cbp_forced_labor"
+        "cbp_forced_labor",
+        "certifications"
       ]
     },
     {
-      "name": "Target (Goodfellow)",
-      "slug": "target-goodfellow",
-      "parent": "Target Corporation",
+      "name": "Gap",
+      "slug": "gap",
+      "parent": "Gap Inc.",
       "price_tier": "$$",
       "categories": [
-        "menswear",
-        "basics"
+        "basics",
+        "essentials"
       ],
-      "grade": "C",
-      "overall_score": 51.0,
+      "grade": "D",
+      "overall_score": 48.9,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 84.2,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 55.5,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 25.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 35.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
       "highlights": [
         "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 55.0%"
+        "Audit results publicly disclosed",
+        "Clean OSHA safety record"
       ],
       "concerns": [
         "No take-back program",
@@ -2662,24 +2514,24 @@
         "basics"
       ],
       "grade": "D",
-      "overall_score": 49.6,
+      "overall_score": 47.7,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 62.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 36.5,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 28.8,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 80.0,
-          "grade": "A"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2702,43 +2554,43 @@
       ]
     },
     {
-      "name": "Abercrombie & Fitch",
-      "slug": "abercrombie-fitch",
-      "parent": "Abercrombie & Fitch Co.",
+      "name": "Nike",
+      "slug": "nike",
+      "parent": "Nike Inc.",
       "price_tier": "$$$",
       "categories": [
-        "basics",
-        "workwear"
+        "shoes",
+        "activewear",
+        "basics"
       ],
       "grade": "D",
-      "overall_score": 49.5,
+      "overall_score": 47.4,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 75.0,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 51.9,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 32.5,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 35.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
       "highlights": [
         "Publishes full supplier/factory list",
-        "Clean OSHA safety record",
-        "No CBP forced labor flags"
+        "FTI transparency score: 50.0%",
+        "Clean OSHA safety record"
       ],
       "concerns": [
-        "No take-back program",
         "No resale/repair program"
       ],
       "last_updated": "2026-03-21",
@@ -2747,7 +2599,8 @@
         "sustainability_report",
         "fti",
         "ktc",
-        "cbp_forced_labor"
+        "cbp_forced_labor",
+        "certifications"
       ]
     },
     {
@@ -2761,24 +2614,24 @@
         "luxury"
       ],
       "grade": "D",
-      "overall_score": 49.3,
+      "overall_score": 46.3,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 66.5,
-          "grade": "B"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 64.7,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 25.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 35.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2811,24 +2664,24 @@
         "organic"
       ],
       "grade": "D",
-      "overall_score": 48.5,
+      "overall_score": 45.6,
       "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 23.5,
+          "score": 0,
           "grade": "F"
         },
         "who": {
-          "score": 63.0,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 62.8,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 40.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -2853,6 +2706,153 @@
       ]
     },
     {
+      "name": "Target (All in Motion)",
+      "slug": "target-all-in-motion",
+      "parent": "Target Corporation",
+      "price_tier": "$$",
+      "categories": [
+        "activewear",
+        "budget"
+      ],
+      "grade": "D",
+      "overall_score": 45.3,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 55.0%"
+      ],
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
+      "name": "Target (Goodfellow)",
+      "slug": "target-goodfellow",
+      "parent": "Target Corporation",
+      "price_tier": "$$",
+      "categories": [
+        "menswear",
+        "basics"
+      ],
+      "grade": "D",
+      "overall_score": 45.3,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 55.0%"
+      ],
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
+      "name": "Abercrombie & Fitch",
+      "slug": "abercrombie-fitch",
+      "parent": "Abercrombie & Fitch Co.",
+      "price_tier": "$$$",
+      "categories": [
+        "basics",
+        "workwear"
+      ],
+      "grade": "D",
+      "overall_score": 43.6,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Clean OSHA safety record",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
       "name": "Fashion Nova",
       "slug": "fashion-nova",
       "parent": "Fashion Nova Inc.",
@@ -2862,24 +2862,24 @@
         "budget"
       ],
       "grade": "D",
-      "overall_score": 46.0,
+      "overall_score": 43.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 25,
+          "score": 0,
           "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [
@@ -2907,24 +2907,24 @@
         "budget"
       ],
       "grade": "D",
-      "overall_score": 46.0,
+      "overall_score": 43.0,
       "confidence": "low",
       "dimensions": {
         "where": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 25,
+          "score": 0,
           "grade": "F"
         },
         "what": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 55,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [
@@ -2950,23 +2950,23 @@
         "activewear"
       ],
       "grade": "D",
-      "overall_score": 39.0,
-      "confidence": "medium",
+      "overall_score": 40.4,
+      "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 59.1,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 43.3,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 45.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "after": {
-          "score": 0.0,
+          "score": 0,
           "grade": "F"
         }
       },
@@ -2999,74 +2999,24 @@
         "activewear",
         "shoes"
       ],
-      "grade": "D",
-      "overall_score": 38.2,
-      "confidence": "medium",
-      "dimensions": {
-        "where": {
-          "score": 57.2,
-          "grade": "C"
-        },
-        "who": {
-          "score": 35.4,
-          "grade": "D"
-        },
-        "what": {
-          "score": 25.0,
-          "grade": "F"
-        },
-        "after": {
-          "score": 35.0,
-          "grade": "D"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "Publishes full supplier/factory list",
-        "No CBP forced labor flags",
-        "Chemical management policy in place"
-      ],
-      "concerns": [
-        "No living wage commitment mentioned",
-        "No take-back program",
-        "No resale/repair program"
-      ],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "sustainability_report",
-        "fti",
-        "ktc",
-        "cbp_forced_labor"
-      ]
-    },
-    {
-      "name": "Victoria's Secret",
-      "slug": "victorias-secret",
-      "parent": "Victoria's Secret & Co.",
-      "price_tier": "$$",
-      "categories": [
-        "underwear",
-        "lingerie"
-      ],
       "grade": "F",
-      "overall_score": 32.8,
-      "confidence": "medium",
+      "overall_score": 33.2,
+      "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 62.2,
-          "grade": "C"
+          "score": 0,
+          "grade": "F"
         },
         "who": {
-          "score": 35.1,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 15.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 15.0,
+          "score": 0,
           "grade": "F"
         }
       },
@@ -3101,24 +3051,24 @@
         "essentials"
       ],
       "grade": "F",
-      "overall_score": 31.1,
-      "confidence": "medium",
+      "overall_score": 29.9,
+      "confidence": "high",
       "dimensions": {
         "where": {
-          "score": 34.1,
+          "score": 0,
           "grade": "F"
         },
         "who": {
-          "score": 39.5,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         },
         "what": {
-          "score": 15.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 35.0,
-          "grade": "D"
+          "score": 0,
+          "grade": "F"
         }
       },
       "red_flags": [],
@@ -3142,6 +3092,56 @@
       ]
     },
     {
+      "name": "Victoria's Secret",
+      "slug": "victorias-secret",
+      "parent": "Victoria's Secret & Co.",
+      "price_tier": "$$",
+      "categories": [
+        "underwear",
+        "lingerie"
+      ],
+      "grade": "F",
+      "overall_score": 29.4,
+      "confidence": "medium",
+      "dimensions": {
+        "where": {
+          "score": 0,
+          "grade": "F"
+        },
+        "who": {
+          "score": 0,
+          "grade": "F"
+        },
+        "what": {
+          "score": 0,
+          "grade": "F"
+        },
+        "after": {
+          "score": 0,
+          "grade": "F"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "No CBP forced labor flags",
+        "Chemical management policy in place"
+      ],
+      "concerns": [
+        "No living wage commitment mentioned",
+        "No take-back program",
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "fti",
+        "ktc",
+        "cbp_forced_labor"
+      ]
+    },
+    {
       "name": "Forever 21",
       "slug": "forever-21",
       "parent": "Authentic Brands Group",
@@ -3151,23 +3151,23 @@
         "budget"
       ],
       "grade": "F",
-      "overall_score": 6.3,
+      "overall_score": 5.0,
       "confidence": "medium",
       "dimensions": {
         "where": {
-          "score": 18.5,
+          "score": 0,
           "grade": "F"
         },
         "who": {
-          "score": 5.6,
+          "score": 0,
           "grade": "F"
         },
         "what": {
-          "score": 0.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 0.0,
+          "score": 0,
           "grade": "F"
         }
       },
@@ -3199,11 +3199,11 @@
         "budget"
       ],
       "grade": "F",
-      "overall_score": 1.9,
+      "overall_score": 1.1,
       "confidence": "medium",
       "dimensions": {
         "where": {
-          "score": 7.5,
+          "score": 0,
           "grade": "F"
         },
         "who": {
@@ -3211,11 +3211,11 @@
           "grade": "F"
         },
         "what": {
-          "score": 0.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 0.0,
+          "score": 0,
           "grade": "F"
         }
       },
@@ -3249,11 +3249,11 @@
         "budget"
       ],
       "grade": "F",
-      "overall_score": 1.2,
+      "overall_score": 0.8,
       "confidence": "medium",
       "dimensions": {
         "where": {
-          "score": 5.0,
+          "score": 0,
           "grade": "F"
         },
         "who": {
@@ -3261,11 +3261,11 @@
           "grade": "F"
         },
         "what": {
-          "score": 0.0,
+          "score": 0,
           "grade": "F"
         },
         "after": {
-          "score": 0.0,
+          "score": 0,
           "grade": "F"
         }
       },
@@ -3295,15 +3295,15 @@
     "methodology_version": "1.0",
     "last_build": "2026-03-21",
     "grade_distribution": {
-      "A": 1,
-      "B": 8,
-      "C": 51,
-      "D": 8,
-      "F": 5
+      "A": 0,
+      "B": 3,
+      "C": 50,
+      "D": 14,
+      "F": 6
     },
     "price_tier_counts": {
-      "$$$$": 7,
       "$$$": 25,
+      "$$$$": 7,
       "$$": 23,
       "$": 18
     }

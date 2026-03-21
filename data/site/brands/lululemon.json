@@ -6,60 +6,50 @@
   "categories": [
     "activewear"
   ],
-  "overall_score": 65.9,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 54.2,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
-    "where": {
-      "score": 78.5,
+    "planet": {
+      "score": 73.7,
       "grade": "B",
       "highlights": [
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Certifications: Bluesign, OEKO-TEX",
+        "Verified certifications: Fair Trade Certified, Bluesign Partner",
+        "Durability/longevity commitment",
+        "60% sustainable/certified materials",
         "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
         "FTI transparency score: 53.0%"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 48.8,
       "grade": "D",
       "highlights": [
         "KnowTheChain score: 56.0/100",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 6
+      "concerns": []
     },
-    "what": {
-      "score": 62.5,
-      "grade": "C",
-      "highlights": [
-        "60% sustainable/certified materials",
-        "Certifications: Bluesign, OEKO-TEX",
-        "Verified certifications: Fair Trade Certified, Bluesign Partner",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

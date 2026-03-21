@@ -7,28 +7,30 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 1.9,
+  "overall_score": 1.1,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "medium",
-    "indicators_with_data": 14,
+    "indicators_with_data": 15,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 56.0
+    "data_coverage_pct": 60.0
   },
   "dimensions": {
-    "where": {
-      "score": 7.5,
+    "planet": {
+      "score": 2.5,
       "grade": "F",
       "highlights": [],
       "concerns": [
         "Does not publish supplier list",
+        "No chemical management policy",
         "No supply chain tier disclosure",
-        "Low FTI transparency score: 7.0%"
-      ],
-      "indicators_with_data": 5
+        "No resale/repair program",
+        "Low FTI transparency score: 7.0%",
+        "No take-back program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 0,
       "grade": "F",
       "highlights": [
@@ -39,27 +41,15 @@
         "Audit results not disclosed",
         "Low KnowTheChain score: 5.0/100",
         "Forced labor concern: UFLPA enforcement - multiple shipments detained"
-      ],
-      "indicators_with_data": 6
+      ]
     },
-    "what": {
+    "animals": {
       "score": 0.0,
       "grade": "F",
       "highlights": [],
       "concerns": [
-        "No chemical management policy"
-      ],
-      "indicators_with_data": 1
-    },
-    "after": {
-      "score": 0.0,
-      "grade": "F",
-      "highlights": [],
-      "concerns": [
-        "No take-back program",
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 2
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [

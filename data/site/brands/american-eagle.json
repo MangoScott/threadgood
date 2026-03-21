@@ -7,57 +7,47 @@
     "denim",
     "basics"
   ],
-  "overall_score": 57.4,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 49.9,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 18,
+    "indicators_with_data": 20,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 72.0
+    "data_coverage_pct": 80.0
   },
   "dimensions": {
-    "where": {
-      "score": 77.5,
-      "grade": "B",
+    "planet": {
+      "score": 60.8,
+      "grade": "C",
       "highlights": [
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
         "FTI transparency score: 50.0%"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 52.5,
       "grade": "C",
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 25.0,
+    "animals": {
+      "score": 10.0,
       "grade": "F",
-      "highlights": [
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 2
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
+      "highlights": [],
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

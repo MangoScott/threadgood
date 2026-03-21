@@ -7,29 +7,38 @@
     "womenswear",
     "workwear"
   ],
-  "overall_score": 69.9,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 58.4,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 21,
+    "indicators_with_data": 23,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 84.0
+    "data_coverage_pct": 92.0
   },
   "dimensions": {
-    "where": {
-      "score": 61.3,
-      "grade": "C",
+    "planet": {
+      "score": 78.1,
+      "grade": "B",
       "highlights": [
+        "Discloses 3+ supply chain tiers",
+        "Garment take-back/recycling program",
+        "Certifications: Bluesign, GOTS",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified",
+        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers"
+        "Design for disassembly approach",
+        "Circularity goals with timeline",
+        "95% sustainable/certified materials"
       ],
       "concerns": [
         "Low FTI transparency score: 18.0%"
-      ],
-      "indicators_with_data": 5
+      ]
     },
-    "who": {
+    "people": {
       "score": 54.5,
       "grade": "C",
       "highlights": [
@@ -39,34 +48,15 @@
       ],
       "concerns": [
         "Low KnowTheChain score: 15.0/100"
-      ],
-      "indicators_with_data": 6
+      ]
     },
-    "what": {
-      "score": 72.9,
-      "grade": "B",
-      "highlights": [
-        "95% sustainable/certified materials",
-        "Certifications: Bluesign, GOTS",
-        "Verified certifications: B Corporation, Bluesign Partner, GOTS Certified",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 100.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline",
-        "Design for disassembly approach"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

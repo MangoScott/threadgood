@@ -7,7 +7,7 @@
     "denim",
     "basics"
   ],
-  "overall_score": 56.5,
+  "overall_score": 57.0,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
@@ -17,35 +17,25 @@
     "data_coverage_pct": 4.0
   },
   "dimensions": {
-    "where": {
-      "score": 55,
+    "planet": {
+      "score": 55.0,
       "grade": "C",
       "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 60,
       "grade": "C",
       "highlights": [
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 1
+      "concerns": []
     },
-    "what": {
+    "animals": {
       "score": 55,
       "grade": "C",
       "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
-    },
-    "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "concerns": []
     }
   },
   "red_flags": [],

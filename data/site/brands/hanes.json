@@ -8,7 +8,7 @@
     "underwear",
     "essentials"
   ],
-  "overall_score": 59.5,
+  "overall_score": 61.0,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
@@ -18,36 +18,26 @@
     "data_coverage_pct": 8.0
   },
   "dimensions": {
-    "where": {
-      "score": 55,
+    "planet": {
+      "score": 55.0,
       "grade": "C",
       "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 70,
       "grade": "B",
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 2
+      "concerns": []
     },
-    "what": {
+    "animals": {
       "score": 55,
       "grade": "C",
       "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
-    },
-    "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "concerns": []
     }
   },
   "red_flags": [],

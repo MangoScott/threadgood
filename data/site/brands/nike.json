@@ -8,58 +8,48 @@
     "activewear",
     "basics"
   ],
-  "overall_score": 55.4,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 47.4,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
-    "where": {
-      "score": 77.5,
-      "grade": "B",
+    "planet": {
+      "score": 58.1,
+      "grade": "C",
       "highlights": [
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Verified certifications: Bluesign Partner",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
         "FTI transparency score: 50.0%"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 49.3,
       "grade": "D",
       "highlights": [
         "Clean OSHA safety record"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 36.8,
-      "grade": "D",
-      "highlights": [
-        "Verified certifications: Bluesign Partner",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
-    },
-    "after": {
-      "score": 60.0,
-      "grade": "C",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
       "concerns": [
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 4
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

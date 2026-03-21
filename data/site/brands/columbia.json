@@ -7,26 +7,31 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 39.0,
+  "overall_score": 40.4,
   "grade": "D",
   "grade_label": "Needs Work",
   "confidence": {
-    "level": "medium",
-    "indicators_with_data": 17,
+    "level": "high",
+    "indicators_with_data": 19,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 68.0
+    "data_coverage_pct": 76.0
   },
   "dimensions": {
-    "where": {
-      "score": 59.1,
-      "grade": "C",
+    "planet": {
+      "score": 34.7,
+      "grade": "F",
       "highlights": [
-        "Publishes full supplier/factory list"
+        "Certifications: Bluesign, RDS",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "Chemical management policy in place"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 43.3,
       "grade": "D",
       "highlights": [
@@ -35,29 +40,15 @@
       ],
       "concerns": [
         "No living wage commitment mentioned"
-      ],
-      "indicators_with_data": 7
+      ]
     },
-    "what": {
-      "score": 45.0,
-      "grade": "D",
+    "animals": {
+      "score": 50.0,
+      "grade": "C",
       "highlights": [
-        "Certifications: Bluesign, RDS",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
+        "Animal welfare policies/certs: RDS"
       ],
-      "concerns": [],
-      "indicators_with_data": 3
-    },
-    "after": {
-      "score": 0.0,
-      "grade": "F",
-      "highlights": [],
-      "concerns": [
-        "No take-back program",
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 2
+      "concerns": []
     }
   },
   "red_flags": [],

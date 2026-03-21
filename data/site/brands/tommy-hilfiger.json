@@ -7,28 +7,36 @@
     "basics",
     "workwear"
   ],
-  "overall_score": 76.6,
+  "overall_score": 73.0,
   "grade": "B",
   "grade_label": "Good Progress",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 21,
+    "indicators_with_data": 23,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 84.0
+    "data_coverage_pct": 92.0
   },
   "dimensions": {
-    "where": {
-      "score": 84.6,
-      "grade": "A",
+    "planet": {
+      "score": 78.6,
+      "grade": "B",
       "highlights": [
-        "Publishes full supplier/factory list",
         "Discloses 3+ supply chain tiers",
+        "65% sustainable/certified materials",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Certifications: RDS",
+        "Publishes full supplier/factory list",
+        "Design for disassembly approach",
+        "Circularity goals with timeline",
         "FTI transparency score: 56.0%"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 75.3,
       "grade": "B",
       "highlights": [
@@ -38,33 +46,15 @@
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 51.2,
+    "animals": {
+      "score": 50.0,
       "grade": "C",
       "highlights": [
-        "65% sustainable/certified materials",
-        "Certifications: RDS",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
+        "Animal welfare policies/certs: RDS"
       ],
-      "concerns": [],
-      "indicators_with_data": 4
-    },
-    "after": {
-      "score": 100.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline",
-        "Design for disassembly approach"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     }
   },
   "red_flags": [],

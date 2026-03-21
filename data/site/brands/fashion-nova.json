@@ -7,7 +7,7 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 46.0,
+  "overall_score": 43.0,
   "grade": "D",
   "grade_label": "Needs Work",
   "confidence": {
@@ -17,14 +17,13 @@
     "data_coverage_pct": 8.0
   },
   "dimensions": {
-    "where": {
-      "score": 55,
+    "planet": {
+      "score": 55.0,
       "grade": "C",
       "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 25,
       "grade": "F",
       "highlights": [
@@ -32,22 +31,13 @@
       ],
       "concerns": [
         "Forced labor concern: US DOL found LA factories underpaying workers"
-      ],
-      "indicators_with_data": 2
+      ]
     },
-    "what": {
+    "animals": {
       "score": 55,
       "grade": "C",
       "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
-    },
-    "after": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "concerns": []
     }
   },
   "red_flags": [

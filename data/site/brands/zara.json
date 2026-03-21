@@ -7,57 +7,47 @@
     "fast-fashion",
     "basics"
   ],
-  "overall_score": 58.0,
+  "overall_score": 52.1,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 19,
+    "indicators_with_data": 21,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 76.0
+    "data_coverage_pct": 84.0
   },
   "dimensions": {
-    "where": {
-      "score": 55.0,
+    "planet": {
+      "score": 58.4,
       "grade": "C",
       "highlights": [
-        "Publishes partial supplier list"
+        "Publishes partial supplier list",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Certifications: OEKO-TEX",
+        "60% sustainable/certified materials",
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 60.8,
       "grade": "C",
       "highlights": [
         "Active living wage program",
         "Clean OSHA safety record"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 40.0,
-      "grade": "D",
-      "highlights": [
-        "60% sustainable/certified materials",
-        "Certifications: OEKO-TEX",
-        "Chemical management policy in place"
-      ],
-      "concerns": [],
-      "indicators_with_data": 3
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

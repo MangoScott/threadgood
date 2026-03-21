@@ -7,28 +7,36 @@
     "underwear",
     "basics"
   ],
-  "overall_score": 68.2,
+  "overall_score": 66.8,
   "grade": "B",
   "grade_label": "Good Progress",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
-    "where": {
-      "score": 84.6,
-      "grade": "A",
+    "planet": {
+      "score": 64.9,
+      "grade": "C",
       "highlights": [
-        "Publishes full supplier/factory list",
         "Discloses 3+ supply chain tiers",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Certifications: RDS",
+        "Publishes full supplier/factory list",
+        "60% sustainable/certified materials",
+        "Circularity goals with timeline",
         "FTI transparency score: 56.0%"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 75.3,
       "grade": "B",
       "highlights": [
@@ -38,33 +46,15 @@
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
+    "animals": {
       "score": 50.0,
       "grade": "C",
       "highlights": [
-        "60% sustainable/certified materials",
-        "Certifications: RDS",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
+        "Animal welfare policies/certs: RDS"
       ],
-      "concerns": [],
-      "indicators_with_data": 4
-    },
-    "after": {
-      "score": 60.0,
-      "grade": "C",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 4
+      "concerns": []
     }
   },
   "red_flags": [],

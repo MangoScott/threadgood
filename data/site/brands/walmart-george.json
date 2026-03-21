@@ -8,26 +8,31 @@
     "budget",
     "essentials"
   ],
-  "overall_score": 31.1,
+  "overall_score": 29.9,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
-    "level": "medium",
-    "indicators_with_data": 16,
+    "level": "high",
+    "indicators_with_data": 18,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 64.0
+    "data_coverage_pct": 72.0
   },
   "dimensions": {
-    "where": {
-      "score": 34.1,
+    "planet": {
+      "score": 28.0,
       "grade": "F",
-      "highlights": [],
-      "concerns": [
-        "Does not publish supplier list"
+      "highlights": [
+        "Circularity goals with timeline",
+        "Sustainable packaging initiatives",
+        "Chemical management policy in place"
       ],
-      "indicators_with_data": 5
+      "concerns": [
+        "Does not publish supplier list",
+        "No take-back program",
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 39.5,
       "grade": "D",
       "highlights": [
@@ -36,30 +41,15 @@
       ],
       "concerns": [
         "No living wage commitment mentioned"
-      ],
-      "indicators_with_data": 6
+      ]
     },
-    "what": {
-      "score": 15.0,
+    "animals": {
+      "score": 10.0,
       "grade": "F",
-      "highlights": [
-        "Chemical management policy in place"
-      ],
-      "concerns": [],
-      "indicators_with_data": 1
-    },
-    "after": {
-      "score": 35.0,
-      "grade": "D",
-      "highlights": [
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
+      "highlights": [],
       "concerns": [
-        "No take-back program",
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 4
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

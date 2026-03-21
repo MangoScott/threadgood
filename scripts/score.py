@@ -43,10 +43,9 @@ OUTPUT_DIR = DATA_DIR / "scores"
 
 # Dimension weights
 WEIGHTS = {
-    "where": 0.25,
-    "who": 0.30,
-    "what": 0.25,
-    "after": 0.20,
+    "people": 0.40,
+    "planet": 0.45,
+    "animals": 0.15,
 }
 
 # Default scores when no data is available
@@ -55,6 +54,7 @@ DEFAULT_SCORES = {
     "who": 55,
     "what": 55,
     "after": 55,
+    "animals": 55,
 }
 
 logging.basicConfig(
@@ -593,6 +593,50 @@ def calculate_confidence(total_indicators: int) -> dict:
     }
 
 # ---------------------------------------------------------------------------
+# NEW: Score Animals
+# ---------------------------------------------------------------------------
+
+def score_animals(data: dict) -> tuple[float, list[str], list[str], int]:
+    """Score the ANIMALS dimension."""
+    score = 0.0
+    highlights = []
+    concerns = []
+    indicators = 0
+    
+    report = data.get("report", {})
+    analysis = report.get("analysis", {}) if report else {}
+    if not analysis:
+        score = DEFAULT_SCORES["animals"]
+        
+    what_data = analysis.get("what", {})
+    certs = what_data.get("certifications_mentioned", [])
+    
+    animal_certs = ["RDS", "Responsible Down", "ZQ Merino", "PETA", "Vegan", "RWS", "exotic"]
+    found_animal_certs = [c for c in certs if any(ac.lower() in c.lower() for ac in animal_certs)]
+    
+    if found_animal_certs:
+        score += 30 + (10 * len(found_animal_certs))
+        highlights.append(f"Animal welfare policies/certs: {', '.join(found_animal_certs)}")
+        indicators += 1
+    elif analysis:
+        # If they have a report but no animal certs
+        concerns.append("No explicit animal welfare certifications found")
+        indicators += 1
+    
+    # Generic bonuses supporting biosphere/animals
+    if what_data.get("microplastics_mitigation") == "yes":
+        score += 15
+        highlights.append("Microplastics policy (Marine life protection)")
+        indicators += 1
+        
+    if what_data.get("chemical_management_policy") == "yes":
+        score += 10
+        indicators += 1
+    
+    score = min(score, 100)
+    return score, highlights, concerns, indicators
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
@@ -606,36 +650,37 @@ def score_brand(brand: dict) -> dict:
     who_score, who_highlights, who_concerns, who_ind = score_who(data)
     what_score, what_highlights, what_concerns, what_ind = score_what(data)
     after_score, after_highlights, after_concerns, after_ind = score_after(data)
+    animals_score, animals_highlights, animals_concerns, animals_ind = score_animals(data)
     
-    total_indicators = where_ind + who_ind + what_ind + after_ind
+    total_indicators = where_ind + who_ind + what_ind + after_ind + animals_ind
+    
+    # Consolidate into 3 pillars
+    people_score = who_score
+    planet_score = (where_score + what_score + after_score) / 3.0
     
     # Check red flags
     red_flags = check_red_flags(data)
     
-    # Calculate overall (before red flag adjustments)
+    # Calculate overall 
     overall = (
-        where_score * WEIGHTS["where"]
-        + who_score * WEIGHTS["who"]
-        + what_score * WEIGHTS["what"]
-        + after_score * WEIGHTS["after"]
+        people_score * WEIGHTS["people"]
+        + planet_score * WEIGHTS["planet"]
+        + animals_score * WEIGHTS["animals"]
     )
     
     # Apply red flag caps
     if red_flags:
-        overall, who_score = apply_red_flags(overall, who_score, red_flags)
-        # Recalculate overall with adjusted WHO
+        overall, people_score = apply_red_flags(overall, people_score, red_flags)
         overall = (
-            where_score * WEIGHTS["where"]
-            + who_score * WEIGHTS["who"]
-            + what_score * WEIGHTS["what"]
-            + after_score * WEIGHTS["after"]
+            people_score * WEIGHTS["people"]
+            + planet_score * WEIGHTS["planet"]
+            + animals_score * WEIGHTS["animals"]
         )
     
     overall = round(overall, 1)
-    where_score = round(where_score, 1)
-    who_score = round(who_score, 1)
-    what_score = round(what_score, 1)
-    after_score = round(after_score, 1)
+    people_score = round(people_score, 1)
+    planet_score = round(planet_score, 1)
+    animals_score = round(animals_score, 1)
     
     # Determine data sources used
     sources = []
@@ -669,34 +714,24 @@ def score_brand(brand: dict) -> dict:
         "grade_label": grade_label(score_to_grade(overall)),
         "confidence": calculate_confidence(total_indicators),
         "dimensions": {
-            "where": {
-                "score": where_score,
-                "grade": score_to_grade(where_score),
-                "highlights": where_highlights,
-                "concerns": where_concerns,
-                "indicators_with_data": where_ind,
+            "planet": {
+                "score": planet_score,
+                "grade": score_to_grade(planet_score),
+                "highlights": list(set(where_highlights + what_highlights + after_highlights)),
+                "concerns": list(set(where_concerns + what_concerns + after_concerns)),
             },
-            "who": {
-                "score": who_score,
-                "grade": score_to_grade(who_score),
+            "people": {
+                "score": people_score,
+                "grade": score_to_grade(people_score),
                 "highlights": who_highlights,
                 "concerns": who_concerns,
-                "indicators_with_data": who_ind,
             },
-            "what": {
-                "score": what_score,
-                "grade": score_to_grade(what_score),
-                "highlights": what_highlights,
-                "concerns": what_concerns,
-                "indicators_with_data": what_ind,
-            },
-            "after": {
-                "score": after_score,
-                "grade": score_to_grade(after_score),
-                "highlights": after_highlights,
-                "concerns": after_concerns,
-                "indicators_with_data": after_ind,
-            },
+            "animals": {
+                "score": animals_score,
+                "grade": score_to_grade(animals_score),
+                "highlights": animals_highlights,
+                "concerns": animals_concerns,
+            }
         },
         "red_flags": red_flags,
         "highlights": all_highlights[:5],  # top 5

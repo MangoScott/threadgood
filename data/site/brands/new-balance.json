@@ -7,7 +7,7 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 57.0,
+  "overall_score": 57.3,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
@@ -17,37 +17,27 @@
     "data_coverage_pct": 8.0
   },
   "dimensions": {
-    "where": {
-      "score": 55,
+    "planet": {
+      "score": 55.7,
       "grade": "C",
-      "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "highlights": [
+        "Verified certifications: Bluesign Partner"
+      ],
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 60,
       "grade": "C",
       "highlights": [
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 1
+      "concerns": []
     },
-    "what": {
-      "score": 57.0,
-      "grade": "C",
-      "highlights": [
-        "Verified certifications: Bluesign Partner"
-      ],
-      "concerns": [],
-      "indicators_with_data": 1
-    },
-    "after": {
+    "animals": {
       "score": 55,
       "grade": "C",
       "highlights": [],
-      "concerns": [],
-      "indicators_with_data": 0
+      "concerns": []
     }
   },
   "red_flags": [],

@@ -7,60 +7,52 @@
     "womenswear",
     "dresses"
   ],
-  "overall_score": 66.6,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 57.4,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 21,
+    "indicators_with_data": 24,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 84.0
+    "data_coverage_pct": 96.0
   },
   "dimensions": {
-    "where": {
-      "score": 59.1,
-      "grade": "C",
+    "planet": {
+      "score": 73.8,
+      "grade": "B",
       "highlights": [
-        "Publishes full supplier/factory list"
+        "Garment take-back/recycling program",
+        "Verified certifications: GOTS Certified, Climate Neutral Certified",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Certifications: Bluesign, Oeko-Tex",
+        "Microplastics mitigation program",
+        "Sustainable packaging initiatives",
+        "100% sustainable/certified materials",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 51.0,
       "grade": "C",
       "highlights": [
         "Active living wage program",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 6
+      "concerns": []
     },
-    "what": {
-      "score": 82.2,
-      "grade": "A",
+    "animals": {
+      "score": 25.0,
+      "grade": "F",
       "highlights": [
-        "100% sustainable/certified materials",
-        "Certifications: Bluesign, Oeko-Tex",
-        "Verified certifications: GOTS Certified, Climate Neutral Certified",
-        "Chemical management policy in place",
-        "Microplastics mitigation program",
-        "Durability/longevity commitment"
+        "Microplastics policy (Marine life protection)"
       ],
-      "concerns": [],
-      "indicators_with_data": 6
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

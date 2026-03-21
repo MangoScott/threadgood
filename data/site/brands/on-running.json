@@ -7,61 +7,53 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 61.3,
+  "overall_score": 52.2,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 23,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 92.0
   },
   "dimensions": {
-    "where": {
-      "score": 78.2,
+    "planet": {
+      "score": 70.2,
       "grade": "B",
       "highlights": [
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Microplastics mitigation program",
+        "Certifications: Bluesign",
+        "Sustainable packaging initiatives",
+        "FTI transparency score: 52.0%",
+        "Durability/longevity commitment",
         "Publishes full supplier/factory list",
-        "FTI transparency score: 52.0%"
+        "Design for disassembly approach",
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 42.0,
       "grade": "D",
       "highlights": [
         "Active living wage program",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "what": {
-      "score": 52.5,
-      "grade": "C",
+    "animals": {
+      "score": 25.0,
+      "grade": "F",
       "highlights": [
-        "Certifications: Bluesign",
-        "Chemical management policy in place",
-        "Microplastics mitigation program",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline",
-        "Design for disassembly approach"
+        "Microplastics policy (Marine life protection)"
       ],
       "concerns": [
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 5
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

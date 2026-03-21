@@ -7,26 +7,34 @@
     "denim",
     "basics"
   ],
-  "overall_score": 62.3,
+  "overall_score": 56.3,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
-    "where": {
-      "score": 76.5,
-      "grade": "B",
+    "planet": {
+      "score": 58.1,
+      "grade": "C",
       "highlights": [
-        "Publishes full supplier/factory list"
+        "65% sustainable/certified materials",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Verified certifications: OEKO-TEX Certified",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No take-back program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 71.7,
       "grade": "B",
       "highlights": [
@@ -35,33 +43,15 @@
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 42.8,
-      "grade": "D",
-      "highlights": [
-        "65% sustainable/certified materials",
-        "Verified certifications: OEKO-TEX Certified",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
-    },
-    "after": {
-      "score": 55.0,
-      "grade": "C",
-      "highlights": [
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
       "concerns": [
-        "No take-back program"
-      ],
-      "indicators_with_data": 4
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

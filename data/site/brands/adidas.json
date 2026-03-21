@@ -7,62 +7,52 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 63.4,
+  "overall_score": 52.7,
   "grade": "C",
   "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
-    "where": {
-      "score": 83.9,
-      "grade": "A",
+    "planet": {
+      "score": 68.0,
+      "grade": "B",
       "highlights": [
-        "Publishes full supplier/factory list",
         "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 54.0%"
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Verified certifications: Bluesign Partner",
+        "Certifications: Bluesign",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
+        "FTI transparency score: 54.0%",
+        "96% sustainable/certified materials"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 51.5,
       "grade": "C",
       "highlights": [
         "Audit results publicly disclosed",
         "KnowTheChain score: 55.0/100"
       ],
-      "concerns": [],
-      "indicators_with_data": 6
+      "concerns": []
     },
-    "what": {
-      "score": 60.0,
-      "grade": "C",
-      "highlights": [
-        "96% sustainable/certified materials",
-        "Certifications: Bluesign",
-        "Verified certifications: Bluesign Partner",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 60.0,
-      "grade": "C",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
       "concerns": [
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 4
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

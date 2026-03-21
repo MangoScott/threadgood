@@ -8,26 +8,32 @@
     "basics",
     "luxury"
   ],
-  "overall_score": 49.3,
+  "overall_score": 46.3,
   "grade": "D",
   "grade_label": "Needs Work",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 18,
+    "indicators_with_data": 20,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 72.0
+    "data_coverage_pct": 80.0
   },
   "dimensions": {
-    "where": {
-      "score": 66.5,
-      "grade": "B",
+    "planet": {
+      "score": 42.1,
+      "grade": "D",
       "highlights": [
-        "Publishes full supplier/factory list"
+        "Chemical management policy in place",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 64.7,
       "grade": "C",
       "highlights": [
@@ -35,31 +41,15 @@
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 25.0,
+    "animals": {
+      "score": 10.0,
       "grade": "F",
-      "highlights": [
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 2
-    },
-    "after": {
-      "score": 35.0,
-      "grade": "D",
-      "highlights": [
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
+      "highlights": [],
       "concerns": [
-        "No take-back program",
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 4
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

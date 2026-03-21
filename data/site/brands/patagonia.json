@@ -7,28 +7,38 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 82.7,
-  "grade": "A",
-  "grade_label": "Leading",
+  "overall_score": 71.7,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 22,
+    "indicators_with_data": 25,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 88.0
+    "data_coverage_pct": 100.0
   },
   "dimensions": {
-    "where": {
-      "score": 95.8,
+    "planet": {
+      "score": 89.1,
       "grade": "A",
       "highlights": [
-        "Publishes full supplier/factory list",
         "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 88.0%"
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Certifications: Bluesign",
+        "Microplastics mitigation program",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "Design for disassembly approach",
+        "89% sustainable/certified materials",
+        "Circularity goals with timeline",
+        "FTI transparency score: 88.0%",
+        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 69.5,
       "grade": "B",
       "highlights": [
@@ -37,35 +47,17 @@
         "KnowTheChain score: 65.0/100",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 6
+      "concerns": []
     },
-    "what": {
-      "score": 71.6,
-      "grade": "B",
+    "animals": {
+      "score": 25.0,
+      "grade": "F",
       "highlights": [
-        "89% sustainable/certified materials",
-        "Certifications: Bluesign",
-        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
-        "Chemical management policy in place",
-        "Microplastics mitigation program",
-        "Durability/longevity commitment"
+        "Microplastics policy (Marine life protection)"
       ],
-      "concerns": [],
-      "indicators_with_data": 6
-    },
-    "after": {
-      "score": 100.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline",
-        "Design for disassembly approach"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

@@ -7,27 +7,35 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 65.5,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 61.7,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 21,
+    "indicators_with_data": 23,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 84.0
+    "data_coverage_pct": 92.0
   },
   "dimensions": {
-    "where": {
-      "score": 78.5,
+    "planet": {
+      "score": 69.9,
       "grade": "B",
       "highlights": [
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Verified certifications: Bluesign Partner",
+        "Certifications: Bluesign",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "60% sustainable/certified materials",
         "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
         "FTI transparency score: 53.0%"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 57.0,
       "grade": "C",
       "highlights": [
@@ -35,33 +43,15 @@
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 51.0,
+    "animals": {
+      "score": 50.0,
       "grade": "C",
       "highlights": [
-        "60% sustainable/certified materials",
-        "Certifications: Bluesign",
-        "Verified certifications: Bluesign Partner",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
+        "Animal welfare policies/certs: Responsible Down Standard"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
+      "concerns": []
     }
   },
   "red_flags": [],

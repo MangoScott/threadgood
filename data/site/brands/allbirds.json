@@ -7,27 +7,33 @@
     "shoes",
     "basics"
   ],
-  "overall_score": 49.6,
+  "overall_score": 47.7,
   "grade": "D",
   "grade_label": "Needs Work",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 18,
+    "indicators_with_data": 20,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 72.0
+    "data_coverage_pct": 80.0
   },
   "dimensions": {
-    "where": {
-      "score": 62.0,
+    "planet": {
+      "score": 56.9,
       "grade": "C",
       "highlights": [
+        "Discloses 3+ supply chain tiers",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Verified certifications: B Corporation",
         "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers"
+        "Circularity goals with timeline"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": []
     },
-    "who": {
+    "people": {
       "score": 36.5,
       "grade": "D",
       "highlights": [
@@ -35,31 +41,15 @@
       ],
       "concerns": [
         "Low KnowTheChain score: 15.0/100"
-      ],
-      "indicators_with_data": 6
+      ]
     },
-    "what": {
-      "score": 28.8,
-      "grade": "F",
+    "animals": {
+      "score": 50.0,
+      "grade": "C",
       "highlights": [
-        "Verified certifications: B Corporation",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
+        "Animal welfare policies/certs: ZQ Merino"
       ],
-      "concerns": [],
-      "indicators_with_data": 3
-    },
-    "after": {
-      "score": 80.0,
-      "grade": "A",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Resale or repair program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [],
-      "indicators_with_data": 4
+      "concerns": []
     }
   },
   "red_flags": [],

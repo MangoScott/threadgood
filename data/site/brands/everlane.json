@@ -7,60 +7,50 @@
     "basics",
     "workwear"
   ],
-  "overall_score": 59.1,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 49.3,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 21,
+    "indicators_with_data": 23,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 84.0
+    "data_coverage_pct": 92.0
   },
   "dimensions": {
-    "where": {
-      "score": 62.2,
+    "planet": {
+      "score": 63.6,
       "grade": "C",
       "highlights": [
-        "Publishes full supplier/factory list"
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Verified certifications: Bluesign Partner",
+        "Sustainable packaging initiatives",
+        "Durability/longevity commitment",
+        "Publishes full supplier/factory list",
+        "Circularity goals with timeline",
+        "90% sustainable/certified materials",
+        "Certifications: GOTS, OEKO-TEX"
       ],
-      "concerns": [],
-      "indicators_with_data": 5
+      "concerns": [
+        "No resale/repair program"
+      ]
     },
-    "who": {
+    "people": {
       "score": 48.0,
       "grade": "D",
       "highlights": [
         "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
-      "concerns": [],
-      "indicators_with_data": 7
+      "concerns": []
     },
-    "what": {
-      "score": 68.5,
-      "grade": "B",
-      "highlights": [
-        "90% sustainable/certified materials",
-        "Certifications: GOTS, OEKO-TEX",
-        "Verified certifications: Bluesign Partner",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 60.0,
-      "grade": "C",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
       "concerns": [
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 4
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

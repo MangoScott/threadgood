@@ -8,28 +8,35 @@
     "underwear",
     "organic"
   ],
-  "overall_score": 48.5,
+  "overall_score": 45.6,
   "grade": "D",
   "grade_label": "Needs Work",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
-    "where": {
-      "score": 23.5,
-      "grade": "F",
+    "planet": {
+      "score": 42.1,
+      "grade": "D",
       "highlights": [
-        "Publishes partial supplier list"
+        "Publishes partial supplier list",
+        "Garment take-back/recycling program",
+        "Chemical management policy in place",
+        "Certifications: GOTS",
+        "Verified certifications: Fair Trade Certified, GOTS Certified",
+        "Sustainable packaging initiatives",
+        "100% sustainable/certified materials",
+        "Durability/longevity commitment"
       ],
       "concerns": [
+        "No resale/repair program",
         "Low FTI transparency score: 10.0%"
-      ],
-      "indicators_with_data": 5
+      ]
     },
-    "who": {
+    "people": {
       "score": 63.0,
       "grade": "C",
       "highlights": [
@@ -40,33 +47,15 @@
       ],
       "concerns": [
         "Low KnowTheChain score: 10.0/100"
-      ],
-      "indicators_with_data": 7
+      ]
     },
-    "what": {
-      "score": 62.8,
-      "grade": "C",
-      "highlights": [
-        "100% sustainable/certified materials",
-        "Certifications: GOTS",
-        "Verified certifications: Fair Trade Certified, GOTS Certified",
-        "Chemical management policy in place",
-        "Durability/longevity commitment"
-      ],
-      "concerns": [],
-      "indicators_with_data": 5
-    },
-    "after": {
-      "score": 40.0,
-      "grade": "D",
-      "highlights": [
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives"
-      ],
+    "animals": {
+      "score": 10.0,
+      "grade": "F",
+      "highlights": [],
       "concerns": [
-        "No resale/repair program"
-      ],
-      "indicators_with_data": 3
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],

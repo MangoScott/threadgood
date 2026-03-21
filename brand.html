@@ -36,6 +36,19 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body { font-family: 'DM Sans', sans-serif; color: var(--text); background: var(--cream); line-height: 1.6; }
         .hidden { display: none !important; }
+        
+        /* Progress Bars */
+        .progress-group { margin-bottom: 1.5rem; }
+        .progress-label { display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-weight: 600; font-size: 0.95rem; }
+        .progress-bar-bg { width: 100%; height: 16px; background: #e0e0e0; border-radius: 8px; overflow: hidden; }
+        .progress-bar-fill { height: 100%; width: 0%; border-radius: 8px; transition: width 1s ease-in-out; }
+        
+        /* Bar Colors */
+        .fill-a { background: var(--grade-a); }
+        .fill-b { background: var(--grade-b); }
+        .fill-c { background: var(--grade-c); }
+        .fill-d { background: var(--grade-d); }
+        .fill-f { background: var(--grade-f); }
     </style>
 </head>
 <body>
@@ -73,24 +86,39 @@
         </div>
 
         <div class="sc-card">
-            <h2>Dimension Breakdown <span>Weight</span></h2>
-            <div class="dim-scores">
-                <div class="ds-box">
-                    <div class="ds-val" id="ds-who">0</div>
-                    <div class="ds-label">WHO (Labor)</div>
+            <h2>Pillar Breakdown <span>Score / 100</span></h2>
+            <div class="dim-scores" style="display: block;">
+                
+                <div class="progress-group">
+                    <div class="progress-label">
+                        <span>PLANET (Materials, Circularity, Traceability)</span>
+                        <span id="ds-planet-val">0/100</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="ds-planet-bar"></div>
+                    </div>
                 </div>
-                <div class="ds-box">
-                    <div class="ds-val" id="ds-what">0</div>
-                    <div class="ds-label">WHAT (Materials)</div>
+
+                <div class="progress-group">
+                    <div class="progress-label">
+                        <span>PEOPLE (Labor, Safety, Open Supply)</span>
+                        <span id="ds-people-val">0/100</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="ds-people-bar"></div>
+                    </div>
                 </div>
-                <div class="ds-box">
-                    <div class="ds-val" id="ds-where">0</div>
-                    <div class="ds-label">WHERE (Transparency)</div>
+
+                <div class="progress-group">
+                    <div class="progress-label">
+                        <span>ANIMALS (Welfare, Tracing, Vegan Alternatives)</span>
+                        <span id="ds-animals-val">0/100</span>
+                    </div>
+                    <div class="progress-bar-bg">
+                        <div class="progress-bar-fill" id="ds-animals-bar"></div>
+                    </div>
                 </div>
-                <div class="ds-box">
-                    <div class="ds-val" id="ds-after">0</div>
-                    <div class="ds-label">AFTER (Circularity)</div>
-                </div>
+
             </div>
         </div>
 
@@ -141,12 +169,21 @@
                     document.getElementById('sc-red-flags').innerHTML = flagsHTML;
                 }
                 
-                // Dimensions
+                // Dimensions (Planet, People, Animals)
                 if (brand.dimensions) {
-                    if (brand.dimensions.who) document.getElementById('ds-who').innerText = brand.dimensions.who.score.toFixed(1);
-                    if (brand.dimensions.what) document.getElementById('ds-what').innerText = brand.dimensions.what.score.toFixed(1);
-                    if (brand.dimensions.where) document.getElementById('ds-where').innerText = brand.dimensions.where.score.toFixed(1);
-                    if (brand.dimensions.after) document.getElementById('ds-after').innerText = brand.dimensions.after.score.toFixed(1);
+                    const updateBar = (id, data) => {
+                        if (!data) return;
+                        document.getElementById(`${id}-val`).innerText = `${data.score.toFixed(1)} / 100`;
+                        const bar = document.getElementById(`${id}-bar`);
+                        // Set width
+                        setTimeout(() => { bar.style.width = `${data.score}%`; }, 100);
+                        // Set color grade
+                        bar.className = `progress-bar-fill fill-${data.grade.toLowerCase()}`;
+                    };
+
+                    updateBar('ds-planet', brand.dimensions.planet);
+                    updateBar('ds-people', brand.dimensions.people);
+                    updateBar('ds-animals', brand.dimensions.animals);
                 }
                 
                 // Highlights & Concerns
