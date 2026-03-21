@@ -1,6 +1,51 @@
 {
   "brands": [
     {
+      "name": "Patagonia",
+      "slug": "patagonia",
+      "parent": "Patagonia Inc.",
+      "price_tier": "$$$$",
+      "categories": [
+        "outdoor",
+        "activewear"
+      ],
+      "grade": "B",
+      "overall_score": 69.2,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 65.0,
+          "grade": "B"
+        },
+        "who": {
+          "score": 50.0,
+          "grade": "C"
+        },
+        "what": {
+          "score": 71.6,
+          "grade": "B"
+        },
+        "after": {
+          "score": 100.0,
+          "grade": "A"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "Active living wage program"
+      ],
+      "concerns": [],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "cbp_forced_labor",
+        "certifications"
+      ]
+    },
+    {
       "name": "Pact",
       "slug": "pact",
       "parent": "Pact Organic",
@@ -1784,49 +1829,6 @@
       ]
     },
     {
-      "name": "Patagonia",
-      "slug": "patagonia",
-      "parent": "Patagonia Inc.",
-      "price_tier": "$$$$",
-      "categories": [
-        "outdoor",
-        "activewear"
-      ],
-      "grade": "C",
-      "overall_score": 58.7,
-      "confidence": "low",
-      "dimensions": {
-        "where": {
-          "score": 55,
-          "grade": "C"
-        },
-        "who": {
-          "score": 60,
-          "grade": "C"
-        },
-        "what": {
-          "score": 63.8,
-          "grade": "C"
-        },
-        "after": {
-          "score": 55,
-          "grade": "C"
-        }
-      },
-      "red_flags": [],
-      "highlights": [
-        "No CBP forced labor flags",
-        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner"
-      ],
-      "concerns": [],
-      "last_updated": "2026-03-21",
-      "data_sources": [
-        "osha",
-        "cbp_forced_labor",
-        "certifications"
-      ]
-    },
-    {
       "name": "Eileen Fisher",
       "slug": "eileen-fisher",
       "parent": "Eileen Fisher Inc.",
@@ -2293,6 +2295,52 @@
         "osha",
         "cbp_forced_labor",
         "certifications"
+      ]
+    },
+    {
+      "name": "On Running",
+      "slug": "on-running",
+      "parent": "On Holding AG",
+      "price_tier": "$$$",
+      "categories": [
+        "shoes",
+        "activewear"
+      ],
+      "grade": "C",
+      "overall_score": 56.7,
+      "confidence": "high",
+      "dimensions": {
+        "where": {
+          "score": 60.0,
+          "grade": "C"
+        },
+        "who": {
+          "score": 42.0,
+          "grade": "D"
+        },
+        "what": {
+          "score": 52.5,
+          "grade": "C"
+        },
+        "after": {
+          "score": 80.0,
+          "grade": "A"
+        }
+      },
+      "red_flags": [],
+      "highlights": [
+        "Publishes full supplier/factory list",
+        "Active living wage program",
+        "No CBP forced labor flags"
+      ],
+      "concerns": [
+        "No resale/repair program"
+      ],
+      "last_updated": "2026-03-21",
+      "data_sources": [
+        "osha",
+        "sustainability_report",
+        "cbp_forced_labor"
       ]
     },
     {
@@ -3056,21 +3104,21 @@
     }
   ],
   "metadata": {
-    "total_brands": 72,
+    "total_brands": 73,
     "methodology_version": "1.0",
     "last_build": "2026-03-21",
     "grade_distribution": {
       "A": 0,
-      "B": 0,
+      "B": 1,
       "C": 69,
       "D": 3,
       "F": 0
     },
     "price_tier_counts": {
+      "$$$$": 7,
       "$$": 23,
-      "$$$": 24,
-      "$": 18,
-      "$$$$": 7
+      "$$$": 25,
+      "$": 18
     }
   }
 }

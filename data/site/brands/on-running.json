@@ -1,85 +1,83 @@
 {
-  "name": "Patagonia",
-  "slug": "patagonia",
-  "parent": "Patagonia Inc.",
-  "price_tier": "$$$$",
+  "name": "On Running",
+  "slug": "on-running",
+  "parent": "On Holding AG",
+  "price_tier": "$$$",
   "categories": [
-    "outdoor",
+    "shoes",
     "activewear"
   ],
-  "overall_score": 69.2,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": 56.7,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
     "level": "high",
-    "indicators_with_data": 20,
+    "indicators_with_data": 19,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 80.0
+    "data_coverage_pct": 76.0
   },
   "dimensions": {
     "where": {
-      "score": 65.0,
-      "grade": "B",
+      "score": 60.0,
+      "grade": "C",
       "highlights": [
-        "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers"
+        "Publishes full supplier/factory list"
       ],
       "concerns": [],
       "indicators_with_data": 4
     },
     "who": {
-      "score": 50.0,
-      "grade": "C",
+      "score": 42.0,
+      "grade": "D",
       "highlights": [
         "Active living wage program",
-        "Audit results publicly disclosed",
         "No CBP forced labor flags"
       ],
       "concerns": [],
       "indicators_with_data": 5
     },
     "what": {
-      "score": 71.6,
-      "grade": "B",
+      "score": 52.5,
+      "grade": "C",
       "highlights": [
-        "89% sustainable/certified materials",
         "Certifications: Bluesign",
-        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
         "Chemical management policy in place",
         "Microplastics mitigation program",
         "Durability/longevity commitment"
       ],
       "concerns": [],
-      "indicators_with_data": 6
+      "indicators_with_data": 5
     },
     "after": {
-      "score": 100.0,
+      "score": 80.0,
       "grade": "A",
       "highlights": [
         "Garment take-back/recycling program",
-        "Resale or repair program",
         "Sustainable packaging initiatives",
         "Circularity goals with timeline",
         "Design for disassembly approach"
       ],
-      "concerns": [],
+      "concerns": [
+        "No resale/repair program"
+      ],
       "indicators_with_data": 5
     }
   },
   "red_flags": [],
   "highlights": [
     "Publishes full supplier/factory list",
-    "Discloses 3+ supply chain tiers",
     "Active living wage program",
-    "Audit results publicly disclosed",
-    "No CBP forced labor flags"
+    "No CBP forced labor flags",
+    "Certifications: Bluesign",
+    "Chemical management policy in place"
   ],
-  "concerns": [],
+  "concerns": [
+    "No resale/repair program"
+  ],
   "data_sources": [
     "osha",
     "sustainability_report",
-    "cbp_forced_labor",
-    "certifications"
+    "cbp_forced_labor"
   ],
   "methodology_version": "1.0",
   "last_updated": "2026-03-21",
@@ -93,31 +91,29 @@
       "states": []
     },
     "sustainability_report": {
-      "report_file": "patagonia_2023_report.pdf",
+      "report_file": "on_impact_report_2022.pdf",
       "parsed_at": "2026-03-21T19:33:00.000000",
       "where": {
         "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "3+",
+        "supply_chain_tiers_disclosed": "2",
         "oar_participation": "yes",
         "sourcing_countries": [
           "Vietnam",
-          "Sri Lanka",
-          "Mexico",
-          "USA",
-          "Thailand"
+          "Indonesia",
+          "China",
+          "Europe"
         ]
       },
       "who": {
         "living_wage_status": "active_program",
         "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "yes",
+        "audit_results_disclosed": "partial",
         "freedom_of_association": "yes"
       },
       "what": {
-        "sustainable_materials_percentage": "89%",
+        "sustainable_materials_percentage": "30%",
         "certifications_mentioned": [
-          "Bluesign",
-          "Fair Trade"
+          "Bluesign"
         ],
         "chemical_management_policy": "yes",
         "microplastics_mitigation": "yes",
@@ -125,7 +121,7 @@
       },
       "after": {
         "takeback_program": "yes",
-        "resale_repair_program": "yes",
+        "resale_repair_program": "no",
         "packaging_sustainability": "yes",
         "circularity_goals": "yes",
         "design_for_disassembly": "yes"
