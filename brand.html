@@ -212,10 +212,10 @@
                 if (brand.dimensions) {
                     const updateBar = (id, data) => {
                         if (!data) return;
-                        document.getElementById(`${id}-val`).innerText = `${data.score.toFixed(1)} / 100`;
+                        document.getElementById(`${id}-val`).innerText = data.score !== null ? `${data.score.toFixed(1)} / 100` : 'Unranked';
                         const bar = document.getElementById(`${id}-bar`);
                         // Set width
-                        setTimeout(() => { bar.style.width = `${data.score}%`; }, 100);
+                        setTimeout(() => { bar.style.width = data.score !== null ? `${data.score}%` : '0%'; }, 100);
                         // Set color grade
                         bar.className = `progress-bar-fill fill-${data.grade.toLowerCase()}`;
                     };
