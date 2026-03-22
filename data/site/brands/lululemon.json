@@ -6,60 +6,110 @@
   "categories": [
     "activewear"
   ],
-  "overall_score": 57.8,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 37.9,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 2,
+    "indicators_with_data": 4,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 16.0
   },
   "dimensions": {
     "planet": {
-      "score": 56.7,
-      "grade": "C",
+      "score": 32.5,
+      "grade": "F",
       "highlights": [
         "Verified certifications: Fair Trade Certified, Bluesign Partner"
       ],
       "concerns": []
     },
     "people": {
-      "score": 60,
-      "grade": "C",
+      "score": 48.9,
+      "grade": "D",
       "highlights": [
-        "No CBP forced labor flags"
+        "KnowTheChain score: 63/100",
+        "No CBP forced labor flags",
+        "FTI transparency score: 50%"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 55,
-      "grade": "C",
+      "score": 25,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
+  "summary": "Lululemon achieved a D (37.9/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 32.5/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 48.9/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
+    "FTI transparency score: 50%",
+    "KnowTheChain score: 63/100",
     "No CBP forced labor flags",
     "Verified certifications: Fair Trade Certified, Bluesign Partner"
   ],
   "concerns": [],
   "data_sources": [
-    "osha",
+    "fti",
+    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
+  "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 50,
+      "edition": "2024 (What Fuels Fashion)",
+      "context": "Scored 50% on climate/energy transparency.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index/"
+    },
+    "ktc": {
+      "name": "KnowTheChain Benchmark",
+      "publisher": "KnowTheChain / Business & Human Rights Resource Centre",
+      "score": 63,
+      "rank": 1,
+      "total_companies": 65,
+      "context": "Highest scoring company (63/100) in the 2023 benchmark of 65 companies. Commended for 'markedly stronger human rights due diligence.'",
+      "industry_average": 21,
+      "source_url": "https://knowthechain.org/benchmark/"
+    },
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "monitor",
+      "flags_count": 0,
+      "flags": [],
+      "wro_exposure": [
+        {
+          "wro": "UFLPA / Xinjiang Cotton Ban",
+          "relevance": "Brand category suggests cotton sourcing",
+          "risk_level": "monitor"
+        }
+      ]
+    },
+    "certifications": {
+      "name": "Third-Party Certifications",
+      "publisher": "Various certification bodies",
+      "active_certifications": [
+        "Fair Trade Certified",
+        "Bluesign Partner"
+      ],
+      "cert_score": 20
+    }
+  },
   "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "source_data": {
-    "osha": {
-      "total_inspections": 0,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": null,
-      "states": []
+    "fti": {
+      "transparency_score": 50,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 63,
+      "theme_scores": {}
     }
   }
 }

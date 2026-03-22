@@ -8,72 +8,76 @@
     "underwear",
     "organic"
   ],
-  "overall_score": 61.8,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 27.8,
+  "grade": "F",
+  "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 3,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 12.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 56.8,
-      "grade": "C",
+      "score": 26.8,
+      "grade": "F",
       "highlights": [
         "Verified certifications: Fair Trade Certified, GOTS Certified"
       ],
       "concerns": []
     },
     "people": {
-      "score": 70,
-      "grade": "B",
+      "score": 30,
+      "grade": "F",
       "highlights": [
-        "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 55,
-      "grade": "C",
+      "score": 25,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
+  "summary": "Pact achieved a F (27.8/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 26.8/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
-    "Clean OSHA safety record",
     "No CBP forced labor flags",
     "Verified certifications: Fair Trade Certified, GOTS Certified"
   ],
   "concerns": [],
   "data_sources": [
-    "osha",
     "cbp_forced_labor",
     "certifications"
   ],
-  "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
-  "source_data": {
-    "osha": {
-      "total_inspections": 21,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": "2010-10-27",
-      "states": [
-        "CA",
-        "IL",
-        "MN",
-        "MO",
-        "OH",
-        "OK",
-        "OR",
-        "WA",
-        "WI"
+  "data_source_details": {
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "monitor",
+      "flags_count": 0,
+      "flags": [],
+      "wro_exposure": [
+        {
+          "wro": "UFLPA / Xinjiang Cotton Ban",
+          "relevance": "Brand category suggests cotton sourcing",
+          "risk_level": "monitor"
+        }
       ]
+    },
+    "certifications": {
+      "name": "Third-Party Certifications",
+      "publisher": "Various certification bodies",
+      "active_certifications": [
+        "Fair Trade Certified",
+        "GOTS Certified"
+      ],
+      "cert_score": 22
     }
-  }
+  },
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-22",
+  "source_data": {}
 }

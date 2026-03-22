@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Methodology | ThreadGrade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+        :root {
+            --forest: #1a3a2a;
+            --green-dark: #2d5a3d;
+            --green-mid: #3d7a52;
+            --green-bright: #4CAF50;
+            --green-light: #e8f5e9;
+            --green-pale: #f1f8f2;
+            --cream: #faf9f6;
+            --warm-white: #fefdfb;
+            --ink: #1a1a1a;
+            --text: #2d2d2d;
+            --text-light: #5a5a5a;
+            --text-muted: #8a8a8a;
+            --accent: #e85d26;
+            --grade-a: #2d7a3d;
+            --grade-b: #649646;
+            --grade-c: #e5b32e;
+            --grade-d: #d97736;
+            --grade-f: #c0392b;
+            --grade-nr: #888888;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'DM Sans', sans-serif; color: var(--text); background: var(--cream); line-height: 1.6; }
+
+        nav {
+            position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+            padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center;
+            background: rgba(250, 249, 246, 0.95); backdrop-filter: blur(12px);
+            border-bottom: 1px solid rgba(0,0,0,0.04);
+        }
+        .nav-logo {
+            font-weight: 700; font-size: 1.3rem; color: var(--forest); text-decoration: none;
+            display: flex; align-items: center; gap: 0.4rem;
+        }
+        .nav-logo .thread-icon { width: 28px; height: 28px; }
+        .nav-links { display: flex; gap: 2rem; align-items: center; list-style: none; }
+        .nav-links a { color: var(--text-light); text-decoration: none; font-size: 0.9rem; font-weight: 500; transition: color 0.2s; }
+        .nav-links a:hover { color: var(--forest); }
+        .nav-links a.active { color: var(--forest); font-weight: 700; }
+
+        .toc {
+            position: sticky; top: 80px;
+            background: var(--warm-white); border-radius: 12px; padding: 1.5rem;
+            box-shadow: var(--shadow-sm); border: 1px solid rgba(0,0,0,0.04);
+        }
+        .toc h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.5px; color: var(--text-muted); margin-bottom: 0.8rem; }
+        .toc a {
+            display: block; padding: 0.4rem 0; font-size: 0.88rem; color: var(--text-light);
+            text-decoration: none; border-left: 2px solid transparent; padding-left: 0.8rem;
+            transition: all 0.2s;
+        }
+        .toc a:hover { color: var(--forest); border-left-color: var(--green-mid); }
+
+        .two-col { display: grid; grid-template-columns: 220px 1fr; gap: 2rem; max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
+
+        @media (max-width: 768px) {
+            .two-col { grid-template-columns: 1fr; }
+            .toc { position: static; margin-bottom: 2rem; }
+            nav { padding: 0.8rem 1rem; }
+            .nav-links { display: none; }
+        }
+    </style>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="nav-logo">
+        <svg class="thread-icon" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="32" height="32" rx="8" fill="#1a3a2a"/>
+            <text x="16" y="22" text-anchor="middle" font-family="DM Sans" font-weight="700" font-size="16" fill="#faf9f6">T</text>
+        </svg>
+        ThreadGrade
+    </a>
+    <ul class="nav-links">
+        <li><a href="index.html#directory">Directory</a></li>
+        <li><a href="methodology.html" class="active">Methodology</a></li>
+        <li><a href="index.html#signup">Get Early Access</a></li>
+    </ul>
+</nav>
+
+<header class="methodology-header">
+    <h1>Scoring Methodology</h1>
+    <p style="color: rgba(255,255,255,0.7); font-size: 1.05rem; max-width: 600px; margin: 0.5rem auto 0;">How ThreadGrade rates brands &mdash; every formula, data source, and decision explained.</p>
+</header>
+
+<div class="two-col" style="margin-top: -1rem; position: relative; z-index: 10;">
+    <aside>
+        <div class="toc">
+            <h4>On this page</h4>
+            <a href="#philosophy">Philosophy</a>
+            <a href="#pillars">Three Pillars</a>
+            <a href="#dimensions">Four Dimensions</a>
+            <a href="#red-flags">Red Flags</a>
+            <a href="#grading">Grade Scale</a>
+            <a href="#confidence">Confidence Levels</a>
+            <a href="#data-sources">Data Sources</a>
+            <a href="#missing-data">Missing Data Policy</a>
+        </div>
+    </aside>
+
+    <main>
+        <div class="methodology-card" id="philosophy">
+            <h2>Our Philosophy</h2>
+            <p>ThreadGrade exists because existing ethical fashion platforms fail the people who need them most: everyday shoppers on real budgets. We don't tell you to stop buying from Target and switch to $150 sustainable tees. We grade the brands you already buy, using publicly verifiable data.</p>
+            <h3>Core Principles</h3>
+            <ul>
+                <li><strong>Trust-first scoring:</strong> If a brand doesn't publish data, they don't get a passing score. Absence of data = cannot verify = low trust.</li>
+                <li><strong>Government data over self-reporting:</strong> OSHA violations and CBP forced labor flags carry more weight than a brand's own sustainability report.</li>
+                <li><strong>Budget-inclusive:</strong> We rate $8 tees and $150 jackets on the same scale, so you can compare within your budget.</li>
+                <li><strong>No pay-to-play:</strong> Brands cannot pay for higher ratings. We are a 501(c)(3) nonprofit.</li>
+            </ul>
+        </div>
+
+        <div class="methodology-card" id="pillars">
+            <h2>Three Pillars</h2>
+            <p>Every brand's overall score is a weighted average of three pillars:</p>
+            <div class="weight-bar">
+                <div class="weight-bar-seg" style="width:45%;background:var(--grade-a)">Planet 45%</div>
+                <div class="weight-bar-seg" style="width:40%;background:var(--grade-b)">People 40%</div>
+                <div class="weight-bar-seg" style="width:15%;background:var(--grade-c);color:var(--ink)">Animals 15%</div>
+            </div>
+            <h3>Planet (45%)</h3>
+            <p>Environmental impact across the full product lifecycle. Combines supply chain transparency (WHERE), materials and chemicals (WHAT), and circularity (AFTER) into a single score. This pillar is the average of those three dimension scores.</p>
+            <h3>People (40%)</h3>
+            <p>Labor practices and worker welfare. Directly maps to the WHO dimension. Evaluates living wages, safety records, forced labor risk, freedom of association, and supplier audit transparency.</p>
+            <h3>Animals (15%)</h3>
+            <p>Animal welfare certifications, policies on exotic materials, and environmental protections that benefit wildlife (microplastics mitigation, chemical management).</p>
+        </div>
+
+        <div class="methodology-card" id="dimensions">
+            <h2>Four Evaluation Dimensions</h2>
+            <p>Each brand is evaluated on four dimensions which feed into the three pillars above.</p>
+
+            <h3>WHERE &mdash; Supply Chain Transparency</h3>
+            <p>Maximum 100 points. Feeds into Planet pillar.</p>
+            <ul>
+                <li>Full factory list published: <strong>+20 points</strong></li>
+                <li>Multi-tier supply chain disclosure (3+ tiers): <strong>+15 points</strong></li>
+                <li>Open Supply Hub participation: <strong>+10 points</strong></li>
+                <li>Sourcing countries disclosed: <strong>+5/country, max +20 points</strong></li>
+                <li>Fashion Transparency Index score: <strong>scaled to +35 points</strong></li>
+            </ul>
+
+            <h3>WHO &mdash; Labor Practices</h3>
+            <p>Maximum 100 points. Feeds into People pillar.</p>
+            <ul>
+                <li>Verified living wage commitment: <strong>+25 points</strong></li>
+                <li>Supplier code of conduct: <strong>+10 points</strong></li>
+                <li>Audit results publicly disclosed: <strong>+15 points</strong></li>
+                <li>KnowTheChain benchmark score: <strong>scaled to +30 points</strong></li>
+                <li>Clean OSHA safety record: <strong>+10 points</strong> (violations incur penalties)</li>
+                <li>No CBP forced labor flags: <strong>+5 points</strong> (flags incur -15 to -30)</li>
+                <li>Freedom of association: <strong>+5 points</strong></li>
+            </ul>
+
+            <h3>WHAT &mdash; Materials & Chemicals</h3>
+            <p>Maximum 100 points. Feeds into Planet pillar.</p>
+            <ul>
+                <li>Sustainable materials percentage: <strong>scaled to +25 points</strong></li>
+                <li>High-value certifications (GOTS, OEKO-TEX, Bluesign, GRS): <strong>+10 each, max +25</strong></li>
+                <li>Verified certifications from database: <strong>scaled bonus up to +25</strong></li>
+                <li>Chemical management policy: <strong>+15 points</strong></li>
+                <li>Microplastics mitigation: <strong>+10 points</strong></li>
+                <li>Durability commitment: <strong>+10 points</strong></li>
+            </ul>
+
+            <h3>AFTER &mdash; Circularity & End-of-Life</h3>
+            <p>Maximum 100 points. Feeds into Planet pillar.</p>
+            <ul>
+                <li>Take-back/recycling program: <strong>+25 points</strong></li>
+                <li>Resale or repair program: <strong>+20 points</strong></li>
+                <li>Sustainable packaging: <strong>+15 points</strong></li>
+                <li>Circularity goals with timeline: <strong>+20 points</strong></li>
+                <li>Design for disassembly: <strong>+20 points</strong></li>
+            </ul>
+        </div>
+
+        <div class="methodology-card" id="red-flags">
+            <h2>Red Flag System</h2>
+            <p>Certain findings trigger red flags that <strong>cap</strong> scores regardless of other performance. These represent critical ethical violations that no amount of sustainability marketing can offset.</p>
+            <table class="data-source-table">
+                <thead>
+                    <tr>
+                        <th>Red Flag</th>
+                        <th>Severity</th>
+                        <th>Score Impact</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CBP forced labor (high risk)</td>
+                        <td style="color:var(--grade-f);font-weight:700">Critical</td>
+                        <td>People capped at 25, Overall capped at 40</td>
+                    </tr>
+                    <tr>
+                        <td>Active OSHA violations</td>
+                        <td style="color:var(--grade-d);font-weight:700">High</td>
+                        <td>People capped at 35</td>
+                    </tr>
+                    <tr>
+                        <td>CBP labor risk (medium)</td>
+                        <td style="color:var(--grade-d);font-weight:700">High</td>
+                        <td>People score penalized -15</td>
+                    </tr>
+                    <tr>
+                        <td>High greenwashing risk</td>
+                        <td style="color:var(--grade-c);font-weight:700">Medium</td>
+                        <td>Flagged on brand page</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="methodology-card" id="grading">
+            <h2>Grade Scale</h2>
+            <p>Scores map to letter grades using these thresholds:</p>
+            <div style="display:flex;flex-wrap:wrap;gap:0.8rem;margin:1.5rem 0">
+                <div style="display:flex;align-items:center;gap:0.6rem;background:var(--warm-white);padding:0.6rem 1.2rem;border-radius:8px;box-shadow:var(--shadow-sm)">
+                    <span style="width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:white;background:var(--grade-a)">A</span>
+                    <span><strong>80-100</strong> Leading</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:0.6rem;background:var(--warm-white);padding:0.6rem 1.2rem;border-radius:8px;box-shadow:var(--shadow-sm)">
+                    <span style="width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:white;background:var(--grade-b)">B</span>
+                    <span><strong>65-79</strong> Good Progress</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:0.6rem;background:var(--warm-white);padding:0.6rem 1.2rem;border-radius:8px;box-shadow:var(--shadow-sm)">
+                    <span style="width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:var(--ink);background:var(--grade-c)">C</span>
+                    <span><strong>50-64</strong> Getting Started</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:0.6rem;background:var(--warm-white);padding:0.6rem 1.2rem;border-radius:8px;box-shadow:var(--shadow-sm)">
+                    <span style="width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:white;background:var(--grade-d)">D</span>
+                    <span><strong>35-49</strong> Needs Work</span>
+                </div>
+                <div style="display:flex;align-items:center;gap:0.6rem;background:var(--warm-white);padding:0.6rem 1.2rem;border-radius:8px;box-shadow:var(--shadow-sm)">
+                    <span style="width:32px;height:32px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:700;color:white;background:var(--grade-f)">F</span>
+                    <span><strong>0-34</strong> Failing</span>
+                </div>
+            </div>
+            <p>Brands with zero data and no red flags are labeled <strong>NR (Unranked)</strong> rather than receiving an F. An F means we found data and it was bad. NR means we found nothing at all.</p>
+        </div>
+
+        <div class="methodology-card" id="confidence">
+            <h2>Confidence Levels</h2>
+            <p>Every rating includes a confidence indicator based on how many of our 25 possible data indicators had actual data.</p>
+            <ul>
+                <li><strong>High Confidence (70%+):</strong> 18+ indicators verified. Score is robust.</li>
+                <li><strong>Medium Confidence (40-69%):</strong> 10-17 indicators. Score is directionally accurate but may shift with more data.</li>
+                <li><strong>Low Confidence (&lt;40%):</strong> Fewer than 10 indicators. Score is based on limited data; treat as preliminary.</li>
+            </ul>
+            <p style="margin-top:1rem">Most brands currently have <strong>low confidence</strong> ratings because sustainability report parsing and OSHA/OAR data collection is ongoing. Scores will become more accurate as we expand data coverage.</p>
+        </div>
+
+        <div class="methodology-card" id="data-sources">
+            <h2>Data Sources</h2>
+            <p>ThreadGrade pulls data from the following public, verifiable sources:</p>
+            <table class="data-source-table">
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>What It Provides</th>
+                        <th>Feeds Into</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Fashion Transparency Index</td>
+                        <td>Overall supply chain transparency score (0-100%)</td>
+                        <td>WHERE dimension</td>
+                    </tr>
+                    <tr>
+                        <td>KnowTheChain Benchmark</td>
+                        <td>Forced labor due diligence score (0-100) and rank</td>
+                        <td>WHO dimension</td>
+                    </tr>
+                    <tr>
+                        <td>U.S. Customs &amp; Border Protection</td>
+                        <td>Withhold Release Orders, forced labor enforcement</td>
+                        <td>WHO dimension + Red Flags</td>
+                    </tr>
+                    <tr>
+                        <td>Third-Party Certifications</td>
+                        <td>GOTS, OEKO-TEX, Bluesign, B Corp, Fair Trade, etc.</td>
+                        <td>WHAT dimension</td>
+                    </tr>
+                    <tr>
+                        <td>OSHA (DOL)</td>
+                        <td>Workplace safety inspections and violations</td>
+                        <td>WHO dimension + Red Flags</td>
+                    </tr>
+                    <tr>
+                        <td>Open Supply Hub</td>
+                        <td>Factory-to-brand mapping, facility counts by country</td>
+                        <td>WHERE dimension</td>
+                    </tr>
+                    <tr>
+                        <td>Sustainability Reports</td>
+                        <td>AI-parsed brand reports for all dimension indicators</td>
+                        <td>All dimensions</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="methodology-card" id="missing-data">
+            <h2>Missing Data Policy</h2>
+            <p>When a brand has no data for a dimension, we apply a <strong>default score of 25/100</strong>. This is deliberately low because:</p>
+            <ul>
+                <li>Brands that care about transparency publish data. Silence is not neutral.</li>
+                <li>We refuse to give a brand a passing score just because they haven't been caught doing anything wrong.</li>
+                <li>The burden of proof is on the brand, not the consumer.</li>
+            </ul>
+            <p style="margin-top:1rem">This means a brand with zero published data will score around 25/100 (F), while a brand with full transparency and strong practices could score 80+ (A). The gap between them is the "transparency premium" that ThreadGrade was built to surface.</p>
+
+            <div style="background:var(--green-pale);border-radius:12px;padding:1.5rem;margin-top:1.5rem;border-left:4px solid var(--green-mid)">
+                <p style="font-weight:600;color:var(--forest);margin-bottom:0.5rem">Open Source</p>
+                <p style="font-size:0.9rem">Our scoring algorithm is fully open source. You can audit every line of code, every weight, and every data source in our <a href="https://github.com/finmango" style="color:var(--green-mid)">GitHub repository</a>. If you think our methodology is wrong, file an issue. If you have better data, submit a pull request.</p>
+            </div>
+        </div>
+
+        <div style="text-align:center;padding:3rem 0">
+            <a href="index.html#directory" style="display:inline-flex;align-items:center;gap:0.5rem;background:var(--forest);color:var(--cream);padding:0.85rem 2rem;border:none;border-radius:8px;font-weight:600;text-decoration:none;font-size:1rem;transition:all 0.2s;box-shadow:var(--shadow-md)">
+                Browse the Directory &rarr;
+            </a>
+        </div>
+    </main>
+</div>
+
+<footer style="padding:3rem 2rem;text-align:center;background:var(--cream);border-top:1px solid rgba(0,0,0,0.06)">
+    <div style="font-weight:700;font-size:1.1rem;color:var(--forest);margin-bottom:0.5rem">ThreadGrade</div>
+    <div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:1rem">A <a href="https://finmango.org" target="_blank" style="color:var(--green-mid);text-decoration:none">FinMango</a> initiative (501(c)(3))</div>
+    <div style="font-size:0.78rem;color:var(--text-muted)">&copy; 2026 FinMango. All rights reserved.</div>
+</footer>
+
+</body>
+</html>

@@ -7,9 +7,9 @@
     "fast-fashion",
     "basics"
   ],
-  "overall_score": 59.0,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 27.6,
+  "grade": "F",
+  "grade_label": "Failing",
   "confidence": {
     "level": "low",
     "indicators_with_data": 2,
@@ -18,47 +18,69 @@
   },
   "dimensions": {
     "planet": {
-      "score": 55.0,
-      "grade": "C",
+      "score": 30.8,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     },
     "people": {
-      "score": 65,
-      "grade": "B",
+      "score": 25,
+      "grade": "F",
       "highlights": [
-        "Clean OSHA safety record"
+        "FTI transparency score: 50%"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 55,
-      "grade": "C",
+      "score": 25,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
+  "summary": "Zara achieved a F (27.6/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 30.8/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 25.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
-    "Clean OSHA safety record"
+    "FTI transparency score: 50%"
   ],
   "concerns": [],
   "data_sources": [
-    "osha",
+    "fti",
     "cbp_forced_labor"
   ],
-  "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
-  "source_data": {
-    "osha": {
-      "total_inspections": 2,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": "2012-08-30",
-      "states": [
-        "CA"
+  "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 50,
+      "edition": "2023",
+      "context": "Part of Inditex group; scored 50% on supply chain transparency.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "low",
+      "flags_count": 1,
+      "flags": [
+        "Historical Xinjiang supply chain links (since addressed)"
+      ],
+      "wro_exposure": [
+        {
+          "wro": "UFLPA / Xinjiang Cotton Ban",
+          "relevance": "Brand category suggests cotton sourcing",
+          "risk_level": "monitor"
+        }
       ]
+    }
+  },
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-22",
+  "source_data": {
+    "fti": {
+      "transparency_score": 50,
+      "rank": null,
+      "section_scores": {}
     }
   }
 }

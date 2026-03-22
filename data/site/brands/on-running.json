@@ -7,131 +7,63 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 60.4,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 27.0,
+  "grade": "F",
+  "grade_label": "Failing",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 23,
+    "level": "low",
+    "indicators_with_data": 1,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 92.0
+    "data_coverage_pct": 4.0
   },
   "dimensions": {
     "planet": {
-      "score": 70.2,
-      "grade": "B",
-      "highlights": [
-        "Certifications: Bluesign",
-        "Chemical management policy in place",
-        "Microplastics mitigation program",
-        "Durability/longevity commitment",
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline",
-        "Design for disassembly approach"
-      ],
-      "concerns": [
-        "No resale/repair program"
-      ]
+      "score": 25.0,
+      "grade": "F",
+      "highlights": [],
+      "concerns": []
     },
     "people": {
-      "score": 42.0,
-      "grade": "D",
+      "score": 30,
+      "grade": "F",
       "highlights": [
-        "Active living wage program",
-        "No CBP forced labor flags",
-        "Publishes full supplier/factory list",
-        "FTI transparency score: 52.0%"
+        "No CBP forced labor flags"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 80,
-      "grade": "A",
-      "highlights": [
-        "Microplastics policy (Marine life protection)"
-      ],
-      "concerns": [
-        "No explicit animal welfare certifications found"
-      ]
+      "score": 25,
+      "grade": "F",
+      "highlights": [],
+      "concerns": []
     }
   },
   "red_flags": [],
+  "summary": "On Running achieved a F (27.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
-    "Publishes full supplier/factory list",
-    "FTI transparency score: 52.0%",
-    "Active living wage program",
-    "No CBP forced labor flags",
-    "Certifications: Bluesign"
+    "No CBP forced labor flags"
   ],
-  "concerns": [
-    "No resale/repair program"
-  ],
+  "concerns": [],
   "data_sources": [
-    "osha",
-    "sustainability_report",
-    "fti",
     "cbp_forced_labor"
   ],
-  "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
-  "source_data": {
-    "osha": {
-      "total_inspections": 0,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": null,
-      "states": []
-    },
-    "sustainability_report": {
-      "report_file": "on_impact_report_2022.pdf",
-      "parsed_at": "2026-03-21T19:33:00.000000",
-      "where": {
-        "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "2",
-        "oar_participation": "yes",
-        "sourcing_countries": [
-          "Vietnam",
-          "Indonesia",
-          "China",
-          "Europe"
-        ]
-      },
-      "who": {
-        "living_wage_status": "active_program",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "partial",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "30%",
-        "certifications_mentioned": [
-          "Bluesign"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "yes",
-        "durability_commitment": "yes"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "yes"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {
-        "score": 4,
-        "reasoning": "Contains significant numerical data and metrics.",
-        "specific_claims_to_verify": []
-      }
-    },
-    "fti": {
-      "transparency_score": 52.0,
-      "rank": null,
-      "section_scores": {}
+  "data_source_details": {
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "monitor",
+      "flags_count": 0,
+      "flags": [],
+      "wro_exposure": [
+        {
+          "wro": "UFLPA / Xinjiang Cotton Ban",
+          "relevance": "Brand category suggests cotton sourcing",
+          "risk_level": "monitor"
+        }
+      ]
     }
-  }
+  },
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-22",
+  "source_data": {}
 }

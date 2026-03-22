@@ -8,9 +8,9 @@
     "fast-fashion",
     "essentials"
   ],
-  "overall_score": 60.0,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 29.8,
+  "grade": "F",
+  "grade_label": "Failing",
   "confidence": {
     "level": "low",
     "indicators_with_data": 3,
@@ -19,54 +19,83 @@
   },
   "dimensions": {
     "planet": {
-      "score": 57.3,
-      "grade": "C",
+      "score": 35.6,
+      "grade": "D",
       "highlights": [
         "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
       ],
       "concerns": []
     },
     "people": {
-      "score": 65,
-      "grade": "B",
+      "score": 25,
+      "grade": "F",
       "highlights": [
-        "Clean OSHA safety record"
+        "FTI transparency score: 71%"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 55,
-      "grade": "C",
+      "score": 25,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
+  "summary": "H&M achieved a F (29.8/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 35.6/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 25.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
-    "Clean OSHA safety record",
+    "FTI transparency score: 71%",
     "Verified certifications: Fair Trade Certified, GOTS Certified, OEKO-TEX Certified"
   ],
   "concerns": [],
   "data_sources": [
-    "osha",
+    "fti",
     "cbp_forced_labor",
     "certifications"
   ],
-  "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
-  "source_data": {
-    "osha": {
-      "total_inspections": 4,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": "2006-10-24",
-      "states": [
-        "NV",
-        "PA",
-        "TX",
-        "WV"
+  "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 71,
+      "edition": "2023",
+      "context": "Among the highest-scoring mainstream brands; scored 71% in main transparency assessment of 250 brands.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "low",
+      "flags_count": 1,
+      "flags": [
+        "Historical Xinjiang cotton sourcing (since addressed)"
+      ],
+      "wro_exposure": [
+        {
+          "wro": "UFLPA / Xinjiang Cotton Ban",
+          "relevance": "Brand category suggests cotton sourcing",
+          "risk_level": "monitor"
+        }
       ]
+    },
+    "certifications": {
+      "name": "Third-Party Certifications",
+      "publisher": "Various certification bodies",
+      "active_certifications": [
+        "Fair Trade Certified",
+        "GOTS Certified",
+        "OEKO-TEX Certified"
+      ],
+      "cert_score": 28
+    }
+  },
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-22",
+  "source_data": {
+    "fti": {
+      "transparency_score": 71,
+      "rank": null,
+      "section_scores": {}
     }
   }
 }

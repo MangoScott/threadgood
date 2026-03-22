@@ -7,9 +7,9 @@
     "womenswear",
     "dresses"
   ],
-  "overall_score": 57.7,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 27.7,
+  "grade": "F",
+  "grade_label": "Failing",
   "confidence": {
     "level": "low",
     "indicators_with_data": 2,
@@ -18,49 +18,59 @@
   },
   "dimensions": {
     "planet": {
-      "score": 56.5,
-      "grade": "C",
+      "score": 26.5,
+      "grade": "F",
       "highlights": [
         "Verified certifications: GOTS Certified, Climate Neutral Certified"
       ],
       "concerns": []
     },
     "people": {
-      "score": 60,
-      "grade": "C",
+      "score": 30,
+      "grade": "F",
       "highlights": [
         "No CBP forced labor flags"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 55,
-      "grade": "C",
+      "score": 25,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
+  "summary": "Reformation achieved a F (27.7/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 26.5/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
     "No CBP forced labor flags",
     "Verified certifications: GOTS Certified, Climate Neutral Certified"
   ],
   "concerns": [],
   "data_sources": [
-    "osha",
     "cbp_forced_labor",
     "certifications"
   ],
-  "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
-  "source_data": {
-    "osha": {
-      "total_inspections": 0,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": null,
-      "states": []
+  "data_source_details": {
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "low",
+      "flags_count": 0,
+      "flags": [],
+      "wro_exposure": []
+    },
+    "certifications": {
+      "name": "Third-Party Certifications",
+      "publisher": "Various certification bodies",
+      "active_certifications": [
+        "GOTS Certified",
+        "Climate Neutral Certified"
+      ],
+      "cert_score": 18
     }
-  }
+  },
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-22",
+  "source_data": {}
 }
