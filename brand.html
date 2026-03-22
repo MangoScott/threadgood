@@ -182,7 +182,7 @@
                 
                 const badge = document.getElementById('sc-badge');
                 badge.innerText = brand.grade;
-                badge.className = `badge ${brand.grade.toLowerCase()}`;
+                badge.className = `badge ${brand.grade}`;
                 document.getElementById('sc-score').innerText = brand.overall_score !== null ? brand.overall_score.toFixed(1) : 'Unranked';
                 
                 // Report link
@@ -199,7 +199,7 @@
                         <div class="sc-flag">
                             <div class="sc-flag-icon">🚩</div>
                             <div>
-                                <div class="sc-flag-title">${f.dimension} CRITICAL CONCERN</div>
+                                <div class="sc-flag-title">${f.type ? f.type.replace(/_/g, ' ').toUpperCase() : 'UNKNOWN'} CRITICAL CONCERN</div>
                                 <div class="sc-flag-desc">${f.description}</div>
                             </div>
                         </div>

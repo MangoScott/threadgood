@@ -80,21 +80,17 @@ def build_brand_summary(brand: dict, score_data: dict) -> dict:
         "overall_score": score_data.get("overall_score", 0),
         "confidence": score_data.get("confidence", {}).get("level", "low"),
         "dimensions": {
-            "where": {
-                "score": dims.get("where", {}).get("score", 0),
-                "grade": dims.get("where", {}).get("grade", "F"),
+            "planet": {
+                "score": dims.get("planet", {}).get("score", 0),
+                "grade": dims.get("planet", {}).get("grade", "F"),
             },
-            "who": {
-                "score": dims.get("who", {}).get("score", 0),
-                "grade": dims.get("who", {}).get("grade", "F"),
+            "people": {
+                "score": dims.get("people", {}).get("score", 0),
+                "grade": dims.get("people", {}).get("grade", "F"),
             },
-            "what": {
-                "score": dims.get("what", {}).get("score", 0),
-                "grade": dims.get("what", {}).get("grade", "F"),
-            },
-            "after": {
-                "score": dims.get("after", {}).get("score", 0),
-                "grade": dims.get("after", {}).get("grade", "F"),
+            "animals": {
+                "score": dims.get("animals", {}).get("score", 0),
+                "grade": dims.get("animals", {}).get("grade", "F"),
             },
         },
         "red_flags": [f["type"] for f in score_data.get("red_flags", [])],
@@ -128,6 +124,7 @@ def build_brand_detail(brand: dict, score_data: dict) -> dict:
         "confidence": score_data.get("confidence", {}),
         "dimensions": score_data.get("dimensions", {}),
         "red_flags": score_data.get("red_flags", []),
+        "summary": score_data.get("summary", ""),
         "highlights": score_data.get("highlights", []),
         "concerns": score_data.get("concerns", []),
         "data_sources": score_data.get("data_sources", []),
@@ -227,10 +224,9 @@ def main():
                 "grade_label": "Not Yet Rated",
                 "confidence": {"level": "low", "indicators_with_data": 0},
                 "dimensions": {
-                    "where": {"score": 0, "grade": "F"},
-                    "who": {"score": 0, "grade": "F"},
-                    "what": {"score": 0, "grade": "F"},
-                    "after": {"score": 0, "grade": "F"},
+                    "planet": {"score": 0, "grade": "F", "highlights": [], "concerns": []},
+                    "people": {"score": 0, "grade": "F", "highlights": [], "concerns": []},
+                    "animals": {"score": 0, "grade": "F", "highlights": [], "concerns": []},
                 },
                 "red_flags": [],
                 "highlights": [],
