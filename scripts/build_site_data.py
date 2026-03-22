@@ -128,6 +128,7 @@ def build_brand_detail(brand: dict, score_data: dict) -> dict:
         "highlights": score_data.get("highlights", []),
         "concerns": score_data.get("concerns", []),
         "data_sources": score_data.get("data_sources", []),
+        "data_source_details": score_data.get("data_source_details", {}),
         "methodology_version": score_data.get("methodology_version", "1.0"),
         "last_updated": datetime.now().strftime("%Y-%m-%d"),
         
@@ -206,7 +207,7 @@ def main():
     
     all_summaries = []
     stats = {"processed": 0, "no_score": 0}
-    grade_counts = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0}
+    grade_counts = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0, "NR": 0}
     
     for brand in tqdm(brands, desc="Building site data"):
         slug = brand["slug"]
@@ -248,7 +249,7 @@ def main():
         stats["processed"] += 1
     
     # Sort summaries by overall score (descending)
-    all_summaries.sort(key=lambda x: x["overall_score"], reverse=True)
+    all_summaries.sort(key=lambda x: x["overall_score"] if x["overall_score"] is not None else -1, reverse=True)
     
     # Build the main brands.json
     site_data = {

@@ -49,12 +49,14 @@ WEIGHTS = {
 }
 
 # Default scores when no data is available
+# Using 25/100 — brands that don't publish data should not get a passing score.
+# This reflects the "missing data = cannot verify = low trust" principle.
 DEFAULT_SCORES = {
-    "where": 55,
-    "who": 55,
-    "what": 55,
-    "after": 55,
-    "animals": 55,
+    "where": 25,
+    "who": 25,
+    "what": 25,
+    "after": 25,
+    "animals": 25,
 }
 
 logging.basicConfig(
@@ -743,6 +745,55 @@ def score_brand(brand: dict) -> dict:
             
         summary_paragraph = " ".join(summary_parts)
 
+    # Build data source detail summaries for the brand page
+    data_source_details = {}
+
+    if data["fti"] and data["fti"].get("fti_data_available"):
+        fti = data["fti"]
+        data_source_details["fti"] = {
+            "name": "Fashion Transparency Index",
+            "publisher": "Fashion Revolution",
+            "score": fti.get("transparency_score"),
+            "edition": fti.get("edition", ""),
+            "context": fti.get("context", ""),
+            "source_url": fti.get("source_url", ""),
+        }
+
+    if data["ktc"] and data["ktc"].get("ktc_data_available"):
+        ktc = data["ktc"]
+        data_source_details["ktc"] = {
+            "name": "KnowTheChain Benchmark",
+            "publisher": "KnowTheChain / Business & Human Rights Resource Centre",
+            "score": ktc.get("overall_score"),
+            "rank": ktc.get("rank"),
+            "total_companies": ktc.get("total_companies"),
+            "context": ktc.get("context", ""),
+            "industry_average": ktc.get("industry_context", {}).get("industry_average"),
+            "source_url": ktc.get("source_url", ""),
+        }
+
+    if data["cbp"] and data["cbp"].get("cbp_data_available"):
+        cbp = data["cbp"]
+        flags = cbp.get("forced_labor_flags", [])
+        data_source_details["cbp"] = {
+            "name": "CBP Forced Labor Screening",
+            "publisher": "U.S. Customs and Border Protection",
+            "overall_risk": cbp.get("overall_risk", "unknown"),
+            "flags_count": len(flags),
+            "flags": [f.get("concern", "") for f in flags],
+            "wro_exposure": cbp.get("wro_exposure", []),
+        }
+
+    if data["certs"] and data["certs"].get("certs_data_available"):
+        certs = data["certs"]
+        active = certs.get("active_certs", [])
+        data_source_details["certifications"] = {
+            "name": "Third-Party Certifications",
+            "publisher": "Various certification bodies",
+            "active_certifications": [c.get("name", "") for c in active],
+            "cert_score": certs.get("cert_score", 0),
+        }
+
     return {
         "brand": brand["name"],
         "slug": slug,
@@ -775,9 +826,10 @@ def score_brand(brand: dict) -> dict:
             }
         },
         "red_flags": red_flags,
-        "highlights": all_highlights[:5],  # top 5
+        "highlights": all_highlights[:5],
         "concerns": all_concerns[:5],
         "data_sources": sources,
+        "data_source_details": data_source_details,
         "scored_at": datetime.now().isoformat(),
         "methodology_version": "1.0",
     }
@@ -803,7 +855,7 @@ def main():
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     
     stats = {"processed": 0, "skipped": 0}
-    grade_counts = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0}
+    grade_counts = {"A": 0, "B": 0, "C": 0, "D": 0, "F": 0, "NR": 0}
     
     for brand in tqdm(brands, desc="Scoring brands"):
         output_file = OUTPUT_DIR / f"{brand['slug']}.json"

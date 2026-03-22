@@ -7,57 +7,107 @@
     "shoes",
     "activewear"
   ],
-  "overall_score": 55.3,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 34.5,
+  "grade": "F",
+  "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 2,
+    "indicators_with_data": 4,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 16.0
   },
   "dimensions": {
     "planet": {
-      "score": 55.7,
-      "grade": "C",
+      "score": 31.4,
+      "grade": "F",
       "highlights": [
         "Verified certifications: Bluesign Partner"
       ],
       "concerns": []
     },
     "people": {
-      "score": 55,
-      "grade": "C",
-      "highlights": [],
+      "score": 41.5,
+      "grade": "D",
+      "highlights": [
+        "KnowTheChain score: 55/100"
+      ],
       "concerns": []
     },
     "animals": {
-      "score": 55,
-      "grade": "C",
+      "score": 25,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
+  "summary": "Adidas achieved a F (34.5/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 31.4/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 41.5/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
+    "KnowTheChain score: 55/100",
     "Verified certifications: Bluesign Partner"
   ],
   "concerns": [],
   "data_sources": [
-    "osha",
+    "fti",
+    "ktc",
     "cbp_forced_labor",
     "certifications"
   ],
+  "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 49,
+      "edition": "2024 (What Fuels Fashion)",
+      "context": "Scored 49% on climate/energy transparency in the 2024 special edition.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index/"
+    },
+    "ktc": {
+      "name": "KnowTheChain Benchmark",
+      "publisher": "KnowTheChain / Business & Human Rights Resource Centre",
+      "score": 55,
+      "rank": 3,
+      "total_companies": 65,
+      "context": "Third highest scorer (55/100). One of only 3 companies scoring above 50.",
+      "industry_average": 21,
+      "source_url": "https://knowthechain.org/benchmark/"
+    },
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "low",
+      "flags_count": 1,
+      "flags": [
+        "Historical Xinjiang supplier links"
+      ],
+      "wro_exposure": [
+        {
+          "wro": "UFLPA / Xinjiang Cotton Ban",
+          "relevance": "Brand category suggests cotton sourcing",
+          "risk_level": "monitor"
+        }
+      ]
+    },
+    "certifications": {
+      "name": "Third-Party Certifications",
+      "publisher": "Various certification bodies",
+      "active_certifications": [
+        "Bluesign Partner"
+      ],
+      "cert_score": 8
+    }
+  },
   "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "source_data": {
-    "osha": {
-      "total_inspections": 0,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": null,
-      "states": []
+    "fti": {
+      "transparency_score": 49,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 55,
+      "theme_scores": {}
     }
   }
 }

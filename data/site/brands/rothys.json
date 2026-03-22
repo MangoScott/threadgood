@@ -7,112 +7,42 @@
     "shoes",
     "accessories"
   ],
-  "overall_score": 66.5,
-  "grade": "B",
-  "grade_label": "Good Progress",
+  "overall_score": null,
+  "grade": "NR",
+  "grade_label": "Unranked",
   "confidence": {
-    "level": "high",
-    "indicators_with_data": 18,
+    "level": "low",
+    "indicators_with_data": 0,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 72.0
+    "data_coverage_pct": 0.0
   },
   "dimensions": {
     "planet": {
-      "score": 65.5,
-      "grade": "B",
-      "highlights": [
-        "100% sustainable/certified materials",
-        "Chemical management policy in place",
-        "Durability/longevity commitment",
-        "Garment take-back/recycling program",
-        "Sustainable packaging initiatives",
-        "Circularity goals with timeline"
-      ],
-      "concerns": [
-        "No resale/repair program"
-      ]
+      "score": null,
+      "grade": "NR",
+      "highlights": [],
+      "concerns": []
     },
     "people": {
-      "score": 55.0,
-      "grade": "C",
-      "highlights": [
-        "Living wage commitment verified",
-        "Audit results publicly disclosed",
-        "Publishes full supplier/factory list",
-        "Discloses 3+ supply chain tiers",
-        "FTI transparency score: 90.0%"
-      ],
+      "score": null,
+      "grade": "NR",
+      "highlights": [],
       "concerns": []
     },
     "animals": {
-      "score": 100,
-      "grade": "A",
-      "highlights": [
-        "Animal welfare policies/certs: Vegan"
-      ],
+      "score": null,
+      "grade": "NR",
+      "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
-  "highlights": [
-    "Publishes full supplier/factory list",
-    "Discloses 3+ supply chain tiers",
-    "FTI transparency score: 90.0%",
-    "Living wage commitment verified",
-    "Audit results publicly disclosed"
-  ],
-  "concerns": [
-    "No resale/repair program"
-  ],
-  "data_sources": [
-    "sustainability_report",
-    "fti"
-  ],
+  "summary": "Rothy's is currently Unranked. They have failed to publish any verifiable supply chain data, transparency reports, or certifications. ThreadGrade refuses to assign a passing score without public accountability.",
+  "highlights": [],
+  "concerns": [],
+  "data_sources": [],
+  "data_source_details": {},
   "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
-  "source_data": {
-    "sustainability_report": {
-      "report_file": "rothys_sustainability_2023.pdf",
-      "parsed_at": "2026-03-21T19:51:11.575955",
-      "where": {
-        "factory_list_published": "yes",
-        "supply_chain_tiers_disclosed": "3+",
-        "oar_participation": "yes",
-        "sourcing_countries": [
-          "China",
-          "USA"
-        ]
-      },
-      "who": {
-        "living_wage_status": "verified",
-        "supplier_code_of_conduct": "yes",
-        "audit_results_disclosed": "yes",
-        "freedom_of_association": "yes"
-      },
-      "what": {
-        "sustainable_materials_percentage": "100%",
-        "certifications_mentioned": [
-          "Vegan"
-        ],
-        "chemical_management_policy": "yes",
-        "microplastics_mitigation": "no",
-        "durability_commitment": "yes"
-      },
-      "after": {
-        "takeback_program": "yes",
-        "resale_repair_program": "no",
-        "packaging_sustainability": "yes",
-        "circularity_goals": "yes",
-        "design_for_disassembly": "no"
-      },
-      "targets": [],
-      "certifications": [],
-      "greenwashing_score": {}
-    },
-    "fti": {
-      "transparency_score": 90.0,
-      "rank": null,
-      "section_scores": {}
-    }
-  }
+  "last_updated": "2026-03-22",
+  "source_data": {}
 }

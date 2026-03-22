@@ -7,9 +7,9 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 43.0,
-  "grade": "D",
-  "grade_label": "Needs Work",
+  "overall_score": 15.4,
+  "grade": "F",
+  "grade_label": "Failing",
   "confidence": {
     "level": "low",
     "indicators_with_data": 2,
@@ -18,24 +18,23 @@
   },
   "dimensions": {
     "planet": {
-      "score": 55.0,
-      "grade": "C",
+      "score": 25.8,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     },
     "people": {
-      "score": 25,
+      "score": 0,
       "grade": "F",
-      "highlights": [
-        "Clean OSHA safety record"
-      ],
+      "highlights": [],
       "concerns": [
-        "Forced labor concern: UFLPA enforcement - multiple shipments detained"
+        "Forced labor concern: UFLPA enforcement - multiple shipments detained",
+        "Low FTI transparency score: 7%"
       ]
     },
     "animals": {
-      "score": 55,
-      "grade": "C",
+      "score": 25,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     }
@@ -49,28 +48,43 @@
       "severity": "critical"
     }
   ],
-  "highlights": [
-    "Clean OSHA safety record"
-  ],
+  "summary": "Shein achieved a F (15.4/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.8/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 0.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "highlights": [],
   "concerns": [
+    "Low FTI transparency score: 7%",
     "Forced labor concern: UFLPA enforcement - multiple shipments detained"
   ],
   "data_sources": [
-    "osha",
+    "fti",
     "cbp_forced_labor"
   ],
+  "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 7,
+      "edition": "2023",
+      "context": "Scored 7%, among the lowest-scoring brands in the index.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "high",
+      "flags_count": 1,
+      "flags": [
+        "UFLPA enforcement - multiple shipments detained"
+      ],
+      "wro_exposure": []
+    }
+  },
   "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
+  "last_updated": "2026-03-22",
   "source_data": {
-    "osha": {
-      "total_inspections": 1,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": "1974-03-08",
-      "states": [
-        "ND"
-      ]
+    "fti": {
+      "transparency_score": 7,
+      "rank": null,
+      "section_scores": {}
     }
   }
 }

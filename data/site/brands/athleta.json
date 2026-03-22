@@ -6,62 +6,63 @@
   "categories": [
     "activewear"
   ],
-  "overall_score": 61.0,
-  "grade": "C",
-  "grade_label": "Getting Started",
+  "overall_score": 27.0,
+  "grade": "F",
+  "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 2,
+    "indicators_with_data": 1,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 4.0
   },
   "dimensions": {
     "planet": {
-      "score": 55.0,
-      "grade": "C",
+      "score": 25.0,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     },
     "people": {
-      "score": 70,
-      "grade": "B",
+      "score": 30,
+      "grade": "F",
       "highlights": [
-        "Clean OSHA safety record",
         "No CBP forced labor flags"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 55,
-      "grade": "C",
+      "score": 25,
+      "grade": "F",
       "highlights": [],
       "concerns": []
     }
   },
   "red_flags": [],
+  "summary": "Athleta achieved a F (27.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
-    "Clean OSHA safety record",
     "No CBP forced labor flags"
   ],
   "concerns": [],
   "data_sources": [
-    "osha",
     "cbp_forced_labor"
   ],
-  "methodology_version": "1.0",
-  "last_updated": "2026-03-21",
-  "source_data": {
-    "osha": {
-      "total_inspections": 3,
-      "serious_violations": 0,
-      "willful_violations": 0,
-      "total_penalties": 0.0,
-      "most_recent_inspection": "1992-05-28",
-      "states": [
-        "AL",
-        "LA",
-        "NY"
+  "data_source_details": {
+    "cbp": {
+      "name": "CBP Forced Labor Screening",
+      "publisher": "U.S. Customs and Border Protection",
+      "overall_risk": "monitor",
+      "flags_count": 0,
+      "flags": [],
+      "wro_exposure": [
+        {
+          "wro": "UFLPA / Xinjiang Cotton Ban",
+          "relevance": "Brand category suggests cotton sourcing",
+          "risk_level": "monitor"
+        }
       ]
     }
-  }
+  },
+  "methodology_version": "1.0",
+  "last_updated": "2026-03-22",
+  "source_data": {}
 }

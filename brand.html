@@ -68,6 +68,7 @@
                 <div class="badge" id="sc-badge">?</div>
                 <div class="sc-score-text">Overall Score: <span id="sc-score">0</span>/100</div>
             </div>
+            <div id="sc-confidence" style="margin-top: 1rem; font-size: 0.85rem; color: var(--green-bright); opacity: 0.8;"></div>
         </div>
     </header>
 
@@ -138,6 +139,12 @@
             <p id="sc-summary" style="color: var(--text-light); line-height: 1.6; font-size: 0.95rem;"></p>
         </div>
 
+        <div class="sc-card" id="sc-data-dive" style="display: none;">
+            <h2>Data Deep Dive</h2>
+            <p style="color: var(--text-light); margin-bottom: 1.5rem;">Here's the real data behind this score — every number comes from a public, verifiable source.</p>
+            <div id="sc-data-details" style="display: flex; flex-direction: column; gap: 1.5rem;"></div>
+        </div>
+
         <div class="sc-card">
             <h2>Data Sources Used</h2>
             <p style="color: var(--text-light); margin-bottom: 1rem;">This brand's rating is based on automated analysis of the following data sources:</p>
@@ -184,7 +191,17 @@
                 badge.innerText = brand.grade;
                 badge.className = `badge ${brand.grade}`;
                 document.getElementById('sc-score').innerText = brand.overall_score !== null ? brand.overall_score.toFixed(1) : 'Unranked';
-                
+
+                // Confidence indicator
+                if (brand.confidence) {
+                    const conf = brand.confidence;
+                    const levelLabels = { high: 'High confidence', medium: 'Medium confidence', low: 'Low confidence' };
+                    const dataCount = conf.indicators_with_data || 0;
+                    const total = conf.total_possible_indicators || 25;
+                    const pct = conf.data_coverage_pct || 0;
+                    document.getElementById('sc-confidence').innerText = `${levelLabels[conf.level] || 'Unknown'} — ${dataCount}/${total} indicators verified (${pct.toFixed(0)}% data coverage)`;
+                }
+
                 // Report link
                 if (brand.report_file) {
                     const reportBtn = document.getElementById('report-link');
@@ -238,6 +255,65 @@
                 const concernsHTML = (brand.concerns || []).map(c => `<li>${c}</li>`).join('');
                 document.getElementById('sc-concerns').innerHTML = concernsHTML || `<li style="color:#888;">No major concerns found.</li>`;
                 
+                // Data Deep Dive — show detailed data source info
+                const details = brand.data_source_details || {};
+                if (Object.keys(details).length > 0) {
+                    const container = document.getElementById('sc-data-details');
+                    let detailsHTML = '';
+
+                    if (details.fti) {
+                        const fti = details.fti;
+                        detailsHTML += `
+                            <div style="background: var(--green-pale); border-radius: 12px; padding: 1.5rem; border-left: 4px solid var(--green-mid);">
+                                <h3 style="margin-bottom: 0.5rem; color: var(--forest); font-size: 1.1rem;">Fashion Transparency Index</h3>
+                                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.8rem;">Published by ${fti.publisher} (${fti.edition})</p>
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--forest); margin-bottom: 0.5rem;">${fti.score}%</div>
+                                <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.5;">${fti.context}</p>
+                                ${fti.source_url ? `<a href="${fti.source_url}" target="_blank" style="color: var(--green-mid); font-size: 0.85rem; text-decoration: none; font-weight: 600;">View source data ↗</a>` : ''}
+                            </div>`;
+                    }
+
+                    if (details.ktc) {
+                        const ktc = details.ktc;
+                        detailsHTML += `
+                            <div style="background: var(--green-pale); border-radius: 12px; padding: 1.5rem; border-left: 4px solid var(--green-mid);">
+                                <h3 style="margin-bottom: 0.5rem; color: var(--forest); font-size: 1.1rem;">KnowTheChain Forced Labor Benchmark</h3>
+                                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.8rem;">Published by ${ktc.publisher}</p>
+                                <div style="font-size: 2rem; font-weight: 700; color: var(--forest); margin-bottom: 0.5rem;">${ktc.score}/100</div>
+                                ${ktc.rank ? `<p style="color: var(--text); font-size: 0.95rem; margin-bottom: 0.3rem;"><strong>Rank #${ktc.rank}</strong> out of ${ktc.total_companies} companies assessed</p>` : ''}
+                                ${ktc.industry_average ? `<p style="color: var(--text-muted); font-size: 0.9rem; margin-bottom: 0.5rem;">Industry average: ${ktc.industry_average}/100</p>` : ''}
+                                <p style="color: var(--text-light); font-size: 0.9rem; line-height: 1.5;">${ktc.context}</p>
+                                ${ktc.source_url ? `<a href="${ktc.source_url}" target="_blank" style="color: var(--green-mid); font-size: 0.85rem; text-decoration: none; font-weight: 600;">View source data ↗</a>` : ''}
+                            </div>`;
+                    }
+
+                    if (details.cbp) {
+                        const cbp = details.cbp;
+                        const riskColor = cbp.overall_risk === 'high' ? 'var(--grade-f)' : cbp.overall_risk === 'medium' ? 'var(--grade-d)' : 'var(--grade-a)';
+                        const riskLabel = cbp.overall_risk === 'high' ? 'HIGH RISK' : cbp.overall_risk === 'medium' ? 'MEDIUM RISK' : cbp.overall_risk === 'monitor' ? 'MONITOR' : 'LOW RISK';
+                        detailsHTML += `
+                            <div style="background: ${cbp.overall_risk === 'high' ? '#FFEBEE' : cbp.overall_risk === 'medium' ? '#FFF3E0' : 'var(--green-pale)'}; border-radius: 12px; padding: 1.5rem; border-left: 4px solid ${riskColor};">
+                                <h3 style="margin-bottom: 0.5rem; color: var(--forest); font-size: 1.1rem;">U.S. Customs Forced Labor Screening</h3>
+                                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.8rem;">Published by ${cbp.publisher}</p>
+                                <div style="display: inline-block; padding: 0.3rem 0.8rem; border-radius: 6px; font-weight: 700; font-size: 0.9rem; color: white; background: ${riskColor}; margin-bottom: 0.8rem;">${riskLabel}</div>
+                                ${cbp.flags_count > 0 ? `<p style="color: var(--text); font-size: 0.9rem; margin-bottom: 0.5rem;">${cbp.flags_count} forced labor concern(s) flagged:</p><ul style="margin-left: 1.5rem; color: var(--text-light); font-size: 0.9rem; line-height: 1.6;">${cbp.flags.map(f => `<li>${f}</li>`).join('')}</ul>` : `<p style="color: var(--text-light); font-size: 0.9rem;">No forced labor flags or WRO (Withhold Release Order) concerns identified.</p>`}
+                            </div>`;
+                    }
+
+                    if (details.certifications) {
+                        const certs = details.certifications;
+                        detailsHTML += `
+                            <div style="background: var(--green-pale); border-radius: 12px; padding: 1.5rem; border-left: 4px solid var(--green-mid);">
+                                <h3 style="margin-bottom: 0.5rem; color: var(--forest); font-size: 1.1rem;">Third-Party Certifications</h3>
+                                <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: 0.8rem;">Verified by independent certification bodies</p>
+                                ${certs.active_certifications.length > 0 ? `<div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 0.5rem;">${certs.active_certifications.map(c => `<span style="background: var(--green-light); color: var(--forest); padding: 0.3rem 0.8rem; border-radius: 20px; font-size: 0.85rem; font-weight: 600;">${c}</span>`).join('')}</div>` : `<p style="color: var(--text-light); font-size: 0.9rem;">No active third-party certifications found.</p>`}
+                            </div>`;
+                    }
+
+                    container.innerHTML = detailsHTML;
+                    document.getElementById('sc-data-dive').style.display = 'block';
+                }
+
                 // Sources
                 const sourcesStr = (brand.data_sources || []).map(s => `<li><code>${s}</code></li>`).join('');
                 document.getElementById('sc-sources').innerHTML = sourcesStr || `<li>None (Default baseline applied)</li>`;
