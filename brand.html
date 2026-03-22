@@ -183,8 +183,7 @@
                 const badge = document.getElementById('sc-badge');
                 badge.innerText = brand.grade;
                 badge.className = `badge ${brand.grade.toLowerCase()}`;
-                document.getElementById('sc-label').innerText = brand.grade_label || 'Overall Score';
-                document.getElementById('sc-score-value').innerText = brand.overall_score !== null ? brand.overall_score.toFixed(1) + ' / 100' : 'Unranked';
+                document.getElementById('sc-score').innerText = brand.overall_score !== null ? brand.overall_score.toFixed(1) : 'Unranked';
                 
                 // Report link
                 if (brand.report_file) {
