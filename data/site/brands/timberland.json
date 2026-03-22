@@ -7,14 +7,14 @@
     "shoes",
     "outdoor"
   ],
-  "overall_score": 30.5,
+  "overall_score": 34.9,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 2,
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "planet": {
@@ -24,8 +24,8 @@
       "concerns": []
     },
     "people": {
-      "score": 30,
-      "grade": "F",
+      "score": 41.1,
+      "grade": "D",
       "highlights": [
         "No CBP forced labor flags",
         "FTI transparency score: 66%"
@@ -40,7 +40,7 @@
     }
   },
   "red_flags": [],
-  "summary": "Timberland achieved a F (30.5/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 32.7/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Timberland achieved a F (34.9/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 32.7/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 41.1/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
     "FTI transparency score: 66%",
     "No CBP forced labor flags"
@@ -48,6 +48,7 @@
   "concerns": [],
   "data_sources": [
     "fti",
+    "ktc",
     "cbp_forced_labor"
   ],
   "data_source_details": {
@@ -58,6 +59,16 @@
       "edition": "2023",
       "context": "Scored 66% as part of VF Corporation's brand portfolio.",
       "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
+    "ktc": {
+      "name": "KnowTheChain Benchmark",
+      "publisher": "KnowTheChain / Business & Human Rights Resource Centre",
+      "score": 37,
+      "rank": 11,
+      "total_companies": 65,
+      "context": "VF Corporation scored 37/100, above the industry average of 21.",
+      "industry_average": 21,
+      "source_url": "https://knowthechain.org/benchmark/"
     },
     "cbp": {
       "name": "CBP Forced Labor Screening",
@@ -75,6 +86,10 @@
       "transparency_score": 66,
       "rank": null,
       "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 37,
+      "theme_scores": {}
     }
   }
 }

@@ -7,47 +7,67 @@
     "outdoor",
     "activewear"
   ],
-  "overall_score": 28.3,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 68.2,
+  "grade": "B",
+  "grade_label": "Good Progress",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 22,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 88.0
   },
   "dimensions": {
     "planet": {
-      "score": 27.9,
-      "grade": "F",
+      "score": 77.2,
+      "grade": "B",
       "highlights": [
-        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner"
+        "89% sustainable/certified materials",
+        "Certifications: Bluesign, RDS, GOTS",
+        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
+        "Chemical management policy in place",
+        "Microplastics mitigation program",
+        "Durability/longevity commitment",
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline"
       ],
       "concerns": []
     },
     "people": {
-      "score": 30,
-      "grade": "F",
+      "score": 50.0,
+      "grade": "C",
       "highlights": [
-        "No CBP forced labor flags"
+        "Active living wage program",
+        "Audit results publicly disclosed",
+        "No CBP forced labor flags",
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 25,
-      "grade": "F",
-      "highlights": [],
+      "score": 90,
+      "grade": "A",
+      "highlights": [
+        "Animal welfare policies/certs: RDS",
+        "Microplastics policy (Marine life protection)"
+      ],
       "concerns": []
     }
   },
   "red_flags": [],
-  "summary": "Patagonia achieved a F (28.3/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 27.9/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Patagonia achieved a B (68.2/100) due to their explicit performance across our three pillars. In Planet, they score 77.2/100, showing moderate progress in materials and traceability, though missing advanced circularity metrics. In People, they score 50.0/100, demonstrating basic code of conduct compliance but lacking sweeping, transparent living wage verifications across their tier borders. Finally, in Animals, they achieve a 90.0/100 thanks to rigorous verifiable welfare certifications or zero reliance on non-vegan materials.",
   "highlights": [
-    "No CBP forced labor flags",
-    "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner"
+    "Publishes full supplier/factory list",
+    "Discloses 3+ supply chain tiers",
+    "Active living wage program",
+    "Audit results publicly disclosed",
+    "No CBP forced labor flags"
   ],
   "concerns": [],
   "data_sources": [
+    "sustainability_report",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -79,5 +99,57 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "sustainability_report": {
+      "report_file": "patagonia_bcorp_and_public_disclosures",
+      "parsed_at": "2026-03-22T05:13:25.937913",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "3+",
+        "sourcing_countries": [
+          "Vietnam",
+          "Sri Lanka",
+          "Thailand",
+          "China",
+          "Colombia",
+          "USA",
+          "Portugal",
+          "India"
+        ],
+        "oar_participation": "yes"
+      },
+      "who": {
+        "living_wage_status": "active_program",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "yes",
+        "freedom_of_association": "yes"
+      },
+      "what": {
+        "sustainable_materials_percentage": "89%",
+        "certifications_mentioned": [
+          "Bluesign",
+          "Fair Trade Certified",
+          "RDS",
+          "Responsible Wool Standard",
+          "GOTS"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "yes",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {
+        "score": 5,
+        "reasoning": "Patagonia is a certified B Corp (score 151.4) and backs claims with public factory lists, audit results, and material traceability."
+      }
+    }
+  }
 }

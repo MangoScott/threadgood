@@ -7,27 +7,30 @@
     "basics",
     "essentials"
   ],
-  "overall_score": 19.0,
+  "overall_score": 23.8,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 1,
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 4.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "planet": {
-      "score": 25.0,
+      "score": 30.8,
       "grade": "F",
       "highlights": [],
       "concerns": []
     },
     "people": {
-      "score": 10,
+      "score": 15.4,
       "grade": "F",
-      "highlights": [],
+      "highlights": [
+        "FTI transparency score: 50%"
+      ],
       "concerns": [
+        "Low KnowTheChain score: 18/100",
         "Labor risk: CBP detained Uniqlo shirts under UFLPA"
       ]
     },
@@ -45,15 +48,38 @@
       "severity": "high"
     }
   ],
-  "summary": "Uniqlo achieved a F (19.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 10.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
-  "highlights": [],
+  "summary": "Uniqlo achieved a F (23.8/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 30.8/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 15.4/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "highlights": [
+    "FTI transparency score: 50%"
+  ],
   "concerns": [
+    "Low KnowTheChain score: 18/100",
     "Labor risk: CBP detained Uniqlo shirts under UFLPA"
   ],
   "data_sources": [
+    "fti",
+    "ktc",
     "cbp_forced_labor"
   ],
   "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 50,
+      "edition": "2023",
+      "context": "Fast Retailing scored in the 41-50% range.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
+    "ktc": {
+      "name": "KnowTheChain Benchmark",
+      "publisher": "KnowTheChain / Business & Human Rights Resource Centre",
+      "score": 18,
+      "rank": 28,
+      "total_companies": 65,
+      "context": "Fast Retailing scored 18/100, below the industry average.",
+      "industry_average": 21,
+      "source_url": "https://knowthechain.org/benchmark/"
+    },
     "cbp": {
       "name": "CBP Forced Labor Screening",
       "publisher": "U.S. Customs and Border Protection",
@@ -73,5 +99,15 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "fti": {
+      "transparency_score": 50,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 18,
+      "theme_scores": {}
+    }
+  }
 }

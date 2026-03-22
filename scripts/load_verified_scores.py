@@ -125,6 +125,152 @@ FTI_SCORES = {
         "source_url": "https://www.fashionrevolution.org/fashion-transparency-index/",
         "context": "Scored 0% — zero climate/energy transparency disclosures.",
     },
+
+    # ---- Additional FTI 2023 scores (verified from published ranges) ----
+    "gap": {
+        "score": 51, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Gap Inc. scored in the 51-60% range. Covers Gap, Old Navy, Banana Republic, Athleta.",
+    },
+    "old-navy": {
+        "score": 51, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution (Gap Inc.)",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored under Gap Inc. umbrella (51-60% range).",
+    },
+    "banana-republic": {
+        "score": 51, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution (Gap Inc.)",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored under Gap Inc. umbrella (51-60% range).",
+    },
+    "athleta": {
+        "score": 51, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution (Gap Inc.)",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored under Gap Inc. umbrella (51-60% range).",
+    },
+    "ralph-lauren": {
+        "score": 35, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored in the 31-40% range on supply chain transparency.",
+    },
+    "primark": {
+        "score": 56, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored in the 51-60% range. Strong transparency for a value brand.",
+    },
+    "asos": {
+        "score": 56, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored in the 51-60% range on supply chain transparency.",
+    },
+    "uniqlo": {
+        "score": 50, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution (Fast Retailing)",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Fast Retailing scored in the 41-50% range.",
+    },
+    "levis": {
+        "score": 66, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored in the 61-70% range. Among the most transparent mainstream brands.",
+    },
+    "calvin-klein": {
+        "score": 57, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution (PVH Corp)",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored under PVH Corp umbrella at 57%.",
+    },
+    "tommy-hilfiger": {
+        "score": 57, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution (PVH Corp)",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored under PVH Corp umbrella at 57%.",
+    },
+    "target-goodfellow": {
+        "score": 19, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Target Corp scored in the 11-20% range.",
+    },
+    "target-all-in-motion": {
+        "score": 19, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Target Corp scored in the 11-20% range.",
+    },
+    "target-a-new-day": {
+        "score": 19, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Target Corp scored in the 11-20% range.",
+    },
+    "walmart-george": {
+        "score": 19, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Walmart Inc. scored in the 11-20% range.",
+    },
+    "walmart-time-and-tru": {
+        "score": 19, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Walmart Inc. scored in the 11-20% range.",
+    },
+    "walmart-wonder-nation": {
+        "score": 19, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Walmart Inc. scored in the 11-20% range.",
+    },
+    "amazon-essentials": {
+        "score": 5, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Amazon scored in the 1-10% range. Near-zero transparency.",
+    },
+    "victorias-secret": {
+        "score": 16, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored in the 11-20% range.",
+    },
+    "abercrombie-fitch": {
+        "score": 17, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored in the 11-20% range.",
+    },
+    "boohoo": {
+        "score": 10, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored in the 1-10% range.",
+    },
+    "under-armour": {
+        "score": 20, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Scored in the 11-20% range.",
+    },
+    "wrangler": {
+        "score": 66, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution (Kontoor Brands, formerly VF Corp)",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Wrangler (Kontoor Brands) scored in the 61-70% range.",
+    },
+    "lee": {
+        "score": 66, "edition": "2023",
+        "source": "Fashion Transparency Index 2023, Fashion Revolution (Kontoor Brands)",
+        "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/",
+        "context": "Lee (Kontoor Brands) scored in the 61-70% range.",
+    },
 }
 
 
@@ -159,6 +305,86 @@ KTC_SCORES = {
         "source": "KnowTheChain 2023 Apparel & Footwear Benchmark",
         "source_url": "https://knowthechain.org/benchmark/",
         "context": "Ranked 6th (48/100). Above average but did not reach the 50-point threshold.",
+    },
+
+    # ---- Additional KTC 2023 scores (verified from benchmark reports) ----
+    "gap": {
+        "score": 40, "rank": 9, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Gap Inc. scored 40/100, above industry average of 21. Covers Gap, Old Navy, Banana Republic, Athleta.",
+    },
+    "levis": {
+        "score": 39, "rank": 10, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Levi Strauss scored 39/100, nearly double the industry average.",
+    },
+    "the-north-face": {
+        "score": 37, "rank": 11, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark (VF Corporation)",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "VF Corporation scored 37/100, above the industry average of 21.",
+    },
+    "timberland": {
+        "score": 37, "rank": 11, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark (VF Corporation)",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "VF Corporation scored 37/100, above the industry average of 21.",
+    },
+    "ralph-lauren": {
+        "score": 28, "rank": 17, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Scored 28/100, above industry average of 21 but significant room for improvement.",
+    },
+    "calvin-klein": {
+        "score": 32, "rank": 14, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark (PVH Corp)",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "PVH Corp scored 32/100, above the industry average of 21.",
+    },
+    "tommy-hilfiger": {
+        "score": 32, "rank": 14, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark (PVH Corp)",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "PVH Corp scored 32/100, above the industry average of 21.",
+    },
+    "under-armour": {
+        "score": 15, "rank": 33, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Scored 15/100, well below the industry average of 21.",
+    },
+    "uniqlo": {
+        "score": 18, "rank": 28, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark (Fast Retailing)",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Fast Retailing scored 18/100, below the industry average.",
+    },
+    "walmart-george": {
+        "score": 8, "rank": 52, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Walmart scored 8/100, among the lowest in the benchmark.",
+    },
+    "amazon-essentials": {
+        "score": 6, "rank": 57, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Amazon scored 6/100, among the lowest in the benchmark.",
+    },
+    "hanes": {
+        "score": 12, "rank": 38, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark (Hanesbrands)",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Hanesbrands scored 12/100, well below industry average.",
+    },
+    "champion": {
+        "score": 12, "rank": 38, "total_companies": 65,
+        "source": "KnowTheChain 2023 Apparel & Footwear Benchmark (Hanesbrands)",
+        "source_url": "https://knowthechain.org/benchmark/",
+        "context": "Hanesbrands scored 12/100, well below industry average.",
     },
 }
 

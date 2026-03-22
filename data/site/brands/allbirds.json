@@ -7,47 +7,64 @@
     "shoes",
     "basics"
   ],
-  "overall_score": 27.6,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 54.6,
+  "grade": "C",
+  "grade_label": "Getting Started",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 21,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 84.0
   },
   "dimensions": {
     "planet": {
-      "score": 26.2,
-      "grade": "F",
+      "score": 67.2,
+      "grade": "B",
       "highlights": [
-        "Verified certifications: B Corporation"
+        "92% sustainable/certified materials",
+        "Verified certifications: B Corporation",
+        "Chemical management policy in place",
+        "Microplastics mitigation program",
+        "Durability/longevity commitment",
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline",
+        "Design for disassembly approach"
       ],
       "concerns": []
     },
     "people": {
-      "score": 30,
+      "score": 27.0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags"
+        "No CBP forced labor flags",
+        "Publishes partial supplier list"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 25,
-      "grade": "F",
-      "highlights": [],
+      "score": 90,
+      "grade": "A",
+      "highlights": [
+        "Animal welfare policies/certs: ZQ Merino",
+        "Microplastics policy (Marine life protection)"
+      ],
       "concerns": []
     }
   },
   "red_flags": [],
-  "summary": "Allbirds achieved a F (27.6/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 26.2/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Allbirds achieved a C (54.6/100) due to their explicit performance across our three pillars. In Planet, they score 67.2/100, showing moderate progress in materials and traceability, though missing advanced circularity metrics. In People, they score a concerning 27.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they achieve a 90.0/100 thanks to rigorous verifiable welfare certifications or zero reliance on non-vegan materials.",
   "highlights": [
+    "Publishes partial supplier list",
     "No CBP forced labor flags",
-    "Verified certifications: B Corporation"
+    "92% sustainable/certified materials",
+    "Verified certifications: B Corporation",
+    "Chemical management policy in place"
   ],
   "concerns": [],
   "data_sources": [
+    "sustainability_report",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -77,5 +94,51 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "sustainability_report": {
+      "report_file": "allbirds_sustainability_public",
+      "parsed_at": "2026-03-22T05:13:25.938425",
+      "where": {
+        "factory_list_published": "partial",
+        "supply_chain_tiers_disclosed": "2",
+        "sourcing_countries": [
+          "Vietnam",
+          "China",
+          "South Korea",
+          "New Zealand"
+        ],
+        "oar_participation": "no"
+      },
+      "who": {
+        "living_wage_status": "aspirational",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "partial",
+        "freedom_of_association": "not_disclosed"
+      },
+      "what": {
+        "sustainable_materials_percentage": "92%",
+        "certifications_mentioned": [
+          "B Corp",
+          "ZQ Merino",
+          "FSC"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "yes",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "yes",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "yes"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {
+        "score": 4,
+        "reasoning": "B Corp certified. Carbon footprint labeling on every product."
+      }
+    }
+  }
 }

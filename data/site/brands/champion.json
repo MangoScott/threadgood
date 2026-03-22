@@ -7,14 +7,14 @@
     "activewear",
     "basics"
   ],
-  "overall_score": 30.0,
+  "overall_score": 31.5,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 2,
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "planet": {
@@ -24,13 +24,15 @@
       "concerns": []
     },
     "people": {
-      "score": 30,
+      "score": 33.6,
       "grade": "F",
       "highlights": [
         "No CBP forced labor flags",
         "FTI transparency score: 58%"
       ],
-      "concerns": []
+      "concerns": [
+        "Low KnowTheChain score: 12/100"
+      ]
     },
     "animals": {
       "score": 25,
@@ -40,14 +42,17 @@
     }
   },
   "red_flags": [],
-  "summary": "Champion achieved a F (30.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 31.8/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Champion achieved a F (31.5/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 31.8/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 33.6/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
     "FTI transparency score: 58%",
     "No CBP forced labor flags"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low KnowTheChain score: 12/100"
+  ],
   "data_sources": [
     "fti",
+    "ktc",
     "cbp_forced_labor"
   ],
   "data_source_details": {
@@ -58,6 +63,16 @@
       "edition": "2024 (What Fuels Fashion)",
       "context": "Scored 58% on climate/energy transparency (Hanesbrands portfolio).",
       "source_url": "https://www.fashionrevolution.org/fashion-transparency-index/"
+    },
+    "ktc": {
+      "name": "KnowTheChain Benchmark",
+      "publisher": "KnowTheChain / Business & Human Rights Resource Centre",
+      "score": 12,
+      "rank": 38,
+      "total_companies": 65,
+      "context": "Hanesbrands scored 12/100, well below industry average.",
+      "industry_average": 21,
+      "source_url": "https://knowthechain.org/benchmark/"
     },
     "cbp": {
       "name": "CBP Forced Labor Screening",
@@ -81,6 +96,10 @@
       "transparency_score": 58,
       "rank": null,
       "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 12,
+      "theme_scores": {}
     }
   }
 }

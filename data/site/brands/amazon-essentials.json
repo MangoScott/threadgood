@@ -8,29 +8,32 @@
     "budget",
     "essentials"
   ],
-  "overall_score": 27.0,
+  "overall_score": 28.0,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 1,
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 4.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "planet": {
-      "score": 25.0,
+      "score": 25.6,
       "grade": "F",
       "highlights": [],
       "concerns": []
     },
     "people": {
-      "score": 30,
+      "score": 31.8,
       "grade": "F",
       "highlights": [
         "No CBP forced labor flags"
       ],
-      "concerns": []
+      "concerns": [
+        "Low KnowTheChain score: 6/100",
+        "Low FTI transparency score: 5%"
+      ]
     },
     "animals": {
       "score": 25,
@@ -40,15 +43,38 @@
     }
   },
   "red_flags": [],
-  "summary": "Amazon Essentials achieved a F (27.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Amazon Essentials achieved a F (28.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.6/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 31.8/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
     "No CBP forced labor flags"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low FTI transparency score: 5%",
+    "Low KnowTheChain score: 6/100"
+  ],
   "data_sources": [
+    "fti",
+    "ktc",
     "cbp_forced_labor"
   ],
   "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 5,
+      "edition": "2023",
+      "context": "Amazon scored in the 1-10% range. Near-zero transparency.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
+    "ktc": {
+      "name": "KnowTheChain Benchmark",
+      "publisher": "KnowTheChain / Business & Human Rights Resource Centre",
+      "score": 6,
+      "rank": 57,
+      "total_companies": 65,
+      "context": "Amazon scored 6/100, among the lowest in the benchmark.",
+      "industry_average": 21,
+      "source_url": "https://knowthechain.org/benchmark/"
+    },
     "cbp": {
       "name": "CBP Forced Labor Screening",
       "publisher": "U.S. Customs and Border Protection",
@@ -66,5 +92,15 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "fti": {
+      "transparency_score": 5,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 6,
+      "theme_scores": {}
+    }
+  }
 }
