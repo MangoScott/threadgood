@@ -21,20 +21,17 @@
       "score": 89.1,
       "grade": "A",
       "highlights": [
-        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
-        "FTI transparency score: 88.0%",
-        "Durability/longevity commitment",
-        "Circularity goals with timeline",
-        "Design for disassembly approach",
-        "Chemical management policy in place",
-        "Discloses 3+ supply chain tiers",
-        "Publishes full supplier/factory list",
-        "Microplastics mitigation program",
-        "Certifications: Bluesign",
-        "Sustainable packaging initiatives",
-        "Garment take-back/recycling program",
         "89% sustainable/certified materials",
-        "Resale or repair program"
+        "Certifications: Bluesign",
+        "Verified certifications: B Corporation, Fair Trade Certified, Bluesign Partner",
+        "Chemical management policy in place",
+        "Microplastics mitigation program",
+        "Durability/longevity commitment",
+        "Garment take-back/recycling program",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline",
+        "Design for disassembly approach"
       ],
       "concerns": []
     },
@@ -45,7 +42,10 @@
         "Active living wage program",
         "Audit results publicly disclosed",
         "KnowTheChain score: 65.0/100",
-        "No CBP forced labor flags"
+        "No CBP forced labor flags",
+        "Publishes full supplier/factory list",
+        "Discloses 3+ supply chain tiers",
+        "FTI transparency score: 88.0%"
       ],
       "concerns": []
     },

@@ -677,10 +677,21 @@ def score_brand(brand: dict) -> dict:
             + animals_score * WEIGHTS["animals"]
         )
     
-    overall = round(overall, 1)
-    people_score = round(people_score, 1)
-    planet_score = round(planet_score, 1)
-    animals_score = round(animals_score, 1)
+    # Unranked Paradigm Check
+    if total_indicators == 0 and not red_flags:
+        overall = None
+        people_score = None
+        planet_score = None
+        animals_score = None
+        final_grade = "NR"
+        final_grade_label = "Unranked"
+    else:
+        overall = round(overall, 1)
+        people_score = round(people_score, 1)
+        planet_score = round(planet_score, 1)
+        animals_score = round(animals_score, 1)
+        final_grade = score_to_grade(overall)
+        final_grade_label = grade_label(final_grade)
     
     # Determine data sources used
     sources = []
@@ -705,28 +716,32 @@ def score_brand(brand: dict) -> dict:
     
     # Generate transparent explanation summary
     summary_parts = []
-    summary_parts.append(f"{brand.get('name', 'This brand')} achieved a {score_to_grade(overall)} ({overall:.1f}/100) due to their explicit performance across our three pillars.")
     
-    if planet_score >= 80:
-        summary_parts.append(f"In Planet, they excel with a {planet_score:.1f}/100 by maintaining high material verification and complete circularity traceability.")
-    elif planet_score >= 50:
-        summary_parts.append(f"In Planet, they score {planet_score:.1f}/100, showing moderate progress in materials and traceability, though missing advanced circularity metrics.")
+    if final_grade == "NR":
+        summary_paragraph = f"{brand.get('name', 'This brand')} is currently Unranked. They have failed to publish any verifiable supply chain data, transparency reports, or certifications. ThreadGrade refuses to assign a passing score without public accountability."
     else:
-        summary_parts.append(f"In Planet, they fall behind with {planet_score:.1f}/100 due to a severe lack of verifiable environmental or material transparency commitments.")
+        summary_parts.append(f"{brand.get('name', 'This brand')} achieved a {final_grade} ({overall:.1f}/100) due to their explicit performance across our three pillars.")
         
-    if people_score >= 80:
-        summary_parts.append(f"In People, they lead the industry with {people_score:.1f}/100 by proving active living wage progress and strict safety enforcement.")
-    elif people_score >= 50:
-        summary_parts.append(f"In People, they score {people_score:.1f}/100, demonstrating basic code of conduct compliance but lacking sweeping, transparent living wage verifications across their tier borders.")
-    else:
-        summary_parts.append(f"In People, they score a concerning {people_score:.1f}/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations).")
-        
-    if animals_score >= 80:
-        summary_parts.append(f"Finally, in Animals, they achieve a {animals_score:.1f}/100 thanks to rigorous verifiable welfare certifications or zero reliance on non-vegan materials.")
-    else:
-        summary_parts.append(f"Finally, in Animals, they score {animals_score:.1f}/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.")
-        
-    summary_paragraph = " ".join(summary_parts)
+        if planet_score >= 80:
+            summary_parts.append(f"In Planet, they excel with a {planet_score:.1f}/100 by maintaining high material verification and complete circularity traceability.")
+        elif planet_score >= 50:
+            summary_parts.append(f"In Planet, they score {planet_score:.1f}/100, showing moderate progress in materials and traceability, though missing advanced circularity metrics.")
+        else:
+            summary_parts.append(f"In Planet, they fall behind with {planet_score:.1f}/100 due to a severe lack of verifiable environmental or material transparency commitments.")
+            
+        if people_score >= 80:
+            summary_parts.append(f"In People, they lead the industry with {people_score:.1f}/100 by proving active living wage progress and strict safety enforcement.")
+        elif people_score >= 50:
+            summary_parts.append(f"In People, they score {people_score:.1f}/100, demonstrating basic code of conduct compliance but lacking sweeping, transparent living wage verifications across their tier borders.")
+        else:
+            summary_parts.append(f"In People, they score a concerning {people_score:.1f}/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations).")
+            
+        if animals_score >= 80:
+            summary_parts.append(f"Finally, in Animals, they achieve a {animals_score:.1f}/100 thanks to rigorous verifiable welfare certifications or zero reliance on non-vegan materials.")
+        else:
+            summary_parts.append(f"Finally, in Animals, they score {animals_score:.1f}/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.")
+            
+        summary_paragraph = " ".join(summary_parts)
 
     return {
         "brand": brand["name"],
@@ -735,26 +750,26 @@ def score_brand(brand: dict) -> dict:
         "price_tier": brand.get("price_tier", ""),
         "categories": brand.get("categories", []),
         "overall_score": overall,
-        "grade": score_to_grade(overall),
-        "grade_label": grade_label(score_to_grade(overall)),
+        "grade": final_grade,
+        "grade_label": final_grade_label,
         "summary": summary_paragraph,
         "confidence": calculate_confidence(total_indicators),
         "dimensions": {
             "planet": {
                 "score": planet_score,
-                "grade": score_to_grade(planet_score),
-                "highlights": list(set(where_highlights + what_highlights + after_highlights)),
-                "concerns": list(set(where_concerns + what_concerns + after_concerns)),
+                "grade": score_to_grade(planet_score) if planet_score is not None else "NR",
+                "highlights": what_highlights + after_highlights,
+                "concerns": what_concerns + after_concerns,
             },
             "people": {
                 "score": people_score,
-                "grade": score_to_grade(people_score),
-                "highlights": who_highlights,
-                "concerns": who_concerns,
+                "grade": score_to_grade(people_score) if people_score is not None else "NR",
+                "highlights": who_highlights + where_highlights,
+                "concerns": who_concerns + where_concerns,
             },
             "animals": {
                 "score": animals_score,
-                "grade": score_to_grade(animals_score),
+                "grade": score_to_grade(animals_score) if animals_score is not None else "NR",
                 "highlights": animals_highlights,
                 "concerns": animals_concerns,
             }

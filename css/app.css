@@ -112,6 +112,7 @@
 .bc-badge.C { background: var(--grade-c); color: var(--ink); }
 .bc-badge.D { background: var(--grade-d); }
 .bc-badge.F { background: var(--grade-f); }
+.bc-badge.NR { background: #888888; color: #fff; }
 
 .bc-price { font-family: 'Caveat', cursive; font-size: 1.2rem; color: var(--green-mid); font-weight: 600; }
 .bc-name { font-weight: 700; font-size: 1.2rem; color: var(--forest); margin-bottom: 0.2rem; }

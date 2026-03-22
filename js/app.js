@@ -49,7 +49,7 @@ function renderBrands(brands) {
                 <div class="bc-name">${b.name}</div>
                 <div class="bc-cats">${(b.categories || []).join(' • ')}</div>
                 <div class="bc-score">
-                    Overall Score <span>${b.overall_score.toFixed(1)} / 100</span>
+                    Overall Score <span>${b.overall_score !== null ? b.overall_score.toFixed(1) + ' / 100' : 'Unranked'}</span>
                 </div>
             </div>
         </a>
@@ -77,9 +77,9 @@ function setupFilters() {
         });
 
         if (sort === 'score-desc') {
-            filtered.sort((a, b) => b.overall_score - a.overall_score);
+            filtered.sort((a, b) => (b.overall_score || 0) - (a.overall_score || 0));
         } else if (sort === 'score-asc') {
-            filtered.sort((a, b) => a.overall_score - b.overall_score);
+            filtered.sort((a, b) => (a.overall_score || 0) - (b.overall_score || 0));
         } else if (sort === 'name-asc') {
             filtered.sort((a, b) => a.name.localeCompare(b.name));
         }

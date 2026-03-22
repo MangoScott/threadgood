@@ -25,10 +25,11 @@
             --text-muted: #8a8a8a;
             --accent: #e85d26;
             --grade-a: #2d7a3d;
-            --grade-b: #4CAF50;
-            --grade-c: #F9A825;
-            --grade-d: #e85d26;
-            --grade-f: #c62828;
+            --grade-b: #649646;
+            --grade-c: #e5b32e;
+            --grade-d: #d97736;
+            --grade-f: #c0392b;
+            --grade-nr: #888888;
             --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
             --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
             --shadow-lg: 0 8px 30px rgba(0,0,0,0.1);
@@ -49,6 +50,9 @@
         .fill-c { background: var(--grade-c); }
         .fill-d { background: var(--grade-d); }
         .fill-f { background: var(--grade-f); }
+        .fill-nr { background: var(--grade-nr); }
+
+        .badge.nr { background: var(--grade-nr); }
     </style>
 </head>
 <body>
@@ -144,7 +148,7 @@
                 <li><strong>Animals (15%):</strong> Tracks robust animal welfare certifications (Responsible Down Standard, ZQ Merino), outright bans on exotic skins and fur, and investments in vegan innovations to reduce biosphere dependencies.</li>
             </ul>
             <p style="color: var(--text-light); font-size: 0.9rem;">
-                <em>Missing Data Policy:</em> If a brand fails to publicly publish data, our engine strictly assigns a neutral <strong>55/100 (C)</strong>. They must provide verified certifications to rise to an A or B, and will drop to a D or F if they trigger government safety/forced labor violations or score 0% on transparency indexes.
+                <em>Missing Data Policy:</em> If a brand refuses to publicly publish any verifiable supply chain or tracking data, ThreadGrade refuses to assign them a passing score and instead legally labels them as <strong>Unranked (NR)</strong>. Brands must provide transparent, public certifications to be officially graded on our scale, and they will immediately dive to a D or F if they trigger an OSHA or CBP Forced Labor penalty.
             </p>
         </div>
     </main>
@@ -171,9 +175,9 @@
                 
                 const badge = document.getElementById('sc-badge');
                 badge.innerText = brand.grade;
-                badge.className = `badge ${brand.grade}`;
+                badge.className = `badge ${brand.grade.toLowerCase()}`;
                 
-                document.getElementById('sc-score').innerText = brand.overall_score.toFixed(1);
+                document.getElementById('sc-score').innerText = brand.overall_score !== null ? brand.overall_score.toFixed(1) : 'Unranked';
                 
                 // Red Flags
                 if (brand.red_flags && brand.red_flags.length > 0) {

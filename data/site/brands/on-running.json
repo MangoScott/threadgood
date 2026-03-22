@@ -21,16 +21,14 @@
       "score": 70.2,
       "grade": "B",
       "highlights": [
-        "Durability/longevity commitment",
-        "FTI transparency score: 52.0%",
-        "Circularity goals with timeline",
-        "Design for disassembly approach",
-        "Chemical management policy in place",
-        "Publishes full supplier/factory list",
-        "Microplastics mitigation program",
         "Certifications: Bluesign",
+        "Chemical management policy in place",
+        "Microplastics mitigation program",
+        "Durability/longevity commitment",
+        "Garment take-back/recycling program",
         "Sustainable packaging initiatives",
-        "Garment take-back/recycling program"
+        "Circularity goals with timeline",
+        "Design for disassembly approach"
       ],
       "concerns": [
         "No resale/repair program"
@@ -41,7 +39,9 @@
       "grade": "D",
       "highlights": [
         "Active living wage program",
-        "No CBP forced labor flags"
+        "No CBP forced labor flags",
+        "Publishes full supplier/factory list",
+        "FTI transparency score: 52.0%"
       ],
       "concerns": []
     },
