@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compare Brands | ThreadGrade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;600;700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/app.css">
+    <style>
+        :root {
+            --forest: #1a3a2a;
+            --green-dark: #2d5a3d;
+            --green-mid: #3d7a52;
+            --green-bright: #4CAF50;
+            --green-light: #e8f5e9;
+            --green-pale: #f1f8f2;
+            --cream: #faf9f6;
+            --warm-white: #fefdfb;
+            --ink: #1a1a1a;
+            --text: #2d2d2d;
+            --text-light: #5a5a5a;
+            --text-muted: #8a8a8a;
+            --accent: #e85d26;
+            --grade-a: #2d7a3d;
+            --grade-b: #649646;
+            --grade-c: #e5b32e;
+            --grade-d: #d97736;
+            --grade-f: #c0392b;
+            --grade-nr: #888888;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.06);
+            --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+            --shadow-lg: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'DM Sans', sans-serif; color: var(--text); background: var(--cream); line-height: 1.6; }
+    </style>
+</head>
+<body>
+    <header class="compare-header">
+        <a href="index.html#directory" class="back-link">&larr; Back to Directory</a>
+        <h1>Brand Comparison</h1>
+        <p id="compare-subtitle">Loading brands...</p>
+    </header>
+
+    <div class="compare-container" style="margin-top: -1rem; position: relative; z-index: 10;">
+        <div id="compare-loading" style="text-align: center; padding: 3rem; color: var(--text-light);">Loading comparison data...</div>
+        <div id="compare-content" style="display: none;"></div>
+        <div id="compare-empty" style="display: none; text-align: center; padding: 4rem 2rem;">
+            <h2 style="color: var(--forest); margin-bottom: 1rem;">Select brands to compare</h2>
+            <p style="color: var(--text-light); margin-bottom: 2rem;">Go to the <a href="index.html#directory" style="color: var(--green-mid);">directory</a> and check the "Compare" box on 2-3 brands.</p>
+        </div>
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', async () => {
+        const params = new URLSearchParams(window.location.search);
+        const brandsParam = params.get('brands');
+
+        if (!brandsParam) {
+            document.getElementById('compare-loading').style.display = 'none';
+            document.getElementById('compare-empty').style.display = 'block';
+            return;
+        }
+
+        const slugs = brandsParam.split(',').slice(0, 3);
+        const gradeColors = { A: 'var(--grade-a)', B: 'var(--grade-b)', C: 'var(--grade-c)', D: 'var(--grade-d)', F: 'var(--grade-f)', NR: 'var(--grade-nr)' };
+
+        try {
+            const brands = await Promise.all(
+                slugs.map(async slug => {
+                    const res = await fetch(`data/site/brands/${slug.trim()}.json`);
+                    if (!res.ok) throw new Error(`Brand ${slug} not found`);
+                    return res.json();
+                })
+            );
+
+            document.getElementById('compare-subtitle').textContent = brands.map(b => b.name).join(' vs ');
+            document.title = brands.map(b => b.name).join(' vs ') + ' | ThreadGrade';
+
+            const cols = brands.length + 1;
+            const gridCols = `200px repeat(${brands.length}, 1fr)`;
+
+            function bestIdx(values) {
+                let best = -1, bestVal = -Infinity;
+                values.forEach((v, i) => {
+                    const num = parseFloat(v);
+                    if (!isNaN(num) && num > bestVal) { bestVal = num; best = i; }
+                });
+                return best;
+            }
+
+            function makeRow(label, values, type) {
+                const winner = bestIdx(values);
+                let cells = `<div class="compare-row-label">${label}</div>`;
+                values.forEach((val, i) => {
+                    const isWinner = i === winner && brands.length > 1;
+                    const winClass = isWinner ? ' compare-winner' : '';
+
+                    if (type === 'grade') {
+                        cells += `<div class="compare-cell${winClass}">
+                            <div class="cell-grade" style="background:${gradeColors[val] || '#888'}">${val}</div>
+                        </div>`;
+                    } else if (type === 'score') {
+                        cells += `<div class="compare-cell${winClass}">
+                            <div class="cell-score">${val !== null ? parseFloat(val).toFixed(1) : 'N/A'}</div>
+                        </div>`;
+                    } else if (type === 'bar') {
+                        const score = parseFloat(val) || 0;
+                        const grade = score >= 80 ? 'a' : score >= 65 ? 'b' : score >= 50 ? 'c' : score >= 35 ? 'd' : 'f';
+                        cells += `<div class="compare-cell${winClass}">
+                            <div style="width:100%;max-width:160px">
+                                <div style="font-weight:700;font-size:1.1rem;color:var(--forest);margin-bottom:4px">${score.toFixed(1)}</div>
+                                <div style="height:8px;background:#e8e8e8;border-radius:4px;overflow:hidden">
+                                    <div class="fill-${grade}" style="height:100%;width:${score}%;border-radius:4px;transition:width 0.8s"></div>
+                                </div>
+                            </div>
+                        </div>`;
+                    } else if (type === 'list') {
+                        const items = Array.isArray(val) ? val : [];
+                        cells += `<div class="compare-cell${winClass}" style="text-align:left;align-items:flex-start">
+                            ${items.length > 0
+                                ? `<ul style="list-style:none;font-size:0.85rem;line-height:1.6">${items.slice(0, 3).map(item => `<li>${item}</li>`).join('')}</ul>`
+                                : `<span style="color:var(--text-muted);font-size:0.85rem">None found</span>`}
+                        </div>`;
+                    } else if (type === 'risk') {
+                        const color = val === 'high' ? 'var(--grade-f)' : val === 'medium' ? 'var(--grade-d)' : 'var(--grade-a)';
+                        const label = val ? val.charAt(0).toUpperCase() + val.slice(1) : 'Low';
+                        cells += `<div class="compare-cell${winClass}">
+                            <span style="display:inline-block;padding:0.25rem 0.7rem;border-radius:5px;font-weight:700;font-size:0.8rem;color:white;background:${color}">${label} Risk</span>
+                        </div>`;
+                    } else {
+                        cells += `<div class="compare-cell${winClass}" style="font-size:0.9rem">${val || 'N/A'}</div>`;
+                    }
+                });
+                return `<div class="compare-row" style="display:grid;grid-template-columns:${gridCols}">${cells}</div>`;
+            }
+
+            // Brand headers
+            let headerCells = `<div class="compare-row-label"></div>`;
+            brands.forEach(b => {
+                headerCells += `
+                    <div class="compare-brand-header">
+                        <div class="compare-badge" style="background:${gradeColors[b.grade] || '#888'}">${b.grade}</div>
+                        <h3><a href="brand.html?slug=${b.slug}" style="color:var(--forest);text-decoration:none">${b.name}</a></h3>
+                        <div style="font-size:0.85rem;color:var(--text-muted)">${b.price_tier || ''} &middot; ${(b.categories || []).join(', ')}</div>
+                    </div>`;
+            });
+            const headerRow = `<div class="compare-row" style="display:grid;grid-template-columns:${gridCols}">${headerCells}</div>`;
+
+            const content = document.getElementById('compare-content');
+            content.innerHTML = `
+                <div class="sc-card" style="padding:0;overflow:hidden">
+                    <div class="compare-grid">
+                        ${headerRow}
+                        ${makeRow('Overall Score', brands.map(b => b.overall_score), 'score')}
+                        ${makeRow('Grade', brands.map(b => b.grade), 'grade')}
+                        ${makeRow('Confidence', brands.map(b => b.confidence?.level || 'low'), 'text')}
+                        ${makeRow('Planet', brands.map(b => b.dimensions?.planet?.score), 'bar')}
+                        ${makeRow('People', brands.map(b => b.dimensions?.people?.score), 'bar')}
+                        ${makeRow('Animals', brands.map(b => b.dimensions?.animals?.score), 'bar')}
+                        ${makeRow('Price Tier', brands.map(b => b.price_tier || 'N/A'), 'text')}
+                        ${makeRow('Forced Labor Risk', brands.map(b => {
+                            const cbp = b.data_source_details?.cbp;
+                            return cbp ? cbp.overall_risk : 'low';
+                        }), 'risk')}
+                        ${makeRow('Highlights', brands.map(b => b.highlights), 'list')}
+                        ${makeRow('Concerns', brands.map(b => b.concerns), 'list')}
+                        ${makeRow('Data Sources', brands.map(b => (b.data_sources || []).join(', ')), 'text')}
+                    </div>
+                </div>
+                <div style="text-align:center;margin-top:2rem">
+                    <a href="index.html#directory" class="btn-primary" style="display:inline-flex;align-items:center;gap:0.5rem;background:var(--forest);color:var(--cream);padding:0.85rem 2rem;border:none;border-radius:8px;font-weight:600;text-decoration:none">
+                        &larr; Compare More Brands
+                    </a>
+                </div>
+            `;
+
+            document.getElementById('compare-loading').style.display = 'none';
+            content.style.display = 'block';
+
+        } catch (err) {
+            console.error(err);
+            document.getElementById('compare-loading').innerHTML = `<p>Could not load brand data. <a href="index.html#directory" style="color:var(--green-mid)">Return to directory</a></p>`;
+        }
+    });
+    </script>
+</body>
+</html>

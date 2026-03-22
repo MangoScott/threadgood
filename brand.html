@@ -59,6 +59,7 @@
     
     <header class="sc-header">
         <a href="index.html#directory" class="back-link">&larr; Back to Directory</a>
+        <a href="methodology.html" style="position:absolute;top:6rem;right:2rem;color:var(--cream);text-decoration:none;font-weight:500;opacity:0.8;font-size:0.9rem;transition:opacity 0.2s" onmouseover="this.style.opacity='1'" onmouseout="this.style.opacity='0.8'">Methodology &rarr;</a>
         <div id="loader">Loading brand data...</div>
         
         <div id="sc-header-content" class="hidden">
@@ -164,6 +165,11 @@
             <p style="color: var(--text-light); font-size: 0.9rem;">
                 <em>Missing Data Policy:</em> If a brand refuses to publicly publish any verifiable supply chain or tracking data, ThreadGrade refuses to assign them a passing score and instead legally labels them as <strong>Unranked (NR)</strong>. Brands must provide transparent, public certifications to be officially graded on our scale, and they will immediately dive to a D or F if they trigger an OSHA or CBP Forced Labor penalty.
             </p>
+        </div>
+        <div id="sc-similar" class="sc-card" style="display: none;">
+            <h2>Compare with Similar Brands</h2>
+            <p style="color: var(--text-light); margin-bottom: 1rem;">See how this brand stacks up against others in the same price tier.</p>
+            <div id="sc-similar-grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem;"></div>
         </div>
     </main>
 
@@ -322,6 +328,36 @@
                 document.getElementById('loader').classList.add('hidden');
                 document.getElementById('sc-header-content').classList.remove('hidden');
                 document.getElementById('sc-main').classList.remove('hidden');
+
+                // Load similar brands
+                try {
+                    const allRes = await fetch('data/site/brands.json');
+                    if (allRes.ok) {
+                        const allData = await allRes.json();
+                        const allBrands = allData.brands || allData;
+                        const similar = allBrands
+                            .filter(b => b.slug !== slug && b.price_tier === brand.price_tier)
+                            .sort((a, b) => Math.abs((a.overall_score || 0) - (brand.overall_score || 0)) - Math.abs((b.overall_score || 0) - (brand.overall_score || 0)))
+                            .slice(0, 4);
+
+                        if (similar.length > 0) {
+                            const gradeColors = { A: 'var(--grade-a)', B: 'var(--grade-b)', C: 'var(--grade-c)', D: 'var(--grade-d)', F: 'var(--grade-f)', NR: 'var(--grade-nr)' };
+                            document.getElementById('sc-similar-grid').innerHTML = similar.map(s => `
+                                <a href="brand.html?slug=${s.slug}" style="text-decoration:none;color:inherit">
+                                    <div style="background:var(--green-pale);border-radius:12px;padding:1.2rem;text-align:center;transition:all 0.2s;border:1px solid transparent">
+                                        <div style="width:36px;height:36px;border-radius:8px;display:inline-flex;align-items:center;justify-content:center;font-weight:700;color:white;background:${gradeColors[s.grade] || '#888'};margin-bottom:0.5rem">${s.grade}</div>
+                                        <div style="font-weight:700;font-size:0.95rem;color:var(--forest)">${s.name}</div>
+                                        <div style="font-size:0.8rem;color:var(--text-muted);margin-bottom:0.3rem">${s.price_tier} &middot; ${(s.overall_score || 0).toFixed(1)}/100</div>
+                                        <div style="font-size:0.75rem;color:var(--green-mid);font-weight:600">
+                                            <span style="cursor:pointer" onclick="event.preventDefault();window.location='compare.html?brands=${slug},${s.slug}'">Compare &rarr;</span>
+                                        </div>
+                                    </div>
+                                </a>
+                            `).join('');
+                            document.getElementById('sc-similar').style.display = 'block';
+                        }
+                    }
+                } catch(e) { /* similar brands are optional */ }
 
             } catch (error) {
                 console.error('Error fetching brand data:', error);
