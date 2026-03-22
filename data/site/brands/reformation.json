@@ -7,47 +7,64 @@
     "womenswear",
     "dresses"
   ],
-  "overall_score": 27.7,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 40.2,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 18,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 72.0
   },
   "dimensions": {
     "planet": {
-      "score": 26.5,
-      "grade": "F",
+      "score": 53.7,
+      "grade": "C",
       "highlights": [
-        "Verified certifications: GOTS Certified, Climate Neutral Certified"
+        "75% sustainable/certified materials",
+        "Certifications: OEKO-TEX, GOTS",
+        "Verified certifications: GOTS Certified, Climate Neutral Certified",
+        "Chemical management policy in place",
+        "Resale or repair program",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline"
       ],
-      "concerns": []
+      "concerns": [
+        "No take-back program"
+      ]
     },
     "people": {
-      "score": 30,
+      "score": 27.0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags"
+        "No CBP forced labor flags",
+        "Publishes full supplier/factory list"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 25,
-      "grade": "F",
+      "score": 35,
+      "grade": "D",
       "highlights": [],
-      "concerns": []
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],
-  "summary": "Reformation achieved a F (27.7/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 26.5/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Reformation achieved a D (40.2/100) due to their explicit performance across our three pillars. In Planet, they score 53.7/100, showing moderate progress in materials and traceability, though missing advanced circularity metrics. In People, they score a concerning 27.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 35.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
+    "Publishes full supplier/factory list",
     "No CBP forced labor flags",
+    "75% sustainable/certified materials",
+    "Certifications: OEKO-TEX, GOTS",
     "Verified certifications: GOTS Certified, Climate Neutral Certified"
   ],
-  "concerns": [],
+  "concerns": [
+    "No take-back program"
+  ],
   "data_sources": [
+    "sustainability_report",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -72,5 +89,50 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "sustainability_report": {
+      "report_file": "reformation_sustainability_report_public",
+      "parsed_at": "2026-03-22T05:13:25.938221",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "2",
+        "sourcing_countries": [
+          "USA",
+          "China",
+          "India",
+          "Turkey"
+        ],
+        "oar_participation": "no"
+      },
+      "who": {
+        "living_wage_status": "aspirational",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "partial",
+        "freedom_of_association": "not_disclosed"
+      },
+      "what": {
+        "sustainable_materials_percentage": "75%",
+        "certifications_mentioned": [
+          "OEKO-TEX",
+          "GOTS"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "no"
+      },
+      "after": {
+        "takeback_program": "no",
+        "resale_repair_program": "yes",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {
+        "score": 3,
+        "reasoning": "Publishes quarterly sustainability reports with RefScale lifecycle analysis."
+      }
+    }
+  }
 }

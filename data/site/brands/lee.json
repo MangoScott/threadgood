@@ -7,18 +7,18 @@
     "denim",
     "basics"
   ],
-  "overall_score": 27.0,
+  "overall_score": 30.5,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 1,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 4.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 25.0,
+      "score": 32.7,
       "grade": "F",
       "highlights": [],
       "concerns": []
@@ -27,7 +27,8 @@
       "score": 30,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags"
+        "No CBP forced labor flags",
+        "FTI transparency score: 66%"
       ],
       "concerns": []
     },
@@ -39,15 +40,25 @@
     }
   },
   "red_flags": [],
-  "summary": "Lee achieved a F (27.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Lee achieved a F (30.5/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 32.7/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
+    "FTI transparency score: 66%",
     "No CBP forced labor flags"
   ],
   "concerns": [],
   "data_sources": [
+    "fti",
     "cbp_forced_labor"
   ],
   "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 66,
+      "edition": "2023",
+      "context": "Lee (Kontoor Brands) scored in the 61-70% range.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
     "cbp": {
       "name": "CBP Forced Labor Screening",
       "publisher": "U.S. Customs and Border Protection",
@@ -65,5 +76,11 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "fti": {
+      "transparency_score": 66,
+      "rank": null,
+      "section_scores": {}
+    }
+  }
 }

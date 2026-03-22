@@ -8,25 +8,25 @@
     "basics",
     "luxury"
   ],
-  "overall_score": 27.0,
+  "overall_score": 32.2,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 1,
+    "indicators_with_data": 3,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 4.0
+    "data_coverage_pct": 12.0
   },
   "dimensions": {
     "planet": {
-      "score": 25.0,
+      "score": 29.1,
       "grade": "F",
       "highlights": [],
       "concerns": []
     },
     "people": {
-      "score": 30,
-      "grade": "F",
+      "score": 38.4,
+      "grade": "D",
       "highlights": [
         "No CBP forced labor flags"
       ],
@@ -40,15 +40,35 @@
     }
   },
   "red_flags": [],
-  "summary": "Ralph Lauren achieved a F (27.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Ralph Lauren achieved a F (32.2/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 29.1/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 38.4/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
     "No CBP forced labor flags"
   ],
   "concerns": [],
   "data_sources": [
+    "fti",
+    "ktc",
     "cbp_forced_labor"
   ],
   "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 35,
+      "edition": "2023",
+      "context": "Scored in the 31-40% range on supply chain transparency.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
+    "ktc": {
+      "name": "KnowTheChain Benchmark",
+      "publisher": "KnowTheChain / Business & Human Rights Resource Centre",
+      "score": 28,
+      "rank": 17,
+      "total_companies": 65,
+      "context": "Scored 28/100, above industry average of 21 but significant room for improvement.",
+      "industry_average": 21,
+      "source_url": "https://knowthechain.org/benchmark/"
+    },
     "cbp": {
       "name": "CBP Forced Labor Screening",
       "publisher": "U.S. Customs and Border Protection",
@@ -66,5 +86,15 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "fti": {
+      "transparency_score": 35,
+      "rank": null,
+      "section_scores": {}
+    },
+    "ktc": {
+      "overall_score": 28,
+      "theme_scores": {}
+    }
+  }
 }

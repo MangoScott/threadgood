@@ -6,18 +6,18 @@
   "categories": [
     "activewear"
   ],
-  "overall_score": 27.0,
+  "overall_score": 29.7,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 1,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 4.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 25.0,
+      "score": 30.9,
       "grade": "F",
       "highlights": [],
       "concerns": []
@@ -26,7 +26,8 @@
       "score": 30,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags"
+        "No CBP forced labor flags",
+        "FTI transparency score: 51%"
       ],
       "concerns": []
     },
@@ -38,15 +39,25 @@
     }
   },
   "red_flags": [],
-  "summary": "Athleta achieved a F (27.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Athleta achieved a F (29.7/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 30.9/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
+    "FTI transparency score: 51%",
     "No CBP forced labor flags"
   ],
   "concerns": [],
   "data_sources": [
+    "fti",
     "cbp_forced_labor"
   ],
   "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 51,
+      "edition": "2023",
+      "context": "Scored under Gap Inc. umbrella (51-60% range).",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
     "cbp": {
       "name": "CBP Forced Labor Screening",
       "publisher": "U.S. Customs and Border Protection",
@@ -64,5 +75,11 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "fti": {
+      "transparency_score": 51,
+      "rank": null,
+      "section_scores": {}
+    }
+  }
 }

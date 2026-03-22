@@ -7,47 +7,64 @@
     "basics",
     "workwear"
   ],
-  "overall_score": 27.3,
+  "overall_score": 32.0,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 18,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 72.0
   },
   "dimensions": {
     "planet": {
-      "score": 25.7,
-      "grade": "F",
+      "score": 35.3,
+      "grade": "D",
       "highlights": [
-        "Verified certifications: Bluesign Partner"
+        "Certifications: OEKO-TEX",
+        "Verified certifications: Bluesign Partner",
+        "Chemical management policy in place",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives"
       ],
-      "concerns": []
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ]
     },
     "people": {
-      "score": 30,
+      "score": 27.0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags"
+        "No CBP forced labor flags",
+        "Publishes full supplier/factory list"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 25,
-      "grade": "F",
+      "score": 35,
+      "grade": "D",
       "highlights": [],
-      "concerns": []
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],
-  "summary": "Everlane achieved a F (27.3/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.7/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Everlane achieved a F (32.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 35.3/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 27.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 35.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
+    "Publishes full supplier/factory list",
     "No CBP forced labor flags",
-    "Verified certifications: Bluesign Partner"
+    "Certifications: OEKO-TEX",
+    "Verified certifications: Bluesign Partner",
+    "Chemical management policy in place"
   ],
-  "concerns": [],
+  "concerns": [
+    "No take-back program",
+    "No resale/repair program"
+  ],
   "data_sources": [
+    "sustainability_report",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -77,5 +94,51 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "sustainability_report": {
+      "report_file": "everlane_radical_transparency_public",
+      "parsed_at": "2026-03-22T05:13:25.938302",
+      "where": {
+        "factory_list_published": "yes",
+        "supply_chain_tiers_disclosed": "1",
+        "sourcing_countries": [
+          "Vietnam",
+          "China",
+          "Italy",
+          "Spain",
+          "India",
+          "Sri Lanka"
+        ],
+        "oar_participation": "no"
+      },
+      "who": {
+        "living_wage_status": "aspirational",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "partial",
+        "freedom_of_association": "not_disclosed"
+      },
+      "what": {
+        "sustainable_materials_percentage": "40%",
+        "certifications_mentioned": [
+          "OEKO-TEX"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "no",
+        "resale_repair_program": "no",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "no",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {
+        "score": 3,
+        "reasoning": "Publishes factory profiles with photos but limited audit data."
+      }
+    }
+  }
 }

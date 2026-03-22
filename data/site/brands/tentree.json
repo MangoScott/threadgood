@@ -7,47 +7,66 @@
     "basics",
     "outdoor"
   ],
-  "overall_score": 27.9,
-  "grade": "F",
-  "grade_label": "Failing",
+  "overall_score": 38.0,
+  "grade": "D",
+  "grade_label": "Needs Work",
   "confidence": {
-    "level": "low",
-    "indicators_with_data": 2,
+    "level": "high",
+    "indicators_with_data": 19,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 8.0
+    "data_coverage_pct": 76.0
   },
   "dimensions": {
     "planet": {
-      "score": 26.9,
-      "grade": "F",
+      "score": 48.9,
+      "grade": "D",
       "highlights": [
-        "Verified certifications: B Corporation, Bluesign Partner"
+        "95% sustainable/certified materials",
+        "Certifications: GOTS, OEKO-TEX, GRS",
+        "Verified certifications: B Corporation, Bluesign Partner",
+        "Chemical management policy in place",
+        "Durability/longevity commitment",
+        "Sustainable packaging initiatives",
+        "Circularity goals with timeline"
       ],
-      "concerns": []
+      "concerns": [
+        "No take-back program",
+        "No resale/repair program"
+      ]
     },
     "people": {
-      "score": 30,
+      "score": 27.0,
       "grade": "F",
       "highlights": [
-        "No CBP forced labor flags"
+        "No CBP forced labor flags",
+        "Publishes partial supplier list"
       ],
       "concerns": []
     },
     "animals": {
-      "score": 25,
-      "grade": "F",
+      "score": 35,
+      "grade": "D",
       "highlights": [],
-      "concerns": []
+      "concerns": [
+        "No explicit animal welfare certifications found"
+      ]
     }
   },
   "red_flags": [],
-  "summary": "Tentree achieved a F (27.9/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 26.9/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Tentree achieved a D (38.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 48.9/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 27.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 35.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
+    "Publishes partial supplier list",
     "No CBP forced labor flags",
+    "95% sustainable/certified materials",
+    "Certifications: GOTS, OEKO-TEX, GRS",
     "Verified certifications: B Corporation, Bluesign Partner"
   ],
-  "concerns": [],
+  "concerns": [
+    "No take-back program",
+    "No resale/repair program"
+  ],
   "data_sources": [
+    "sustainability_report",
     "cbp_forced_labor",
     "certifications"
   ],
@@ -78,5 +97,51 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "sustainability_report": {
+      "report_file": "tentree_sustainability_public",
+      "parsed_at": "2026-03-22T05:13:25.938564",
+      "where": {
+        "factory_list_published": "partial",
+        "supply_chain_tiers_disclosed": "1",
+        "sourcing_countries": [
+          "China",
+          "Bangladesh",
+          "India",
+          "Turkey"
+        ],
+        "oar_participation": "no"
+      },
+      "who": {
+        "living_wage_status": "aspirational",
+        "supplier_code_of_conduct": "yes",
+        "audit_results_disclosed": "partial",
+        "freedom_of_association": "not_disclosed"
+      },
+      "what": {
+        "sustainable_materials_percentage": "95%",
+        "certifications_mentioned": [
+          "GOTS",
+          "OEKO-TEX",
+          "GRS"
+        ],
+        "chemical_management_policy": "yes",
+        "microplastics_mitigation": "no",
+        "durability_commitment": "yes"
+      },
+      "after": {
+        "takeback_program": "no",
+        "resale_repair_program": "no",
+        "packaging_sustainability": "yes",
+        "circularity_goals": "yes",
+        "design_for_disassembly": "no"
+      },
+      "targets": [],
+      "certifications": [],
+      "greenwashing_score": {
+        "score": 3,
+        "reasoning": "Plants trees per purchase with verified partner. B Corp certified."
+      }
+    }
+  }
 }

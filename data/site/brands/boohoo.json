@@ -7,18 +7,18 @@
     "fast-fashion",
     "budget"
   ],
-  "overall_score": 15.0,
+  "overall_score": 15.5,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 1,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 4.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 25.0,
+      "score": 26.2,
       "grade": "F",
       "highlights": [],
       "concerns": []
@@ -28,7 +28,8 @@
       "grade": "F",
       "highlights": [],
       "concerns": [
-        "Forced labor concern: Leicester factory labor exploitation investigation"
+        "Forced labor concern: Leicester factory labor exploitation investigation",
+        "Low FTI transparency score: 10%"
       ]
     },
     "animals": {
@@ -47,15 +48,25 @@
       "severity": "critical"
     }
   ],
-  "summary": "Boohoo achieved a F (15.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 0.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Boohoo achieved a F (15.5/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 26.2/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 0.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [],
   "concerns": [
+    "Low FTI transparency score: 10%",
     "Forced labor concern: Leicester factory labor exploitation investigation"
   ],
   "data_sources": [
+    "fti",
     "cbp_forced_labor"
   ],
   "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 10,
+      "edition": "2023",
+      "context": "Scored in the 1-10% range.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
     "cbp": {
       "name": "CBP Forced Labor Screening",
       "publisher": "U.S. Customs and Border Protection",
@@ -69,5 +80,11 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "fti": {
+      "transparency_score": 10,
+      "rank": null,
+      "section_scores": {}
+    }
+  }
 }

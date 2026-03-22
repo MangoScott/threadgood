@@ -7,18 +7,18 @@
     "womenswear",
     "basics"
   ],
-  "overall_score": 27.0,
+  "overall_score": 28.0,
   "grade": "F",
   "grade_label": "Failing",
   "confidence": {
     "level": "low",
-    "indicators_with_data": 1,
+    "indicators_with_data": 2,
     "total_possible_indicators": 25,
-    "data_coverage_pct": 4.0
+    "data_coverage_pct": 8.0
   },
   "dimensions": {
     "planet": {
-      "score": 25.0,
+      "score": 27.2,
       "grade": "F",
       "highlights": [],
       "concerns": []
@@ -29,7 +29,9 @@
       "highlights": [
         "No CBP forced labor flags"
       ],
-      "concerns": []
+      "concerns": [
+        "Low FTI transparency score: 19%"
+      ]
     },
     "animals": {
       "score": 25,
@@ -39,15 +41,26 @@
     }
   },
   "red_flags": [],
-  "summary": "Target (A New Day) achieved a F (27.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 25.0/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
+  "summary": "Target (A New Day) achieved a F (28.0/100) due to their explicit performance across our three pillars. In Planet, they fall behind with 27.2/100 due to a severe lack of verifiable environmental or material transparency commitments. In People, they score a concerning 30.0/100, indicating severe gaps in verified supplier audits or significant government red flags (OSHA/CBP violations). Finally, in Animals, they score 25.0/100 because of an absence of strict public animal welfare commitments or certified raw material tracking.",
   "highlights": [
     "No CBP forced labor flags"
   ],
-  "concerns": [],
+  "concerns": [
+    "Low FTI transparency score: 19%"
+  ],
   "data_sources": [
+    "fti",
     "cbp_forced_labor"
   ],
   "data_source_details": {
+    "fti": {
+      "name": "Fashion Transparency Index",
+      "publisher": "Fashion Revolution",
+      "score": 19,
+      "edition": "2023",
+      "context": "Target Corp scored in the 11-20% range.",
+      "source_url": "https://www.fashionrevolution.org/fashion-transparency-index-2023/"
+    },
     "cbp": {
       "name": "CBP Forced Labor Screening",
       "publisher": "U.S. Customs and Border Protection",
@@ -65,5 +78,11 @@
   },
   "methodology_version": "1.0",
   "last_updated": "2026-03-22",
-  "source_data": {}
+  "source_data": {
+    "fti": {
+      "transparency_score": 19,
+      "rank": null,
+      "section_scores": {}
+    }
+  }
 }
